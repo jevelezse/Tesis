@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: PlantillaTesisMSc.aux
+A level-1 auxiliary file: HojaTitulo/HojaTituloMSc.aux
+A level-1 auxiliary file: Kap1/Kap1.aux
+A level-1 auxiliary file: Kap2/Kap2.aux
+A level-1 auxiliary file: Kap3/Kap3.aux
+A level-1 auxiliary file: Kap4/Kap4.aux
+A level-1 auxiliary file: Kap5/Kap5.aux
+A level-1 auxiliary file: Kap6/Kap6.aux
+A level-1 auxiliary file: Anexos/Anexos.aux
+The style file: unsrt.bst
+Database file #1: references.bib
+Repeated entry---line 1558 of file references.bib
+ : @article{Fisch2015
+ :                   ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "AG03p"
+Warning--I didn't find a database entry for "AG04p"
+Warning--I didn't find a database entry for "AG02i"
+Warning--I didn't find a database entry for "AG01"
+Warning--I didn't find a database entry for "AG12"
+Warning--I didn't find a database entry for "AG52"
+Warning--I didn't find a database entry for "AG70"
+Warning--I didn't find a database entry for "AG08a"
+Warning--I didn't find a database entry for "AG09a"
+Warning--I didn't find a database entry for "AG36a"
+Warning--I didn't find a database entry for "AG01i"
+Warning--can't use both volume and number fields in Auwera2014
+Warning--empty publisher in Auwera2014
+You've used 24 entries,
+            1791 wiz_defined-function locations,
+            634 strings with 9620 characters,
+and the built_in function-call counts, 5785 in all, are:
+= -- 444
+> -- 397
+< -- 2
++ -- 141
+- -- 117
+* -- 486
+:= -- 993
+add.period$ -- 70
+call.type$ -- 24
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 26
+duplicate$ -- 215
+empty$ -- 497
+format.name$ -- 117
+if$ -- 1211
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 23
+newline$ -- 121
+num.names$ -- 24
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 95
+stack$ -- 0
+substring$ -- 315
+swap$ -- 35
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 54
+width$ -- 26
+write$ -- 257
+(There was 1 error message)

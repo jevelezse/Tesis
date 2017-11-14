@@ -1,0 +1,1840 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  14 NOV 2017 01:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**PlantillaTesisMSc.tex
+(./PlantillaTesisMSc.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2017/04/13 v3.23 KOMA-Script document class (book)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
+
+Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2017/04/13 v3.23 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box26
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 133.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 135.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 136.
+Package tocbasic Info: defining new hook before heading of `' on input line 160
+8.
+Package scrbook Info: You've used standard option `12pt'.
+(scrbook)             This is correct!
+(scrbook)             Internally I'm using `fontsize=12pt'.
+(scrbook)             If you'd like to set the option with \KOMAoptions,
+(scrbook)             you'd have to use `fontsize=12pt' there
+(scrbook)             instead of `12pt', too.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2a Standard LaTeX option (flush left equations)
+\mathindent=\dimen102
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
+Class scrbook Info: You've used standard option `openany'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `open=any'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `open=any' there
+(scrbook)           instead of `openany', too.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 2275.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2017/04/13 v3.23 KOMA-Script font size class option (12pt
+)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2017/04/13 v3.23 KOMA-Script package (type area)
+\ta@bcor=\skip42
+\ta@div=\count79
+Package typearea Info: You've used standard option `letterpaper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=letter'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=letter' there
+(typearea)             instead of `letterpaper', too.
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 614.295pt
+(typearea)              \textwidth      = 460.72128pt
+(typearea)              DIV departure   = -9%
+(typearea)              \evensidemargin = 30.11249pt
+(typearea)              \oddsidemargin  = -21.07875pt
+(typearea)             \paperheight     = 794.96999pt
+(typearea)              \textheight     = 606.5pt
+(typearea)              \topmargin      = -45.89749pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1647.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\scr@dte@part@maxnumwidth=\skip47
+\scr@dte@chapter@maxnumwidth=\skip48
+\scr@dte@section@maxnumwidth=\skip49
+\scr@dte@subsection@maxnumwidth=\skip50
+\scr@dte@subsubsection@maxnumwidth=\skip51
+\scr@dte@paragraph@maxnumwidth=\skip52
+\scr@dte@subparagraph@maxnumwidth=\skip53
+LaTeX Info: Redefining \textsubscript on input line 4843.
+\abovecaptionskip=\skip54
+\belowcaptionskip=\skip55
+\c@pti@nb@sid@b@x=\box27
+\c@figure=\count87
+\c@table=\count88
+Class scrbook Info: Redefining `\numberline' on input line 6000.
+\bibindent=\dimen103
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2017/05/19 3.10 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen104
+)
+\es@quottoks=\toks17
+\es@quotdepth=\count90
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+
+Class scrbook Warning: Usage of package `fancyhdr' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use 
+(scrbook)              package `scrlayer-scrpage'.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `fancyhdr' on input line 6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip56
+\f@nch@O@elh=\skip57
+\f@nch@O@erh=\skip58
+\f@nch@O@olh=\skip59
+\f@nch@O@orh=\skip60
+\f@nch@O@elf=\skip61
+\f@nch@O@erf=\skip62
+\f@nch@O@olf=\skip63
+\f@nch@O@orf=\skip64
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/13 v1.2b Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/06/17 v1.0e Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+\epsfxsize=\dimen107
+\epsfysize=\dimen108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count91
+\d@lta=\count92
+\@delta=\dimen109
+\@@delta=\dimen110
+\@gridcnt=\count93
+\@joinkind=\count94
+\@dotgap=\dimen111
+\@ddotgap=\dimen112
+\@x@diff=\count95
+\@y@diff=\count96
+\x@diff=\dimen113
+\y@diff=\dimen114
+\@dotbox=\box28
+\num@segments=\count97
+\num@segmentsi=\count98
+\@datafile=\read1
+) (/usr/share/texlive/texmf-dist/tex/latex/eepic/eepic.sty
+Extension to Epic and LaTeX. Version 1.1e - Released Dec 21, 1999
+\@gphlinewidth=\count99
+\@eepictcnt=\count100
+\@tempdimc=\dimen115
+\maxovaldiam=\dimen116
+\@filltype=\box29
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip65
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen117
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen118
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count101
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count102
+\leftroot@=\count103
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count104
+\DOTSCASE@=\count105
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen119
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
+\dotsspace@=\muskip10
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks19
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks20
+\eqnshift@=\dimen120
+\alignsep@=\dimen121
+\tagshift@=\dimen122
+\tagwidth@=\dimen123
+\totwidth@=\dimen124
+\lineht@=\dimen125
+\@envbody=\toks21
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amscd.sty
+Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
+\athelp@=\toks23
+\minaw@=\dimen126
+\bigaw@=\dimen127
+\minCDarrowwidth=\dimen128
+)
+(/usr/share/texlive/texmf-dist/tex/latex/here/here.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count113
+\float@exts=\toks24
+\float@box=\box33
+\@float@everytoks=\toks25
+\@floatcapt=\box34
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen129
+\extrarowheight=\dimen130
+\NC@list=\toks26
+\extratabsurround=\skip68
+\backup@length=\skip69
+)
+\TX@col@width=\dimen131
+\TX@old@table=\dimen132
+\TX@old@col=\dimen133
+\TX@target=\dimen134
+\TX@delta=\dimen135
+\TX@cols=\count114
+\TX@ftn=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip70
+\subfigcapskip=\skip71
+\subfigcaptopadj=\dimen136
+\subfigbottomskip=\skip72
+\subfigcapmargin=\dimen137
+\subfiglabelskip=\skip73
+\c@subfigure=\count115
+\c@lofdepth=\count116
+\c@subtable=\count117
+\c@lotdepth=\count118
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip74
+\subfig@bottom=\skip75
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip76
+\LTright=\skip77
+\LTpre=\skip78
+\LTpost=\skip79
+\LTchunksize=\count119
+\LTcapwidth=\dimen138
+\LT@head=\box35
+\LT@firsthead=\box36
+\LT@foot=\box37
+\LT@lastfoot=\box38
+\LT@cols=\count120
+\LT@rows=\count121
+\c@LT@tables=\count122
+\c@LT@chunks=\count123
+\LT@p@ftn=\toks28
+)
+Class scrbook Info: longtable captions redefined on input line 18.
+
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip80
+\multirow@cntb=\count124
+\multirow@dima=\skip81
+\bigstrutjot=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip82
+\enit@outerparindent=\dimen140
+\enit@toks=\toks29
+\enit@inbox=\box39
+\enitdp@description=\count125
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count126
+\rotFPtop=\skip83
+\rotFPbot=\skip84
+\rot@float@box=\box40
+\rot@mess@toks=\toks30
+) (./Befehle.sty)
+(./PlantillaTesisMSc.aux (./HojaTitulo/HojaTituloMSc.aux)
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ (./Kap1/Kap1.aux)
+(./Objetivos/objetivos.aux) (./Kap2/Kap2.aux) (./Kap3/Kap3.aux)
+(./Kap4/Kap4.aux) (./Kap5/Kap5.aux) (./Kap6/Kap6.aux) (./Anexos/Anexos.aux))
+\openout1 = `PlantillaTesisMSc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count127
+\scratchdimen=\dimen141
+\scratchbox=\box41
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen142
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks32
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\openout2 = `HojaTitulo/HojaTituloMSc.aux'.
+
+
+(./HojaTitulo/HojaTituloMSc.tex
+Package epstopdf Info: Source file: <HojaTitulo/logo_university_nacho.eps>
+(epstopdf)                    date: 2017-11-07 01:39:51
+(epstopdf)                    size: 109808 bytes
+(epstopdf)             Output file: <HojaTitulo/logo_university_nacho-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-11-13 20:24:39
+(epstopdf)                    size: 44174 bytes
+(epstopdf)             Command: <repstopdf --outfile=HojaTitulo/logo_university
+_nacho-eps-converted-to.pdf HojaTitulo/logo_university_nacho.eps>
+(epstopdf)             \includegraphics on input line 6.
+Package epstopdf Info: Output file is already uptodate.
+<HojaTitulo/logo_university_nacho-eps-converted-to.pdf, id=1, pagebox=cropbox, 
+344.28625pt x 442.65375pt>
+File: HojaTitulo/logo_university_nacho-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use HojaTitulo/logo_university_nacho-eps-converted-to.pdf>
+Package pdftex.def Info: HojaTitulo/logo_university_nacho-eps-converted-to.pdf 
+ used on input line 6. on input line 6.
+Package pdftex.def Info: Requested size: 103.28667pt x 132.79713pt on input lin
+e 6.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./HojaTitulo/logo_universi
+ty_nacho-eps-converted-to.pdf>] [2
+
+
+] [3]
+[4
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--58
+
+ []
+
+[5] [6
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+
+ []
+
+[7] [8
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 95--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--63
+
+ []
+
+[9] [10] (./PlantillaTesisMSc.toc
+Package tocbasic Info: Using my definition of `\numberline' on input line 1.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/sc' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 1.
+
+
+Package spanish Warning: Replacing `OT1/cmss/bx/sc' by 
+(spanish)                faked small caps on input line 1.
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 2.
+
+Package spanish Warning: Replacing `OT1/cmss/bx/sc' by 
+(spanish)                faked small caps on input line 2.
+
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+Package tocbasic Info: Using my definition of `\numberline' on input line 4.
+Package tocbasic Info: Using my definition of `\numberline' on input line 5.
+Package tocbasic Info: Using my definition of `\numberline' on input line 6.
+Package tocbasic Info: Using my definition of `\numberline' on input line 7.
+Package tocbasic Info: Using my definition of `\numberline' on input line 8.
+Package tocbasic Info: Using my definition of `\numberline' on input line 9.
+Package tocbasic Info: Using my definition of `\numberline' on input line 10.
+Package tocbasic Info: Using my definition of `\numberline' on input line 11.
+Package tocbasic Info: Using my definition of `\numberline' on input line 12.
+Package tocbasic Info: Using my definition of `\numberline' on input line 13.
+Package tocbasic Info: Using my definition of `\numberline' on input line 14.
+Package tocbasic Info: Using my definition of `\numberline' on input line 15.
+Package tocbasic Info: Using my definition of `\numberline' on input line 16.
+Package tocbasic Info: Using my definition of `\numberline' on input line 17.
+Package tocbasic Info: Using my definition of `\numberline' on input line 18.
+Package tocbasic Info: Using my definition of `\numberline' on input line 19.
+Package tocbasic Info: Using my definition of `\numberline' on input line 22.
+Package tocbasic Info: Using my definition of `\numberline' on input line 23.
+Package tocbasic Info: Using my definition of `\numberline' on input line 24.
+Package tocbasic Info: Using my definition of `\numberline' on input line 25.
+Package tocbasic Info: Using my definition of `\numberline' on input line 26.
+Package tocbasic Info: Using my definition of `\numberline' on input line 27.
+Package tocbasic Info: Using my definition of `\numberline' on input line 28.
+Package tocbasic Info: Using my definition of `\numberline' on input line 29.
+Package tocbasic Info: Using my definition of `\numberline' on input line 30.
+Package tocbasic Info: Using my definition of `\numberline' on input line 31.
+[1
+
+
+]
+Package tocbasic Info: Using my definition of `\numberline' on input line 32.
+Package tocbasic Info: Using my definition of `\numberline' on input line 33.
+Package tocbasic Info: Using my definition of `\numberline' on input line 34.
+Package tocbasic Info: Using my definition of `\numberline' on input line 35.
+Package tocbasic Info: Using my definition of `\numberline' on input line 36.
+)
+\tf@toc=\write3
+\openout3 = `PlantillaTesisMSc.toc'.
+
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+ [2] (./PlantillaTesisMSc.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Overfull \hbox (0.9891pt too wide) detected at line 18
+\OT1/cmr/bx/n/12 3-10\OT1/cmr/m/n/12 . 
+ []
+
+
+Overfull \hbox (0.9891pt too wide) detected at line 19
+\OT1/cmr/bx/n/12 3-11\OT1/cmr/m/n/12 . 
+ []
+
+
+Overfull \hbox (0.9891pt too wide) detected at line 20
+\OT1/cmr/bx/n/12 3-12\OT1/cmr/m/n/12 . 
+ []
+
+
+LaTeX Warning: Citation `AG03p' on page 3 undefined on input line 22.
+
+
+LaTeX Warning: Citation `AG04p' on page 3 undefined on input line 22.
+
+)
+\tf@lof=\write4
+\openout4 = `PlantillaTesisMSc.lof'.
+
+ [3
+
+
+
+] [4
+
+
+] (./PlantillaTesisMSc.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+
+LaTeX Warning: Citation `AG02i' on page 5 undefined on input line 10.
+
+)
+\tf@lot=\write5
+\openout5 = `PlantillaTesisMSc.lot'.
+
+ [5
+
+]
+\openout2 = `Kap1/Kap1.aux'.
+
+ (./Kap1/Kap1.tex
+chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[6
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 25--87
+
+ []
+
+[7]
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
+ [8]
+\openout2 = `Objetivos/objetivos.aux'.
+
+ (./Objetivos/objetivos.tex
+chapter 2.
+) [9
+
+
+
+]
+\openout2 = `Kap2/Kap2.aux'.
+
+ (./Kap2/Kap2.tex
+chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+[10
+
+
+
+]
+<Kap2/pipe.pdf, id=77, pagebox=cropbox, 154.5775pt x 464.73625pt>
+File: Kap2/pipe.pdf Graphic file (type pdf)
+<use Kap2/pipe.pdf>
+Package pdftex.def Info: Kap2/pipe.pdf  used on input line 35. on input line 35
+.
+Package pdftex.def Info: Requested size: 93.89265pt x 282.29735pt on input line
+ 35.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+[12 <./Kap2/pipe.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+Package epstopdf Info: Source file: <Kap2/fastq2.eps>
+(epstopdf)                    date: 2016-04-25 21:44:59
+(epstopdf)                    size: 3262620 bytes
+(epstopdf)             Output file: <Kap2/fastq2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-09 14:59:51
+(epstopdf)                    size: 21031 bytes
+(epstopdf)             Command: <repstopdf --outfile=Kap2/fastq2-eps-converted-
+to.pdf Kap2/fastq2.eps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+<Kap2/fastq2-eps-converted-to.pdf, id=89, pagebox=cropbox, 866.23625pt x 623.32
+875pt>
+File: Kap2/fastq2-eps-converted-to.pdf Graphic file (type pdf)
+<use Kap2/fastq2-eps-converted-to.pdf>
+Package pdftex.def Info: Kap2/fastq2-eps-converted-to.pdf  used on input line 6
+3. on input line 63.
+Package pdftex.def Info: Requested size: 140.84256pt x 101.34203pt on input lin
+e 63.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+[13 <./Kap2/fastq2-eps-converted-to.pdf>]
+<Kap2/variantesomics.png, id=98, 702.625pt x 501.875pt>
+File: Kap2/variantesomics.png Graphic file (type png)
+<use Kap2/variantesomics.png>
+Package pdftex.def Info: Kap2/variantesomics.png  used on input line 98. on inp
+ut line 98.
+Package pdftex.def Info: Requested size: 234.73523pt x 167.66394pt on input lin
+e 98.
+Package epstopdf Info: Source file: <Kap2/variantescalibradas.eps>
+(epstopdf)                    date: 2016-05-20 13:02:10
+(epstopdf)                    size: 2095044 bytes
+(epstopdf)             Output file: <Kap2/variantescalibradas-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2016-05-20 13:13:16
+(epstopdf)                    size: 11175 bytes
+(epstopdf)             Command: <repstopdf --outfile=Kap2/variantescalibradas-e
+ps-converted-to.pdf Kap2/variantescalibradas.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+<Kap2/variantescalibradas-eps-converted-to.pdf, id=100, pagebox=cropbox, 896.34
+875pt x 386.44376pt>
+File: Kap2/variantescalibradas-eps-converted-to.pdf Graphic file (type pdf)
+<use Kap2/variantescalibradas-eps-converted-to.pdf>
+Package pdftex.def Info: Kap2/variantescalibradas-eps-converted-to.pdf  used on
+ input line 107. on input line 107.
+Package pdftex.def Info: Requested size: 234.73523pt x 101.19829pt on input lin
+e 107.
+Package epstopdf Info: Source file: <Kap2/variantesillumina.eps>
+(epstopdf)                    date: 2016-05-20 13:22:19
+(epstopdf)                    size: 2047612 bytes
+(epstopdf)             Output file: <Kap2/variantesillumina-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2016-05-20 15:31:34
+(epstopdf)                    size: 12587 bytes
+(epstopdf)             Command: <repstopdf --outfile=Kap2/variantesillumina-eps
+-converted-to.pdf Kap2/variantesillumina.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+<Kap2/variantesillumina-eps-converted-to.pdf, id=101, pagebox=cropbox, 878.2812
+5pt x 385.44pt>
+File: Kap2/variantesillumina-eps-converted-to.pdf Graphic file (type pdf)
+<use Kap2/variantesillumina-eps-converted-to.pdf>
+Package pdftex.def Info: Kap2/variantesillumina-eps-converted-to.pdf  used on i
+nput line 110. on input line 110.
+Package pdftex.def Info: Requested size: 234.73523pt x 103.01155pt on input lin
+e 110.
+
+Overfull \hbox (10.44434pt too wide) in paragraph at lines 107--111
+[][] [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
+ [14 <./Kap2/variantesomics.png>]
+<Kap2/latex_table.png, id=106, 501.875pt x 803.0pt>
+File: Kap2/latex_table.png Graphic file (type png)
+<use Kap2/latex_table.png>
+Package pdftex.def Info: Kap2/latex_table.png  used on input line 119. on input
+ line 119.
+Package pdftex.def Info: Requested size: 187.78531pt x 300.46262pt on input lin
+e 119.
+<Kap2/variaciones.png, id=107, 1102.1175pt x 491.8375pt>
+File: Kap2/variaciones.png Graphic file (type png)
+<use Kap2/variaciones.png>
+Package pdftex.def Info: Kap2/variaciones.png  used on input line 125. on input
+ line 125.
+Package pdftex.def Info: Requested size: 469.47046pt x 209.51222pt on input lin
+e 125.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
+ [15 <./Kap2/variantescalibradas-eps-converted-to.pdf> <./Kap2/variantesillumin
+a-eps-converted-to.pdf> <./Kap2/latex_table.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+<Kap2/diagrama1.png, id=119, 611.28375pt x 440.64626pt>
+File: Kap2/diagrama1.png Graphic file (type png)
+<use Kap2/diagrama1.png>
+Package pdftex.def Info: Kap2/diagrama1.png  used on input line 135. on input l
+ine 135.
+Package pdftex.def Info: Requested size: 140.84256pt x 101.52132pt on input lin
+e 135.
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
+ [16 <./Kap2/variaciones.png> <./Kap2/diagrama1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+<Kap2/latex_table2.png, id=125, 501.875pt x 772.8875pt>
+File: Kap2/latex_table2.png Graphic file (type png)
+<use Kap2/latex_table2.png>
+Package pdftex.def Info: Kap2/latex_table2.png  used on input line 168. on inpu
+t line 168.
+Package pdftex.def Info: Requested size: 187.78531pt x 289.19525pt on input lin
+e 168.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+ [17]
+<Kap2/variantesexo1.png, id=130, 846.16125pt x 474.77374pt>
+File: Kap2/variantesexo1.png Graphic file (type png)
+<use Kap2/variantesexo1.png>
+Package pdftex.def Info: Kap2/variantesexo1.png  used on input line 176. on inp
+ut line 176.
+Package pdftex.def Info: Requested size: 140.84256pt x 79.0225pt on input line 
+176.
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]\OT1/cmr/m/n/10 (a) Va-rian-tes ob-te-ni-das por
+ []
+
+<Kap2/variantesexo2.png, id=131, 734.745pt x 572.1375pt>
+File: Kap2/variantesexo2.png Graphic file (type png)
+<use Kap2/variantesexo2.png>
+Package pdftex.def Info: Kap2/variantesexo2.png  used on input line 179. on inp
+ut line 179.
+Package pdftex.def Info: Requested size: 117.36761pt x 91.38672pt on input line
+ 179.
+<Kap2/variaciones2.png, id=132, 1103.12125pt x 455.7025pt>
+File: Kap2/variaciones2.png Graphic file (type png)
+<use Kap2/variaciones2.png>
+Package pdftex.def Info: Kap2/variaciones2.png  used on input line 188. on inpu
+t line 188.
+Package pdftex.def Info: Requested size: 469.47046pt x 193.93869pt on input lin
+e 188.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 191.
+LaTeX Info: Redefining \% on input line 191.
+ [18 <./Kap2/latex_table2.png> <./Kap2/variantesexo1.png> <./Kap2/variantesexo2
+.png>]
+<Kap2/diagrama2.png, id=139, 641.39626pt x 458.71375pt>
+File: Kap2/diagrama2.png Graphic file (type png)
+<use Kap2/diagrama2.png>
+Package pdftex.def Info: Kap2/diagrama2.png  used on input line 196. on input l
+ine 196.
+Package pdftex.def Info: Requested size: 140.84256pt x 100.72835pt on input lin
+e 196.
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+LaTeX Info: Redefining \. on input line 203.
+LaTeX Info: Redefining \% on input line 203.
+[19 <./Kap2/variaciones2.png> <./Kap2/diagrama2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+<Kap2/IGV.png, id=145, 1371.1225pt x 743.77875pt>
+File: Kap2/IGV.png Graphic file (type png)
+<use Kap2/IGV.png>
+Package pdftex.def Info: Kap2/IGV.png  used on input line 242. on input line 24
+2.
+Package pdftex.def Info: Requested size: 422.52054pt x 229.19579pt on input lin
+e 242.
+
+Underfull \vbox (badness 6893) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 245.
+LaTeX Info: Redefining \% on input line 245.
+ [20]
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+LaTeX Info: Redefining \. on input line 254.
+LaTeX Info: Redefining \% on input line 254.
+[21 <./Kap2/IGV.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+LaTeX Info: Redefining \. on input line 270.
+LaTeX Info: Redefining \% on input line 270.
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+LaTeX Info: Redefining \. on input line 279.
+LaTeX Info: Redefining \% on input line 279.
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+LaTeX Info: Redefining \. on input line 293.
+LaTeX Info: Redefining \% on input line 293.
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 296--89
+
+ []
+
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+[25]
+\openout2 = `Kap3/Kap3.aux'.
+
+ (./Kap3/Kap3.tex
+chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+LaTeX Warning: Citation `AG01' on page 26 undefined on input line 7.
+
+
+LaTeX Warning: Citation `AG12' on page 26 undefined on input line 9.
+
+
+LaTeX Warning: Citation `AG52' on page 26 undefined on input line 9.
+
+
+LaTeX Warning: Citation `AG70' on page 26 undefined on input line 9.
+
+
+LaTeX Warning: Citation `AG08a' on page 26 undefined on input line 9.
+
+
+LaTeX Warning: Citation `AG09a' on page 26 undefined on input line 9.
+
+
+LaTeX Warning: Citation `AG36a' on page 26 undefined on input line 9.
+
+
+LaTeX Warning: Citation `AG01i' on page 26 undefined on input line 9.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[26
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+<Kap3/FrutoSp.png, id=169, 391.2216pt x 273.6624pt>
+File: Kap3/FrutoSp.png Graphic file (type png)
+<use Kap3/FrutoSp.png>
+Package pdftex.def Info: Kap3/FrutoSp.png  used on input line 22. on input line
+ 22.
+Package pdftex.def Info: Requested size: 391.22064pt x 273.66171pt on input lin
+e 22.
+
+LaTeX Warning: Citation `AG03p' on page 27 undefined on input line 23.
+
+
+LaTeX Warning: Citation `AG04p' on page 27 undefined on input line 23.
+
+
+LaTeX Warning: Citation `AG03p' on page 27 undefined on input line 23.
+
+
+LaTeX Warning: Citation `AG04p' on page 27 undefined on input line 23.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+[27]
+
+LaTeX Warning: Citation `AG02i' on page 28 undefined on input line 47.
+
+
+LaTeX Warning: Citation `AG02i' on page 28 undefined on input line 47.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+[28 <./Kap3/FrutoSp.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 69--90
+
+ []
+
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+[29]
+\openout2 = `Kap4/Kap4.aux'.
+
+ (./Kap4/Kap4.tex
+chapter 5.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2--91
+
+ []
+
+[30
+
+
+
+]
+\openout2 = `Kap5/Kap5.aux'.
+
+ (./Kap5/Kap5.tex
+chapter 6.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2--92
+
+ []
+
+[31
+
+
+
+]
+\openout2 = `Kap6/Kap6.aux'.
+
+ (./Kap6/Kap6.tex
+chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 6--93
+
+ []
+
+[32
+
+
+
+]
+\openout2 = `Anexos/Anexos.aux'.
+
+ (./Anexos/Anexos.tex
+
+Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
+(scrbook)              You should note, that `\appendix' is a mostly globally
+(scrbook)              working command not an enviroment with only local
+(scrbook)              effects. Therefore `\end{appendix}' will neither
+(scrbook)              switch back to normal section numbering nor finish
+(scrbook)              every other effect of `\begin{appendix}'.
+(scrbook)              Nevertheless, some effects may end with
+(scrbook)              `\end{appendix}' and the document may become
+(scrbook)              inconsistent.
+(scrbook)              Because of this, you should remove `\end{appendix}'
+(scrbook)              and replace `\begin{appendix}' by command
+(scrbook)              `\appendix' on input line 1.
+
+chapter A.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+[33
+
+
+
+]
+chapter B.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+[34
+
+]
+chapter C.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\OT1/cmr/m/n/12 American Psy-cho-lo-gi-cal As-so-cia-tion
+ []
+
+[35
+
+])
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [36] (./PlantillaTesisMSc.bbl [37
+
+
+]
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
+ [38])
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+ [39] (./PlantillaTesisMSc.aux
+(./HojaTitulo/HojaTituloMSc.aux)
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ (./Kap1/Kap1.aux) (./Objetivos/objetivos.aux)
+(./Kap2/Kap2.aux) (./Kap3/Kap3.aux) (./Kap4/Kap4.aux) (./Kap5/Kap5.aux)
+(./Kap6/Kap6.aux) (./Anexos/Anexos.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6993 strings out of 492995
+ 107811 string characters out of 6135074
+ 277780 words of memory out of 5000000
+ 10306 multiletter control sequences out of 15000+600000
+ 12585 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 51i,14n,66p,8828b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on PlantillaTesisMSc.pdf (49 pages, 651163 bytes).
+PDF statistics:
+ 266 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+
