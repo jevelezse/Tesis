@@ -1,69 +1,77 @@
-\chapter{Cap\'{\i}tulo 2}
-Existen varias normas para la citaci\'{o}n bibliogr\'{a}fica. Algunas \'{a}reas del conocimiento prefieren normas espec\'{\i}ficas para citar las referencias bibliogr\'{a}ficas en el texto y escribir la lista de bibliograf\'{\i}a al final de los documentos. Esta plantilla brinda la libertad para que el autor de la tesis  o trabajo de investigaci\'{o}n utilice la norma bibliogr\'{a}fica com\'{u}n para su disciplina. Sin embargo, se solicita que la norma seleccionada se utilice con rigurosidad, sin olvidar referenciar "todos" los elementos tomados de otras fuentes (referencias bibliogr\'{a}ficas, patentes consultadas, software empleado en el manuscrito, en el tratamiento a los datos y resultados del trabajo, consultas a personas (expertos o p\'{u}blico general), entre otros).\\
+\chapter{Sistema de información}
+\section{Introducción}
 
-\section{Ejemplos de citaciones bibliogr\'{a}ficas}
-Existen algunos ejemplos para la citaci\'{o}n bibliogr\'{a}fica, por ejemplo, Microsoft Word (versiones posteriores al 2006), en el  men\'{u} de referencias, se cuenta con la opci\'{o}n de insertar citas bibliogr\'{a}ficas utilizando la norma APA (American Psychological Association) u otras normas y con la ayuda para construir autom\'{a}ticamente la lista al final del documento. De la misma manera, existen administradores bibliogr\'{a}ficos compatibles con Microsoft Word como Zotero, End Note y el Reference Manager,  disponibles a trav\'{e}s del Sistema Nacional de Bibliotecas (SINAB) de la Universidad Nacional de Colombia\footnote{Ver:www.sinab.unal.edu.co } secci\'{o}n "Recursos bibliogr\'{a}ficos" opci\'{o}n "Herramientas Bibliogr\'{a}ficas. A continuaci\'{o}n se muestra un ejemplo de una de las formas m\'{a}s usadas para las citaciones bibliogr\'{a}ficas.\\
+Las nuevas tecnologías de análisis genético son fáciles y económicas de hacer lo que genera una gran cantidad de datos biológicos y lo que hace que los biólogos trabajen cada vez más con las nuevas tecnologías de análisis genético, haciendo que los biólogos trabajen más y más computacionalmente.Especialmente mediante el uso de  tecnologías de secuenciación (NGS) y presentar un reto para integrar y almacenar la información, pasos que son necesarios para su posterior análisis \cite{Li2014,Cook2016}.\\
 
-Citaci\'{o}n individual:\cite{AG01}.\\
-Citaci\'{o}n simult\'{a}nea de varios autores:
-\cite{AG12,AG52,AG70,AG08a,AG09a,AG36a,AG01i}.\\
+La gran cantidad de datos presentan un reto para organizar y manejar datos que crecen de manera exponencial y que son de diversos tipos, dado que los datos son generados a diferentes niveles y con diferentes métodos (ejemplo: Variantes de exones o imágenes de patología), datos que a su vez deben ser almacenados en distintas formas, esta situación muestra una seria dificultad para realizar un análisis integral de los datos \cite{Cook2016,Li2014}.\\
 
-Por lo general, las referencias bibliogr\'{a}ficas correspondientes a los anteriores n\'{u}meros, se listan al final del documento en orden de aparici\'{o}n o en orden alfab\'{e}tico. Otras normas de citaci\'{o}n incluyen el apellido del autor y el a\~{n}o de la referencia, por ejemplo: 1) "...\'{e}nfasis en elementos ligados al \'{a}mbito ingenieril que se enfocan en el manejo de datos e informaci\'{o}n estructurada y que seg\'{u}n Kostoff (1997) ha atra\'{\i}do la atenci\'{o}n de investigadores dado el advenimiento de TIC...", 2) "...Dicha afirmaci\'{o}n coincide con los planteamientos de Snarch (1998), citado por Castellanos (2007), quien comenta que el manejo..." y 3) "...el futuro del sistema para argumentar los procesos de toma de decisiones y el desarrollo de ideas innovadoras (Nosella \textsl{et al}., 2008)...".\\
+El mayor de los retos es crear herramientas que permitan al investigador acceder a la información fácilmente y que pueda tener una base de datos intercalable,donde pueda consultar, analizar y actualizar la información de sus experimentos \cite{Li2014}.\\
 
-\section{Ejemplos de presentaci\'{o}n y citaci\'{o}n de figuras}
-Las ilustraciones forman parte del contenido de los cap\'{\i}tulos. Se deben colocar en la misma p\'{a}gina en que se mencionan o en la siguiente (deben siempre mencionarse en el texto).\\
+En el campo clínico esto representa un reto aun mayor dado que se hace necesario recolectar los datos genéticos junto con los datos clínicos para poder hacer análisis más acertados y a gran escala \cite{Paila2013}.\\
 
-Las llamadas para explicar alg\'{u}n aspecto de la informaci\'{o}n deben hacerse con nota al pie y su nota correspondiente\footnote{Las notas van como "notas al pie". Se utilizan para explicar, comentar o hacer referencia al texto de un documento, as\'{\i} como para introducir comentarios detallados y en ocasiones para citar fuentes de informaci\'{o}n (aunque para esta opci\'{o}n es mejor seguir en detalle las normas de citaci\'{o}n bibliogr\'{a}fica seleccionadas).}. La fuente documental se debe escribir al final de la ilustraci\'{o}n o figura con los elementos de la referencia (de acuerdo con las normas seleccionadas) y no como pie de p\'{a}gina. Un ejemplo para la presentaci\'{o}n y citaci\'{o}n de figuras, se presenta a continuaci\'{o}n (citaci\'{o}n directa):\\
+El problema de la heterogeneidad  de los datos  se aplica igualmente a los datos clínicos que describen pacientes individuales y además a los datos biológicos que caracterizan nuestro genoma. Específicamente, las bases de datos son altamente heterogéneas con respecto a los modelos de datos que emplean, los esquemas de datos que especifican, los lenguajes de consulta que soportan y las terminologías que reconocen \cite{Sujansky2001}.\\
 
-Por medio de las propiedades del fruto, seg\'{u}n el espesor del endocarpio, se hace una clasificaci\'{o}n de la palma de aceite en tres tipos: Dura, Ternera y Pisifera, que se ilustran en la Figura
-\ref{fig:Fruto}.\\
-\begin{figure}[h]
-\centering%
-\includegraphics{Kap3/FrutoSp}%
-\caption{Tipos y partes del fruto de palma de aceite \cite{AG03p,AG04p}.} \label{fig:Fruto}
+Por ello se hace necesario que se utilicen herramientas para la gestión de la información, por ejemplo django que es un web framework de alto nivel desarrollado en python  fomenta el desarrollo rápido y limpio, para la creación de aplicaciones web, es de código abierto y gratuito.Se basa en los principios de desarrollo rápido, manejo de la seguridad y es altamente escalable . Dentro de las muchas aplicaciones que tiene django una es el manejo y gestión de bases de datos a través de los módulos de python. Ver documentación https://www.djangoproject.com/ \\.
+
+
+\section{Metodología}
+
+Nosotros a continuación proponemos la utilización de una base de datos con la información clínica disponible y las anotaciones de variantes obtenidas por medio de un pipeline validado previamente para la anotación de variantes, basado en la propuesta de Fisch y colaboradores en 2014 \cite{Fisch2015} y anotados con annovar web service \cite{Yang2015}. Las historias clinicas fueron transcritas manualmente y cargadas desde un archivo de texto plano con un formato especifico.\\
+
+Se genero una base de datos utilizando Django 1.10 en python 3 y la librería grapelli, que se conectan  a  MySQL  5.7.17 desde un PC portatil HP-pavilion 360 con ubuntu 16.04 LTS. Django genera los modelos de EER pero permite su modificación para optimizar la velocidad de las consultas. \\
+
+\section{Resultados} 
+
+Los resultados obtenidos fueron una aplicación con una interfaz que permite a los usuarios con poco conocimiento de  programación  analizar los datos de variantes y su resumen de la historia clínica. \\
+
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.4\textwidth]{Kap3/admin_django}
+	\caption{Interfaz de ingreso para  administrar la base de datos.} \label{fig:admin}
 \end{figure}
 
-\section{Ejemplo de presentaci\'{o}n y citaci\'{o}n de tablas y cuadros}
-Para la edici\'{o}n de tablas, cada columna debe llevar su t\'{\i}tulo; la primera palabra se debe escribir con may\'{u}scula inicial y preferiblemente sin abreviaturas. En las tablas y cuadros, los t\'{\i}tulos y datos se deben ubicar entre l\'{\i}neas horizontales y verticales cerradas (como se realiza en esta plantilla).\\
+Inicialmente la figura (\ref{fig:admin}), muestra la solicitud de usuario y contraseña para acceder a la aplicación, es diferente a la base de MySQL que puede tener  una contraseña igual o diferente a la interfaz gráfica .
 
-La numeraci\'{o}n de las tablas se realiza de la misma manera que las figuras o ilustraciones, a lo largo de todo el texto. Deben llevar un t\'{\i}tulo breve, que concreta el contenido de la tabla; \'{e}ste se debe escribir en la parte superior de la misma. Para la presentaci\'{o}n de cuadros, se deben seguir las indicaciones dadas para las tablas.\\
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap3/django_admin}
+	\caption{Interfaz de administración.} \label{fig:admin2}
+\end{figure}
 
-Un ejemplo para la presentaci\'{o}n y citaci\'{o}n de tablas (citaci\'{o}n indirecta), se presenta a continuaci\'{o}n:\\
+La figura (\ref{fig:admin2}), muestra el sitio de administración donde se encuentran los usuarios permitidos, las bases de datos a consultar y muestra un histórico de las actividades recientes. \\
 
-De esta participaci\'{o}n aproximadamente el 60 \% proviene de biomasa
-(Tabla \ref{EMundo1}).
-\begin{center}
-\begin{threeparttable}
-\centering%
-\caption{Participaci\'{o}n de las energ\'{\i}as renovables en el suministro
-total de energ\'{\i}a primaria \cite{AG02i}.}\label{EMundo1}
-\begin{tabular}{|l|c|c|}\hline
-&\multicolumn{2}{c|}{Participaci\'{o}n en el suministro de energ\'{\i}a primaria /\% (Mtoe)\;$\tnote{1}$}\\\cline{2-3}%
-\arr{Region}&Energ\'{\i}as renovables &Participaci\'{o}n de la biomasa\\\hline%
-Latinoam\'{e}rica&28,9 (140)&62,4 (87,4)\\\hline%
-\:Colombia&27,7 (7,6)&54,4 (4,1)\\\hline%
-Alemania&3,8 (13,2)&65,8 (8,7)\\\hline%
-Mundial&13,1 (1404,0)&79,4 (1114,8)\\\hline
-\end{tabular}
-\begin{tablenotes}
-\item[1] \footnotesize{1 kg oe=10000 kcal=41,868 MJ}
-\end{tablenotes}
-\end{threeparttable}
-\end{center}
+Desde esta interfaz se puede agregar un grupo, más usuarios y pacientes y/o variantes dando click en el signo más sin necesidad de hacer la carga directa a MySQL ya que Django se encarga de hacer la carga. \\
 
-NOTA: en el caso en que el contenido de la tabla o cuadro sea muy extenso, se puede cambiar el tama\~{n}o de la letra, siempre y cuando \'{e}sta sea visible por el lector.\\
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap3/ingresar_paciente}
+	\caption{Ingreso de pacientes.} \label{fig:pacientes}
+\end{figure}
 
-\subsection{Consideraciones adicionales para el manejo de figuras y tablas}
-Cuando una tabla, cuadro o figura ocupa m\'{a}s de una p\'{a}gina, se debe repetir su identificaci\'{o}n num\'{e}rica, seguida por la palabra continuaci\'{o}n.\\
+En la figura (\ref{fig:pacientes}) se muestra el formulario para ingresar una nueva historia o de modificar una historia clínica de un paciente de manera manual.
 
-Adicionalmente los encabezados de las columnas se deben repetir en todas las p\'{a}ginas despu\'{e}s de la primera.\\
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap3/consulta}
+	\caption{Consulta a variantes} \label{fig:consulta}
+\end{figure}
 
-Los anteriores lineamientos se contemplan en la presente plantilla.\\
 
-\begin{itemize}
-\item Presentaci\'{o}n y citaci\'{o}n de ecuaciones.
-\end{itemize}
+La figura (\ref{fig:consulta}) muestra una consulta de las variantes que se tienen cargadas en la base de datos para el gen BRCA1, donde nos muestra una consulta de las variantes con su anotación  filtrada mediante un script de python antes de cargar las anotaciones de la tabla obtenida por annovar para cada paciente. Desde esta misma interfaz se puede hacer consultas de pacientes que se deben eliminar, en la parte inferior se encuentra la opción.\\
 
-La citaci\'{o}n de ecuaciones, en caso que se presenten, debe hacerse como lo sugiere esta plantilla. Todas las ecuaciones deben estar numeradas y citadas detro del texto.\\
+Si se desea hacer modificaciones a los datos del paciente también es posible hacerlo desde esta misma interfaz seleccionando el código del paciente, que lleva a la tabla de genes\_varante\_paciente que contiene el formulario de la historia clínica con los datos cargados para ser modificados. 
 
-Para el manejo de cifras se debe seleccionar la norma seg\'{u}n el \'{a}rea de conocimiento de la tesis  o trabajo de investigaci\'{o}n.\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Kap3/modeloEER}
+	\caption{Modelo entidad relación} \label{fig:t}
+\end{figure}
+
+La figura (\ref{fig:t}) muestra el modelo EER que se genero en la base de datos MySQL, donde se muestra el modelo  EER que muestra las tablas generadas por la aplicación para crear la base de datos donde se incluyen las tablas de para la gestión del las variantes junto con la historia clínica y se tiene encuentra la posible relación parental, padre, madre e hijo, el control de las consultas de la variantes indexadas y dentro de la misma base la gestión de accesos a otros usuarios con sus permisos.
+
+\section{Discusión}
+\subsection{Gestión de datos biológicos}
+
+La importancia de gestión aplicada al manejo de datos clínicos y de información genética es de vital importancia dado que existen miles de anotaciones que requieren de scripts para cargarlos las anotaciones y como es este caso el historial clínico del paciente \cite{Paila2013}. \\
+
+La aplicación desarrollada para crear y gestionar una base de datos aplicada una bioinformática con aplicaciones a la medicina, es necesario que la base de datos provea las consultas para soportar las decisiones sobre un paciente en especifico teniendo en cuenta sus datos,la relación con datos de otros pacientes y los datos de exomas, además de los datos relacionados con los familiares en caso de que se encuentren estos datos. Mostrando que es posible realizar una integración adecuada de los datos bioinformáticos y clínicos utilizando bases de datos relacionales, con una buena respuesta en las consultas. \cite{Sujansky2001}.

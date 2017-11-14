@@ -158,4 +158,22 @@ Xiangtao Liu, Shizhong Han, Zuoheng Wang, Joel Gelernter, and Bao~Zhu Yang.
   Study}.
 \newblock {\em PLoS ONE}, 8(9):1--11, 2013.
 
+\bibitem{Cook2016}
+Charles~E. Cook, Mary~Todd Bergman, Robert~D. Finn, Guy Cochrane, Ewan Birney,
+  and Rolf Apweiler.
+\newblock {The European Bioinformatics Institute in 2016: Data growth and
+  integration}.
+\newblock {\em Nucleic Acids Research}, 44(D1):D20--D26, 2016.
+
+\bibitem{Paila2013}
+Umadevi Paila, Brad~A. Chapman, Rory Kirchner, and Aaron~R. Quinlan.
+\newblock {GEMINI: Integrative Exploration of Genetic Variation and Genome
+  Annotations}.
+\newblock {\em PLoS Computational Biology}, 9(7), 2013.
+
+\bibitem{Sujansky2001}
+W~Sujansky.
+\newblock {Heterogeneous database integration in biomedicine.}
+\newblock {\em Journal of biomedical informatics}, 34(2001):285--298, 2001.
+
 \end{thebibliography}

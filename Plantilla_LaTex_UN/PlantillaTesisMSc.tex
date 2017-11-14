@@ -22,7 +22,7 @@
                         %se usa junto con \rotate, \sidewidestable ....
 
 \renewcommand{\theequation}{\thechapter-\arabic{equation}}
-\renewcommand{\thefigure}{\textbf{\thechapter-\arabic{figure}}}
+%\renewcommand{\thefigure}{\textbf{\thechapter-\arabic{figure}}}
 \renewcommand{\thetable}{\textbf{\thechapter-\arabic{table}}}
 
 
@@ -62,12 +62,13 @@
 \pagenumbering{roman}
 \include{HojaTitulo/HojaTituloMSc}
 
-\renewcommand{\contentsname}{Contenido}
+
 \renewcommand{\tablename}{\textbf{Tabla}}
 \renewcommand{\figurename}{\textbf{Figura}}
 \renewcommand{\listtablename}{Lista de Tablas}
 \renewcommand{\listfigurename}{Lista de Figuras}
-
+\renewcommand{\contentsname}{Contenido}
+\tableofcontents % indice de tablas
 
 
 %\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
@@ -75,7 +76,6 @@
 %\include{Tab_Simbolos/TabSimbolosMSc}
 %\include{Resumen}%\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
 \pagenumbering{arabic}
-\tableofcontents % indice de tablas
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Lista de figuras} % para que aparezca en el indice de contenidos
 \listoffigures % indice de figuras
@@ -96,5 +96,4 @@
 \addcontentsline{toc}{chapter}{\numberline{}Bibliograf\'{\i}a}
 \bibliographystyle{unsrt}
 \bibliography{references}
-
 \end{document}
