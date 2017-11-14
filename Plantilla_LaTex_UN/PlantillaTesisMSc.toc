@@ -24,6 +24,7 @@
 \contentsline {section}{\numberline {4.3}Resultados}{27}
 \contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n}{30}
 \contentsline {subsection}{\numberline {4.4.1}Gesti\IeC {\'o}n de datos biol\IeC {\'o}gicos}{30}
+\contentsline {section}{\numberline {4.5}Conclusi\IeC {\'o}n}{30}
 \contentsline {chapter}{\numberline {5}Cap\'{\i }tulo 3}{31}
 \contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{32}
 \contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{33}

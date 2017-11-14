@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  14 NOV 2017 02:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  14 NOV 2017 02:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1575,58 +1575,62 @@ Package pdftex.def Info: Requested size: 234.73523pt x 55.67288pt on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
 [27 <./Kap3/admin_django.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 <Kap3/ingresar_paciente.png, id=179, 1360.08125pt x 603.25375pt>
 File: Kap3/ingresar_paciente.png Graphic file (type png)
 <use Kap3/ingresar_paciente.png>
-Package pdftex.def Info: Kap3/ingresar_paciente.png  used on input line 48. on 
-input line 48.
+Package pdftex.def Info: Kap3/ingresar_paciente.png  used on input line 47. on 
+input line 47.
 Package pdftex.def Info: Requested size: 234.73523pt x 104.1074pt on input line
- 48.
+ 47.
 <Kap3/consulta.png, id=180, 1371.1225pt x 600.2425pt>
 File: Kap3/consulta.png Graphic file (type png)
 <use Kap3/consulta.png>
-Package pdftex.def Info: Kap3/consulta.png  used on input line 56. on input lin
-e 56.
+Package pdftex.def Info: Kap3/consulta.png  used on input line 55. on input lin
+e 55.
 Package pdftex.def Info: Requested size: 234.73523pt x 102.75427pt on input lin
-e 56.
+e 55.
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
 [28 <./Kap3/django_admin.png> <./Kap3/ingresar_paciente.png> <./Kap3/consulta.p
 ng>]
 <Kap3/modeloEER.png, id=187, 950.55125pt x 1147.28625pt>
 File: Kap3/modeloEER.png Graphic file (type png)
 <use Kap3/modeloEER.png>
-Package pdftex.def Info: Kap3/modeloEER.png  used on input line 67. on input li
-ne 67.
+Package pdftex.def Info: Kap3/modeloEER.png  used on input line 66. on input li
+ne 66.
 Package pdftex.def Info: Requested size: 375.57779pt x 453.3044pt on input line
- 67.
-LaTeX Info: Redefining \. on input line 72.
-LaTeX Info: Redefining \% on input line 72.
+ 66.
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
  [29 <./Kap3/modeloEER.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 )
+Underfull \hbox (badness 10000) in paragraph at lines 80--90
+
+ []
+
 LaTeX Info: Redefining \. on input line 90.
 LaTeX Info: Redefining \% on input line 90.
- [30]
+[30]
 \openout2 = `Kap4/Kap4.aux'.
 
  (./Kap4/Kap4.tex
@@ -1775,7 +1779,7 @@ amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 bx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PlantillaTesisMSc.pdf (51 pages, 791818 bytes).
+Output written on PlantillaTesisMSc.pdf (51 pages, 792172 bytes).
 PDF statistics:
  275 PDF objects out of 1000 (max. 8388607)
  168 compressed objects within 2 object streams
