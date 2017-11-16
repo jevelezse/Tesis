@@ -1,12 +1,9 @@
 \chapter{Introducci\'{o}n}
 
-\textbf{Motivación}\\
 
-El desarrollo de este trabajo responde a la experiencia de la autora en cuanto a la aplicación de tecnologías de secuenciación masiva aplicadas a la salud de los colombianos, cuyos aportes muestran  la relevancia del uso de estas tecnologías en el país que al ser combinadas con técnicas y métodos de análisis de datos a gran escala permitieron realizar un acercamiento de la estructura genética de la población colombiana asociada al fenotipo de los participantes dentro del estudio.\\
+El desarrollo de este trabajo responde a la necesidad actual del país en cuanto a la utilización las nuevas tecnologías de secuenciación masiva aplicadas a la salud de los colombianos, cuyos aportes muestran la relevancia del uso de estas tecnologías en el país que al ser combinadas con métodos de análisis de datos a gran escala permitiendo mostrar un acercamiento de la estructura genética de la población colombiana asociada a la información clínica disponible de los participantes dentro del estudio.\\
 
-Además de mostrar la importancia de que exista una relación estrecha entre ciencia y tecnología para mejorar el diagnóstico y pronostico de enfermedades presentes en la población aprovechando todas las avances que se encuentran a disposición dentro de nuestro país, generando nuevos conocimientos que tienen un impacto real en la salud.\\
-
-\textbf{Estado del arte}\\
+Además de mostrar la importancia de que exista una relación estrecha entre ciencia y tecnología para mejorar el diagnóstico y pronostico de enfermedades presentes en la población colombiana aprovechando todas las avances que se encuentran a disposición dentro de nuestro país, generando aportes innovadores que pueden ser de impacto real en la salud.\\
 
 En los últimos años con el desarrollo de las tecnologías NGS (Secuencieción de siguiente generación o secuenciación masiva) y otras áreas de la informática se ha introducido una nueva área en las tecnologías de la información conocida como Big Data \cite{Mohammed2014}. En el campo de la bioinformática en concreto es el exoma o secuenciación del genoma completo (WES o WGS), que generan una gran cantidad de información con diferentes aplicaciones en la biotecnología y en la  salud de nivel mundial \cite{Hwang2015}. La enorme cantidad de datos obtenidos por estas nuevas tecnologías presentan son una desafío para ser analizados dado que la estadística tradicional aplicada en genética es poco efectiva para analizar datos de secuenciación de exomas y genomas debido a la gran cantidad de variantes que se obtienen a partir de los experimentos de secuenciación \cite{Wu2014,Mohammed2014}.\\
 
@@ -23,3 +20,20 @@ Para el manejo de estos tipos de datos se han desarrollado diversas herramientas
 La gestión y análisis de esta información requiere el desarrollo de herramientas que respondan a las necesidades de obtener características relevantes de la información biológica, por ello la implantación de técnicas minería de datos permiten generar hipótesis especificas con respecto a la información genómica \cite{Huttenhower2010}. Un ejemplo de esto es la utilización de algoritmos de agrupamiento para encontras grupos de genes que están fuertemente relacionados con estados de evolución de los diferentes estadios en cáncer \cite{Li2014}.\\
 
 En el presente trabajo se muestran la implementación y validación de un pipeline para la identificación de variantes,el diseño e implementación de un sistema para realizar la gestión de datos para las variantes obtenidas y junto con la información clínica y finalmente un modelo para la  minería de datos aplicada en pacientes colombianos.\\
+
+\section*{Objetivos}
+
+\subsection*{Objetivo General}%* para sileciar el capitulo en la tabla de contenido.
+
+\begin{itemize}
+	\item Proponer un modelo de miner\'ia de datos para la identificaci\'on de variantes en regiones codificantes de genes  que apoyen el  diagn\'ostico cl\'inico en pacientes colombianos usando t\'enicas de miner\'ia de datos.
+\end{itemize}
+
+\subsection*{Objetivos Espec\'ificos}
+
+\begin{enumerate}
+	\item Generar un modelo de datos que permita la integraci\'on de los datos biol\'ogicos de tipo experimental, te\'orico y cl\'inicos en una  muestra poblacional que realice consultas r\'apidas de los datos almacenados.
+	\item Dise\~nar un modelo de miner\'ia de datos permita identificar las variantes experimentales que puedan ser patog\'enicas, teniendo en cuenta par\'ametros de asociaci\'on entre genes e informaci\'on cl\'inica que posibiliten teorizar posibles predicciones de las variantes. 
+	\item Implementar un  modelo de miner\'ia de datos que permita identificar posibles variantes patog\'enicas diferencialmente de las variantes no relevantes y  su asociaci\'on a la informaci\'on cl\'nica disponible.
+	\item Validar el modelo de miner\'ia de datos implementado para la identificaci\'on de variantes patog\'enicas en pacientes colombianos utilizando regiones codificantes de genes asociados.  
+\end{enumerate}

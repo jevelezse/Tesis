@@ -2,8 +2,8 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: PlantillaTesisMSc.aux
 A level-1 auxiliary file: HojaTitulo/HojaTituloMSc.aux
+A level-1 auxiliary file: Estado/Estado.aux
 A level-1 auxiliary file: Kap1/Kap1.aux
-A level-1 auxiliary file: Objetivos/objetivos.aux
 A level-1 auxiliary file: Kap2/Kap2.aux
 A level-1 auxiliary file: Kap3/Kap3.aux
 A level-1 auxiliary file: Kap4/Kap4.aux
@@ -18,45 +18,45 @@ Repeated entry---line 1558 of file references.bib
 I'm skipping whatever remains of this entry
 Warning--can't use both volume and number fields in Auwera2014
 Warning--empty publisher in Auwera2014
-You've used 27 entries,
+You've used 28 entries,
             1791 wiz_defined-function locations,
-            633 strings with 10085 characters,
-and the built_in function-call counts, 6481 in all, are:
-= -- 504
-> -- 435
+            642 strings with 10200 characters,
+and the built_in function-call counts, 6617 in all, are:
+= -- 513
+> -- 443
 < -- 2
-+ -- 155
-- -- 128
-* -- 545
-:= -- 1110
-add.period$ -- 79
-call.type$ -- 27
-change.case$ -- 26
++ -- 158
+- -- 130
+* -- 548
+:= -- 1130
+add.period$ -- 81
+call.type$ -- 28
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 241
-empty$ -- 560
-format.name$ -- 128
-if$ -- 1357
+cite$ -- 30
+duplicate$ -- 246
+empty$ -- 578
+format.name$ -- 130
+if$ -- 1389
 int.to.chr$ -- 0
-int.to.str$ -- 27
+int.to.str$ -- 28
 missing$ -- 26
-newline$ -- 136
-num.names$ -- 27
-pop$ -- 46
+newline$ -- 140
+num.names$ -- 28
+pop$ -- 53
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 105
+skip$ -- 110
 stack$ -- 0
 substring$ -- 365
-swap$ -- 38
+swap$ -- 39
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 61
-width$ -- 29
-write$ -- 290
+while$ -- 62
+width$ -- 30
+write$ -- 298
 (There was 1 error message)
