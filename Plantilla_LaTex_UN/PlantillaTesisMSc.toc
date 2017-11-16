@@ -4,35 +4,36 @@
 \contentsline {chapter}{Lista de figuras}{3}
 \contentsline {chapter}{Lista de tablas}{5}
 \contentsline {chapter}{\numberline {1}Introducci\'{o}n}{6}
-\contentsline {chapter}{\numberline {2}Estado del Arte}{9}
-\contentsline {section}{\numberline {2.1}Biolog\IeC {\'\i }a molecular y secuenciaci\IeC {\'o}n masiva.}{9}
-\contentsline {section}{\numberline {2.2}Datos biol\IeC {\'o}gicos como \IeC {\textquotedblleft }big data\IeC {\textquotedblright }}{10}
-\contentsline {chapter}{\numberline {3}Implementaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{13}
-\contentsline {section}{\numberline {3.1}Descubrimiento de variantes}{13}
-\contentsline {subsection}{\numberline {3.1.1}Implementaci\IeC {\'o}n en de herramientas dentro del cl\IeC {\'u}ster}{15}
-\contentsline {section}{\numberline {3.2}Resultados}{16}
-\contentsline {subsection}{\numberline {3.2.1}Reporte FASTQC}{16}
-\contentsline {subsection}{\numberline {3.2.2}Resultados de variantes de Illumina vs Variantes de Omics}{16}
-\contentsline {section}{\numberline {3.3}Variantes de Exoma vs Variantes de Omics}{20}
-\contentsline {section}{\numberline {3.4}Discusi\IeC {\'o}n}{24}
-\contentsline {subsection}{\numberline {3.4.1}Preprocesamiento}{24}
-\contentsline {subsection}{\numberline {3.4.2}Variantes obtenidas}{25}
-\contentsline {subsubsection}{\nonumberline Variantes de illumina y omics pipeline}{25}
-\contentsline {subsubsection}{\nonumberline Variantes con un exoma NA12878.}{26}
-\contentsline {section}{\numberline {3.5}Conclusiones}{27}
-\contentsline {chapter}{\numberline {4}Sistema de informaci\IeC {\'o}n}{29}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{29}
-\contentsline {section}{\numberline {4.2}Metodolog\IeC {\'\i }a}{30}
-\contentsline {section}{\numberline {4.3}Resultados}{30}
-\contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n}{33}
-\contentsline {subsection}{\numberline {4.4.1}Gesti\IeC {\'o}n de datos biol\IeC {\'o}gicos}{33}
-\contentsline {section}{\numberline {4.5}Conclusi\IeC {\'o}n}{33}
-\contentsline {chapter}{\numberline {5}Cap\'{\i }tulo 3}{34}
-\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{35}
-\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{36}
-\contentsline {section}{\numberline {7.1}Conclusiones}{36}
-\contentsline {section}{\numberline {7.2}Recomendaciones}{36}
-\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{37}
-\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{38}
-\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{39}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{41}
+\contentsline {chapter}{\numberline {2}Estado del Arte}{10}
+\contentsline {section}{\numberline {2.1}Biolog\IeC {\'\i }a molecular y secuenciaci\IeC {\'o}n masiva.}{10}
+\contentsline {section}{\numberline {2.2}Datos biol\IeC {\'o}gicos como \IeC {\textquotedblleft }big data\IeC {\textquotedblright }}{11}
+\contentsline {section}{\numberline {2.3}Sistemas de informaci\IeC {\'o}n en salud en Colombia.}{12}
+\contentsline {section}{\numberline {2.4}Propuestas para el an\IeC {\'a}lisis de datos biol\IeC {\'o}gicos a gran escala.}{14}
+\contentsline {chapter}{\numberline {3}Implementaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{18}
+\contentsline {section}{\numberline {3.1}Descubrimiento de variantes}{18}
+\contentsline {subsection}{\numberline {3.1.1}Implementaci\IeC {\'o}n en de herramientas dentro del cl\IeC {\'u}ster}{20}
+\contentsline {section}{\numberline {3.2}Resultados}{21}
+\contentsline {subsection}{\numberline {3.2.1}Reporte FASTQC}{21}
+\contentsline {subsection}{\numberline {3.2.2}Resultados de variantes de Illumina vs Variantes de Omics}{21}
+\contentsline {section}{\numberline {3.3}Variantes de Exoma vs Variantes de Omics}{25}
+\contentsline {section}{\numberline {3.4}Discusi\IeC {\'o}n}{29}
+\contentsline {subsection}{\numberline {3.4.1}Preprocesamiento}{29}
+\contentsline {subsection}{\numberline {3.4.2}Variantes obtenidas}{30}
+\contentsline {subsubsection}{\nonumberline Variantes de illumina y omics pipeline}{30}
+\contentsline {subsubsection}{\nonumberline Variantes con un exoma NA12878.}{31}
+\contentsline {section}{\numberline {3.5}Conclusiones}{32}
+\contentsline {chapter}{\numberline {4}Sistema de informaci\IeC {\'o}n}{34}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{34}
+\contentsline {section}{\numberline {4.2}Metodolog\IeC {\'\i }a}{35}
+\contentsline {section}{\numberline {4.3}Resultados}{35}
+\contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n}{38}
+\contentsline {subsection}{\numberline {4.4.1}Gesti\IeC {\'o}n de datos biol\IeC {\'o}gicos}{38}
+\contentsline {section}{\numberline {4.5}Conclusi\IeC {\'o}n}{38}
+\contentsline {chapter}{\numberline {5}Cap\'{\i }tulo 3}{39}
+\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{40}
+\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{41}
+\contentsline {section}{\numberline {7.1}Conclusiones}{41}
+\contentsline {section}{\numberline {7.2}Recomendaciones}{41}
+\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{42}
+\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{43}
+\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{44}
