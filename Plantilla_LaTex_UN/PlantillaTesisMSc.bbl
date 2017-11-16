@@ -4,6 +4,58 @@
 James~D Watson and Francis H~C Crick.
 \newblock {Molecular structure of nucleic acids}, 1953.
 
+\bibitem{Herraez2012}
+Angel Herr{\'{a}}ez.
+\newblock {\em {Biolog{\'{i}}a Molecular e Ingenier{\'{i}}a Gen{\'{e}}tica.
+  2{\textordfeminine} ed.}}
+\newblock Elsevier Ltd, Barcelona, 2012.
+
+\bibitem{Pei}
+{Pei Hui}.
+\newblock {Next Generation Sequencing: Chemistry, Technology and Applications}.
+\newblock {\em Chemical Diagnostics Topics in Current Chemistry}, 336(1):1--18,
+  2012.
+
+\bibitem{Kulski2016}
+Jerzy~K. Kulski.
+\newblock {Next-Generation Sequencing — An Overview of the History, Tools,
+  and “Omic” Applications}.
+\newblock In {\em Next Generation Sequencing - Advances, Applications and
+  Challenges}. InTech, jan 2016.
+
+\bibitem{Illumina2017}
+Illumina.
+\newblock {Whole Exome Sequencing | Detect exonic variants}, 2017.
+
+\bibitem{Klug2013}
+William~S. Klug and Luis~F. {Pascual Calaforra}.
+\newblock {\em {Conceptos de gen\'etica}}.
+\newblock Pearson Educaci\'on, 2013.
+
+\bibitem{Deng2011}
+Xutao Deng.
+\newblock {SeqGene: a comprehensive software solution for mining exome- and
+  transcriptome- sequencing data.}
+\newblock {\em BMC bioinformatics}, 12:267, jun 2011.
+
+\bibitem{Triplet2014}
+T.~Triplet and G.~Butler.
+\newblock {A review of genomic data warehousing systems}.
+\newblock {\em Briefings in Bioinformatics}, 15(4):471--483, jul 2014.
+
+\bibitem{Li2014}
+Yixue Li and Luonan Chen.
+\newblock {Big biological data: challenges and opportunities.}
+\newblock {\em Genomics, proteomics {\&} bioinformatics}, 12(5):187--9, oct
+  2014.
+
+\bibitem{Hashem2015}
+Ibrahim Abaker~Targio Hashem, Ibrar Yaqoob, Nor~Badrul Anuar, Salimah Mokhtar,
+  Abdullah Gani, and Samee {Ullah Khan}.
+\newblock {The rise of "big data" on cloud computing: Review and open research
+  issues}.
+\newblock {\em Information Systems}, 47:98--115, jan 2015.
+
 \bibitem{Mohammed2014}
 Emad~a. Mohammed, Behrouz~H. Far, and Christopher Naugler.
 \newblock {Applications of the MapReduce programming framework to clinical big
@@ -29,12 +81,6 @@ Madhuri Hegde, Avni Santani, Rong Mao, Andrea Ferreira-Gonzalez, Karen~E. Weck,
   sequencing for detection of germline variants in inherited disease}.
 \newblock {\em Archives of Pathology and Laboratory Medicine}, 141(6):798--805,
   2017.
-
-\bibitem{Li2014}
-Yixue Li and Luonan Chen.
-\newblock {Big Biological Data: Challenges and Opportunities Expanding volume
-  of the big biological data and its bonanza}.
-\newblock {\em Genomics, Proteomics {\&} Bioinformatics}, 12(5):187--189, 2014.
 
 \bibitem{Lauzon2016}
 David Lauzon, Beatriz Kanzki, Victor Dupuy, Alain April, Michael~S. Phillips,

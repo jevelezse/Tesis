@@ -12,51 +12,55 @@ A level-1 auxiliary file: Kap6/Kap6.aux
 A level-1 auxiliary file: Anexos/Anexos.aux
 The style file: unsrt.bst
 Database file #1: references.bib
-Repeated entry---line 1558 of file references.bib
+Repeated entry---line 1674 of file references.bib
  : @article{Fisch2015
  :                   ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1983 of file references.bib
+ : @article{Li2014
+ :                ,
+I'm skipping whatever remains of this entry
 Warning--can't use both volume and number fields in Auwera2014
 Warning--empty publisher in Auwera2014
-You've used 28 entries,
+You've used 36 entries,
             1791 wiz_defined-function locations,
-            642 strings with 10200 characters,
-and the built_in function-call counts, 6617 in all, are:
-= -- 513
-> -- 443
+            695 strings with 11306 characters,
+and the built_in function-call counts, 8098 in all, are:
+= -- 643
+> -- 499
 < -- 2
-+ -- 158
-- -- 130
-* -- 548
-:= -- 1130
-add.period$ -- 81
-call.type$ -- 28
-change.case$ -- 27
++ -- 181
+- -- 145
+* -- 637
+:= -- 1368
+add.period$ -- 105
+call.type$ -- 36
+change.case$ -- 33
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 246
-empty$ -- 578
-format.name$ -- 130
-if$ -- 1389
+cite$ -- 38
+duplicate$ -- 320
+empty$ -- 743
+format.name$ -- 145
+if$ -- 1720
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 26
-newline$ -- 140
-num.names$ -- 28
-pop$ -- 53
+int.to.str$ -- 36
+missing$ -- 35
+newline$ -- 179
+num.names$ -- 36
+pop$ -- 84
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 110
+skip$ -- 133
 stack$ -- 0
-substring$ -- 365
-swap$ -- 39
+substring$ -- 431
+swap$ -- 47
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 62
-width$ -- 30
-write$ -- 298
-(There was 1 error message)
+while$ -- 77
+width$ -- 38
+write$ -- 382
+(There were 2 error messages)
