@@ -14,10 +14,7 @@
 \contentsline {section}{\numberline {3.2}Datos}{19}
 \contentsline {section}{\numberline {3.3}Estrategias del pipeline}{19}
 \contentsline {section}{\numberline {3.4}Resultados}{21}
-\contentsline {subsection}{\numberline {3.4.1}Reporte FASTQC}{21}
 \contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{29}
-\contentsline {subsection}{\numberline {3.5.1}Variantes obtenidas}{30}
-\contentsline {subsubsection}{\nonumberline Variantes de illumina y omics pipeline}{30}
 \contentsline {section}{\numberline {3.6}Conclusiones}{32}
 \contentsline {chapter}{\numberline {4}Sistema de informaci\IeC {\'o}n}{34}
 \contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{34}
