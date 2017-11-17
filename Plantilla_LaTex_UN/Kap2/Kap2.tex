@@ -1,22 +1,23 @@
 \chapter{Implementación de un pipeline para la identificación de variantes}
 
+En este capitulo se presenta la validación de un pipeline para la identificación de variantes a partir de datos de secuenciación masiva, donde se utiliza datos públicos como los propios de la población muestreada para validar la calidad  de las variantes que posteriormente fueron almacenadas en a base de datos.
+
 \section{Descubrimiento de variantes}
 
-La eficiencia del descubrimiento de variantes depende de la exactitud del llamado de las bases (la identificación correcta de cada nucleótido dentro de la secuencia), esto es realizado durante el proceso de secuenciación de alta velocidad con la que se identifican los nucleótidos hace que puedan ocurrir errores en la identificación correcta de las bases, se considera que al momento la exactitud de ese llamado esta alrededor del 99.5\% \cite{Tetreault2015}.\\
+La eficiencia del descubrimiento de variantes depende de la exactitud del llamado de las bases (la identificación correcta de cada nucleótido dentro de la secuencia), esto es realizado durante el proceso de secuenciación de alta velocidad con la que se identifican los nucleótidos hace que puedan ocurrir errores en la identificación correcta de las bases, se considera que al momento la exactitud de ese llamado esta alrededor del 99.5\% \cite{Tetreault2015}.Teniendo en cuenta lo anterior es recomendable  priorizar la sensibilidad (Buscar tantas variantes como sea posible para evitar perder cualquier variante) sobre la especificidad (Limita la proporción de falsos positivos en un conjunto de variantes) \cite{Auwera2014}.  \\
 
-Teniendo en cuenta lo anterior es recomendable  priorizar la sensibilidad (Buscar tantas variantes como sea posible para evitar perder cualquier variante) sobre la especificidad (Limita la proporción de falsos positivos en un conjunto de variantes) \cite{Auwera2014}.  \\
-
-Existen una serie de pasos para la obtención de variantes la obtención de la calidad de las secuencias y preprocesamiento como la remoción de adaptadores y de nucleótidos con baja calidad (que son erroneamente identificados por el secuenciador),posteriormente sigue el mapeo, post-alineamiento, llamado de variantes, anotación y priorización \cite{Bao2014}.\\
-
-Para el presente trabajo se realizaron medición de la calidad de las secuencias y el mapeo, post-alineamiento y el llamado de variantes, siguiendo las buenas practicas para el llamado de variantes \cite{Fisch2015}. \\
-
-Existen múltiples herramientas para realizar el llamado de variantes tanto de uso privado como open source. Para poder seguir las buenas practicas se hace necesario integrar las diversas herramientas para poder obtener las variantes. Y surge la pregunta de ¿cuáles de todos los métodos y las herramientas son la más apropiada para hacer el llamado de variantes en exones \cite{Bao2014}\cite{Cornish2015}.\\
+Para el presente trabajo se realizaron mediciones de la calidad de las secuencias y el mapeo, post-alineamiento y el llamado de variantes, siguiendo las buenas practicas para el llamado de variantes \cite{Fisch2015}.Teniendo en cuenta que existen múltiples herramientas para realizar el llamado de variantes tanto de uso privado como open source que permite  seguir las buenas practicas de identificación de variantes se hace necesario integrar las diversas herramientas para poder obtener las datos de buena calidad. Y surge la pregunta de ¿cuáles de todos los métodos y las herramientas son la más apropiada para hacer el llamado de variantes en exones \cite{Bao2014}\cite{Cornish2015}.\\
 
 Para dar respuesta a esta pregunta se han seguido la propuesta de buenas practicas para el llamado de variantes propuesto por el Broad Institute que incluyen el procesamiento de los datos,el mapeo (Alinemaiento de las secuencias),descubrimiento de variantes y la recalibración del set de variantes.
 
-Para poder llevar acabo la adecuada implementación se hace necesario la utilización de HPC (Computación de alto desempeño) donde la utilización de un clúster para bioinformática presentan una gran apoyo para el procesamiento y análisis de datos incluso es un requisito de algunos módulos para poder implementarse adecuadamente \cite{Fisch2015}.\\
-\\
-Los datos que fueron procesados en el presente trabajo son secuencias de 4813 exones humanos se obtuvieron de kit de Illumina TruSight One en muestras de sangre periférica. Estos datos  fueron donados por el Centro de Investigaciones en Genética Humana y Reproductiva GENETIX S.A.S dirigido por la Dra Claudia Serrano Médico Genetista. También se realizo una obtención de variantes a partir de un exoma completo público de la muestra NA12878,los datos fueron obtenidos via ftp en la siguiente direcciones:\\
+Para poder llevar acabo la adecuada implementación se hace necesario la utilización de HPC (Computación de alto desempeño) donde la utilización de un clúster para bioinformática presentan una gran apoyo para el procesamiento y análisis de datos incluso es un requisito de algunos módulos para poder implementarse adecuadamente \cite{Fisch2015}.
+
+\section{Datos}
+
+Los datos que fueron procesados en el presente trabajo son secuencias de 4813 exones humanos se obtuvieron de kit de Illumina TruSight One en muestras de sangre periférica. Estos datos  fueron donados por el Centro de Investigaciones en Genética Humana y Reproductiva GENETIX S.A.S dirigido por la Dra Claudia Serrano Médico Genetista. 
+
+
+Para la validación del pipilene se corrio un exoma público de  NA12878-NGv3-LAB1360 que pertenece a una mujer que tiene una variación en el gen CYP2C19 donde tiene una transición de una Guanina por una Adenina en la posición 681 del exón 5, que causa un cambio en el marco de lectura del ARNm a partir del aminoácido 215 y produce un códon de parada prematuro en 20 aminoácidos corriente abajo produciendo una proteína no funcional (\textit{Información obtenida de Coriell Institute for medical reseach}). Se descargo el archivo bed para filtrar las variantes que se encuentran dentro del genoma completo de la muestra para obtener solo exones del NCBI para el genoma hg19.También se realizo una obtención de variantes a partir de un exoma completo público de la muestra NA12878,los datos fueron obtenidos via ftp en la siguiente direcciones:\\
 \\
 {\texttt{ https://s3.amazonaws.com/bcbio\_nextgen/NA12878-NGv3-LAB1360-A\_1.fastq.gz}\\
 \\
@@ -26,11 +27,15 @@ Y el archivo bed para filtrar las variantes que se encuentran dentro del genoma 
 \\
 \texttt{ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/NA12878/analysis/}\\
 \\
-\texttt{Illumina\_PlatinumGenomes \_NA12877\_NA12878\_09162015/hg19/8.0.1/NA12878/} \\
-\\	
-Se utilizo el modulo de omics-pipe que presenta el siguiente pipeline que es acorde con las buenas practicas para el llamado de variantes: \\
+\texttt{Illumina\_PlatinumGenomes \_NA12877\_NA12878\_09162015/hg19/8.0.1/NA12878/} 
+
+\section{Estrategias del pipeline}
+
+Existen una serie de pasos para la obtención de variantes la obtención de la calidad de las secuencias y preprocesamiento como la remoción de adaptadores y de nucleótidos con baja calidad (que son erroneamente identificados por el secuenciador),posteriormente sigue el mapeo, post-alineamiento, llamado de variantes, anotación y priorización \cite{Bao2014}.\\
+
+Se utilizo como base modulo de omics-pipe propuesto por Fish y colaboradores \cite{Fisch2015} que presenta el pipeline que es acorde con las buenas practicas para el llamado de variantes en la figura \ref{fig:pipeline}
 	
-\begin{figure}[H] 
+\begin{figure}[] 
 	\centering
 	\includegraphics[width=0.2\textwidth]{Kap2/pipe}
 	\caption{Pipeline basado en las buenas practicas para el llamado de variantes.} \label{fig:pipeline}
@@ -38,7 +43,7 @@ Se utilizo el modulo de omics-pipe que presenta el siguiente pipeline que es aco
 	
 	\subsection{Implementación en de herramientas dentro del clúster}
 	
-	Las herramientas bioinformáticas seleccionadas se implementaron el  clúster de la Universidad de los Andes que cuenta con las siguientes características:
+	Las herramientas bioinformáticas seleccionadas se implementaron en un clúster \footnote{El clúster utilizado fue prestado por la Universidad de los Andes} que cuenta con las siguientes características:
 	
 	\begin{itemize}
 		\item[$\Rightarrow$] Un nodo mastes con 2 procesadores Intel Xeon E5-2695 – 24 cores 48 con HT / 192 GB RAM (230Gflops), 300 GB de Disco duro.
@@ -137,8 +142,6 @@ Al realizar la comparación entre los dos archivos vcf se obtuvieron los siguien
 \end{figure}
 
 \section{Variantes de Exoma vs Variantes de Omics}
-
-Para la validación del pipilene se corrio un exoma público de  NA12878-NGv3-LAB1360 que pertenece a una mujer que tiene una variación en el gen CYP2C19 donde tiene una transición de una Guanina por una Adenina en la posición 681 del exón 5, que causa un cambio en el marco de lectura del ARNm a partir del aminoácido 215 y produce un códon de parada prematuro en 20 aminoácidos corriente abajo produciendo una proteína no funcional (\textit{Información obtenida de Coriell Institute for medical reseach}). Se descargo el archivo bed para filtrar las variantes que se encuentran dentro del genoma completo de la muestra se obtuvo de la siguiente pagina para el genoma hg19.\\
 
 Una vez obtenidas las regiones se realizo el proceso de hard filtering para el vcf obtenido por el pipe de omics y por el generado por vcftools teniendo los siguientes resultados mostrados por la tabla \ref{tabla:tabla2}: \\
 
@@ -294,3 +297,7 @@ La cantidad de herramientas y parámetros para aplicar son diversos y dependen d
 El llamado de variantes es bueno para el presente estudio, pero hay la posibilidad de mejorar la implementación de los parámetros de filtrado y el proceso de anotación (implicación del cambio de las variantes), además generar un pipeline alternativo para la verificación de las variantes que están siendo identificadas y poder aumentar la sensibilidad. \\
 
 Es necesario crear o generar la manera de optimizar los tiempos de ejecución de las tareas, de una manera más eficiente a la dada por el omics pipe.\\ 
+
+
+\theendnotes
+

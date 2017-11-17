@@ -11,18 +11,26 @@ A level-1 auxiliary file: Kap5/Kap5.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
 A level-1 auxiliary file: Anexos/Anexos.aux
 The style file: unsrt.bst
-Database file #1: references.bib
-Repeated entry---line 287 of file references.bib
+Database file #1: library.bib
+Repeated entry---line 834 of file library.bib
+ : @article{Li2014
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 916 of file library.bib
  : @article{Canuel2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 652 of file references.bib
+Repeated entry---line 1706 of file library.bib
  : @article{Fisch2015
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1233 of file references.bib
- : @article{Li2014
- :                ,
+Repeated entry---line 3528 of file library.bib
+ : @article{Bao2014
+ :                 ,
+I'm skipping whatever remains of this entry
+I was expecting a `{' or a `('---line 3533 of file library.bib
+ : CONTACT: kmesser@ucsd.edu 
+ :                           SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.},
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Busto2007"
 Warning--empty journal in Maharjan2011
@@ -30,7 +38,7 @@ Warning--can't use both volume and number fields in Auwera2014
 Warning--empty publisher in Auwera2014
 You've used 47 entries,
             1791 wiz_defined-function locations,
-            769 strings with 13739 characters,
+            769 strings with 13740 characters,
 and the built_in function-call counts, 10884 in all, are:
 = -- 879
 > -- 664
@@ -69,4 +77,4 @@ warning$ -- 3
 while$ -- 108
 width$ -- 49
 write$ -- 499
-(There were 3 error messages)
+(There were 5 error messages)

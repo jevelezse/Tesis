@@ -21,11 +21,11 @@
 \usepackage{longtable}
 \usepackage{rotating} %Para rotar texto, objetos y tablas seite. No se ve en DVI solo en PS. Seite 328 Hundebuch
                         %se usa junto con \rotate, \sidewidestable ....
-
+\usepackage{endnotes}
 \renewcommand{\theequation}{\thechapter-\arabic{equation}}
 %\renewcommand{\thefigure}{\textbf{\thechapter-\arabic{figure}}}
 \renewcommand{\thetable}{\textbf{\thechapter-\arabic{table}}}
-
+ \renewcommand{\notesname}{Notas}
 
 \pagestyle{fancyplain}%\addtolength{\headwidth}{\marginparwidth}
 \textheight22.5cm \topmargin0cm \textwidth16.5cm
@@ -97,5 +97,5 @@
 
 \addcontentsline{toc}{chapter}{\numberline{}Bibliograf\'{\i}a}
 \bibliographystyle{unsrt}
-\bibliography{references}
+\bibliography{library}
 \end{document}

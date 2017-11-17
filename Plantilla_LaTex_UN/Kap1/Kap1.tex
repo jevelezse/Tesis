@@ -3,7 +3,7 @@
 
 El desarrollo de este trabajo responde a la necesidad actual del país en cuanto a la utilización las nuevas tecnologías de secuenciación masiva aplicadas a la salud de los colombianos, cuyos aportes muestran la relevancia del uso de estas tecnologías en el país que al ser combinadas con métodos de análisis de datos a gran escala permitiendo mostrar un acercamiento de la estructura genética de la población colombiana asociada a la información clínica disponible de los participantes dentro del estudio.\\
 
-Además de mostrar la importancia de que exista una relación estrecha entre ciencia y tecnología para mejorar el diagnóstico y pronostico de enfermedades presentes en la población colombiana aprovechando todas las avances que se encuentran a disposición dentro de nuestro país, generando aportes innovadores que pueden ser de impacto real en la salud.\\
+Además de mostrar la importancia de que exista una relación estrecha entre ciencia y tecnología para mejorar el diagnóstico y pronostico de enfermedades presentes en la población colombiana aprovechando todas las avances que se encuentran a disposición actualmente y que permiten generar nuevos aportes con un impacto real en la salud.\\
 
 En los últimos años con el desarrollo de las tecnologías NGS (Secuencieción de siguiente generación o secuenciación masiva) y otras áreas de la informática se ha introducido una nueva área en las tecnologías de la información conocida como Big Data \cite{Mohammed2014}. En el campo de la bioinformática en concreto es el exoma o secuenciación del genoma completo (WES o WGS), que generan una gran cantidad de información con diferentes aplicaciones en la biotecnología y en la  salud de nivel mundial \cite{Hwang2015}. La enorme cantidad de datos obtenidos por estas nuevas tecnologías presentan son una desafío para ser analizados dado que la estadística tradicional aplicada en genética es poco efectiva para analizar datos de secuenciación de exomas y genomas debido a la gran cantidad de variantes que se obtienen a partir de los experimentos de secuenciación \cite{Wu2014,Mohammed2014}.\\
 
@@ -19,12 +19,18 @@ Para el manejo de estos tipos de datos se han desarrollado diversas herramientas
 
 La gestión y análisis de esta información requiere el desarrollo de herramientas que respondan a las necesidades de obtener características relevantes de la información biológica, por ello la implantación de técnicas minería de datos permiten generar hipótesis especificas con respecto a la información genómica \cite{Huttenhower2010}. Un ejemplo de esto es la utilización de algoritmos de agrupamiento para encontras grupos de genes que están fuertemente relacionados con estados de evolución de los diferentes estadios en cáncer \cite{Li2014}.\\
 
-La gran cantidad de datos biológicos que se encuentran disponibles en la actualidad, deben ser tenidos en cuenta para la investigación y  uso en el diagnóstico clínico, sin embargo estos datos presentan los siguientes inconvenientes para su acceso y disponibilidad como son: el almacenamiento, el procesamiento, la conexión y el análisis integrado de los mismos \cite{Pabinger2014}. Por esta razón, en los procesos de diagnóstico se hace necesario reconocer los patrones  sintomáticos de pacientes con falla cardiaca y asociarlos con variantes genéticas, ya que no ha sido posible realizarlo fácilmente porque se pierde información relevante o no es fácilmente accesible, por ejemplo los datos que reposan en las historias clínicas, que para su acceso se requiere solicitar un permiso \cite{Pabinger2014}. \\
+La gran cantidad de datos biológicos que se encuentran disponibles en la actualidad, deben ser tenidos en cuenta para la investigación y  uso en el diagnóstico clínico, sin embargo estos datos presentan los siguientes inconvenientes para su acceso y disponibilidad como son: el almacenamiento, el procesamiento, la conexión y el análisis integrado de los mismos \cite{Pabinger2014}. Por esta razón, en los procesos de diagnóstico se hace necesario reconocer los patrones  sintomáticos de pacientes de los pacientes y asociarlos con variantes genéticas, ya que no ha sido posible realizarlo fácilmente por diversas causas como la perdida de información relevante el acceso a la misma, por ejemplo los datos que reposan en las historias clínicas, que para su acceso se requiere solicitar un permiso \cite{Pabinger2014}. \\
 
-La importancia de entender las formas genéticas que pueden causar diversos síndromes y patología, pueden permitir que se le dé prioridad diagnostica y de tratamiento a los pacientes afectados, teniendo en cuenta que aún se continua descubriendo nuevos genes asociados a enfermedades, teniendo en cuenta que existen retos computacionales como la integración de datos heterogéneos y de grandes cantidades que lleva a la necesidad de aplicar metodologías “big data” y minería de datos para análisis de datos génomicos \cite{Maharjan2011,Hannah-Shmouni2015,Louie2007}. La diversidad de los datos permite que la utilización de técnicas de minería de datos se pueda aprovechar para dar respuesta al problema de asociación entre variantes genéticas y el impacto clínico de esas variantes \cite{Pabinger2014}.\\
+La importancia de entender las formas genéticas que pueden causar diversos síndromes y patología, pueden permitir que se le dé prioridad diagnostica y de tratamiento a los pacientes afectados, teniendo en cuenta que aún se continua descubriendo nuevos genes asociados a enfermedades, teniendo en cuenta que existen retos computacionales como la integración de datos heterogéneos y de grandes cantidades que lleva a la necesidad de aplicar metodologías “big data” y minería de datos para análisis de datos génomicos \cite{Maharjan2011,Hannah-Shmouni2015,Louie2007}. La diversidad de los datos permite que la utilización de técnicas de minería de datos se pueda aprovechar para dar respuesta al problema de asociación entre variantes genéticas y el impacto clínico de esas variantes \cite{Pabinger2014}.
+\\
 
+En el presente trabajo se desarrollaron las siguientes actividades:
 
-En el presente trabajo se muestran la implementación y validación de un pipeline para la identificación de variantes,el diseño e implementación de un sistema para realizar la gestión de datos para las variantes obtenidas y junto con la información clínica y finalmente un modelo para la  minería de datos aplicada en pacientes colombianos.\\
+\begin{enumerate}  
+	\item La implementación y validación de un pipeline para la identificación de variantes.
+	\item El diseño e implementación de un sistema de información para realizar la gestión de datos para las variantes obtenidas junto con la información clínica.
+	\item Finalmente un modelo para la  minería de datos aplicada en pacientes colombianos.
+\end{enumerate}
  
 \section*{Objetivos}
 
@@ -42,3 +48,17 @@ En el presente trabajo se muestran la implementación y validación de un pipeli
 	\item Implementar un  modelo de miner\'ia de datos que permita identificar posibles variantes patog\'enicas diferencialmente de las variantes no relevantes y  su asociaci\'on a la informaci\'on cl\'nica disponible.
 	\item Validar el modelo de miner\'ia de datos implementado para la identificaci\'on de variantes patog\'enicas en pacientes colombianos utilizando regiones codificantes de genes asociados.  
 \end{enumerate}
+
+\section*{Contribuciones}
+
+\begin{itemize}
+	\item[$*$] Validación de un pipeline para la identificación de variantes en exomas humanos. Presentado en el Congreso de Genética Humana.2016
+	\item[$*$] Diseño e implementación de la base de datos para integrar exomas ELAG.2017
+	\item[$*$] Modelo de minería para análisis de variantes.
+	\item[$*$] Estructura poblacional en una muestra de pacientes poblacionales.
+\end{itemize}
+
+\section*{Tesis Online}
+
+El presente trabajo se distribuye en los capitulo de estado del arte, validación del pipeline para el análisis de variantes, diseño e implementación de una base de datos, modelo de minería dentro de la base de datos, conclusiones y trabajo futuro.
+

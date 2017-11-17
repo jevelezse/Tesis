@@ -1,0 +1,294 @@
+\begin{thebibliography}{10}
+
+\bibitem{Mohammed2014}
+Emad~a. Mohammed, Behrouz~H. Far, and Christopher Naugler.
+\newblock {Applications of the MapReduce programming framework to clinical big
+  data analysis: current landscape and future trends}.
+\newblock {\em BioData Mining}, 7(1):1--23, 2014.
+
+\bibitem{Hwang2015}
+Sohyun Hwang, Eiru Kim, Insuk Lee, and Edward~M. Marcotte.
+\newblock {Systematic comparison of variant calling pipelines using gold
+  standard personal exome variants}.
+\newblock {\em Scientific Reports}, 5(December):17875, 2015.
+
+\bibitem{Wu2014}
+Jiaxin Wu, Yanda Li, and Rui Jiang.
+\newblock {Integrating Multiple Genomic Data to Predict Disease-Causing
+  Nonsynonymous Single Nucleotide Variants in Exome Sequencing Studies}.
+\newblock {\em PLoS Genetics}, 10(3), 2014.
+
+\bibitem{Hegde2017}
+Madhuri Hegde, Avni Santani, Rong Mao, Andrea Ferreira-Gonzalez, Karen~E. Weck,
+  and Karl~V. Voelkerding.
+\newblock {Development and validation of clinical whole-exome and whole-genome
+  sequencing for detection of germline variants in inherited disease}.
+\newblock {\em Archives of Pathology and Laboratory Medicine}, 141(6):798--805,
+  2017.
+
+\bibitem{Li2014}
+Yixue Li and Luonan Chen.
+\newblock {Big biological data: challenges and opportunities.}
+\newblock {\em Genomics, proteomics \& bioinformatics}, 12(5):187--9, oct 2014.
+
+\bibitem{Lauzon2016}
+David Lauzon, Beatriz Kanzki, Victor Dupuy, Alain April, Michael~S. Phillips,
+  Johanne Tremblay, and Pavel Hamet.
+\newblock {Addressing Provenance Issues in Big Data Genome Wide Association
+  Studies (GWAS)}.
+\newblock {\em Proceedings - 2016 IEEE 1st International Conference on
+  Connected Health: Applications, Systems and Engineering Technologies, CHASE
+  2016}, pages 382--387, 2016.
+
+\bibitem{CoriellInstitute}
+{Coriell Institute}.
+\newblock 1000 genomes project.
+
+\bibitem{Arias-blanco2015}
+Juan~Felipe Arias-blanco, Dora~Janeth Fonseca-mendoza, and Oscar Gamboa-garay.
+\newblock {FRECUENCIA DE MUTACI{\'{O}}N Y DE VARIANTES DE SECUENCIA PARA LOS
+  GENES BRCA1 Y BRCA2 EN UNA MUESTRA DE MUJERES COLOMBIANAS CON SOSPECHA DE
+  S{\'{I}}NDROME DE C{\'{A}}NCER DE MAMA HEREDITARIO: SERIE DE CASOS}.
+\newblock {\em Revista Colombiana de Obstetricia y Ginecolog{\'{i}}a},
+  65(4):287--296, 2015.
+
+\bibitem{Li2017}
+Quan Li and Kai Wang.
+\newblock {InterVar: Clinical Interpretation of Genetic Variants by the 2015
+  ACMG-AMP Guidelines}.
+\newblock {\em American Journal of Human Genetics}, 100(2):267--280, 2017.
+
+\bibitem{Fisch2015}
+Kathleen~M Fisch, Tobias Mei{\ss}ner, Louis Gioia, Jean~Christophe Ducom,
+  Tristan~M Carland, Salvatore Loguercio, and Andrew~I Su.
+\newblock {Omics Pipe: A community-based framework for reproducible multi-omics
+  data analysis}.
+\newblock {\em Bioinformatics}, 31(11):1724--1728, 2015.
+
+\bibitem{Huttenhower2010}
+Curtis Huttenhower and Oliver Hofmann.
+\newblock {A quick guide to large-scale genomic data mining}.
+\newblock {\em PLoS Computational Biology}, 6(5):1--6, 2010.
+
+\bibitem{Pabinger2014}
+Stephan Pabinger, Andreas Dander, Maria Fischer, Rene Snajder, Michael Sperk,
+  Mirjana Efremova, Birgit Krabichler, Michael~R. Speicher, Johannes Zschocke,
+  and Zlatko Trajanoski.
+\newblock {A survey of tools for variant analysis of next-generation genome
+  sequencing data}.
+\newblock {\em Briefings in Bioinformatics}, 15(2):256--278, 2014.
+
+\bibitem{Maharjan2011}
+Merina Maharjan.
+\newblock {Genome Analysis with MapReduce}.
+\newblock pages 1--23, 2011.
+
+\bibitem{Hannah-Shmouni2015}
+Fady Hannah-Shmouni, Sara~B. Seidelmann, Sandra Sirrs, Arya Mani, and Daniel
+  Jacoby.
+\newblock {The Genetic Challenges and Opportunities in Advanced Heart Failure}.
+\newblock {\em Canadian Journal of Cardiology}, 31(11):1338--1350, 2015.
+
+\bibitem{Louie2007}
+Brenton Louie, Peter Mork, Fernando Martin-Sanchez, Alon Halevy, and Peter
+  Tarczy-Hornoch.
+\newblock {Data integration and genomic medicine}, feb 2007.
+
+\bibitem{Watson1953}
+James~D Watson and Francis H~C Crick.
+\newblock {Molecular structure of nucleic acids}, 1953.
+
+\bibitem{Herraez2012}
+Angel Herr{\'{a}}ez.
+\newblock {\em {Biolog{\'{i}}a Molecular e Ingenier{\'{i}}a Gen{\'{e}}tica.
+  2{\textordfeminine} ed.}}
+\newblock Elsevier Ltd, Barcelona, 2012.
+
+\bibitem{Pei}
+{Pei Hui}.
+\newblock {Next Generation Sequencing: Chemistry, Technology and Applications}.
+\newblock {\em Chemical Diagnostics Topics in Current Chemistry}, 336(1):1--18,
+  2012.
+
+\bibitem{Kulski2016}
+Jerzy~K. Kulski.
+\newblock {Next-Generation Sequencing — An Overview of the History, Tools,
+  and “Omic” Applications}.
+\newblock In {\em Next Generation Sequencing - Advances, Applications and
+  Challenges}. InTech, jan 2016.
+
+\bibitem{Illumina2017}
+Illumina.
+\newblock {Whole Exome Sequencing | Detect exonic variants}, 2017.
+
+\bibitem{Klug2013}
+William~S. Klug and Luis~F. {Pascual Calaforra}.
+\newblock {\em {Conceptos de genn{\'{e}}tica}}.
+\newblock Pearson Educacin{\'{o}}n, 2013.
+
+\bibitem{Deng2011}
+Xutao Deng.
+\newblock {SeqGene: a comprehensive software solution for mining exome- and
+  transcriptome- sequencing data.}
+\newblock {\em BMC bioinformatics}, 12:267, jun 2011.
+
+\bibitem{Triplet2014}
+T.~Triplet and G.~Butler.
+\newblock {A review of genomic data warehousing systems}.
+\newblock {\em Briefings in Bioinformatics}, 15(4):471--483, jul 2014.
+
+\bibitem{Hashem2015}
+Ibrahim Abaker~Targio Hashem, Ibrar Yaqoob, Nor~Badrul Anuar, Salimah Mokhtar,
+  Abdullah Gani, and Samee {Ullah Khan}.
+\newblock {The rise of "big data" on cloud computing: Review and open research
+  issues}.
+\newblock {\em Information Systems}, 47:98--115, jan 2015.
+
+\bibitem{Ren2015}
+Guomin Ren and Roman Krawetz.
+\newblock {Applying computation biology and "big data" to develop multiplex
+  diagnostics for complex chronic diseases such as osteoarthritis.}
+\newblock {\em Biomarkers : biochemical indicators of exposure, response, and
+  susceptibility to chemicals}, 20(8):533--9, 2015.
+
+\bibitem{Canuel2015}
+V.~Canuel, B.~Rance, P.~Avillach, P.~Degoulet, and A.~Burgun.
+\newblock {Translational research platforms integrating clinical and omics
+  data: a review of publicly available solutions}.
+\newblock {\em Briefings in Bioinformatics}, 16(2):280--290, 2015.
+
+\bibitem{BernalAcevedo2011}
+Oscar {Bernal Acevedo} and Juan~Camilo {Forero Camacho}.
+\newblock {Sistemas de informaci{\'{o}}n en el sector salud en Colombia}.
+\newblock {\em Revista Gerencia y Politicas de Salud}, 10(21):85--100, 2011.
+
+\bibitem{Kashyap2015}
+Hirak Kashyap, Hasin~Afzal Ahmed, Nazrul Hoque, Swarup Roy, and Dhruba~Kumar
+  Bhattacharyya.
+\newblock {Big Data Analytics in Bioinformatics: A Machine Learning
+  Perspective}.
+\newblock {\em Journal of Latex Class Files}, 13(9):1--20, 2014.
+
+\bibitem{Bustos2007}
+Ligia Bustos, Ricardo Moreno, and Nestor Duque.
+\newblock {Modelo de una bodega de datos para el soporte a la
+  investigaci{\'{o}}n bioinform{\'{a}}tica}.
+\newblock {\em Scientia}, XIII(037):13--18, 2007.
+
+\bibitem{Staccini2014}
+Stefan Naulaerts, Pieter Meysman, Wout Bittremieux, Trung~Nghia Vu, Wim {Vanden
+  Berghe}, Bart Goethals, and Kris Laukens.
+\newblock {A primer to frequent itemset mining for bioinformatics.}
+\newblock {\em Briefings in bioinformatics}, 36(2):3066--3076, 2013.
+
+\bibitem{Zaki2007}
+Mohammed~J Zaki, George Karypis, and Jiong Yang.
+\newblock {Data Mining in Bioinformatics (BIOKDD).}
+\newblock {\em Algorithms for molecular biology : AMB}, 2:4, 2007.
+
+\bibitem{Tetreault2015}
+Martine Tetreault, Eric Bareke, Javad Nadaf, Najmeh Alirezaie, and Jacek
+  Majewski.
+\newblock {Whole-exome sequencing as a diagnostic tool: current challenges and
+  future opportunities.}
+\newblock {\em Expert Review of Molecular Diagnostics}, 2015.
+
+\bibitem{Auwera2014}
+Geraldine A Van~Der Auwera, Mauricio~O Carneiro, Chris Hartl, Ryan Poplin, Ami
+  Levy-moonshine, Tadeusz Jordan, Khalid Shakir, David Roazen, Joel Thibault,
+  Eric Banks, Kiran~V Garimella, David Altshuler, Stacey Gabriel, and Mark~A
+  Depristo.
+\newblock {\em {From FastQ data to high confidence varant calls: the Genonme
+  Analysis Toolkit best practices pipeline}}, volume~11.
+\newblock 2014.
+
+\bibitem{Bao2014}
+Riyue Bao, Lei Huang, Jorge Andrade, Wei Tan, Warren~a Kibbe, Hongmei Jiang,
+  and Gang Feng.
+\newblock {Review of Current Methods, Applications, and Data Management for the
+  Bioinformatics Analysis of Whole Exome Sequencing}.
+\newblock {\em Libertas Academica}, 13:67--82, 2014.
+
+\bibitem{Cornish2015}
+Adam Cornish and Chittibabu Guda.
+\newblock {A Comparison of Variant Calling Pipelines Using Genome in a Bottle
+  as a Reference}.
+\newblock {\em BioMed Research International}, 2015(BioMed Research
+  International):11, 2015.
+
+\bibitem{Babraham2016}
+{Babraham Bioinformatics}.
+\newblock {FASTQC manual}, 2016.
+
+\bibitem{Yang2015}
+H~Yang and K~Wang.
+\newblock {Genomic variant annotation and prioritization with ANNOVAR and
+  wANNOVAR}.
+\newblock {\em Nat Protoc}, 10(10):1556--1566, 2015.
+
+\bibitem{Pirooznia2014}
+Mehdi Pirooznia, Melissa Kramer, Jennifer Parla, Fernando~S Goes, James~B
+  Potash, W~Richard McCombie, and Peter~P Zandi.
+\newblock {Validation and assessment of variant calling pipelines for
+  next-generation sequencing.}
+\newblock {\em Human genomics}, 8(1):14, 2014.
+
+\bibitem{Zhou2013}
+Qian Zhou, Xiaoquan Su, Anhui Wang, Jian Xu, and Kang Ning.
+\newblock {QC-Chain: Fast and Holistic Quality Control Method for
+  Next-Generation Sequencing Data}.
+\newblock {\em PLoS ONE}, 8(4), 2013.
+
+\bibitem{Pandey2016}
+Ram~Vinay Pandey, Stephan Pabinger, Albert Kriegner, and Andreas
+  Weinh{\"{a}}usel.
+\newblock {ClinQC: a tool for quality control and cleaning of Sanger and NGS
+  data in clinical research}.
+\newblock {\em BMC Bioinformatics}, 17(1):56, 2016.
+
+\bibitem{ORawe2013}
+Jason O'Rawe, Tao Jiang, Guangqing Sun, Yiyang Wu, Wei Wang, Jingchu Hu, Paul
+  Bodily, Lifeng Tian, Hakon Hakonarson, W~Evan Johnson, Zhi Wei, Kai Wang, and
+  Gholson~J Lyon.
+\newblock {Low concordance of multiple variant-calling pipelines: practical
+  implications for exome and genome sequencing.}
+\newblock {\em Genome medicine}, 5(3):28, 2013.
+
+\bibitem{Warden2014}
+Charles~D. Warden, Aaron~W. Adamson, Susan~L. Neuhausen, and Xiwei Wu.
+\newblock {Detailed comparison of two popular variant calling packages for
+  exome and targeted exon studies}.
+\newblock {\em PeerJ}, 2:e600, 2014.
+
+\bibitem{Tsai2016}
+Ellen Tsai, Rimma Shakbatyan, Jason Evans, Peter Rossetti, Chet Graham,
+  Himanshu Sharma, Chiao-Feng Lin, and Matthew Lebo.
+\newblock {Bioinformatics Workflow for Clinical Whole Genome Sequencing at
+  Partners HealthCare Personalized Medicine}.
+\newblock {\em Journal of Personalized Medicine}, 6(1):12, 2016.
+
+\bibitem{Liu2013}
+Xiangtao Liu, Shizhong Han, Zuoheng Wang, Joel Gelernter, and Bao~Zhu Yang.
+\newblock {Variant Callers for Next-Generation Sequencing Data: A Comparison
+  Study}.
+\newblock {\em PLoS ONE}, 8(9):1--11, 2013.
+
+\bibitem{Cook2016}
+Charles~E. Cook, Mary~Todd Bergman, Robert~D. Finn, Guy Cochrane, Ewan Birney,
+  and Rolf Apweiler.
+\newblock {The European Bioinformatics Institute in 2016: Data growth and
+  integration}.
+\newblock {\em Nucleic Acids Research}, 44(D1):D20--D26, 2016.
+
+\bibitem{Paila2013}
+Umadevi Paila, Brad~A. Chapman, Rory Kirchner, and Aaron~R. Quinlan.
+\newblock {GEMINI: Integrative Exploration of Genetic Variation and Genome
+  Annotations}.
+\newblock {\em PLoS Computational Biology}, 9(7), 2013.
+
+\bibitem{Sujansky2001}
+W~Sujansky.
+\newblock {Heterogeneous database integration in biomedicine.}
+\newblock {\em Journal of biomedical informatics}, 34(2001):285--298, 2001.
+
+\end{thebibliography}
