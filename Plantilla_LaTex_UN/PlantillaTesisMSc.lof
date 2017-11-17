@@ -3,27 +3,27 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Pipeline basado en las buenas practicas para el llamado de variantes.}}{20}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Calidad del llamado de bases en una secuencia Estad\IeC {\'\i }sticas b\IeC {\'a}sicas del reporte FASTQ}}{21}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Variantes obtenidas por Omics pipe}}{22}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Calidad del llamado de bases en una secuencia Estad\IeC {\'\i }sticas b\IeC {\'a}sicas del reporte FASTQ}}{22}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Variantes obtenidas por Omics pipe}}{23}
 \contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Variaciones de la muestra}}{23}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Variantes obtenidas por Omics pipe}}}{23}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Variantes calibradas}}}{23}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{23}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{24}
 \contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{24}
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre variantes comunes de Omics y de Illumina}}{24}
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas.}}{25}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre variantes comunes de Omics y de Illumina}}{25}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas.}}{26}
 \contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Variaciones de la muestras dentro del exoma}}{26}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Variantes obtenidas por Omics}}}{26}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Variantes p\IeC {\'u}blicas}}}{26}
-\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas}}{26}
+\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas}}{27}
 \contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre las variantes publicas y las obtenidas por el pipeline}}{27}
-\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Imagen de la variante presenten en el exoma p\IeC {\'u}blico}}{28}
+\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Imagen de la variante presenten en el exoma p\IeC {\'u}blico}}{29}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Interfaz de ingreso para administrar la base de datos.}}{34}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Interfaz de administraci\IeC {\'o}n.}}{35}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Ingreso de pacientes.}}{35}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Consulta a variantes}}{35}
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Modelo entidad relaci\IeC {\'o}n}}{36}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Interfaz de ingreso para administrar la base de datos.}}{35}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Interfaz de administraci\IeC {\'o}n.}}{36}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Ingreso de pacientes.}}{36}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Consulta a variantes}}{36}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Modelo entidad relaci\IeC {\'o}n}}{37}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

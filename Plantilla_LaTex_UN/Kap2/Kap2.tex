@@ -14,8 +14,7 @@ Para poder llevar acabo la adecuada implementación se hace necesario la utiliza
 
 \section{Datos}
 
-Los datos que fueron procesados en el presente trabajo son secuencias de 4813 exones humanos se obtuvieron de kit de Illumina TruSight One en muestras de sangre periférica. Estos datos  fueron donados por el Centro de Investigaciones en Genética Humana y Reproductiva GENETIX S.A.S dirigido por la Dra Claudia Serrano Médico Genetista. 
-
+Los datos que fueron procesados en el presente trabajo son secuencias de 4813 exones humanos se obtuvieron de kit de Illumina TruSight One en muestras de sangre periférica. Estos datos  fueron donados por el Centro de Investigaciones en Genética Humana y Reproductiva GENETIX S.A.S dirigido por la Dra Claudia Serrano Médico Genetista. \\
 
 Para la validación del pipilene se corrio un exoma público de  NA12878-NGv3-LAB1360 que pertenece a una mujer que tiene una variación en el gen CYP2C19 donde tiene una transición de una Guanina por una Adenina en la posición 681 del exón 5, que causa un cambio en el marco de lectura del ARNm a partir del aminoácido 215 y produce un códon de parada prematuro en 20 aminoácidos corriente abajo produciendo una proteína no funcional (\textit{Información obtenida de Coriell Institute for medical reseach}). Se descargo el archivo bed para filtrar las variantes que se encuentran dentro del genoma completo de la muestra para obtener solo exones del NCBI para el genoma hg19.También se realizo una obtención de variantes a partir de un exoma completo público de la muestra NA12878,los datos fueron obtenidos via ftp en la siguiente direcciones:\\
 \\
@@ -41,7 +40,7 @@ Se utilizo como base modulo de omics-pipe propuesto por Fish y colaboradores \ci
 	\caption{Pipeline basado en las buenas practicas para el llamado de variantes.} \label{fig:pipeline}
 \end{figure}
 	
-	\subsection{Implementación en de herramientas dentro del clúster}
+	\subsection*{Herramientas computacionales}
 	
 	Las herramientas bioinformáticas seleccionadas se implementaron en un clúster \footnote{El clúster utilizado fue prestado por la Universidad de los Andes} que cuenta con las siguientes características:
 	
@@ -55,23 +54,45 @@ Se utilizo como base modulo de omics-pipe propuesto por Fish y colaboradores \ci
 	\end{itemize}
 	
 	Y se instalo el modulo para python de omics-pipe, para python 2 con la herramienta de R y las librerías que solicita omics-pipe\cite{Fisch2015} , el algoritmo BWA, samtools,vcftools, GATK 3.5,picard, FASTQC y pbs-drmma.Una vez instalados los programas se procesaron las muestras dentro del clúster.  
-	
-	\section{Resultados}
+
+\subsection*{Diseños experimentales}
+
+La tabla \ref{tabla:exp} muestra los diseños experimentales realizados para validar las variantes:
+
+\begin{table}[htb]
+	\begin{tabular}{|l|l|l|l|l|}
+		\hline
+		& \multicolumn{2}{c|}{\textbf{Experimentos}} \\
+		\cline{2-3} 
+		& NA12878(Exoma público)  & Variantes Illumina (Paciente)  \\ \cline{2-3}
+		\hline 
+		\multirow{1}{4cm}{Variantes Omics} & Datos de pacientes & Datos exoma   \\ \cline{2-3}
+		\hline 
+		\multirow{1}{4cm}{Variantes Calibradas} & Datos de paciente & Datos exoma    \\ \cline{2-3}
+		\hline
+		\multirow{1}{4cm}{Variantes Illumina} & Datos de paciente & Datos exoma     \\ \cline{2-3}
+		\hline
+	\end{tabular}
+	\caption{Tabla de datos utilizados.}
+	\label{tabla:exp}
+\end{table}
+
+\section{Resultados}
 	\subsection{Reporte FASTQC}}
 
 Este reporte utilizando la herramienta FASTQC presenta inicialmente un resumen del estado de las secuencias obtenidas, ya que toma el archivo fastq y lee las métricas de calidad de cada una de las bases y genera un reporte general en formato HTML. Ya que es interactivo y genera varios módulos \cite{Babraham2016}. \\
 
-Este reporte no presenta fallas dentro del análisis. A continuación se muestra un el primer modulo del reporte FASTQ obtenido de un dato experimental de una secuenciación de 4813 genes que resume el estado general de las lecturas obtenidas para este caso, la figura \ref{fig:fastq2} muestra que la calidad de las secuencias es mayor a 30, el reporte general también muestra que no hay secuencias adaptadoras, que presenta una distribución media del largo de las secuencias aceptable y que no hay secuencias sobrerpresentadas.  \\
+Este reporte no presenta fallas dentro del análisis. A continuación se muestra un el primer modulo del reporte FASTQ obtenido de un dato experimental de una secuenciación de 4813 genes que resume el estado general de las lecturas obtenidas para este caso, la figura \ref{fig:fastq2} muestra que la calidad de las secuencias es mayor a 30, el reporte general también muestra que no hay secuencias adaptadoras, que presenta una distribución media del largo de las secuencias aceptable y que no hay secuencias sobre representadas.  \\
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\textwidth]{Kap2/fastq2}
+	\includegraphics[width=0.4\textwidth]{Kap2/fastq2}
 	\caption{Calidad del llamado de bases en una secuencia Estadísticas básicas del reporte FASTQ} \label{fig:fastq2}
 \end{figure}
 
-Para el caso de esta muestra la calidad es óptima en todos los datos obtenidos y no requieren de ningún tipo de trimming ya que la mayoría de las posiciones dentro de la secuencia se encuentran por encima del un valor por encima de 34 y el cual el valor mínimo es 20 (este valor representa el ($Q_{PHARED}$) que implementa el secuenciador \cite{Babraham2016}. 
+Para el caso de esta muestra la calidad es óptima en todos los datos obtenidos y no requieren de ningún tipo de trimming ya que la mayoría de las posiciones dentro de la secuencia se encuentran por encima del un valor por encima de 34 y el cual el valor mínimo es 20 (este valor representa el ($Q_{PHARED}$) que implementa el secuenciador \cite{Babraham2016}. \\ 
 
-\subsection{Resultados de variantes de Illumina vs Variantes de Omics}
+\subsection*{Variantes de illumina vs variantes de omics}
 
 Inicialmente se obtuvieron 63515 variantes una vez que se ejecuto el pipeline de omics para la obtención de variantes, siguiendo los protocolos de buenas practicas y los protocolos de GATK quienes recomiendan generar variantes altamente sensibles y poco precisas, esto con el fin de no perder variantes que se encuentren dentro de las secuencias obtenidas, por ello se muestra una gran cantidad de variantes que no corresponden con las variantes verdaderas \cite{Auwera2014}.Dentro del pipeline solo se encuentra el proceso de llamado de variantes y no el proceso de filtrado de las mismas y que debío ser implementado de manera manual.\\
 
@@ -141,7 +162,7 @@ Al realizar la comparación entre los dos archivos vcf se obtuvieron los siguien
 	\caption{Diagrama de relación entre variantes comunes de Omics y de Illumina} \label{fig:diagrama}
 \end{figure}
 
-\section{Variantes de Exoma vs Variantes de Omics}
+\subsection*{Variantes de exoma vs variantes de omics}
 
 Una vez obtenidas las regiones se realizo el proceso de hard filtering para el vcf obtenido por el pipe de omics y por el generado por vcftools teniendo los siguientes resultados mostrados por la tabla \ref{tabla:tabla2}: \\
 
@@ -245,9 +266,10 @@ La representación escrita informa el cromosoma, la posición dentro del genoma 
 	\includegraphics[width=0.9\textwidth]{Kap2/IGV}
 	\caption{Imagen de la variante presenten en el exoma público} \label{fig:igv}
 \end{figure}
+
 \section{Discusión}
 
-\subsection{Preprocesamiento}
+\subsection*{Preprocesamiento}
 
 La revisión de las metricas dadas por el FASTQC report muestran el estado de como están las secuencias antes de ser procesadas, aunque a nivel experimental no dependiendo de las condiciones y el tipo de muestra los niveles de calidad terminan bajando de manera sustancial y depende del analista tomar la decisión de remover secuencias o mantenerlas ya que los diferentes módulos presentan diversas meticas de evaluación de las secuencias \cite{Babraham2016}. \\
 
@@ -274,7 +296,8 @@ Al realizar una calibración de los datos con la calidad y con hard filtering en
 A pesar de que la distribución de las variante es similar, aun con el filtrado de las variantes existe que la concordancia entre ambas técnicas tiende a ser del 50\% (véase la figura \ref{fig:diagrama}), aunque illumina utiliza GATK la versión implementada es la 1.6 que en este momento no cuenta con documentación (https://www.broadinstitute.org/gatk/guide/version-history) que illumina utiliza la versión 1.6 y la función UnifiedGenotyper que presenta algunas inconsistencias para la identificación de indels, mientras que la versión de GATK 3.5 utiliza la función HaplotyperCaller que mejora el llamado de variantes, y corrige algunas inconsistencias para la identificación de indels \cite{ORawe2013}. Además es la función recomendada para organismos diploides, este se enfoca en dos tipos de identificación inicialmente los SNPs y los indels, y puede identificar cuando hay varios tipos de variantes cercanas a otras \cite{Auwera2014}. \\
 
 Illumina no provee los parametros utilizados para hacer el llamado de variantes lo que dificulta la comparación entre este pipeline y las variantes reportadas por illumina, además el formato del VCF es el 4.1 y en la mayoria de las variantes no reporta el valor de la Qual (calidad) para hacer un filtro con el archivo aunque para GATK los valores para el llamado de variantes no son modificados de manera significativa si se realiza un filtro de este tipo \cite{Hwang2015}. Además de que la combinación de BWA con HaplotypeCaller, presentan una mejora con respeto a la identificación de SNPs (BWA-men) y HaplotypeCaller para la identificación de indels \cite{Cornish2015}.
-\subsubsection{Variantes con un exoma NA12878.}
+
+\subsubsection*{Variantes con un exoma NA12878.}
 
 Para este estudio se utilizo una muestra del genoma completo de la muestra NA12878 son de 34,886 variaciones \cite{Cornish2015} en el presente estudio 32850 y el pipeline obtuvo un total de 34217, lo que permite inferir que las variante identificadas son solo de 2036 variaciones (dependiendo de las muestras y los genes que fueron secuenciados) y que se realizo un muestreo partir de un archivo bed. Además si se aplica un filtro para retirar las variaciones con baja calidad, el llamado de variantes de GATK mejora de manera significativa si necesidad de hacer cambios en el preprocesamiento de los datos \cite{Warden2014} \\
 
@@ -297,7 +320,4 @@ La cantidad de herramientas y parámetros para aplicar son diversos y dependen d
 El llamado de variantes es bueno para el presente estudio, pero hay la posibilidad de mejorar la implementación de los parámetros de filtrado y el proceso de anotación (implicación del cambio de las variantes), además generar un pipeline alternativo para la verificación de las variantes que están siendo identificadas y poder aumentar la sensibilidad. \\
 
 Es necesario crear o generar la manera de optimizar los tiempos de ejecución de las tareas, de una manera más eficiente a la dada por el omics pipe.\\ 
-
-
-\theendnotes
 
