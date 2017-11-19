@@ -6,9 +6,8 @@
 \contentsline {chapter}{\numberline {1}Introducci\'{o}n}{6}
 \contentsline {chapter}{\numberline {2}Estado del Arte}{10}
 \contentsline {section}{\numberline {2.1}Biolog\IeC {\'\i }a molecular y secuenciaci\IeC {\'o}n masiva.}{10}
-\contentsline {section}{\numberline {2.2}Datos biol\IeC {\'o}gicos como \IeC {\textquotedblleft }big data\IeC {\textquotedblright }}{11}
-\contentsline {section}{\numberline {2.3}Sistemas de informaci\IeC {\'o}n en salud en Colombia.}{12}
-\contentsline {section}{\numberline {2.4}Propuestas para el an\IeC {\'a}lisis de datos biol\IeC {\'o}gicos a gran escala.}{14}
+\contentsline {section}{\numberline {2.2}Bioinform\IeC {\'a}tica}{12}
+\contentsline {section}{\numberline {2.3}Propuestas para el an\IeC {\'a}lisis de datos gen\IeC {\'o}micos}{13}
 \contentsline {chapter}{\numberline {3}Implementaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{18}
 \contentsline {section}{\numberline {3.1}Descubrimiento de variantes}{18}
 \contentsline {section}{\numberline {3.2}Datos}{19}
@@ -28,7 +27,4 @@
 \contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{41}
 \contentsline {section}{\numberline {7.1}Conclusiones}{41}
 \contentsline {section}{\numberline {7.2}Recomendaciones}{41}
-\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{42}
-\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{43}
-\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{44}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{46}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{42}

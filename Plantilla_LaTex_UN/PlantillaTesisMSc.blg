@@ -9,72 +9,67 @@ A level-1 auxiliary file: Kap3/Kap3.aux
 A level-1 auxiliary file: Kap4/Kap4.aux
 A level-1 auxiliary file: Kap5/Kap5.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
-A level-1 auxiliary file: Anexos/Anexos.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Repeated entry---line 834 of file library.bib
+Repeated entry---line 4124 of file library.bib
  : @article{Li2014
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 916 of file library.bib
- : @article{Canuel2015
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1706 of file library.bib
- : @article{Fisch2015
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3528 of file library.bib
+Repeated entry---line 5251 of file library.bib
  : @article{Bao2014
  :                 ,
 I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 3533 of file library.bib
- : CONTACT: kmesser@ucsd.edu 
- :                           SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.},
+Repeated entry---line 5266 of file library.bib
+ : @article{Fisch2015
+ :                   ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Busto2007"
+Repeated entry---line 5459 of file library.bib
+ : @article{Canuel2015
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Herrera2012"
 Warning--empty journal in Maharjan2011
 Warning--can't use both volume and number fields in Auwera2014
 Warning--empty publisher in Auwera2014
-You've used 47 entries,
+You've used 49 entries,
             1791 wiz_defined-function locations,
-            769 strings with 13740 characters,
-and the built_in function-call counts, 10884 in all, are:
-= -- 879
-> -- 664
+            782 strings with 14007 characters,
+and the built_in function-call counts, 11343 in all, are:
+= -- 924
+> -- 666
 < -- 3
-+ -- 240
++ -- 242
 - -- 193
-* -- 872
-:= -- 1825
-add.period$ -- 137
-call.type$ -- 47
-change.case$ -- 44
+* -- 912
+:= -- 1892
+add.period$ -- 143
+call.type$ -- 49
+change.case$ -- 46
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 420
-empty$ -- 990
+cite$ -- 52
+duplicate$ -- 438
+empty$ -- 1045
 format.name$ -- 193
-if$ -- 2309
+if$ -- 2411
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 45
-newline$ -- 233
-num.names$ -- 47
-pop$ -- 105
+int.to.str$ -- 49
+missing$ -- 47
+newline$ -- 243
+num.names$ -- 49
+pop$ -- 107
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 175
+skip$ -- 180
 stack$ -- 0
-substring$ -- 641
-swap$ -- 62
+substring$ -- 704
+swap$ -- 64
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 108
-width$ -- 49
-write$ -- 499
-(There were 5 error messages)
+while$ -- 112
+width$ -- 51
+write$ -- 521
+(There were 4 error messages)
