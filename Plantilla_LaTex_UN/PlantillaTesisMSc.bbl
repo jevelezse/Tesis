@@ -118,6 +118,11 @@ Jerzy~K. Kulski.
 \newblock In {\em Next Generation Sequencing - Advances, Applications and
   Challenges}. InTech, jan 2016.
 
+\bibitem{Kutzera2017}
+Joachim Kutzera and Patrick May.
+\newblock {Data Integration in the Life Sciences}.
+\newblock 6254:22--28, 2017.
+
 \bibitem{Illumina2017}
 Illumina.
 \newblock {Whole Exome Sequencing | Detect exonic variants}, 2017.
@@ -167,11 +172,48 @@ Guomin Ren and Roman Krawetz.
 \newblock {\em Biomarkers : biochemical indicators of exposure, response, and
   susceptibility to chemicals}, 20(8):533--9, 2015.
 
+\bibitem{Sherry2001}
+S.~T. Sherry, M.-H. Ward, M.~Kholodov, J.~Baker, L.~Phan, E.~M. Smigielski, and
+  K.~Sirotkin.
+\newblock {dbSNP: the NCBI database of genetic variation}.
+\newblock {\em Nucleic Acids Research}, 29(1):308--311, jan 2001.
+
+\bibitem{Yates2016}
+Andrew Yates, Wasiu Akanni, M~Ridwan Amode, Daniel Barrell, Konstantinos
+  Billis, Denise Carvalho-Silva, Carla Cummins, Peter Clapham, Stephen
+  Fitzgerald, Laurent Gil, Carlos~Garc{\'{i}}a Gir{\'{o}}n, Leo Gordon, Thibaut
+  Hourlier, Sarah~E Hunt, Sophie~H Janacek, Nathan Johnson, Thomas Juettemann,
+  Stephen Keenan, Ilias Lavidas, Fergal~J Martin, Thomas Maurel, William
+  McLaren, Daniel~N Murphy, Rishi Nag, Michael Nuhn, Anne Parker, Mateus
+  Patricio, Miguel Pignatelli, Matthew Rahtz, Harpreet~Singh Riat, Daniel
+  Sheppard, Kieron Taylor, Anja Thormann, Alessandro Vullo, Steven~P Wilder,
+  Amonida Zadissa, Ewan Birney, Jennifer Harrow, Matthieu Muffato, Emily Perry,
+  Magali Ruffier, Giulietta Spudich, Stephen~J Trevanion, Fiona Cunningham,
+  Bronwen~L Aken, Daniel~R Zerbino, and Paul Flicek.
+\newblock {Ensembl 2016.}
+\newblock {\em Nucleic acids research}, 44(D1):D710--6, jan 2016.
+
 \bibitem{Canuel2015}
 V.~Canuel, B.~Rance, P.~Avillach, P.~Degoulet, and A.~Burgun.
 \newblock {Translational research platforms integrating clinical and omics
   data: a review of publicly available solutions}.
 \newblock {\em Briefings in Bioinformatics}, 16(2):280--290, 2015.
+
+\bibitem{Higasa2016}
+Koichiro Higasa, Noriko Miyake, Jun Yoshimura, Kohji Okamura, Tetsuya Niihori,
+  Hirotomo Saitsu, Koichiro Doi, Masakazu Shimizu, Kazuhiko Nakabayashi, Yoko
+  Aoki, Yoshinori Tsurusaki, Shinichi Morishita, Takahisa Kawaguchi, Osuke
+  Migita, Keiko Nakayama, Mitsuko Nakashima, Jun Mitsui, Maiko Narahara, Keiko
+  Hayashi, Ryo Funayama, Daisuke Yamaguchi, Hiroyuki Ishiura, Wen-Ya Ko,
+  Kenichiro Hata, Takeshi Nagashima, Ryo Yamada, Yoichi Matsubara, Akihiro
+  Umezawa, Shoji Tsuji, Naomichi Matsumoto, and Fumihiko Matsuda.
+\newblock {Human genetic variation database, a reference database of genetic
+  variations in the Japanese population}.
+\newblock {\em Journal of Human Genetics}, 61(6):547--553, 2016.
+
+\bibitem{variome2017}
+{About the Human Variome Project: what we do and why we do it - Human Variome
+  Project}.
 
 \bibitem{Kashyap2015}
 Hirak Kashyap, Hasin~Afzal Ahmed, Nazrul Hoque, Swarup Roy, and Dhruba~Kumar
@@ -191,6 +233,10 @@ Stefan Naulaerts, Pieter Meysman, Wout Bittremieux, Trung~Nghia Vu, Wim {Vanden
   Berghe}, Bart Goethals, and Kris Laukens.
 \newblock {A primer to frequent itemset mining for bioinformatics.}
 \newblock {\em Briefings in bioinformatics}, 36(2):3066--3076, 2013.
+
+\bibitem{Littlefield}
+Rayan Littlefield.
+\newblock {An introduction into Data Mining in Bioinformatics.}
 
 \bibitem{Zaki2007}
 Mohammed~J Zaki, George Karypis, and Jiong Yang.
