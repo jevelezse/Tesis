@@ -153,6 +153,27 @@ T.~Triplet and G.~Butler.
 \newblock {A review of genomic data warehousing systems}.
 \newblock {\em Briefings in Bioinformatics}, 15(4):471--483, jul 2014.
 
+\bibitem{Jurca2016}
+Gabriela Jurca, Omar Addam, Alper Aksac, Shang Gao, Tansel {\"{O}}zyer, Douglas
+  Demetrick, and Reda Alhajj.
+\newblock {Integrating text mining, data mining, and network analysis for
+  identifying genetic breast cancer trends}.
+\newblock {\em BMC Research Notes}, 9(1):236, 2016.
+
+\bibitem{Terlizzi2017}
+Vito Terlizzi, Giuseppe Castaldo, Donatello Salvatore, Marco Lucarelli, Valeria
+  Raia, Adriano Angioni, Vincenzo Carnovale, Natalia Cirilli, Rosaria Casciaro,
+  Carla Colombo, Antonella Miriam, Di~Lullo, Ausilia Elce, Paola Iacotucci,
+  Marika Comegna, Manuela Scorza, Vincenzina Lucidi, Anna Perfetti, Roberta
+  Cimino, Serena Quattrucci, Manuela Seia, Federica Zarrilli, and Felice Amato.
+\newblock {Genotype – phenotype correlation and functional studies in
+  patients with cystic fi brosis bearing CFTR complex alleles}.
+\newblock pages 224--235, 2017.
+
+\bibitem{Littlefield}
+Rayan Littlefield.
+\newblock {An introduction into Data Mining in Bioinformatics.}
+
 \bibitem{Searls2010}
 David~B. Searls.
 \newblock {The Roots of Bioinformatics}.
@@ -194,9 +215,10 @@ Andrew Yates, Wasiu Akanni, M~Ridwan Amode, Daniel Barrell, Konstantinos
 \newblock {\em Nucleic acids research}, 44(D1):D710--6, jan 2016.
 
 \bibitem{Canuel2015}
-V.~Canuel, B.~Rance, P.~Avillach, P.~Degoulet, and A.~Burgun.
+Vincent Canuel, Bastien Rance, Paul Avillach, Patrice Degoulet, and Anita
+  Burgun.
 \newblock {Translational research platforms integrating clinical and omics
-  data: a review of publicly available solutions}.
+  data: A review of publicly available solutions}.
 \newblock {\em Briefings in Bioinformatics}, 16(2):280--290, 2015.
 
 \bibitem{Higasa2016}
@@ -234,10 +256,6 @@ Stefan Naulaerts, Pieter Meysman, Wout Bittremieux, Trung~Nghia Vu, Wim {Vanden
 \newblock {A primer to frequent itemset mining for bioinformatics.}
 \newblock {\em Briefings in bioinformatics}, 36(2):3066--3076, 2013.
 
-\bibitem{Littlefield}
-Rayan Littlefield.
-\newblock {An introduction into Data Mining in Bioinformatics.}
-
 \bibitem{Zaki2007}
 Mohammed~J Zaki, George Karypis, and Jiong Yang.
 \newblock {Data Mining in Bioinformatics (BIOKDD).}
@@ -260,10 +278,11 @@ Geraldine A Van~Der Auwera, Mauricio~O Carneiro, Chris Hartl, Ryan Poplin, Ami
 \newblock 2014.
 
 \bibitem{Bao2014}
-Lei Bao, Minya Pu, and Karen Messer.
-\newblock {AbsCN-seq: a statistical method to estimate tumor purity, ploidy and
-  absolute copy numbers from next-generation sequencing data.}
-\newblock {\em Bioinformatics (Oxford, England)}, 30(8):1056--1063, jan 2014.
+Riyue Bao, Lei Huang, Jorge Andrade, Wei Tan, Warren~a Kibbe, Hongmei Jiang,
+  and Gang Feng.
+\newblock {Review of Current Methods, Applications, and Data Management for the
+  Bioinformatics Analysis of Whole Exome Sequencing}.
+\newblock {\em Libertas Academica}, 13:67--82, 2014.
 
 \bibitem{Cornish2015}
 Adam Cornish and Chittibabu Guda.
