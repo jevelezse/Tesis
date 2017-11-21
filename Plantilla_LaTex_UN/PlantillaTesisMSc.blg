@@ -11,71 +11,66 @@ A level-1 auxiliary file: Kap5/Kap5.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Repeated entry---line 1111 of file library.bib
- : @article{Canuel2015
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1669 of file library.bib
- : @article{Fisch2015
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1842 of file library.bib
- : @article{Li2014
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3023 of file library.bib
+Repeated entry---line 4166 of file library.bib
  : @article{Bao2014
  :                 ,
 I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 3028 of file library.bib
- : CONTACT: kmesser@ucsd.edu 
- :                           SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.},
+Repeated entry---line 4465 of file library.bib
+ : @article{Fisch2015
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4894 of file library.bib
+ : @article{Canuel2015
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5473 of file library.bib
+ : @article{Li2014
+ :                ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Wenger2017"
 Warning--empty journal in Maharjan2011
 Warning--empty journal in Kutzera2017
-Warning--empty journal in Terlizzi2017
 Warning--can't use both volume and number fields in Auwera2014
 Warning--empty publisher in Auwera2014
-You've used 57 entries,
+You've used 58 entries,
             1791 wiz_defined-function locations,
-            824 strings with 17282 characters,
-and the built_in function-call counts, 14372 in all, are:
-= -- 1075
-> -- 1046
-< -- 4
-+ -- 372
-- -- 315
-* -- 1230
-:= -- 2455
-add.period$ -- 164
-call.type$ -- 57
-change.case$ -- 54
+            835 strings with 17792 characters,
+and the built_in function-call counts, 14778 in all, are:
+= -- 1090
+> -- 1108
+< -- 3
++ -- 393
+- -- 335
+* -- 1295
+:= -- 2543
+add.period$ -- 167
+call.type$ -- 58
+change.case$ -- 55
 chr.to.int$ -- 0
 cite$ -- 62
 duplicate$ -- 511
-empty$ -- 1217
-format.name$ -- 315
-if$ -- 2993
+empty$ -- 1238
+format.name$ -- 335
+if$ -- 3057
 int.to.chr$ -- 0
-int.to.str$ -- 57
-missing$ -- 53
-newline$ -- 280
-num.names$ -- 56
-pop$ -- 130
+int.to.str$ -- 58
+missing$ -- 54
+newline$ -- 285
+num.names$ -- 57
+pop$ -- 127
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 226
+skip$ -- 217
 stack$ -- 0
-substring$ -- 824
-swap$ -- 79
-text.length$ -- 4
+substring$ -- 848
+swap$ -- 72
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 131
-width$ -- 59
-write$ -- 597
-(There were 5 error messages)
+warning$ -- 4
+while$ -- 133
+width$ -- 60
+write$ -- 609
+(There were 4 error messages)

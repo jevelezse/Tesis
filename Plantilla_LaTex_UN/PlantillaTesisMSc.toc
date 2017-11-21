@@ -8,23 +8,23 @@
 \contentsline {section}{\numberline {2.1}Biolog\IeC {\'\i }a molecular y secuenciaci\IeC {\'o}n masiva.}{10}
 \contentsline {subsection}{\numberline {2.1.1}La secuenciaci\IeC {\'o}n de siguiente generaci\IeC {\'o}n (NGS) aplicaciones en salud}{13}
 \contentsline {section}{\numberline {2.2}Bioinform\IeC {\'a}tica}{13}
-\contentsline {subsection}{\numberline {2.2.1}Integraci\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{13}
+\contentsline {subsection}{\numberline {2.2.1}Integraci\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{14}
 \contentsline {subsection}{\numberline {2.2.2}An\IeC {\'a}lisis de datos gen\IeC {\'o}micos con aplicaciones cl\IeC {\'\i }nicas}{17}
 \contentsline {subsection}{\numberline {2.2.3}Miner\IeC {\'\i }a de datos gen\IeC {\'o}micos}{19}
-\contentsline {chapter}{\numberline {3}Implementaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{20}
-\contentsline {section}{\numberline {3.1}Descubrimiento de variantes}{20}
-\contentsline {section}{\numberline {3.2}Datos}{21}
-\contentsline {section}{\numberline {3.3}Estrategias del pipeline}{21}
-\contentsline {section}{\numberline {3.4}Resultados}{23}
-\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{31}
-\contentsline {section}{\numberline {3.6}Conclusiones}{34}
-\contentsline {chapter}{\numberline {4}Sistema de informaci\IeC {\'o}n}{36}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{36}
-\contentsline {section}{\numberline {4.2}Metodolog\IeC {\'\i }a}{37}
-\contentsline {section}{\numberline {4.3}Resultados}{37}
-\contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n}{40}
-\contentsline {subsection}{\numberline {4.4.1}Gesti\IeC {\'o}n de datos biol\IeC {\'o}gicos}{40}
-\contentsline {section}{\numberline {4.5}Conclusi\IeC {\'o}n}{40}
+\contentsline {chapter}{\numberline {3}Sistema de informaci\IeC {\'o}n}{20}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{20}
+\contentsline {section}{\numberline {3.2}Metodolog\IeC {\'\i }a}{21}
+\contentsline {section}{\numberline {3.3}Resultados}{21}
+\contentsline {section}{\numberline {3.4}Discusi\IeC {\'o}n}{24}
+\contentsline {subsection}{\numberline {3.4.1}Gesti\IeC {\'o}n de datos biol\IeC {\'o}gicos}{24}
+\contentsline {section}{\numberline {3.5}Conclusi\IeC {\'o}n}{24}
+\contentsline {chapter}{\numberline {4}Implementaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{25}
+\contentsline {section}{\numberline {4.1}Descubrimiento de variantes}{25}
+\contentsline {section}{\numberline {4.2}Datos}{26}
+\contentsline {section}{\numberline {4.3}Estrategias del pipeline}{26}
+\contentsline {section}{\numberline {4.4}Resultados}{28}
+\contentsline {section}{\numberline {4.5}Discusi\IeC {\'o}n}{36}
+\contentsline {section}{\numberline {4.6}Conclusiones}{39}
 \contentsline {chapter}{\numberline {5}Cap\'{\i }tulo 3}{41}
 \contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{42}
 \contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{43}

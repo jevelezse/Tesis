@@ -3,28 +3,28 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces SNPs en Humanos.}}{12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Pipeline basado en las buenas practicas para el llamado de variantes.}}{22}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Calidad del llamado de bases en una secuencia Estad\IeC {\'\i }sticas b\IeC {\'a}sicas del reporte FASTQ}}{24}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Variantes obtenidas por Omics pipe}}{25}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Variaciones de la muestra}}{25}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Variantes obtenidas por Omics pipe}}}{25}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Variantes calibradas}}}{25}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{26}
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{26}
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre variantes comunes de Omics y de Illumina}}{27}
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas.}}{28}
-\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Variaciones de la muestras dentro del exoma}}{28}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Variantes obtenidas por Omics}}}{28}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Variantes p\IeC {\'u}blicas}}}{28}
-\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas}}{29}
-\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre las variantes publicas y las obtenidas por el pipeline}}{29}
-\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Imagen de la variante presenten en el exoma p\IeC {\'u}blico}}{31}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Interfaz de ingreso para administrar la base de datos.}}{21}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Interfaz de administraci\IeC {\'o}n.}}{22}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Ingreso de pacientes.}}{22}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Consulta a variantes}}{22}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Modelo entidad relaci\IeC {\'o}n}}{23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Interfaz de ingreso para administrar la base de datos.}}{37}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Interfaz de administraci\IeC {\'o}n.}}{38}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Ingreso de pacientes.}}{38}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Consulta a variantes}}{38}
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Modelo entidad relaci\IeC {\'o}n}}{39}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Pipeline basado en las buenas practicas para el llamado de variantes.}}{27}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Calidad del llamado de bases en una secuencia Estad\IeC {\'\i }sticas b\IeC {\'a}sicas del reporte FASTQ}}{29}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Variantes obtenidas por Omics pipe}}{30}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Variaciones de la muestra}}{30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Variantes obtenidas por Omics pipe}}}{30}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Variantes calibradas}}}{30}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{31}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{31}
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre variantes comunes de Omics y de Illumina}}{32}
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas.}}{33}
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Variaciones de la muestras dentro del exoma}}{33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Variantes obtenidas por Omics}}}{33}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Variantes p\IeC {\'u}blicas}}}{33}
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas}}{34}
+\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre las variantes publicas y las obtenidas por el pipeline}}{34}
+\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces Imagen de la variante presenten en el exoma p\IeC {\'u}blico}}{36}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
