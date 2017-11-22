@@ -4,73 +4,76 @@ The top-level auxiliary file: PlantillaTesisMSc.aux
 A level-1 auxiliary file: HojaTitulo/HojaTituloMSc.aux
 A level-1 auxiliary file: Kap1/Kap1.aux
 A level-1 auxiliary file: Estado/Estado.aux
-A level-1 auxiliary file: Kap2/Kap2.aux
 A level-1 auxiliary file: Kap3/Kap3.aux
+A level-1 auxiliary file: Kap2/Kap2.aux
 A level-1 auxiliary file: Kap4/Kap4.aux
 A level-1 auxiliary file: Kap5/Kap5.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Repeated entry---line 4166 of file library.bib
- : @article{Bao2014
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4465 of file library.bib
- : @article{Fisch2015
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4894 of file library.bib
- : @article{Canuel2015
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5473 of file library.bib
+Repeated entry---line 829 of file library.bib
  : @article{Li2014
  :                ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Wenger2017"
+Repeated entry---line 2137 of file library.bib
+ : @article{Canuel2015
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2551 of file library.bib
+ : @article{Fisch2015
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5363 of file library.bib
+ : @article{Bao2014
+ :                 ,
+I'm skipping whatever remains of this entry
+I was expecting a `{' or a `('---line 5368 of file library.bib
+ : CONTACT: kmesser@ucsd.edu 
+ :                           SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.},
+I'm skipping whatever remains of this entry
 Warning--empty journal in Maharjan2011
 Warning--empty journal in Kutzera2017
 Warning--can't use both volume and number fields in Auwera2014
 Warning--empty publisher in Auwera2014
-You've used 58 entries,
+You've used 59 entries,
             1791 wiz_defined-function locations,
-            835 strings with 17792 characters,
-and the built_in function-call counts, 14778 in all, are:
-= -- 1090
-> -- 1108
+            840 strings with 17985 characters,
+and the built_in function-call counts, 15035 in all, are:
+= -- 1108
+> -- 1134
 < -- 3
-+ -- 393
-- -- 335
-* -- 1295
-:= -- 2543
-add.period$ -- 167
-call.type$ -- 58
-change.case$ -- 55
++ -- 402
+- -- 343
+* -- 1316
+:= -- 2592
+add.period$ -- 170
+call.type$ -- 59
+change.case$ -- 56
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 511
-empty$ -- 1238
-format.name$ -- 335
-if$ -- 3057
+cite$ -- 63
+duplicate$ -- 520
+empty$ -- 1255
+format.name$ -- 343
+if$ -- 3108
 int.to.chr$ -- 0
-int.to.str$ -- 58
-missing$ -- 54
-newline$ -- 285
-num.names$ -- 57
-pop$ -- 127
+int.to.str$ -- 59
+missing$ -- 55
+newline$ -- 290
+num.names$ -- 58
+pop$ -- 128
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 217
+skip$ -- 220
 stack$ -- 0
-substring$ -- 848
-swap$ -- 72
+substring$ -- 855
+swap$ -- 73
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 133
-width$ -- 60
-write$ -- 609
-(There were 4 error messages)
+while$ -- 136
+width$ -- 61
+write$ -- 620
+(There were 5 error messages)

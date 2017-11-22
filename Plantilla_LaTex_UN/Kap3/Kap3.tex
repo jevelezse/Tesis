@@ -1,24 +1,41 @@
-\chapter{Sistema de información}
+\chapter{Modelo de Integración de la Información}
 \section{Introducción}
 
 Las nuevas tecnologías de análisis genético son fáciles y económicas de hacer lo que genera una gran cantidad de datos biológicos y lo que hace que los biólogos trabajen cada vez más con las nuevas tecnologías de análisis genético, haciendo que los biólogos trabajen más y más computacionalmente.Especialmente mediante el uso de  tecnologías de secuenciación (NGS) y presentar un reto para integrar y almacenar la información, pasos que son necesarios para su posterior análisis \cite{Li2014,Cook2016}.\\
 
 La gran cantidad de datos presentan un reto para organizar y manejar datos que crecen de manera exponencial y que son de diversos tipos, dado que los datos son generados a diferentes niveles y con diferentes métodos (ejemplo: Variantes de exones o imágenes de patología), datos que a su vez deben ser almacenados en distintas formas, esta situación muestra una seria dificultad para realizar un análisis integral de los datos \cite{Cook2016,Li2014}.\\
 
-El mayor de los retos es crear herramientas que permitan al investigador acceder a la información fácilmente y que pueda tener una base de datos intercalable,donde pueda consultar, analizar y actualizar la información de sus experimentos \cite{Li2014}.\\
+El mayor de los retos es crear herramientas que permitan al investigador acceder a la información fácilmente y que pueda tener una base de datos intercalable,donde pueda consultar, analizar y actualizar la información de sus experimentos \cite{Li2014}.En el campo clínico esto representa un reto aun mayor dado que se hace necesario recolectar los datos genéticos junto con los datos clínicos para poder hacer análisis más acertados y a gran escala \cite{Paila2013}.\\
 
-En el campo clínico esto representa un reto aun mayor dado que se hace necesario recolectar los datos genéticos junto con los datos clínicos para poder hacer análisis más acertados y a gran escala \cite{Paila2013}.\\
+El problema de la heterogeneidad  de los datos  se aplica igualmente a los datos clínicos que describen pacientes individuales y además a los datos biológicos que caracterizan nuestro genoma. Específicamente la información genómica y clínica son datos altamente heterogéneos con respecto a los modelos de datos que emplean normalmente, los esquemas de datos que especifican, los lenguajes de consulta que soportan y las terminologías que reconocen \cite{Sujansky2001}.\\
 
-El problema de la heterogeneidad  de los datos  se aplica igualmente a los datos clínicos que describen pacientes individuales y además a los datos biológicos que caracterizan nuestro genoma. Específicamente, las bases de datos son altamente heterogéneas con respecto a los modelos de datos que emplean, los esquemas de datos que especifican, los lenguajes de consulta que soportan y las terminologías que reconocen \cite{Sujansky2001}.\\
+Para el caso de las variantes se tiene que para cada individuo hay 3.5 millones de variantes por individuo, estas variantes son almacenadas normalmente en el formato VCF (Formato de llamado de variantes), a su vez estos archivos pueden contener varias gigas de información,especialmente las muestras de genomas completos, que representan un problema para el almacenamiento dentro de las bases de datos, bases de datos que han sido desarrolladas para dar soluciones dependientes de las diferentes características y necesidades de los laboratorios\cite{Kutzera2017}.\\
 
-Por ello se hace necesario que se utilicen herramientas para la gestión de la información, por ejemplo django que es un web framework de alto nivel desarrollado en python  fomenta el desarrollo rápido y limpio, para la creación de aplicaciones web, es de código abierto y gratuito.Se basa en los principios de desarrollo rápido, manejo de la seguridad y es altamente escalable . Dentro de las muchas aplicaciones que tiene django una es el manejo y gestión de bases de datos a través de los módulos de python. Ver documentación https://www.djangoproject.com/ \\.
-
+Por ello se hace necesario que se utilicen herramientas para la gestión de la información, por ejemplo django que es un web framework de alto nivel desarrollado en python  fomenta el desarrollo rápido y limpio, para la creación de aplicaciones web, es de código abierto y gratuito.Se basa en los principios de desarrollo rápido, manejo de la seguridad y es altamente escalable . Dentro de las muchas aplicaciones que tiene django una es el manejo y gestión de bases de datos a través de los módulos de python. Ver documentación https://www.djangoproject.com/. 
 
 \section{Metodología}
 
-Nosotros a continuación proponemos la utilización de una base de datos con la información clínica disponible y las anotaciones de variantes obtenidas por medio de un pipeline validado previamente para la anotación de variantes, basado en la propuesta de Fish y colaboradores en 2015 \cite{Fisch2015} y anotados con annovar web service \cite{Yang2015}. Las historias clinicas fueron transcritas manualmente y cargadas desde un archivo de texto plano con un formato especifico.\\
+Nosotros a continuación proponemos la utilización de una base de datos con la información clínica disponible y las anotaciones de variantes obtenidas por medio de un pipeline validado previamente para la anotación de variantes, basado en la propuesta de Fish y colaboradores en 2015 \cite{Fisch2015} y anotados con annovar web service \cite{Yang2015}. Las historias clínicas fueron transcritas manualmente y cargadas desde un archivo de texto plano con un formato especifico.\\
 
 Se genero una base de datos utilizando Django 1.10 en python 3 y la librería grapelli, que se conectan  a  MySQL  5.7.17 desde un PC portatil HP-pavilion 360 con ubuntu 16.04 LTS. Django genera los modelos de EER pero permite su modificación para optimizar la velocidad de las consultas. \\
+
+La figura \ref{fig flujo2} representa los datos que fueron utilizados para realizar la integración de la información dentro de la base de datos.
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.6\textwidth]{Kap3/flujo2}
+	\caption{Flujo de integración de la información.} \label{fig:flujo2}
+\end{figure}
+
+Las variantes con su historia clínica fueron cargadas mediante un script en bash disponible en https://github.com/jevelezse/variantesBD/blob/master/carga.bash, donde se toman los archivos .csv de annovar junto con los archivos de texto que tienen la información clínica del paciente distribuida de la siguiente forma:
+
+\begin{itemize}
+	\item Edad: 0-99. Los recién nacidos  o menores de un año tienen una edad de 0.
+	\item Sexo: F o M según corresponda.
+	\item Descripción: Que corresponde a la información clínica disponible.
+\end{itemize} 
+
+
 
 \section{Resultados} 
 
@@ -30,7 +47,7 @@ Los resultados obtenidos fueron una aplicación con una interfaz que permite a l
 	\caption{Interfaz de ingreso para  administrar la base de datos.} \label{fig:admin}
 \end{figure}
 
-Inicialmente la figura (\ref{fig:admin}), muestra la solicitud de usuario y contraseña para acceder a la aplicación, es diferente a la base de MySQL que puede tener  una contraseña igual o diferente a la interfaz gráfica .
+Inicialmente la figura\ref{fig:admin}, muestra la solicitud de usuario y contraseña para acceder a la aplicación, es diferente a la base de MySQL, pero  puede tener  una contraseña igual o diferente a la de la base de datos.
 
 \begin{figure}[h] 
 	\centering
@@ -38,9 +55,9 @@ Inicialmente la figura (\ref{fig:admin}), muestra la solicitud de usuario y cont
 	\caption{Interfaz de administración.} \label{fig:admin2}
 \end{figure}
 
-La figura (\ref{fig:admin2}), muestra el sitio de administración donde se encuentran los usuarios permitidos, las bases de datos a consultar y muestra un histórico de las actividades recientes. \\
+La figura \ref{fig:admin2}, muestra el sitio de administración donde se encuentran los usuarios permitidos, las bases de datos a consultar y muestra un histórico de las actividades recientes. \\
 
-Desde esta interfaz se puede agregar un grupo, más usuarios y pacientes y/o variantes dando click en el signo más sin necesidad de hacer la carga directa a MySQL ya que Django se encarga de hacer la carga. \\
+Desde esta interfaz se puede agregar un grupo, más usuarios, pacientes y/o variantes dando click en el signo más sin necesidad de hacer la carga directa a MySQL ya que Django se encarga de hacer la carga, lo que permite actualizar los cambios que se reporten para la variante, por ejemplo variantes que por su alta frecuencia poblacional dejan de ser variantes y se convierten en referencias. \\
 
 \begin{figure}[h] 
 	\centering
@@ -48,7 +65,7 @@ Desde esta interfaz se puede agregar un grupo, más usuarios y pacientes y/o var
 	\caption{Ingreso de pacientes.} \label{fig:pacientes}
 \end{figure}
 
-En la figura (\ref{fig:pacientes}) se muestra el formulario para ingresar una nueva historia o de modificar una historia clínica de un paciente de manera manual.
+En la figura \ref{fig:pacientes} se muestra el formulario para ingresar una nueva historia o de modificar una historia clínica de un paciente de manera manual.
 
 \begin{figure}[h] 
 	\centering
@@ -57,7 +74,7 @@ En la figura (\ref{fig:pacientes}) se muestra el formulario para ingresar una nu
 \end{figure}
 
 
-La figura (\ref{fig:consulta}) muestra una consulta de las variantes que se tienen cargadas en la base de datos para el gen BRCA1, donde nos muestra una consulta de las variantes con su anotación  filtrada mediante un script de python antes de cargar las anotaciones de la tabla obtenida por annovar para cada paciente. Desde esta misma interfaz se puede hacer consultas de pacientes que se deben eliminar, en la parte inferior se encuentra la opción.\\
+La figura \ref{fig:consulta} muestra una consulta de las variantes que se tienen cargadas en la base de datos para el gen BRCA1, donde nos muestra una consulta de las variantes con su anotación  filtrada mediante un script de python antes de cargar las anotaciones de la tabla obtenida por annovar para cada paciente. Desde esta misma interfaz se puede hacer consultas de pacientes que se deben eliminar, en la parte inferior se encuentra la opción.\\
 
 Si se desea hacer modificaciones a los datos del paciente también es posible hacerlo desde esta misma interfaz seleccionando el código del paciente, que lleva a la tabla de genes\_varante\_paciente que contiene el formulario de la historia clínica con los datos cargados para ser modificados. 
 

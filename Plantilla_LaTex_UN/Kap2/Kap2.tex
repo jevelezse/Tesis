@@ -1,6 +1,6 @@
 \chapter{Implementación de un pipeline para la identificación de variantes}
 
-En este capitulo se presenta la validación de un pipeline para la identificación de variantes a partir de datos de secuenciación masiva, donde se utiliza datos públicos como los propios de la población muestreada para validar la calidad  de las variantes que posteriormente fueron almacenadas en a base de datos.
+En este capitulo se presenta el proceso para validar un pipeline que permite la  identificación de variantes a partir de datos de secuenciación de siguientes generación (NGS), donde se utiliza datos públicos un paciente de la población para validar la calidad  de las variantes que posteriormente fueron almacenadas en a base de datos.
 
 \section{Descubrimiento de variantes}
 
@@ -38,6 +38,14 @@ Se utilizo como base modulo de omics-pipe propuesto por Fish y colaboradores \ci
 	\centering
 	\includegraphics[width=0.2\textwidth]{Kap2/pipe}
 	\caption{Pipeline basado en las buenas practicas para el llamado de variantes.} \label{fig:pipeline}
+\end{figure}
+
+Para el presente trabajo se adiciono el filtrado especifico de variantes según GATK y la parte de anotación de variantes con wAnnovar de la siguiente manera como muestra la siguiente figura \ref{fig:pipeline2}:
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.6\textwidth]{Kap2/pipeline1}
+	\caption{Pipeline basado en las buenas practicas para el llamado de variantes.} \label{fig:pipeline2}
 \end{figure}
 	
 	\subsection*{Herramientas computacionales}

@@ -142,6 +142,11 @@ Xutao Deng.
   transcriptome- sequencing data.}
 \newblock {\em BMC bioinformatics}, 12:267, jun 2011.
 
+\bibitem{Wenger2017}
+Aaron~M Wenger, James~T Robinson, Ahmet Zehir, and Jill~P Mesirov.
+\newblock {Variant Review with the Integrative Genomics Viewer}.
+\newblock {\em Cancer research}, 77(21):31--35, 2017.
+
 \bibitem{Shendure2016}
 Jay Shendure.
 \newblock {Human genomics: A deep dive into genetic variation}.
@@ -270,6 +275,30 @@ Mohammed~J Zaki, George Karypis, and Jiong Yang.
 \newblock {Data Mining in Bioinformatics (BIOKDD).}
 \newblock {\em Algorithms for molecular biology : AMB}, 2:4, 2007.
 
+\bibitem{Cook2016}
+Charles~E. Cook, Mary~Todd Bergman, Robert~D. Finn, Guy Cochrane, Ewan Birney,
+  and Rolf Apweiler.
+\newblock {The European Bioinformatics Institute in 2016: Data growth and
+  integration}.
+\newblock {\em Nucleic Acids Research}, 44(D1):D20--D26, 2016.
+
+\bibitem{Paila2013}
+Umadevi Paila, Brad~A. Chapman, Rory Kirchner, and Aaron~R. Quinlan.
+\newblock {GEMINI: Integrative Exploration of Genetic Variation and Genome
+  Annotations}.
+\newblock {\em PLoS Computational Biology}, 9(7), 2013.
+
+\bibitem{Sujansky2001}
+W~Sujansky.
+\newblock {Heterogeneous database integration in biomedicine.}
+\newblock {\em Journal of biomedical informatics}, 34(2001):285--298, 2001.
+
+\bibitem{Yang2015}
+H~Yang and K~Wang.
+\newblock {Genomic variant annotation and prioritization with ANNOVAR and
+  wANNOVAR}.
+\newblock {\em Nat Protoc}, 10(10):1556--1566, 2015.
+
 \bibitem{Tetreault2015}
 Martine Tetreault, Eric Bareke, Javad Nadaf, Najmeh Alirezaie, and Jacek
   Majewski.
@@ -287,10 +316,11 @@ Geraldine A Van~Der Auwera, Mauricio~O Carneiro, Chris Hartl, Ryan Poplin, Ami
 \newblock 2014.
 
 \bibitem{Bao2014}
-Lei Bao, Minya Pu, and Karen Messer.
-\newblock {AbsCN-seq: a statistical method to estimate tumor purity, ploidy and
-  absolute copy numbers from next-generation sequencing data.}
-\newblock {\em Bioinformatics (Oxford, England)}, 30(8):1056--1063, jan 2014.
+Riyue Bao, Lei Huang, Jorge Andrade, Wei Tan, Warren~a Kibbe, Hongmei Jiang,
+  and Gang Feng.
+\newblock {Review of Current Methods, Applications, and Data Management for the
+  Bioinformatics Analysis of Whole Exome Sequencing}.
+\newblock {\em Libertas Academica}, 13:67--82, 2014.
 
 \bibitem{Cornish2015}
 Adam Cornish and Chittibabu Guda.
@@ -302,12 +332,6 @@ Adam Cornish and Chittibabu Guda.
 \bibitem{Babraham2016}
 {Babraham Bioinformatics}.
 \newblock {FASTQC manual}, 2016.
-
-\bibitem{Yang2015}
-H~Yang and K~Wang.
-\newblock {Genomic variant annotation and prioritization with ANNOVAR and
-  wANNOVAR}.
-\newblock {\em Nat Protoc}, 10(10):1556--1566, 2015.
 
 \bibitem{Pirooznia2014}
 Mehdi Pirooznia, Melissa Kramer, Jennifer Parla, Fernando~S Goes, James~B
@@ -355,23 +379,5 @@ Xiangtao Liu, Shizhong Han, Zuoheng Wang, Joel Gelernter, and Bao~Zhu Yang.
 \newblock {Variant Callers for Next-Generation Sequencing Data: A Comparison
   Study}.
 \newblock {\em PLoS ONE}, 8(9):1--11, 2013.
-
-\bibitem{Cook2016}
-Charles~E. Cook, Mary~Todd Bergman, Robert~D. Finn, Guy Cochrane, Ewan Birney,
-  and Rolf Apweiler.
-\newblock {The European Bioinformatics Institute in 2016: Data growth and
-  integration}.
-\newblock {\em Nucleic Acids Research}, 44(D1):D20--D26, 2016.
-
-\bibitem{Paila2013}
-Umadevi Paila, Brad~A. Chapman, Rory Kirchner, and Aaron~R. Quinlan.
-\newblock {GEMINI: Integrative Exploration of Genetic Variation and Genome
-  Annotations}.
-\newblock {\em PLoS Computational Biology}, 9(7), 2013.
-
-\bibitem{Sujansky2001}
-W~Sujansky.
-\newblock {Heterogeneous database integration in biomedicine.}
-\newblock {\em Journal of biomedical informatics}, 34(2001):285--298, 2001.
 
 \end{thebibliography}
