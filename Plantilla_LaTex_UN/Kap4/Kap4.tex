@@ -12,4 +12,65 @@ Para los datos genómicos se han propuesto la utilización de paneles a partir d
 
 \section{Metodología}
 
-Se diseño un modelo de minería que se realizo como muestra la figura: 
+Se diseño un modelo de minería que se realizo como muestra la figura \ref{fig:mineria}:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/pipelinemineria}
+	\caption{Proceso de minería} \label{fig:mineria}
+\end{figure} 
+
+Después de la implementación se realizo un preprocesamiento que fue la limpieza de stop words en español, remoción de tildes y ñ, y reemplazo de palabras sinónimas dentro de las historias clínicas. Se realizo la obtención de la frecuencia de términos con la librería nltk de python y el tfidf tm de R. Una vez realizado este procedimiento se realizo un clustering con el algoritmo kmeans ++  con los parametros por defecto implementado en python 2.7.13 de la librería sklearn de python, previamente se calculo el número de k con el error cuadrático y el valor de silueta también implementado en la librería de sklearn de python y los gráficos fueron realizados con la librerías pandas y matplolib.
+ 
+\section{Resultados}
+
+Los resultados que se obtuvieron fueron que las palabras más frecuentes fueron seno, cancer, sindrome, sospecha y años. La figura \ref{fig:sin} muestra la frecuencia de palabras que se obtuvieron dentro de la base de datos.
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/sin_stop}}
+	\subfigure[Frecuencia de términos]{\includegraphics[width=60mm]{Kap4/frecuecias}}
+	\caption{Frecuencias sin stop words y palabras sinónimas} \label{fig:sin}
+\end{figure} 
+
+Una vez realizada la selección de el número optimo de K se ejecuto el algoritmo kmeans obteniendo cinco clusters:
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster11}}
+	\subfigure[Rango de edad]{\includegraphics[width=60mm]{Kap4/edadcluster1}}
+	\subfigure[Género]{\includegraphics[width=60mm]{Kap4/Cluster1G}}
+	\caption{Cluster 1} \label{fig:c1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster2}}
+	\subfigure[Rango de edad]{\includegraphics[width=60mm]{Kap4/edadcluster2}}
+	\subfigure[Género]{\includegraphics[width=60mm]{Kap4/Cluster2G}}
+	\caption{Cluster 2} \label{fig:c2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster3}}
+	\subfigure[Rango de edad]{\includegraphics[width=60mm]{Kap4/edadcluster3}}
+	\subfigure[Género]{\includegraphics[width=60mm]{Kap4/Cluster3G}}
+	\caption{Cluster 3} \label{fig:c3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster4}}
+	\subfigure[Rango de edad]{\includegraphics[width=60mm]{Kap4/edadcluster4}}
+	\subfigure[Género]{\includegraphics[width=60mm]{Kap4/Cluster4G}}
+	\caption{Cluster 4} \label{fig:c4}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster5}}
+	\subfigure[Rango de edad]{\includegraphics[width=60mm]{Kap4/edadcluster5}} %pendiente por hacer en python!
+	\subfigure[Género]{\includegraphics[width=60mm]{Kap4/Cluster5G}}
+	\caption{Cluster 5} \label{fig:c5}
+\end{figure}
