@@ -15,16 +15,17 @@ Por ello se hace necesario que se utilicen herramientas para la gestión de la i
 
 \section{Metodología}
 
-Nosotros a continuación proponemos la utilización de una base de datos con la información clínica disponible y las anotaciones de variantes obtenidas por medio de un pipeline validado previamente para la anotación de variantes, basado en la propuesta de Fish y colaboradores en 2015 \cite{Fisch2015} y anotados con annovar web service \cite{Yang2015}. Las historias clínicas fueron transcritas manualmente y cargadas desde un archivo de texto plano con un formato especifico.\\
+A continuación proponemos la utilización de una base de datos con la información clínica disponible y las anotaciones de variantes obtenidas por medio de un pipeline que fue validado previamente (la validación se encuentra descrita en el siguiente capitulo) para la anotación de variantes, basado en la propuesta de Fish y colaboradores en 2015 \cite{Fisch2015} y anotados con annovar web service \cite{Yang2015}. Las historias clínicas fueron transcritas manualmente y cargadas desde un archivo de texto plano con un formato especifico.\\
 
 Se genero una base de datos utilizando Django 1.10 en python 3 y la librería grapelli, que se conectan  a  MySQL  5.7.17 desde un PC portatil HP-pavilion 360 con ubuntu 16.04 LTS. Django genera los modelos de EER pero permite su modificación para optimizar la velocidad de las consultas. \\
 
-La figura \ref{fig flujo2} representa los datos que fueron utilizados para realizar la integración de la información dentro de la base de datos.
+La figura \ref{fig:flujo2} representa el flujo de trabajo que fue utilizado para realizar la integración de la información dentro de la base de datos.
 
 \begin{figure}[H] 
 	\centering
 	\includegraphics[width=0.6\textwidth]{Kap3/flujo2}
-	\caption{Flujo de integración de la información.} \label{fig:flujo2}
+	\caption{Flujo de integración de la información.} 
+	\label{fig:flujo2}
 \end{figure}
 
 Las variantes con su historia clínica fueron cargadas mediante un script en bash disponible en https://github.com/jevelezse/variantesBD/blob/master/carga.bash, donde se toman los archivos .csv de annovar junto con los archivos de texto que tienen la información clínica del paciente distribuida de la siguiente forma:
@@ -34,8 +35,6 @@ Las variantes con su historia clínica fueron cargadas mediante un script en bas
 	\item Sexo: F o M según corresponda.
 	\item Descripción: Que corresponde a la información clínica disponible.
 \end{itemize} 
-
-
 
 \section{Resultados} 
 
@@ -78,20 +77,22 @@ La figura \ref{fig:consulta} muestra una consulta de las variantes que se tienen
 
 Si se desea hacer modificaciones a los datos del paciente también es posible hacerlo desde esta misma interfaz seleccionando el código del paciente, que lleva a la tabla de genes\_varante\_paciente que contiene el formulario de la historia clínica con los datos cargados para ser modificados. 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Kap3/modeloEER}
+	\includegraphics[width=0.9\textwidth]{Kap3/modeloEER}
 	\caption{Modelo entidad relación} \label{fig:t}
 \end{figure}
 
-La figura (\ref{fig:t}) muestra el modelo EER que se genero en la base de datos MySQL, donde se muestra el modelo  EER que muestra las tablas generadas por la aplicación para crear la base de datos donde se incluyen las tablas de para la gestión del las variantes junto con la historia clínica y se tiene encuentra la posible relación parental, padre, madre e hijo, el control de las consultas de la variantes indexadas y dentro de la misma base la gestión de accesos a otros usuarios con sus permisos.
+La figura \ref{fig:t} muestra el modelo EER que se genero en la base de datos MySQL, donde se muestra el modelo  EER que muestra las tablas generadas por la aplicación para crear la base de datos donde se incluyen las tablas de para la gestión del las variantes junto con la historia clínica y se tiene encuentra la posible relación parental, padre, madre e hijo, el control de las consultas de la variantes indexadas y dentro de la misma base la gestión de accesos a otros usuarios con sus permisos.
 
 \section{Discusión}
-\subsection{Gestión de datos biológicos}
+
+\subsection*{Gestión de datos genómicos y clínicos}
 
 La importancia de gestión aplicada al manejo de datos clínicos y de información genética es de vital importancia dado que existen miles de anotaciones que requieren de scripts para cargarlos las anotaciones y como es este caso el historial clínico del paciente \cite{Paila2013}. \\
 
 La aplicación desarrollada para crear y gestionar una base de datos aplicada una bioinformática con aplicaciones a la medicina, es necesario que la base de datos provea las consultas para soportar las decisiones sobre un paciente en especifico teniendo en cuenta sus datos,la relación con datos de otros pacientes y los datos de exomas, además de los datos relacionados con los familiares en caso de que se encuentren estos datos. Mostrando que es posible realizar una integración adecuada de los datos bioinformáticos y clínicos utilizando bases de datos relacionales, con una buena respuesta en las consultas. \cite{Sujansky2001}.
 
 \section{Conclusión}
-La utilización de aplicaciones en Django permite que un bioinformático diseñe e implemente bases de datos aplicadas al diagnostico clínico, donde se puede guardar y gestionar toda la información obtenida de un paciente, lo que permite hacer análisis a profesionales Médicos y biólogos fácilmente. Una vez ha sido implementa la base de datos también es posible aplicar técnicas de minería de datos para optimizar los análisis  de los pacientes. \\
+
+La utilización de aplicaciones en Django permite que un bioinformático diseñe e implementar bases de datos aplicadas al diagnostico clínico, donde se puede guardar y gestionar toda la información obtenida de un paciente, lo que permite hacer análisis a profesionales Médicos y biólogos fácilmente. Una vez ha sido implementa la base de datos también es posible aplicar técnicas de minería de datos para optimizar los análisis de la información. \\

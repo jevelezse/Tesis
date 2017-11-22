@@ -28,8 +28,9 @@ Madhuri Hegde, Avni Santani, Rong Mao, Andrea Ferreira-Gonzalez, Karen~E. Weck,
 
 \bibitem{Li2014}
 Yixue Li and Luonan Chen.
-\newblock {Big biological data: challenges and opportunities.}
-\newblock {\em Genomics, proteomics \& bioinformatics}, 12(5):187--9, oct 2014.
+\newblock {Big Biological Data: Challenges and Opportunities Expanding volume
+  of the big biological data and its bonanza}.
+\newblock {\em Genomics, Proteomics \& Bioinformatics}, 12(5):187--189, 2014.
 
 \bibitem{Lauzon2016}
 David Lauzon, Beatriz Kanzki, Victor Dupuy, Alain April, Michael~S. Phillips,
@@ -270,34 +271,15 @@ Stefan Naulaerts, Pieter Meysman, Wout Bittremieux, Trung~Nghia Vu, Wim {Vanden
 \newblock {A primer to frequent itemset mining for bioinformatics.}
 \newblock {\em Briefings in bioinformatics}, 36(2):3066--3076, 2013.
 
+\bibitem{Farid2016}
+Dewan~Md. Farid, Mohammad~Abdullah Al-Mamun, Bernard Manderick, and Ann Nowe.
+\newblock {An adaptive rule-based classifier for mining big biological data}.
+\newblock {\em Expert Systems with Applications}, 64:305--316, 2016.
+
 \bibitem{Zaki2007}
 Mohammed~J Zaki, George Karypis, and Jiong Yang.
 \newblock {Data Mining in Bioinformatics (BIOKDD).}
 \newblock {\em Algorithms for molecular biology : AMB}, 2:4, 2007.
-
-\bibitem{Cook2016}
-Charles~E. Cook, Mary~Todd Bergman, Robert~D. Finn, Guy Cochrane, Ewan Birney,
-  and Rolf Apweiler.
-\newblock {The European Bioinformatics Institute in 2016: Data growth and
-  integration}.
-\newblock {\em Nucleic Acids Research}, 44(D1):D20--D26, 2016.
-
-\bibitem{Paila2013}
-Umadevi Paila, Brad~A. Chapman, Rory Kirchner, and Aaron~R. Quinlan.
-\newblock {GEMINI: Integrative Exploration of Genetic Variation and Genome
-  Annotations}.
-\newblock {\em PLoS Computational Biology}, 9(7), 2013.
-
-\bibitem{Sujansky2001}
-W~Sujansky.
-\newblock {Heterogeneous database integration in biomedicine.}
-\newblock {\em Journal of biomedical informatics}, 34(2001):285--298, 2001.
-
-\bibitem{Yang2015}
-H~Yang and K~Wang.
-\newblock {Genomic variant annotation and prioritization with ANNOVAR and
-  wANNOVAR}.
-\newblock {\em Nat Protoc}, 10(10):1556--1566, 2015.
 
 \bibitem{Tetreault2015}
 Martine Tetreault, Eric Bareke, Javad Nadaf, Najmeh Alirezaie, and Jacek
@@ -332,6 +314,12 @@ Adam Cornish and Chittibabu Guda.
 \bibitem{Babraham2016}
 {Babraham Bioinformatics}.
 \newblock {FASTQC manual}, 2016.
+
+\bibitem{Yang2015}
+H~Yang and K~Wang.
+\newblock {Genomic variant annotation and prioritization with ANNOVAR and
+  wANNOVAR}.
+\newblock {\em Nat Protoc}, 10(10):1556--1566, 2015.
 
 \bibitem{Pirooznia2014}
 Mehdi Pirooznia, Melissa Kramer, Jennifer Parla, Fernando~S Goes, James~B
@@ -379,5 +367,29 @@ Xiangtao Liu, Shizhong Han, Zuoheng Wang, Joel Gelernter, and Bao~Zhu Yang.
 \newblock {Variant Callers for Next-Generation Sequencing Data: A Comparison
   Study}.
 \newblock {\em PLoS ONE}, 8(9):1--11, 2013.
+
+\bibitem{Cook2016}
+Charles~E. Cook, Mary~Todd Bergman, Robert~D. Finn, Guy Cochrane, Ewan Birney,
+  and Rolf Apweiler.
+\newblock {The European Bioinformatics Institute in 2016: Data growth and
+  integration}.
+\newblock {\em Nucleic Acids Research}, 44(D1):D20--D26, 2016.
+
+\bibitem{Paila2013}
+Umadevi Paila, Brad~A. Chapman, Rory Kirchner, and Aaron~R. Quinlan.
+\newblock {GEMINI: Integrative Exploration of Genetic Variation and Genome
+  Annotations}.
+\newblock {\em PLoS Computational Biology}, 9(7), 2013.
+
+\bibitem{Sujansky2001}
+W~Sujansky.
+\newblock {Heterogeneous database integration in biomedicine.}
+\newblock {\em Journal of biomedical informatics}, 34(2001):285--298, 2001.
+
+\bibitem{Wang2017}
+Fei Wang, Xiao-li Li, Jason T~L Wang, and See-kiong Ng.
+\newblock {Guest Editorial: Special Section on Biological Data Mining and Its
+  Applications in Healthcare}.
+\newblock 14(3):501--502, 2017.
 
 \end{thebibliography}

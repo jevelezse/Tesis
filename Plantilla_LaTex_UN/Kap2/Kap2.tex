@@ -1,4 +1,4 @@
-\chapter{Implementación de un pipeline para la identificación de variantes}
+\chapter{Datos: Validación de la calidad de las variantes}
 
 En este capitulo se presenta el proceso para validar un pipeline que permite la  identificación de variantes a partir de datos de secuenciación de siguientes generación (NGS), donde se utiliza datos públicos un paciente de la población para validar la calidad  de las variantes que posteriormente fueron almacenadas en a base de datos.
 
@@ -272,7 +272,7 @@ La representación escrita informa el cromosoma, la posición dentro del genoma 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{Kap2/IGV}
-	\caption{Imagen de la variante presenten en el exoma público} \label{fig:igv}
+	\caption{Imagen de la variante presente en el exoma público} \label{fig:igv}
 \end{figure}
 
 \section{Discusión}
@@ -281,7 +281,7 @@ La representación escrita informa el cromosoma, la posición dentro del genoma 
 
 La revisión de las metricas dadas por el FASTQC report muestran el estado de como están las secuencias antes de ser procesadas, aunque a nivel experimental no dependiendo de las condiciones y el tipo de muestra los niveles de calidad terminan bajando de manera sustancial y depende del analista tomar la decisión de remover secuencias o mantenerlas ya que los diferentes módulos presentan diversas meticas de evaluación de las secuencias \cite{Babraham2016}. \\
 
-El presente conjunto de secuencias FASTQ se encuentra con buenos parametros de calidad, aunque algunos modulos presentan falla, el percentil, el porcentaje de GC, la distribución del largo de las secuencias, los niveles de duplicación de las secuencias y los valores de K-mer y las secuencias en secuencias cortas de 7 nucleótidos, representan que dentro del conjunto de datos estas secuencias cortas están en la parte inicial de la mayoria de las lecturas obtenidas en la muestra y que posiblemente son secuencias duplicadas que no pertenecen al conjunto de secuencias real, apesar de que no se encuentran adaptadores, ni representaciones al final de las lecturas. Esto puede llevar a dos caminos, el primero que estas secuencias sean parte de un adaptador (llama la atención que no se encuentren al final de la secuencia)  o que sean errores propios del proceso de secuenciación durante la hibridación de las secuencias y sean representados como duplicaciones de las secuencias originales \cite{Babraham2016}\cite{Pirooznia2014}. \\ 
+El presente conjunto de secuencias FASTQ se encuentra con buenos parámetros de calidad, aunque algunos módulos presentan falla, el percentil, el porcentaje de GC, la distribución del largo de las secuencias, los niveles de duplicación de las secuencias y los valores de K-mer y las secuencias en secuencias cortas de 7 nucleótidos, representan que dentro del conjunto de datos estas secuencias cortas están en la parte inicial de la mayoria de las lecturas obtenidas en la muestra y que posiblemente son secuencias duplicadas que no pertenecen al conjunto de secuencias real, a pesar de que no se encuentran adaptadores, ni representaciones al final de las lecturas. Esto puede llevar a dos caminos, el primero que estas secuencias sean parte de un adaptador (llama la atención que no se encuentren al final de la secuencia)  o que sean errores propios del proceso de secuenciación durante la hibridación de las secuencias y sean representados como duplicaciones de las secuencias originales \cite{Babraham2016}\cite{Pirooznia2014}. \\ 
 
 Además existen otras características que pueden generar impactos negativos dentro del analisis de datos de NGS divididas en dos grupos \cite{Zhou2013}: 
 
