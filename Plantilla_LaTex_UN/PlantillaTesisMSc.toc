@@ -28,8 +28,8 @@
 \contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{43}
 \contentsline {section}{\numberline {5.2}Metodolog\IeC {\'\i }a}{43}
 \contentsline {section}{\numberline {5.3}Resultados}{44}
-\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{49}
-\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{50}
-\contentsline {section}{\numberline {7.1}Conclusiones}{50}
-\contentsline {section}{\numberline {7.2}Recomendaciones}{50}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{51}
+\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{51}
+\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{52}
+\contentsline {section}{\numberline {7.1}Conclusiones}{52}
+\contentsline {section}{\numberline {7.2}Recomendaciones}{52}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{53}
