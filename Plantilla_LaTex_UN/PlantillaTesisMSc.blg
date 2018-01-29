@@ -11,23 +11,23 @@ A level-1 auxiliary file: Kap5/Kap5.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Repeated entry---line 655 of file library.bib
- : @article{Li2014
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2124 of file library.bib
+Repeated entry---line 1112 of file library.bib
  : @article{Canuel2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2551 of file library.bib
+Repeated entry---line 1322 of file library.bib
+ : @article{Li2014
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1850 of file library.bib
  : @article{Fisch2015
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5363 of file library.bib
+Repeated entry---line 2889 of file library.bib
  : @article{Bao2014
  :                 ,
 I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 5368 of file library.bib
+I was expecting a `{' or a `('---line 2894 of file library.bib
  : CONTACT: kmesser@ucsd.edu 
  :                           SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.},
 I'm skipping whatever remains of this entry
@@ -38,24 +38,24 @@ Warning--empty publisher in Auwera2014
 Warning--empty journal in Wang2017
 You've used 61 entries,
             1791 wiz_defined-function locations,
-            852 strings with 18520 characters,
-and the built_in function-call counts, 15577 in all, are:
-= -- 1157
+            852 strings with 18378 characters,
+and the built_in function-call counts, 15561 in all, are:
+= -- 1155
 > -- 1162
 < -- 3
 + -- 412
 - -- 351
 * -- 1361
-:= -- 2679
+:= -- 2677
 add.period$ -- 176
 call.type$ -- 61
 change.case$ -- 58
 chr.to.int$ -- 0
 cite$ -- 66
 duplicate$ -- 538
-empty$ -- 1304
+empty$ -- 1302
 format.name$ -- 351
-if$ -- 3222
+if$ -- 3218
 int.to.chr$ -- 0
 int.to.str$ -- 61
 missing$ -- 57
@@ -67,7 +67,7 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 226
 stack$ -- 0
-substring$ -- 911
+substring$ -- 905
 swap$ -- 74
 text.length$ -- 3
 text.prefix$ -- 0
