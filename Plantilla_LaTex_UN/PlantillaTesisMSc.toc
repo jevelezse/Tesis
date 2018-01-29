@@ -9,27 +9,28 @@
 \contentsline {subsection}{\numberline {2.1.1}La secuenciaci\IeC {\'o}n de siguiente generaci\IeC {\'o}n (NGS) aplicaciones en salud}{13}
 \contentsline {section}{\numberline {2.2}Bioinform\IeC {\'a}tica}{13}
 \contentsline {subsection}{\numberline {2.2.1}Integraci\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{14}
-\contentsline {subsection}{\numberline {2.2.2}An\IeC {\'a}lisis de datos gen\IeC {\'o}micos con aplicaciones cl\IeC {\'\i }nicas}{17}
-\contentsline {subsection}{\numberline {2.2.3}Miner\IeC {\'\i }a de datos gen\IeC {\'o}micos}{19}
-\contentsline {chapter}{\numberline {3}Datos: Validaci\IeC {\'o}n de la calidad de las variantes}{21}
-\contentsline {section}{\numberline {3.1}Descubrimiento de variantes}{21}
-\contentsline {section}{\numberline {3.2}Datos}{22}
-\contentsline {section}{\numberline {3.3}Estrategias del pipeline}{22}
-\contentsline {section}{\numberline {3.4}Resultados}{25}
-\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{32}
-\contentsline {section}{\numberline {3.6}Conclusiones}{36}
-\contentsline {chapter}{\numberline {4}Modelo de Integraci\IeC {\'o}n de la Informaci\IeC {\'o}n}{37}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{37}
-\contentsline {section}{\numberline {4.2}Metodolog\IeC {\'\i }a}{38}
-\contentsline {section}{\numberline {4.3}Resultados}{39}
-\contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n}{42}
-\contentsline {section}{\numberline {4.5}Conclusi\IeC {\'o}n}{42}
-\contentsline {chapter}{\numberline {5}Modelo de m\IeC {\'\i }neria de datos gen\IeC {\'o}micos}{43}
-\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{43}
-\contentsline {section}{\numberline {5.2}Metodolog\IeC {\'\i }a}{43}
-\contentsline {section}{\numberline {5.3}Resultados}{44}
-\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{51}
-\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{52}
-\contentsline {section}{\numberline {7.1}Conclusiones}{52}
-\contentsline {section}{\numberline {7.2}Recomendaciones}{52}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{53}
+\contentsline {subsection}{\numberline {2.2.2}An\IeC {\'a}lisis de datos gen\IeC {\'o}micos con aplicaciones cl\IeC {\'\i }nicas}{18}
+\contentsline {subsection}{\numberline {2.2.3}Miner\IeC {\'\i }a de datos gen\IeC {\'o}micos}{20}
+\contentsline {chapter}{\numberline {3}Valiadaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{22}
+\contentsline {section}{\numberline {3.1}Identificaci\IeC {\'o}n de variantes}{22}
+\contentsline {subsection}{\numberline {3.1.1}Analisis Bioinform\IeC {\'a}tico de datos de secuenciaci\IeC {\'o}n}{22}
+\contentsline {section}{\numberline {3.2}Datos}{23}
+\contentsline {section}{\numberline {3.3}Estrategias del pipeline}{24}
+\contentsline {section}{\numberline {3.4}Resultados}{26}
+\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{34}
+\contentsline {section}{\numberline {3.6}Conclusiones}{37}
+\contentsline {chapter}{\numberline {4}Modelo de Integraci\IeC {\'o}n de la Informaci\IeC {\'o}n}{39}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{39}
+\contentsline {section}{\numberline {4.2}Metodolog\IeC {\'\i }a}{40}
+\contentsline {section}{\numberline {4.3}Resultados}{41}
+\contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n}{44}
+\contentsline {section}{\numberline {4.5}Conclusi\IeC {\'o}n}{44}
+\contentsline {chapter}{\numberline {5}Modelo de m\IeC {\'\i }neria de datos gen\IeC {\'o}micos}{45}
+\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{45}
+\contentsline {section}{\numberline {5.2}Metodolog\IeC {\'\i }a}{45}
+\contentsline {section}{\numberline {5.3}Resultados}{46}
+\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{53}
+\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{54}
+\contentsline {section}{\numberline {7.1}Conclusiones}{54}
+\contentsline {section}{\numberline {7.2}Recomendaciones}{54}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{55}

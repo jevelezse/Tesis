@@ -36,45 +36,45 @@ Warning--empty journal in Kutzera2017
 Warning--can't use both volume and number fields in Auwera2014
 Warning--empty publisher in Auwera2014
 Warning--empty journal in Wang2017
-You've used 61 entries,
+You've used 62 entries,
             1791 wiz_defined-function locations,
-            852 strings with 18378 characters,
-and the built_in function-call counts, 15561 in all, are:
-= -- 1155
-> -- 1162
+            858 strings with 18862 characters,
+and the built_in function-call counts, 15904 in all, are:
+= -- 1176
+> -- 1200
 < -- 3
-+ -- 412
-- -- 351
-* -- 1361
-:= -- 2677
-add.period$ -- 176
-call.type$ -- 61
-change.case$ -- 58
++ -- 425
+- -- 363
+* -- 1398
+:= -- 2741
+add.period$ -- 179
+call.type$ -- 62
+change.case$ -- 59
 chr.to.int$ -- 0
-cite$ -- 66
-duplicate$ -- 538
-empty$ -- 1302
-format.name$ -- 351
-if$ -- 3218
+cite$ -- 67
+duplicate$ -- 547
+empty$ -- 1323
+format.name$ -- 363
+if$ -- 3284
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 57
-newline$ -- 300
-num.names$ -- 60
-pop$ -- 132
+int.to.str$ -- 62
+missing$ -- 58
+newline$ -- 305
+num.names$ -- 61
+pop$ -- 133
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 226
+skip$ -- 229
 stack$ -- 0
-substring$ -- 905
-swap$ -- 74
+substring$ -- 921
+swap$ -- 75
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 142
-width$ -- 63
-write$ -- 641
+while$ -- 145
+width$ -- 64
+write$ -- 652
 (There were 5 error messages)

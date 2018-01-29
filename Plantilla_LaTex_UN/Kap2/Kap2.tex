@@ -1,10 +1,26 @@
-\chapter{Datos: Validación de la calidad de las variantes}
+\chapter{Valiadación de un pipeline para la identificación de variantes}
 
-En este capitulo se presenta el proceso para validar un pipeline que permite la  identificación de variantes a partir de datos de secuenciación de siguientes generación (NGS), donde se utiliza datos públicos un paciente de la población para validar la calidad  de las variantes que posteriormente fueron almacenadas en a base de datos.
+En este capitulo se presenta el proceso para validar un pipeline que permitió la  identificación de variantes a partir de datos de secuenciación de siguientes generación (NGS), donde se utiliza datos públicos un paciente  para validar la calidad  de las variantes.
 
-\section{Descubrimiento de variantes}
+\section{Identificación de variantes}
 
-La eficiencia del descubrimiento de variantes depende de la exactitud del llamado de las bases (la identificación correcta de cada nucleótido dentro de la secuencia), esto es realizado durante el proceso de secuenciación de alta velocidad con la que se identifican los nucleótidos hace que puedan ocurrir errores en la identificación correcta de las bases, se considera que al momento la exactitud de ese llamado esta alrededor del 99.5\% \cite{Tetreault2015}.Teniendo en cuenta lo anterior es recomendable  priorizar la sensibilidad (Buscar tantas variantes como sea posible para evitar perder cualquier variante) sobre la especificidad (Limita la proporción de falsos positivos en un conjunto de variantes) \cite{Auwera2014}.  \\
+Los pipelines son un componente integral de la secuenciación de siguiente generación (NGS), para el procesamiento de los datos en bruto y detectar las alteraciones genómicas que tienen un impacto en la salud de un paciente, por lo tanto se hace necesario desarrollo, validación y monitoreo de los pipelines son necesarios para disminuir los errores de la identificación de variantes ya que pueden tener una consecuencia negativa en la salud de los pacientes \cite{Roy2018}.
+
+\subsection{Analisis Bioinformático de datos de secuenciación}
+
+Los pipelines bioinformaticos para NGS son comumente desarollados en una plataforma especifica y pueden ser adaptados según las necesidades del laboratorio, la mayoría de los pipelines consisten en los siguientes pasos \cite{Roy2018}:
+
+\begin{enumerate}[1.]
+	\item Generación de secuencias.
+	\item Alineamiento de las secuencias.
+	\item Llamado de variantes.
+	\item Filtrado de variantes.
+	\item Anotación de variantes.
+	\item Priorización de variantes. 
+\end{enumerate}
+ 
+
+La eficiencia de la identificación de variantes depende de la exactitud del llamado de las bases (la identificación correcta de cada nucleótido dentro de la secuencia), esto es realizado durante el proceso de secuenciación de alta velocidad con la que se identifican los nucleótidos hace que puedan ocurrir errores en la identificación correcta de las bases, se considera que al momento la exactitud de ese llamado esta alrededor del 99.5\% \cite{Tetreault2015}.Teniendo en cuenta lo anterior es recomendable  priorizar la sensibilidad (Buscar tantas variantes como sea posible para evitar perder cualquier variante) sobre la especificidad (Limita la proporción de falsos positivos en un conjunto de variantes) \cite{Auwera2014}.  \\
 
 Para el presente trabajo se realizaron mediciones de la calidad de las secuencias y el mapeo, post-alineamiento y el llamado de variantes, siguiendo las buenas practicas para el llamado de variantes \cite{Fisch2015}.Teniendo en cuenta que existen múltiples herramientas para realizar el llamado de variantes tanto de uso privado como open source que permite  seguir las buenas practicas de identificación de variantes se hace necesario integrar las diversas herramientas para poder obtener las datos de buena calidad. Y surge la pregunta de ¿cuáles de todos los métodos y las herramientas son la más apropiada para hacer el llamado de variantes en exones \cite{Bao2014}\cite{Cornish2015}.\\
 

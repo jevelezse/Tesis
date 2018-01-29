@@ -29,7 +29,7 @@ Madhuri Hegde, Avni Santani, Rong Mao, Andrea Ferreira-Gonzalez, Karen~E. Weck,
 \bibitem{Li2014}
 Yixue Li and Luonan Chen.
 \newblock {Big biological data: challenges and opportunities.}
-\newblock {\em Genomics, proteomics and bioinformatics}, 12(5):187--9, oct 2014.
+\newblock {\em Genomics, proteomics \& bioinformatics}, 12(5):187--9, oct 2014.
 
 \bibitem{Lauzon2016}
 David Lauzon, Beatriz Kanzki, Victor Dupuy, Alain April, Michael~S. Phillips,
@@ -184,6 +184,15 @@ Vito Terlizzi, Giuseppe Castaldo, Donatello Salvatore, Marco Lucarelli, Valeria
 \newblock {Genotype – phenotype correlation and functional studies in
   patients with cystic fi brosis bearing CFTR complex alleles}.
 \newblock {\em Journal of Medical Genetics}, 54:224--235, 2017.
+
+\bibitem{Roy2018}
+Somak Roy, Christopher Coldren, Arivarasan Karunamurthy, Nefize~S. Kip, Eric~W.
+  Klee, Stephen~E. Lincoln, Annette Leon, Mrudula Pullambhatla, Robyn~L.
+  Temple-Smolkin, Karl~V. Voelkerding, Chen Wang, and Alexis~B. Carter.
+\newblock {Standards and Guidelines for Validating Next-Generation Sequencing
+  Bioinformatics Pipelines: A Joint Recommendation of the Association for
+  Molecular Pathology and the College of American Pathologists}.
+\newblock {\em Journal of Molecular Diagnostics}, 20(1):4--27, 2018.
 
 \bibitem{Littlefield}
 Rayan Littlefield.
