@@ -1,0 +1,9 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{3}{0}{1}
+\beamer@sectionintoc {2}{Images}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{One image}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{More than one image}{7}{0}{2}
+\beamer@sectionintoc {3}{Tables and Equations}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Tables}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Equation}{12}{0}{3}
+\beamer@sectionintoc {4}{Conclusions and Future Work}{20}{0}{4}

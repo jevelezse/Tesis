@@ -1,8 +1,8 @@
-\chapter{Modelo de míneria de datos genómicos}
+\chapter{Modelo de minería de datos}
 
 \section{Introducción}
 
-La necesidad de comprender los procesos biologícos que están implicados en las distintas enfermedades, a partir de la gran cantidad de datos biológicos que hay disponibles como las secuencias genómicas, los microarreglos, las interacciones proteicas, las imágenes biomedicas entre otros. Además la rápida adopción de las historias clínicas electrónicas proporciona una oportunidad de realizar investigaciones a gran escala. Por lo tanto las técnicas de minería de datos para el descubrimiento de conocimiento a partir de la obtención de información de diferentes fuentes son cada vez mas importantes en la biología y en el el cuidado de la salud \cite{Wang2017}.\\
+La necesidad de comprender los procesos biológicos que están implicados en las distintas enfermedades, a partir de la gran cantidad de datos biológicos que hay disponibles como las secuencias genómicas, los microarreglos, las interacciones proteicas, las imágenes biomédicas entre otros. Además la rápida adopción de las historias clínicas electrónicas proporciona una oportunidad de realizar investigaciones a gran escala. Por lo tanto las técnicas de minería de datos para el descubrimiento de conocimiento a partir de la obtención de información de diferentes fuentes son cada vez mas importantes en la biología y en el el cuidado de la salud \cite{Wang2017}.\\
 
 Algunos de los impedimentos para la minería de datos a gran escala en datos genómicos son la disponibilidad de los datos, el tamaño de los datos y los algoritmos y modelos para la integración, algunos de los desafíos son la manipulación de datos de gran tamaño. Casi todos los tipos de datos biológicos presentan una acumulación exponencial, donde la minería de datos genómicos a gran escala es una necesidad ya que estos son los que presentan un aumento mayor gracias a las tecnologías de secuenciación (NGS) \cite{Huttenhower2010}.\\
 
@@ -23,15 +23,6 @@ Se diseño un modelo de minería que se realizo como muestra la figura \ref{fig:
 Después de la implementación se realizo un preprocesamiento que fue la limpieza de stop words en español, remoción de tildes y ñ, y reemplazo de palabras sinónimas dentro de las historias clínicas. Se realizo la obtención de la frecuencia de términos con la librería nltk de python y el tfidf tm de R. Una vez realizado este procedimiento se realizo un clustering con el algoritmo kmeans ++  con los parametros por defecto implementado en python 2.7.13 de la librería sklearn de python, previamente se calculo el número de k con el error cuadrático y el valor de silueta también implementado en la librería de sklearn de python y los gráficos fueron realizados con la librerías pandas y matplolib.
  
 \section{Resultados}
-
-Los datos demográficos que se fueron utilizados dentro del presente trabajo donde se tiene la distribución de los pacientes y  muestra en la figura \ref{fig:demografia}:   
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.6\textwidth]{Kap4/general.pdf}
-	\caption{Distribución de pacientes por rango de edades y genero} \label{fig:demografia}
-\end{figure} 
-
 
 Los resultados que se obtuvieron fueron que las palabras más frecuentes fueron seno, cancer, sindrome, sospecha y años. La figura \ref{fig:sin} muestra la frecuencia de palabras que se obtuvieron dentro de la base de datos.
 
@@ -67,13 +58,20 @@ Una vez realizada la selección de el número optimo de K se ejecuto el algoritm
 	\label{fig:S}
 \end{figure}
 
+Los datos demográficos que se fueron utilizados dentro del presente trabajo donde se tiene la distribución de los pacientes y  muestra en la figura \ref{fig:demografia}:   
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{Kap4/general.pdf}
+	\caption{Distribución de pacientes por rango de edades y genero} \label{fig:demografia}
+\end{figure} 
+
 Donde ....
 
 \begin{figure}[H]
 	\centering
-	\subfigure[Nube de palabras]{\includegraphics[width=90mm]{Kap4/cluster1}}
-	\subfigure[Rango de edad en decadas]{\includegraphics[width=80mm]{Kap4/edadcluster1}}
-	\subfigure[Género]{\includegraphics[width=70mm]{Kap4/Cluster1G}}
+	\subfigure[Nube de palabras]{\includegraphics[width=80mm]{Kap4/cluster1}}
+	\subfigure[Rango de edad en decadas]{\includegraphics[width=70mm]{Kap4/edadsexocluster1}}
 	\caption{Cluster 1} \label{fig:c1}
 \end{figure}
 

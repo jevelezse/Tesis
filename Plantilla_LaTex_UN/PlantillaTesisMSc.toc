@@ -6,7 +6,6 @@
 \contentsline {chapter}{\numberline {1}Introducci\'{o}n}{6}
 \contentsline {chapter}{\numberline {2}Estado del Arte}{10}
 \contentsline {section}{\numberline {2.1}Biolog\IeC {\'\i }a molecular y secuenciaci\IeC {\'o}n masiva.}{10}
-\contentsline {subsection}{\numberline {2.1.1}La secuenciaci\IeC {\'o}n de siguiente generaci\IeC {\'o}n (NGS) aplicaciones en salud}{13}
 \contentsline {section}{\numberline {2.2}Bioinform\IeC {\'a}tica}{13}
 \contentsline {subsection}{\numberline {2.2.1}Integraci\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{14}
 \contentsline {subsection}{\numberline {2.2.2}An\IeC {\'a}lisis de datos gen\IeC {\'o}micos con aplicaciones cl\IeC {\'\i }nicas}{18}
@@ -21,16 +20,16 @@
 \contentsline {section}{\numberline {3.6}Conclusiones}{37}
 \contentsline {chapter}{\numberline {4}Modelo de Integraci\IeC {\'o}n de la Informaci\IeC {\'o}n}{39}
 \contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{39}
-\contentsline {section}{\numberline {4.2}Metodolog\IeC {\'\i }a}{40}
-\contentsline {section}{\numberline {4.3}Resultados}{41}
+\contentsline {section}{\numberline {4.2}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del modelo de datos}{40}
+\contentsline {section}{\numberline {4.3}Resultados}{42}
 \contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n}{44}
 \contentsline {section}{\numberline {4.5}Conclusi\IeC {\'o}n}{44}
-\contentsline {chapter}{\numberline {5}Modelo de m\IeC {\'\i }neria de datos gen\IeC {\'o}micos}{45}
+\contentsline {chapter}{\numberline {5}Modelo de miner\IeC {\'\i }a de datos}{45}
 \contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{45}
 \contentsline {section}{\numberline {5.2}Metodolog\IeC {\'\i }a}{45}
 \contentsline {section}{\numberline {5.3}Resultados}{46}
-\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{56}
-\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{57}
-\contentsline {section}{\numberline {7.1}Conclusiones}{57}
-\contentsline {section}{\numberline {7.2}Recomendaciones}{57}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{58}
+\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{55}
+\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{56}
+\contentsline {section}{\numberline {7.1}Conclusiones}{56}
+\contentsline {section}{\numberline {7.2}Recomendaciones}{56}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{57}

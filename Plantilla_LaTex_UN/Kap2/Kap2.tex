@@ -8,7 +8,7 @@ Los pipelines son un componente integral de la secuenciación de siguiente gener
 
 \subsection{Analisis Bioinformático de datos de secuenciación}
 
-Los pipelines bioinformaticos para NGS son comumente desarollados en una plataforma especifica y pueden ser adaptados según las necesidades del laboratorio, la mayoría de los pipelines consisten en los siguientes pasos \cite{Roy2018}:
+Los pipelines bioinformaticos para NGS son comúnmente desarrollados en una plataforma especifica y pueden ser adaptados según las necesidades del laboratorio, la mayoría de los pipelines consisten en los siguientes pasos \cite{Roy2018}:
 
 \begin{enumerate}[1.]
 	\item Generación de secuencias.
@@ -79,27 +79,6 @@ Para el presente trabajo se adiciono el filtrado especifico de variantes según 
 	
 	Y se instalo el modulo para python de omics-pipe, para python 2 con la herramienta de R y las librerías que solicita omics-pipe\cite{Fisch2015} , el algoritmo BWA, samtools,vcftools, GATK 3.5,picard, FASTQC y pbs-drmma.Una vez instalados los programas se procesaron las muestras dentro del clúster.  
 
-\subsection*{Diseños experimentales}
-
-La tabla \ref{tabla:exp} muestra los diseños experimentales realizados para validar las variantes:
-
-\begin{table}[htb]
-	\begin{tabular}{|l|l|l|l|l|}
-		\hline
-		& \multicolumn{2}{c|}{\textbf{Experimentos}} \\
-		\cline{2-3} 
-		& NA12878(Exoma público)  & Variantes Illumina (Paciente)  \\ \cline{2-3}
-		\hline 
-		\multirow{1}{4cm}{Variantes Omics} & Datos de pacientes & Datos exoma   \\ \cline{2-3}
-		\hline 
-		\multirow{1}{4cm}{Variantes Calibradas} & Datos de paciente & Datos exoma    \\ \cline{2-3}
-		\hline
-		\multirow{1}{4cm}{Variantes Illumina} & Datos de paciente & Datos exoma     \\ \cline{2-3}
-		\hline
-	\end{tabular}
-	\caption{Tabla de datos utilizados.}
-	\label{tabla:exp}
-\end{table}
 
 \section{Resultados}
 	\subsection*{Reporte FASTQC}}
@@ -152,10 +131,10 @@ De las variantes sin hard filtering se obtuvieron 54538 SNP, Indels 8855 y 122 v
 Una vez realizado el hard filtering se obtuvo los siguientes resultados: 10425 SNP, 828 Indels y 44 desconocidos, también se tiene las variantes reportadas para el mismo individuo desde la plataforma de illumina con los siguientes resultados: 9601 variantes, 436 indels y 28 desconocidas  y respresentado por la figura \ref{f:histogramas}:
 
 \begin{figure}[H]
-	\subfigure[Variantes obtenidas por Omics pipe]{
+	\subfigure[Variantes obtenidas mediante calibración]{
 		\label{f:omics}
 		\includegraphics[width=0.5\textwidth]{Kap2/variantescalibradas}}
-	\subfigure[Variantes calibradas]{
+	\subfigure[Variantes illumina]{
 		\label{f:calibradas}
 		\includegraphics[width=0.5\textwidth]{Kap2/variantesillumina}}
 	\caption{Variaciones de la muestra}
@@ -242,7 +221,7 @@ En la figura \ref{fig:variaciones2} se observa el comportamiento de la distribuc
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{Kap2/diagrama2}
-	\caption{Diagrama de relación entre las variantes publicas y las obtenidas por el pipeline} \label{fig:diagrama2}
+	\caption{Diagrama de relación entre las variantes publicas y las obtenidas por el pipeline.} \label{fig:diagrama2}
 \end{figure}
 
 El diagrama de la figura \ref{fig:diagrama2} muestra la comparación de las variantes obtenidas y su respectiva concordancia done el 100\% del exoma esta representado en las variaciones encontradas mienteras que un 96\% de las variaciones obtenidas por omicspipe son un 96\% dejando solo un 4\% de las variantes no encontradas dentro del exoma publico. \\
@@ -262,7 +241,7 @@ GATK realiza un reporte de la evaluación cunado se comparan dos archivos de dis
 	\end{center}
 \end{table}
 
-La tabla \ref{tabla:tabla3} refleja que para el conjunto de datos no hay falsos positivos ni verdaderos negativos, pero si falsos negativos, es decir 1033 variantes del conjunto de datos obtenidos. (\textit{GATK para calcular estas métricas compara contra una base de datos que el usuario disponga para determinar variantes existentes}).  La tabla \ref{tabla:tabla4} muestra la sensibilidad, especificidad y el valor predictivo positivo (PPV).
+La tabla \ref{tabla:tabla3} refleja que para el conjunto de datos no hay falsos positivos ni verdaderos negativos, pero si falsos negativos, es decir 1033 variantes del conjunto de datos obtenidos. (\textit{GATK para calcular estas métricas se compara contra una base de datos que el usuario disponga para determinar variantes existentes}).  La tabla \ref{tabla:tabla4} muestra la sensibilidad, especificidad y el valor predictivo positivo (PPV).
 
 \begin{table}[H]
 	\begin{center}
