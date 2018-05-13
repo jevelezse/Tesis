@@ -1,16 +1,39 @@
 \chapter{Modelo de minería de datos}
 
-\section{Introducción}
+La necesidad de comprender los procesos biológicos que están implicados en las distintas enfermedades, a partir de la gran cantidad de datos biológicos que hay disponibles como las secuencias genómicas, los microarreglos, las interacciones proteicas, las imágenes biomédicas entre otros. Además la rápida adopción de las historias clínicas electrónicas proporciona una oportunidad de realizar investigaciones a gran escala. Por lo tanto las técnicas de minería de datos para el descubrimiento de conocimiento a partir de la obtención de información proveniente de diferentes fuentes son cada vez mas importantes en la investigación biológica y médica \cite{Wang2017}.\\
 
-La necesidad de comprender los procesos biológicos que están implicados en las distintas enfermedades, a partir de la gran cantidad de datos biológicos que hay disponibles como las secuencias genómicas, los microarreglos, las interacciones proteicas, las imágenes biomédicas entre otros. Además la rápida adopción de las historias clínicas electrónicas proporciona una oportunidad de realizar investigaciones a gran escala. Por lo tanto las técnicas de minería de datos para el descubrimiento de conocimiento a partir de la obtención de información de diferentes fuentes son cada vez mas importantes en la biología y en el el cuidado de la salud \cite{Wang2017}.\\
+El mayor reto de la minería de datos genómicos esta en la extracción de información relevante de grandes volúmenes de datos clínicos y transformarlos en conocimiento, los mayores retos están en: a) La recolección de los datos clínicos y genómicos, b) recuperación de información relevante de datos y c) extracción de nuevos conocimientos de la información \cite{Farid2016}. \\  
 
-Algunos de los impedimentos para la minería de datos a gran escala en datos genómicos son la disponibilidad de los datos, el tamaño de los datos y los algoritmos y modelos para la integración, algunos de los desafíos son la manipulación de datos de gran tamaño. Casi todos los tipos de datos biológicos presentan una acumulación exponencial, donde la minería de datos genómicos a gran escala es una necesidad ya que estos son los que presentan un aumento mayor gracias a las tecnologías de secuenciación (NGS) \cite{Huttenhower2010}.\\
+Este capitulo esta organizado en análisis exploratorio de los datos que se describe en la sección 5.1, el siguiente, es el analisis textual de información clínica que es discutido en la sección 5.2 en este apartado se describe el analisis de asociación de variantes con la información clínica. Finalmente, el apartado de 5.3 se presentan las conclusiones junto con el resumen del capitulo. 
 
-El mayor reto de la minería de datos genómicos esta en la extracción de información relevante de grandes cantidades de datos clínicos y transformarlos en conocimiento, los mayores retos están en: a) La recolección de los datos clínicos y genómicos, b) recuperación de información relevante de datos y c) extracción de nuevos conocimientos de la información \cite{Farid2016}. \\  
+\section{Análisis exploratorio de los datos}
 
-Para los datos genómicos se han propuesto la utilización de paneles a partir de secuenciación de exomas,donde se hace el preprocesamiento,selección de características, selección y aplicación de algoritmos de minería finalmente para el descubrimiento del conocimiento a partir de datos genómicos \cite{Farid2016}. \\
+Se realizo el análisis exploratorio de la información contenida dentro de la base de datos.Se tomo una muestra de 250 pacientes donados por el laboratorio Genetix S.A.S de los cuales solo 228 contaban con consentimiento informado para utilizar la información con fines de investigación.\\ 
 
-\section{Metodología}
+ \begin{figure}[H]
+ 	\centering
+ 	\subfigure[Distribución de rango de edades y géneros de los pacientes.]{
+ 		\label{f:generosgeneral}
+ 		\includegraphics[width=0.4\textwidth]{Kap4/general}}
+ 	\subfigure[Distribución del tipo de variantes]{
+ 		\label{f:variantesgeneral}
+ 		\includegraphics[width=0.4\textwidth]{Kap4/variantes}}
+ 	\caption{Distribución del tipo de variantes}
+ 	\label{f:general}
+ \end{figure}
+ 
+La base de datos contiene 228 pacientes, de los cuales 133 son de género femenino y 95 de género masculino. Se obtuvo un total de 803878 variantes. La  figura \ref{f:generosgeneral} representa la distribución de pacientes por rango de edades, la figura \ref{f:variantesgeneral} representa la distribución del tipo de variantes. Donde se observa que la mayoría de variantes son sinónimas y no sinónimas 
+
+
+
+
+
+
+\section{Análisis textual de información clínica.}
+
+
+
+Para los datos de exomas se realizo la elección y aplicación de algoritmos de minería finalmente para el descubrimiento del conocimiento a partir de datos  \cite{Farid2016}. \\
 
 Se diseño un modelo de minería que se realizo como muestra la figura \ref{fig:mineria}:
 

@@ -25,11 +25,11 @@
 \contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n}{44}
 \contentsline {section}{\numberline {4.5}Conclusi\IeC {\'o}n}{44}
 \contentsline {chapter}{\numberline {5}Modelo de miner\IeC {\'\i }a de datos}{45}
-\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{45}
-\contentsline {section}{\numberline {5.2}Metodolog\IeC {\'\i }a}{45}
-\contentsline {section}{\numberline {5.3}Resultados}{46}
-\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{55}
-\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{56}
-\contentsline {section}{\numberline {7.1}Conclusiones}{56}
-\contentsline {section}{\numberline {7.2}Recomendaciones}{56}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{57}
+\contentsline {section}{\numberline {5.1}An\IeC {\'a}lisis exploratorio de los datos}{45}
+\contentsline {section}{\numberline {5.2}An\IeC {\'a}lisis textual de informaci\IeC {\'o}n cl\IeC {\'\i }nica.}{46}
+\contentsline {section}{\numberline {5.3}Resultados}{47}
+\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{56}
+\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{57}
+\contentsline {section}{\numberline {7.1}Conclusiones}{57}
+\contentsline {section}{\numberline {7.2}Recomendaciones}{57}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{58}
