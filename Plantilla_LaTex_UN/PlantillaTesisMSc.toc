@@ -27,7 +27,7 @@
 \contentsline {chapter}{\numberline {5}Modelo de miner\IeC {\'\i }a de datos}{45}
 \contentsline {section}{\numberline {5.1}An\IeC {\'a}lisis exploratorio de los datos}{45}
 \contentsline {section}{\numberline {5.2}An\IeC {\'a}lisis textual de informaci\IeC {\'o}n cl\IeC {\'\i }nica.}{47}
-\contentsline {section}{\numberline {5.3}Resultados}{48}
+\contentsline {subsection}{\numberline {5.2.1}Resultados}{47}
 \contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{56}
 \contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{57}
 \contentsline {section}{\numberline {7.1}Conclusiones}{57}

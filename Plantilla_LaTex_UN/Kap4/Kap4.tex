@@ -29,38 +29,32 @@ Se realizo el análisis exploratorio de la información contenida dentro de la b
 	\label{f:variantesgeneral}
 \end{figure}
 
-La base de datos contiene 228 pacientes de los cuales 133 son de género femenino y tienen un total de 468.485 variantes y 95 de género masculino con 345.239 de variantes para un total de 803.878 variantes. La  figura \ref{fig:general} representa la distribución de pacientes por rango de edades y la figura \ref{f:variantesgeneral} representa la distribución de variantes según su tipo. En la figura \ref{f:generosgeneral} muestra el número de variantes que son sinónimas y no sinónimas siendo las más frecuentes en la población, a  nivel mundial se conoce que estos son lo tipos de variantes más frecuentes\cite{Fu2013}.\\
+La base de datos contiene 228 pacientes de los cuales 133 son de género femenino y tienen un total de 468.485 variantes y 95 de género masculino con 345.239 de variantes obteniendo  un total de 803.878 variantes. La  figura \ref{fig:general} representa la distribución de pacientes por rango de edades y la figura \ref{f:variantesgeneral} representa la distribución de variantes según su tipo. En la figura \ref{f:generosgeneral} muestra el número de variantes que son sinónimas y no sinónimas siendo las más frecuentes en la población, a  nivel mundial se conoce que estos son lo tipos de variantes más frecuentes\cite{Fu2013}.\\
 
 Las variantes desconocidas son el tercer tipo de variante más frecuente dado que aún existe el problema de selección del transcripto para realizar la nomenclatura adecuada de las variantes, por lo que el anotador informa que son desconocidas \cite{McCarthy2014}. La figura\ref{f:variantedad} muestra la distribución de las variantes identificadas según el rango de edad, siendo el rango con mayor número de variantes los pacientes que se encuentran entre las edades de 0 a 10 años, dado a que es la población más representada dentro de la base de datos. \\
 
-El estado alelico de las variantes (cigocidad) que se encuentran dentro de la base de datos se dividen en heterocigotas 458639 que corresponden al 57,05\% del total de las variantes  y homocigotas 345239 que corresponden al 42,95\%. La distribución de la cigocidad de las variantes se puede explicar desde el error que se puede generar en la identificación de las variantes dado que durante el llamado  de variantes es posible que una variante homocigota se catalogue como heterocigota o si durante el proceso de secuenciación se identifican erróneamente los nucleótidos \cite{Babraham2016}\cite{Pirooznia2014}. 
-
+El estado alélico de las variantes (cigocidad) que se encuentran dentro de la base de datos se dividen en heterocigotas 458639 que corresponden al 57,05\% del total de las variantes  y homocigotas 345239 que corresponden al 42,95\%. La distribución de la cigocidad de las variantes se puede explicar desde el error que se puede generar en la identificación de las variantes dado que durante el llamado  de variantes es posible que una variante homocigota se catalogue como heterocigota o si durante el proceso de secuenciación se identifican erróneamente los nucleótidos \cite{Babraham2016}\cite{Pirooznia2014}. 
 
 
 \section{Análisis textual de información clínica.}
 
+Para el analisis de la información clínica se realizaron las siguientes actividades:
 
-
-Para los datos de exomas se realizo la elección y aplicación de algoritmos de minería finalmente para el descubrimiento del conocimiento a partir de datos  \cite{Farid2016}. \\
-
-Se diseño un modelo de minería que se realizo como muestra la figura \ref{fig:mineria}:
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/pipelinemineria}
-	\caption{Proceso de minería} \label{fig:mineria}
-\end{figure} 
-
-Después de la implementación se realizo un preprocesamiento que fue la limpieza de stop words en español, remoción de tildes y ñ, y reemplazo de palabras sinónimas dentro de las historias clínicas. Se realizo la obtención de la frecuencia de términos con la librería nltk de python y el tfidf tm de R. Una vez realizado este procedimiento se realizo un clustering con el algoritmo kmeans ++  con los parametros por defecto implementado en python 2.7.13 de la librería sklearn de python, previamente se calculo el número de k con el error cuadrático y el valor de silueta también implementado en la librería de sklearn de python y los gráficos fueron realizados con la librerías pandas y matplolib.
+\begin{enumerate}
+	\item Preprocesamiento: Remoción de stop words en español, tildes y de ñ; reemplazo de palabras sinónimas dentro de las historias clínicas, toda la información se convirtió en minúsculas. Se realizo el calculo de las frecuencias de términos con la librería nltk de python y del tfidf tm de R.
+	\item Se normalizaron los datos de la matriz tf-idf y se calculo la similitud de coseno para realizar un clustering jerárquico.
+	\item  Se realizo un clustering con el algoritmo kmeans ++  con los parametros por defecto implementado en python 2.7.13 de la librería sklearn de python, previamente se calculo el número de k con el error cuadrático y el valor de silueta.
+	\item Se validaron los resultados obtenidos. 
+\end{enumerate} 
  
-\section{Resultados}
+\subsection{Resultados}
 
 Los resultados que se obtuvieron fueron que las palabras más frecuentes fueron seno, cancer, sindrome, sospecha y años. La figura \ref{fig:sin} muestra la frecuencia de palabras que se obtuvieron dentro de la base de datos.
 
 \begin{figure}[H]
 	\centering
 	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/sin_stop}}
-	\subfigure[Frecuencia de términos]{\includegraphics[width=60mm]{Kap4/frecuecias}}
+	\subfigure[Frecuencia de términos]{\includegraphics[width=60mm]{Kap4/frecuecias.pdf}}
 	\caption{Frecuencias sin stop words y palabras sinónimas} \label{fig:sin}
 \end{figure} 
 
@@ -68,7 +62,7 @@ La figura \ref{fig:IDFTF} representa la matriz IDF-TF de las palabras que se enc
 
 \begin{figure}[] 
 	\centering
-	\includegraphics[width=1\textwidth]{Kap4/TFIDF1}
+	\includegraphics[width=1\textwidth]{Kap4/tfidf.pdf}
 	\caption{TFIDF} 
 	\label{fig:IDFTF}
 \end{figure}
