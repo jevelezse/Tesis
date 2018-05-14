@@ -28,17 +28,17 @@
 \contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Ingreso de pacientes.}}{43}
 \contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Consulta a variantes}}{43}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Distribuci\IeC {\'o}n del tipo de variantes}}{46}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distribuci\IeC {\'o}n de rango de edades y g\IeC {\'e}neros de los pacientes.}}}{46}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribuci\IeC {\'o}n del tipo de variantes}}}{46}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Proceso de miner\IeC {\'\i }a}}{46}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Frecuencias sin stop words y palabras sin\IeC {\'o}nimas}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{47}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Frecuencia de t\IeC {\'e}rminos}}}{47}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces TFIDF}}{48}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces N\IeC {\'u}mero optimo de clusters}}{48}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Valor Silueta de cada cluster}}{49}
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Distribuci\IeC {\'o}n de pacientes por rango de edades y genero}}{50}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Distribuci\IeC {\'o}n de rango de edades y g\IeC {\'e}neros de los pacientes}}{46}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Distribuci\IeC {\'o}n del tipo de variantes}}{46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distribuci\IeC {\'o}n de variantes seg\IeC {\'u}n su tipo.}}}{46}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribuci\IeC {\'o}n de variantes por rango de edad}}}{46}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Proceso de miner\IeC {\'\i }a}}{47}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces TFIDF}}{48}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Frecuencias sin stop words y palabras sin\IeC {\'o}nimas}}{48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{48}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Frecuencia de t\IeC {\'e}rminos}}}{48}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces N\IeC {\'u}mero optimo de clusters}}{49}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Valor Silueta de cada cluster}}{50}
 \contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Cluster 1}}{51}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{51}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{51}

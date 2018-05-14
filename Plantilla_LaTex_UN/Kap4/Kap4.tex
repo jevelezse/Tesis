@@ -8,24 +8,32 @@ Este capitulo esta organizado en análisis exploratorio de los datos que se desc
 
 \section{Análisis exploratorio de los datos}
 
-Se realizo el análisis exploratorio de la información contenida dentro de la base de datos.Se tomo una muestra de 250 pacientes donados por el laboratorio Genetix S.A.S de los cuales solo 228 contaban con consentimiento informado para utilizar la información con fines de investigación.\\ 
+Se realizo el análisis exploratorio de la información contenida dentro de la base de datos.Se tomo una muestra de 250 pacientes donados por el laboratorio Genetix S.A.S de los cuales solo 228 contaban con consentimiento informado para utilizar la información con fines de investigación.\\
 
- \begin{figure}[H]
- 	\centering
- 	\subfigure[Distribución de rango de edades y géneros de los pacientes.]{
- 		\label{f:generosgeneral}
- 		\includegraphics[width=0.4\textwidth]{Kap4/general}}
- 	\subfigure[Distribución del tipo de variantes]{
- 		\label{f:variantesgeneral}
- 		\includegraphics[width=0.4\textwidth]{Kap4/variantes}}
- 	\caption{Distribución del tipo de variantes}
- 	\label{f:general}
- \end{figure}
- 
-La base de datos contiene 228 pacientes, de los cuales 133 son de género femenino y 95 de género masculino. Se obtuvo un total de 803878 variantes. La  figura \ref{f:generosgeneral} representa la distribución de pacientes por rango de edades, la figura \ref{f:variantesgeneral} representa la distribución del tipo de variantes. Donde se observa que la mayoría de variantes son sinónimas y no sinónimas 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/general}
+	\caption{Distribución de rango de edades y géneros de los pacientes}
+	\label{fig:general}
+\end{figure}
 
+\begin{figure}[H]
+	\centering
+	\subfigure[Distribución de variantes según su tipo.]{
+		\label{f:generosgeneral}
+		\includegraphics[width=0.35\textwidth]{Kap4/variantes.png}}
+	\subfigure[Distribución de variantes por rango de edad]{
+		\label{f:variantedad}
+		\includegraphics[width=0.55\textwidth]{Kap4/edad.png}}
+	\caption{Distribución del tipo de variantes}
+	\label{f:variantesgeneral}
+\end{figure}
 
+La base de datos contiene 228 pacientes de los cuales 133 son de género femenino y tienen un total de 468.485 variantes y 95 de género masculino con 345.239 de variantes para un total de 803.878 variantes. La  figura \ref{fig:general} representa la distribución de pacientes por rango de edades y la figura \ref{f:variantesgeneral} representa la distribución de variantes según su tipo. En la figura \ref{f:generosgeneral} muestra el número de variantes que son sinónimas y no sinónimas siendo las más frecuentes en la población, a  nivel mundial se conoce que estos son lo tipos de variantes más frecuentes\cite{Fu2013}.\\
 
+Las variantes desconocidas son el tercer tipo de variante más frecuente dado que aún existe el problema de selección del transcripto para realizar la nomenclatura adecuada de las variantes, por lo que el anotador informa que son desconocidas \cite{McCarthy2014}. La figura\ref{f:variantedad} muestra la distribución de las variantes identificadas según el rango de edad, siendo el rango con mayor número de variantes los pacientes que se encuentran entre las edades de 0 a 10 años, dado a que es la población más representada dentro de la base de datos. \\
+
+El estado alelico de las variantes (cigocidad) que se encuentran dentro de la base de datos se dividen en heterocigotas 458639 que corresponden al 57,05\% del total de las variantes  y homocigotas 345239 que corresponden al 42,95\%. La distribución de la cigocidad de las variantes se puede explicar desde el error que se puede generar en la identificación de las variantes dado que durante el llamado  de variantes es posible que una variante homocigota se catalogue como heterocigota o si durante el proceso de secuenciación se identifican erróneamente los nucleótidos \cite{Babraham2016}\cite{Pirooznia2014}. 
 
 
 
@@ -80,16 +88,6 @@ Una vez realizada la selección de el número optimo de K se ejecuto el algoritm
 	\caption{Valor Silueta de cada cluster} 
 	\label{fig:S}
 \end{figure}
-
-Los datos demográficos que se fueron utilizados dentro del presente trabajo donde se tiene la distribución de los pacientes y  muestra en la figura \ref{fig:demografia}:   
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{Kap4/general.pdf}
-	\caption{Distribución de pacientes por rango de edades y genero} \label{fig:demografia}
-\end{figure} 
-
-Donde ....
 
 \begin{figure}[H]
 	\centering

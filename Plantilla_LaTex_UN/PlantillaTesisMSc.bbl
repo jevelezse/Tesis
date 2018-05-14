@@ -60,8 +60,8 @@ Quan Li and Kai Wang.
 \newblock {\em American Journal of Human Genetics}, 100(2):267--280, 2017.
 
 \bibitem{Fisch2015}
-Kathleen~M Fisch, Tobias Mei{\ss}ner, Louis Gioia, Jean~Christophe Ducom,
-  Tristan~M Carland, Salvatore Loguercio, and Andrew~I Su.
+Kathleen~M. Fisch, Tobias Mei{\ss}ner, Louis Gioia, Jean~Christophe Ducom,
+  Tristan~M. Carland, Salvatore Loguercio, and Andrew~I. Su.
 \newblock {Omics Pipe: A community-based framework for reproducible multi-omics
   data analysis}.
 \newblock {\em Bioinformatics}, 31(11):1724--1728, 2015.
@@ -240,10 +240,9 @@ Andrew Yates, Wasiu Akanni, M~Ridwan Amode, Daniel Barrell, Konstantinos
 \newblock {\em Nucleic acids research}, 44(D1):D710--6, jan 2016.
 
 \bibitem{Canuel2015}
-Vincent Canuel, Bastien Rance, Paul Avillach, Patrice Degoulet, and Anita
-  Burgun.
+V.~Canuel, B.~Rance, P.~Avillach, P.~Degoulet, and A.~Burgun.
 \newblock {Translational research platforms integrating clinical and omics
-  data: A review of publicly available solutions}.
+  data: a review of publicly available solutions}.
 \newblock {\em Briefings in Bioinformatics}, 16(2):280--290, 2015.
 
 \bibitem{Higasa2016}
@@ -400,5 +399,20 @@ Fei Wang, Xiao-li Li, Jason T~L Wang, and See-kiong Ng.
 \newblock {Guest Editorial: Special Section on Biological Data Mining and Its
   Applications in Healthcare}.
 \newblock 14(3):501--502, 2017.
+
+\bibitem{Fu2013}
+Wenqing Fu, Timothy~D. O'Connor, Goo Jun, Hyun~Min Kang, Goncalo Abecasis,
+  Suzanne~M. Leal, Stacey Gabriel, David Altshuler, Jay Shendure, Deborah~A.
+  Nickerson, Michael~J. Bamshad, and Joshua~M. Akey.
+\newblock {Analysis of 6,515 exomes reveals the recent origin of most human
+  protein-coding variants}.
+\newblock {\em Nature}, 493(7431):216--220, 2013.
+
+\bibitem{McCarthy2014}
+Davis~J. McCarthy, Peter Humburg, Alexander Kanapin, Manuel~A. Rivas, Kyle
+  Gaulton, Jean~Baptiste Cazier, and Peter Donnelly.
+\newblock {Choice of transcripts and software has a large effect on variant
+  annotation}.
+\newblock {\em Genome Medicine}, 6(3), 2014.
 
 \end{thebibliography}
