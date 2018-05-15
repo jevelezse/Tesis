@@ -28,9 +28,8 @@ Madhuri Hegde, Avni Santani, Rong Mao, Andrea Ferreira-Gonzalez, Karen~E. Weck,
 
 \bibitem{Li2014}
 Yixue Li and Luonan Chen.
-\newblock {Big Biological Data: Challenges and Opportunities Expanding volume
-  of the big biological data and its bonanza}.
-\newblock {\em Genomics, Proteomics \& Bioinformatics}, 12(5):187--189, 2014.
+\newblock {Big biological data: challenges and opportunities.}
+\newblock {\em Genomics, proteomics \& bioinformatics}, 12(5):187--9, oct 2014.
 
 \bibitem{Lauzon2016}
 David Lauzon, Beatriz Kanzki, Victor Dupuy, Alain April, Michael~S. Phillips,
@@ -60,8 +59,8 @@ Quan Li and Kai Wang.
 \newblock {\em American Journal of Human Genetics}, 100(2):267--280, 2017.
 
 \bibitem{Fisch2015}
-Kathleen~M. Fisch, Tobias Mei{\ss}ner, Louis Gioia, Jean~Christophe Ducom,
-  Tristan~M. Carland, Salvatore Loguercio, and Andrew~I. Su.
+Kathleen~M Fisch, Tobias Mei{\ss}ner, Louis Gioia, Jean~Christophe Ducom,
+  Tristan~M Carland, Salvatore Loguercio, and Andrew~I Su.
 \newblock {Omics Pipe: A community-based framework for reproducible multi-omics
   data analysis}.
 \newblock {\em Bioinformatics}, 31(11):1724--1728, 2015.
@@ -240,9 +239,10 @@ Andrew Yates, Wasiu Akanni, M~Ridwan Amode, Daniel Barrell, Konstantinos
 \newblock {\em Nucleic acids research}, 44(D1):D710--6, jan 2016.
 
 \bibitem{Canuel2015}
-V.~Canuel, B.~Rance, P.~Avillach, P.~Degoulet, and A.~Burgun.
+Vincent Canuel, Bastien Rance, Paul Avillach, Patrice Degoulet, and Anita
+  Burgun.
 \newblock {Translational research platforms integrating clinical and omics
-  data: a review of publicly available solutions}.
+  data: A review of publicly available solutions}.
 \newblock {\em Briefings in Bioinformatics}, 16(2):280--290, 2015.
 
 \bibitem{Higasa2016}
@@ -288,7 +288,7 @@ Dewan~Md. Farid, Mohammad~Abdullah Al-Mamun, Bernard Manderick, and Ann Nowe.
 \bibitem{Zaki2007}
 Mohammed~J Zaki, George Karypis, and Jiong Yang.
 \newblock {Data Mining in Bioinformatics (BIOKDD).}
-\newblock {\em Algorithms for molecular biology : AMB}, 2:4, 2007.
+\newblock {\em Algorithms for molecular biology : AMB}, 2:4, apr 2007.
 
 \bibitem{Tetreault2015}
 Martine Tetreault, Eric Bareke, Javad Nadaf, Najmeh Alirezaie, and Jacek
@@ -307,10 +307,11 @@ Geraldine A Van~Der Auwera, Mauricio~O Carneiro, Chris Hartl, Ryan Poplin, Ami
 \newblock 2014.
 
 \bibitem{Bao2014}
-Lei Bao, Minya Pu, and Karen Messer.
-\newblock {AbsCN-seq: a statistical method to estimate tumor purity, ploidy and
-  absolute copy numbers from next-generation sequencing data.}
-\newblock {\em Bioinformatics (Oxford, England)}, 30(8):1056--1063, jan 2014.
+Riyue Bao, Lei Huang, Jorge Andrade, Wei Tan, Warren~a Kibbe, Hongmei Jiang,
+  and Gang Feng.
+\newblock {Review of Current Methods, Applications, and Data Management for the
+  Bioinformatics Analysis of Whole Exome Sequencing}.
+\newblock {\em Libertas Academica}, 13:67--82, 2014.
 
 \bibitem{Cornish2015}
 Adam Cornish and Chittibabu Guda.
@@ -414,5 +415,28 @@ Davis~J. McCarthy, Peter Humburg, Alexander Kanapin, Manuel~A. Rivas, Kyle
 \newblock {Choice of transcripts and software has a large effect on variant
   annotation}.
 \newblock {\em Genome Medicine}, 6(3), 2014.
+
+\bibitem{Tetreault2015a}
+Martine Tetreault, Eric Bareke, Javad Nadaf, Najmeh Alirezaie, and Jacek
+  Majewski.
+\newblock {Whole-exome sequencing as a diagnostic tool: current challenges and
+  future opportunities}, may 2015.
+
+\bibitem{Kawashima2017}
+Koya Kawashima.
+\newblock {Text Mining and Pattern Clustering for Relation Extraction of Breast
+  Cancer and Related Genes}.
+\newblock pages 1--5, 2017.
+
+\bibitem{Jain2010}
+Anil~K. Jain.
+\newblock {Data clustering: 50 years beyond K-means}.
+\newblock {\em Pattern Recognition Letters}, 31(8):651--666, 2010.
+
+\bibitem{Buckley1988}
+Gerard~Salton Buckley and Christopher.
+\newblock {Term-weighting approaches in automatic text retrieval. Information
+  Processing and Managemen}.
+\newblock {\em Information Processing and Management}, 24(5):513--523, 1988.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  14 MAY 2018 01:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  15 MAY 2018 02:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,6 +992,8 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 32.
 Package tocbasic Info: Using my definition of `\numberline' on input line 33.
 Package tocbasic Info: Using my definition of `\numberline' on input line 34.
 Package tocbasic Info: Using my definition of `\numberline' on input line 35.
+Package tocbasic Info: Using my definition of `\numberline' on input line 36.
+Package tocbasic Info: Using my definition of `\numberline' on input line 37.
 )
 \tf@toc=\write4
 \openout4 = `PlantillaTesisMSc.toc'.
@@ -1886,198 +1888,193 @@ LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
 [46 <./Kap4/general.pdf> <./Kap4/variantes.png (PNG copy)> <./Kap4/edad.png (PN
 G copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 57.
+
 <Kap4/sin_stop.png, id=259, 513.92pt x 371.3875pt>
 File: Kap4/sin_stop.png Graphic file (type png)
 <use Kap4/sin_stop.png>
-Package pdftex.def Info: Kap4/sin_stop.png  used on input line 56. on input lin
-e 56.
+Package pdftex.def Info: Kap4/sin_stop.png  used on input line 59. on input lin
+e 59.
 Package pdftex.def Info: Requested size: 170.71652pt x 123.3686pt on input line
- 56.
-<Kap4/frecuecias.pdf, id=260, pagebox=cropbox, 1445.4pt x 722.7pt>
+ 59.
+<Kap4/frecuecias.pdf, id=260, pagebox=cropbox, 722.7pt x 722.7pt>
 File: Kap4/frecuecias.pdf Graphic file (type pdf)
 <use Kap4/frecuecias.pdf>
-Package pdftex.def Info: Kap4/frecuecias.pdf  used on input line 57. on input l
-ine 57.
-Package pdftex.def Info: Requested size: 170.71652pt x 85.35284pt on input line
- 57.
-
-Underfull \vbox (badness 2809) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 60.
-LaTeX Info: Redefining \% on input line 60.
- [47]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 63.
-
-<Kap4/tfidf.pdf, id=264, pagebox=cropbox, 1445.4pt x 722.7pt>
+Package pdftex.def Info: Kap4/frecuecias.pdf  used on input line 60. on input l
+ine 60.
+Package pdftex.def Info: Requested size: 170.71652pt x 170.71672pt on input lin
+e 60.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
+[47]
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
+ [48 <./Kap4/sin_stop.png (PNG copy)> <./Kap4/frecuecias.pdf>]
+<Kap4/tfidf.pdf, id=303, pagebox=cropbox, 722.7pt x 722.7pt>
 File: Kap4/tfidf.pdf Graphic file (type pdf)
 <use Kap4/tfidf.pdf>
-Package pdftex.def Info: Kap4/tfidf.pdf  used on input line 65. on input line 6
-5.
-Package pdftex.def Info: Requested size: 469.47046pt x 234.73135pt on input lin
-e 65.
-<Kap4/Clusters.png, id=265, 433.62pt x 289.08pt>
-File: Kap4/Clusters.png Graphic file (type png)
-<use Kap4/Clusters.png>
-Package pdftex.def Info: Kap4/Clusters.png  used on input line 74. on input lin
-e 74.
-Package pdftex.def Info: Requested size: 422.52054pt x 281.69527pt on input lin
-e 74.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 78.
-LaTeX Info: Redefining \% on input line 78.
- [48 <./Kap4/tfidf.pdf> <./Kap4/sin_stop.png (PNG copy)> <./Kap4/frecuecias.pdf
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Kap4/frecuecias.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->]
-<Kap4/S.png, id=339, 578.16pt x 578.16pt>
+Package pdftex.def Info: Kap4/tfidf.pdf  used on input line 89. on input line 8
+9.
+Package pdftex.def Info: Requested size: 234.73523pt x 234.73135pt on input lin
+e 89.
+<Kap4/Clusters.pdf, id=304, pagebox=cropbox, 433.62pt x 289.08pt>
+File: Kap4/Clusters.pdf Graphic file (type pdf)
+<use Kap4/Clusters.pdf>
+Package pdftex.def Info: Kap4/Clusters.pdf  used on input line 98. on input lin
+e 98.
+Package pdftex.def Info: Requested size: 234.73523pt x 156.49344pt on input lin
+e 98.
+<Kap4/S.png, id=305, 578.16pt x 578.16pt>
 File: Kap4/S.png Graphic file (type png)
 <use Kap4/S.png>
-Package pdftex.def Info: Kap4/S.png  used on input line 81. on input line 81.
+Package pdftex.def Info: Kap4/S.png  used on input line 105. on input line 105.
+
 Package pdftex.def Info: Requested size: 375.57779pt x 375.579pt on input line 
-81.
+105.
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+ [49 <./Kap4/tfidf.pdf> <./Kap4/Clusters.pdf
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
- [49 <./Kap4/Clusters.png>]
-<Kap4/cluster1.png, id=344, 513.92pt x 371.3875pt>
+pdfTeX warning: /usr/bin/pdflatex (file ./Kap4/Clusters.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>]
+<Kap4/cluster1.png, id=383, 513.92pt x 371.3875pt>
 File: Kap4/cluster1.png Graphic file (type png)
 <use Kap4/cluster1.png>
-Package pdftex.def Info: Kap4/cluster1.png  used on input line 88. on input lin
-e 88.
+Package pdftex.def Info: Kap4/cluster1.png  used on input line 112. on input li
+ne 112.
 Package pdftex.def Info: Requested size: 227.62204pt x 164.49338pt on input lin
-e 88.
-<Kap4/edadsexocluster1.pdf, id=345, pagebox=cropbox, 505.89pt x 505.89pt>
+e 112.
+<Kap4/edadsexocluster1.pdf, id=384, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Kap4/edadsexocluster1.pdf Graphic file (type pdf)
 <use Kap4/edadsexocluster1.pdf>
-Package pdftex.def Info: Kap4/edadsexocluster1.pdf  used on input line 89. on i
-nput line 89.
+Package pdftex.def Info: Kap4/edadsexocluster1.pdf  used on input line 113. on 
+input line 113.
 Package pdftex.def Info: Requested size: 199.16928pt x 199.17207pt on input lin
-e 89.
+e 113.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
  [50 <./Kap4/S.png>]
-<Kap4/reglasc1.png, id=351, 857.2025pt x 572.1375pt>
+<Kap4/reglasc1.png, id=390, 857.2025pt x 572.1375pt>
 File: Kap4/reglasc1.png Graphic file (type png)
 <use Kap4/reglasc1.png>
-Package pdftex.def Info: Kap4/reglasc1.png  used on input line 97. on input lin
-e 97.
+Package pdftex.def Info: Kap4/reglasc1.png  used on input line 121. on input li
+ne 121.
 Package pdftex.def Info: Requested size: 422.52054pt x 282.00854pt on input lin
-e 97.
-LaTeX Info: Redefining \. on input line 102.
-LaTeX Info: Redefining \% on input line 102.
+e 121.
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
  [51 <./Kap4/cluster1.png (PNG copy)> <./Kap4/edadsexocluster1.pdf> <./Kap4/reg
 lasc1.png>]
-<Kap4/cluster2.png, id=361, 513.92pt x 371.3875pt>
+<Kap4/cluster2.png, id=400, 513.92pt x 371.3875pt>
 File: Kap4/cluster2.png Graphic file (type png)
 <use Kap4/cluster2.png>
-Package pdftex.def Info: Kap4/cluster2.png  used on input line 106. on input li
-ne 106.
+Package pdftex.def Info: Kap4/cluster2.png  used on input line 130. on input li
+ne 130.
 Package pdftex.def Info: Requested size: 170.71652pt x 123.3686pt on input line
- 106.
-<Kap4/edadcluster2.png, id=362, 433.62pt x 289.08pt>
+ 130.
+<Kap4/edadcluster2.png, id=401, 433.62pt x 289.08pt>
 File: Kap4/edadcluster2.png Graphic file (type png)
 <use Kap4/edadcluster2.png>
-Package pdftex.def Info: Kap4/edadcluster2.png  used on input line 107. on inpu
-t line 107.
+Package pdftex.def Info: Kap4/edadcluster2.png  used on input line 131. on inpu
+t line 131.
 Package pdftex.def Info: Requested size: 170.71652pt x 113.8126pt on input line
- 107.
-<Kap4/Cluster2G.png, id=363, 433.62pt x 289.08pt>
+ 131.
+<Kap4/Cluster2G.png, id=402, 433.62pt x 289.08pt>
 File: Kap4/Cluster2G.png Graphic file (type png)
 <use Kap4/Cluster2G.png>
-Package pdftex.def Info: Kap4/Cluster2G.png  used on input line 108. on input l
-ine 108.
+Package pdftex.def Info: Kap4/Cluster2G.png  used on input line 132. on input l
+ine 132.
 Package pdftex.def Info: Requested size: 170.71652pt x 113.8126pt on input line
- 108.
+ 132.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 116.
+               Default added (so using `tbp') on input line 140.
 
-<Kap4/cluster3.png, id=364, 513.92pt x 371.3875pt>
+<Kap4/cluster3.png, id=403, 513.92pt x 371.3875pt>
 File: Kap4/cluster3.png Graphic file (type png)
 <use Kap4/cluster3.png>
-Package pdftex.def Info: Kap4/cluster3.png  used on input line 137. on input li
-ne 137.
+Package pdftex.def Info: Kap4/cluster3.png  used on input line 161. on input li
+ne 161.
 Package pdftex.def Info: Requested size: 170.71652pt x 123.3686pt on input line
- 137.
-<Kap4/edadcluster3.png, id=365, 433.62pt x 289.08pt>
+ 161.
+<Kap4/edadcluster3.png, id=404, 433.62pt x 289.08pt>
 File: Kap4/edadcluster3.png Graphic file (type png)
 <use Kap4/edadcluster3.png>
-Package pdftex.def Info: Kap4/edadcluster3.png  used on input line 138. on inpu
-t line 138.
+Package pdftex.def Info: Kap4/edadcluster3.png  used on input line 162. on inpu
+t line 162.
 Package pdftex.def Info: Requested size: 170.71652pt x 113.8126pt on input line
- 138.
-<Kap4/Cluster3G.png, id=366, 433.62pt x 289.08pt>
+ 162.
+<Kap4/Cluster3G.png, id=405, 433.62pt x 289.08pt>
 File: Kap4/Cluster3G.png Graphic file (type png)
 <use Kap4/Cluster3G.png>
-Package pdftex.def Info: Kap4/Cluster3G.png  used on input line 139. on input l
-ine 139.
+Package pdftex.def Info: Kap4/Cluster3G.png  used on input line 163. on input l
+ine 163.
 Package pdftex.def Info: Requested size: 170.71652pt x 113.8126pt on input line
- 139.
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
+ 163.
+LaTeX Info: Redefining \. on input line 166.
+LaTeX Info: Redefining \% on input line 166.
 [52 <./Kap4/cluster2.png (PNG copy)> <./Kap4/edadcluster2.png> <./Kap4/Cluster2
 G.png>]
-<Kap4/cluster4.png, id=372, 513.92pt x 371.3875pt>
+<Kap4/cluster4.png, id=411, 513.92pt x 371.3875pt>
 File: Kap4/cluster4.png Graphic file (type png)
 <use Kap4/cluster4.png>
-Package pdftex.def Info: Kap4/cluster4.png  used on input line 147. on input li
-ne 147.
+Package pdftex.def Info: Kap4/cluster4.png  used on input line 171. on input li
+ne 171.
 Package pdftex.def Info: Requested size: 170.71652pt x 123.3686pt on input line
- 147.
-<Kap4/edadcluster4.png, id=373, 433.62pt x 289.08pt>
+ 171.
+<Kap4/edadcluster4.png, id=412, 433.62pt x 289.08pt>
 File: Kap4/edadcluster4.png Graphic file (type png)
 <use Kap4/edadcluster4.png>
-Package pdftex.def Info: Kap4/edadcluster4.png  used on input line 148. on inpu
-t line 148.
+Package pdftex.def Info: Kap4/edadcluster4.png  used on input line 172. on inpu
+t line 172.
 Package pdftex.def Info: Requested size: 170.71652pt x 113.8126pt on input line
- 148.
-<Kap4/Cluster4G.png, id=374, 433.62pt x 289.08pt>
+ 172.
+<Kap4/Cluster4G.png, id=413, 433.62pt x 289.08pt>
 File: Kap4/Cluster4G.png Graphic file (type png)
 <use Kap4/Cluster4G.png>
-Package pdftex.def Info: Kap4/Cluster4G.png  used on input line 149. on input l
-ine 149.
+Package pdftex.def Info: Kap4/Cluster4G.png  used on input line 173. on input l
+ine 173.
 Package pdftex.def Info: Requested size: 170.71652pt x 113.8126pt on input line
- 149.
+ 173.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 152.
-LaTeX Info: Redefining \% on input line 152.
+LaTeX Info: Redefining \. on input line 176.
+LaTeX Info: Redefining \% on input line 176.
  [53 <./Kap4/cluster3.png (PNG copy)> <./Kap4/edadcluster3.png> <./Kap4/Cluster
 3G.png>]
-<Kap4/cluster5.png, id=380, 513.92pt x 371.3875pt>
+<Kap4/cluster5.png, id=419, 513.92pt x 371.3875pt>
 File: Kap4/cluster5.png Graphic file (type png)
 <use Kap4/cluster5.png>
-Package pdftex.def Info: Kap4/cluster5.png  used on input line 157. on input li
-ne 157.
+Package pdftex.def Info: Kap4/cluster5.png  used on input line 181. on input li
+ne 181.
 Package pdftex.def Info: Requested size: 170.71652pt x 123.3686pt on input line
- 157.
-<Kap4/edadcluster5.png, id=381, 433.62pt x 289.08pt>
+ 181.
+<Kap4/edadcluster5.png, id=420, 433.62pt x 289.08pt>
 File: Kap4/edadcluster5.png Graphic file (type png)
 <use Kap4/edadcluster5.png>
-Package pdftex.def Info: Kap4/edadcluster5.png  used on input line 158. on inpu
-t line 158.
+Package pdftex.def Info: Kap4/edadcluster5.png  used on input line 182. on inpu
+t line 182.
 Package pdftex.def Info: Requested size: 170.71652pt x 113.8126pt on input line
- 158.
-<Kap4/Cluster5G.png, id=382, 433.62pt x 289.08pt>
+ 182.
+<Kap4/Cluster5G.png, id=421, 433.62pt x 289.08pt>
 File: Kap4/Cluster5G.png Graphic file (type png)
 <use Kap4/Cluster5G.png>
-Package pdftex.def Info: Kap4/Cluster5G.png  used on input line 159. on input l
-ine 159.
+Package pdftex.def Info: Kap4/Cluster5G.png  used on input line 183. on input l
+ine 183.
 Package pdftex.def Info: Requested size: 170.71652pt x 113.8126pt on input line
- 159.
+ 183.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2126,20 +2123,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--90
 
 
 ]
-LaTeX Info: Redefining \. on input line 140.
-LaTeX Info: Redefining \% on input line 140.
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
  [59]
-LaTeX Info: Redefining \. on input line 206.
-LaTeX Info: Redefining \% on input line 206.
+LaTeX Info: Redefining \. on input line 212.
+LaTeX Info: Redefining \% on input line 212.
  [60]
-LaTeX Info: Redefining \. on input line 264.
-LaTeX Info: Redefining \% on input line 264.
+LaTeX Info: Redefining \. on input line 270.
+LaTeX Info: Redefining \% on input line 270.
  [61]
-LaTeX Info: Redefining \. on input line 339.
-LaTeX Info: Redefining \% on input line 339.
+LaTeX Info: Redefining \. on input line 345.
+LaTeX Info: Redefining \% on input line 345.
  [62]
-LaTeX Info: Redefining \. on input line 410.
-LaTeX Info: Redefining \% on input line 410.
+LaTeX Info: Redefining \. on input line 418.
+LaTeX Info: Redefining \% on input line 418.
  [63])
 LaTeX Info: Redefining \. on input line 102.
 LaTeX Info: Redefining \% on input line 102.
@@ -2162,31 +2159,32 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 29 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 7225 strings out of 492995
- 112106 string characters out of 6135074
- 278426 words of memory out of 5000000
- 10512 multiletter control sequences out of 15000+600000
- 12585 words of font info for 45 fonts, out of 8000000 for 9000
+ 7231 strings out of 492995
+ 112203 string characters out of 6135074
+ 278446 words of memory out of 5000000
+ 10517 multiletter control sequences out of 15000+600000
+ 12934 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,12n,66p,8828b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
-2.pfb>
-Output written on PlantillaTesisMSc.pdf (75 pages, 3381113 bytes).
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on PlantillaTesisMSc.pdf (75 pages, 3402069 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
+ 517 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

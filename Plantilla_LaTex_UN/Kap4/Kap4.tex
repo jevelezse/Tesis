@@ -38,40 +38,64 @@ El estado alélico de las variantes (cigocidad) que se encuentran dentro de la b
 
 \section{Análisis textual de información clínica.}
 
-Para el analisis de la información clínica se realizaron las siguientes actividades:
-
-\begin{enumerate}
-	\item Preprocesamiento: Remoción de stop words en español, tildes y de ñ; reemplazo de palabras sinónimas dentro de las historias clínicas, toda la información se convirtió en minúsculas. Se realizo el calculo de las frecuencias de términos con la librería nltk de python y del tfidf tm de R.
-	\item Se normalizaron los datos de la matriz tf-idf y se calculo la similitud de coseno para realizar un clustering jerárquico.
-	\item  Se realizo un clustering con el algoritmo kmeans ++  con los parametros por defecto implementado en python 2.7.13 de la librería sklearn de python, previamente se calculo el número de k con el error cuadrático y el valor de silueta.
-	\item Se validaron los resultados obtenidos. 
-\end{enumerate} 
  
-\subsection{Resultados}
+\subsection{Preprocesamiento.}
 
-Los resultados que se obtuvieron fueron que las palabras más frecuentes fueron seno, cancer, sindrome, sospecha y años. La figura \ref{fig:sin} muestra la frecuencia de palabras que se obtuvieron dentro de la base de datos.
+El proceso de limpieza y nacionalización de texto se realizo de la siguiente manera:
 
-\begin{figure}[H]
+ \begin{enumerate}
+ 	\item Remoción de stop words en español, tildes y caracteres especiales como  la letra ñ y todos los documentos se unificaron en letras minúsculas.
+ 	\item Teniendo en cuenta la información clínica se creo un diccionario de sinónimos, donde se reemplazaron palabras que hacen referencia a una misma característica.
+ 	\item Calculo de la frecuencias de palabras dentro de los documentos. 
+ 	\item Se removieron las palabras pam,pacientes, secuenciación y gen dado que no son un factor diferenciador de los documentos.  	  
+ \end{enumerate}
+
+\subsection*{Resultados}
+
+Los resultados que se obtuvieron para la frecuencia de palabras fueron seno, cáncer, síndrome, sospecha y años. La figura \ref{fig:sin} muestra las primeras 30 palabras más frecuentes y la nube de palabras de todos los documentos.\\
+
+\begin{figure}[]
 	\centering
 	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/sin_stop}}
 	\subfigure[Frecuencia de términos]{\includegraphics[width=60mm]{Kap4/frecuecias.pdf}}
 	\caption{Frecuencias sin stop words y palabras sinónimas} \label{fig:sin}
 \end{figure} 
 
+Las frecuencia de palabras nos muestra las principales características de la información clínica siendo las palabras cáncer y seno los principales fenotipos, también se encuentra la palabra síndrome que puede asociarse a diferentes  enfermedades y la palabra sospecha hace referencia a diagnósticos ambiguos que pueden tener los pacientes, una de las contribuciones de la secuenciación es que basado en el fenotipo puede ayudar a un diagnóstico,entre diferentes síntomas y síndromes que pueden ser aplicados a enfermedades raras y complejas\cite{Tetreault2015a}.
+
+\subsection{Grupos de características clínicas.}
+
+En los procesos médicos, la relación entre los factores que pueden afectar la salud juega un papel importante. Una de las relaciones más comunes es la relación entre los genes y las enfermedades donde la secuenciación de exones tiene una alta aplicabilidad. Pero la identificación manual de este tipo de relaciones es compleja dada la cantidad de características que se pueden presentar como el diagnóstico propio de la enfermedad y/o la respuesta a los tratamientos \cite{Kawashima2017}.
+
+La minería texto y puede ser aplicado al análisis en la medicina, donde el clustering (agrupamiento) puede ser considerado el método más importante que se utiliza en aprendizaje de maquina no supervisado que ha sido aplicado a diferentes problemas\cite{Kawashima2017}, teniendo en cuenta que no de los objetivos del agrupamiento de datos, es la  identificación de grupos naturales en datos sin etiquetas\cite{Jain2010}.
+
+Partiendo de lo anterior el presente trabajo se implemento un modelo de agrupamiento para identificar grupos de características clínicas con la siguiente metodología:
+
+\begin{enumerate}
+	\item Cálculo de la matriz tf-idf y se normalizo. 
+	\item Estimación de el número de k optimo.
+	\item Implementación del algoritmo k-means.
+	\item Validación de los clusters.
+	\item Análisis de resultados. 	  
+\end{enumerate}
+
+\subsection{Resultados}
+
+El cálculo de la matriz tf-idf, se realiza a partir de frecuencia invertida con la ecuación ${idf}_i = \log_2 \frac{|D|}{|\{d \mid t_i \in d\}|}$ siendo $|D|$ lo que denota el número total de documentos y donde $|\{d\mid t_i \in d\}|$ en  que $t_1$ aparece, la matriz de tf-idf es calculada a partir de la multiplicación de la frecuencia de términos y la frecuencia invertida $\mathit{tf}_{i,j} \cdot \mathit{idf}_i$ \cite{Buckley1988}. 
 La figura \ref{fig:IDFTF} representa la matriz IDF-TF de las palabras que se encuentran dentro de la base de datos.  
 
-\begin{figure}[] 
+\begin{figure}[H] 
 	\centering
-	\includegraphics[width=1\textwidth]{Kap4/tfidf.pdf}
+	\includegraphics[width=0.5\textwidth]{Kap4/tfidf.pdf}
 	\caption{TFIDF} 
 	\label{fig:IDFTF}
 \end{figure}
 
-Una vez realizada la selección de el número optimo de K se ejecuto el algoritmo k-means obteniendo cinco clusters:
+Selección de el número optimo de K se ejecuto el algoritmo k-means obteniendo cinco clusters:
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[width=0.9\textwidth]{Kap4/Clusters}
+	\includegraphics[width=0.5\textwidth]{Kap4/Clusters.pdf}
 	\caption{Número optimo de clusters} 
 	\label{fig:Clusters}
 \end{figure}
