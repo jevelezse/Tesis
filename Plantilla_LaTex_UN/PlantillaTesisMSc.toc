@@ -10,28 +10,25 @@
 \contentsline {subsection}{\numberline {2.2.1}Integraci\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{14}
 \contentsline {subsection}{\numberline {2.2.2}An\IeC {\'a}lisis de datos gen\IeC {\'o}micos con aplicaciones cl\IeC {\'\i }nicas}{18}
 \contentsline {subsection}{\numberline {2.2.3}Miner\IeC {\'\i }a de datos gen\IeC {\'o}micos}{20}
-\contentsline {chapter}{\numberline {3}Valiadaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{22}
+\contentsline {chapter}{\numberline {3}Validaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{22}
 \contentsline {section}{\numberline {3.1}Identificaci\IeC {\'o}n de variantes}{22}
-\contentsline {subsection}{\numberline {3.1.1}Analisis Bioinform\IeC {\'a}tico de datos de secuenciaci\IeC {\'o}n}{22}
 \contentsline {section}{\numberline {3.2}Datos}{23}
 \contentsline {section}{\numberline {3.3}Estrategias del pipeline}{24}
-\contentsline {section}{\numberline {3.4}Resultados}{26}
-\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{34}
+\contentsline {section}{\numberline {3.4}Resultados y validaci\IeC {\'o}n}{26}
+\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{33}
 \contentsline {section}{\numberline {3.6}Conclusiones}{37}
-\contentsline {chapter}{\numberline {4}Modelo de Integraci\IeC {\'o}n de la Informaci\IeC {\'o}n}{39}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{39}
-\contentsline {section}{\numberline {4.2}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del modelo de datos}{40}
-\contentsline {section}{\numberline {4.3}Resultados}{42}
-\contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n}{44}
-\contentsline {section}{\numberline {4.5}Conclusi\IeC {\'o}n}{44}
-\contentsline {chapter}{\numberline {5}Modelo de miner\IeC {\'\i }a de datos}{45}
-\contentsline {section}{\numberline {5.1}An\IeC {\'a}lisis exploratorio de los datos}{45}
-\contentsline {section}{\numberline {5.2}An\IeC {\'a}lisis textual de informaci\IeC {\'o}n cl\IeC {\'\i }nica.}{47}
-\contentsline {subsection}{\numberline {5.2.1}Preprocesamiento.}{47}
-\contentsline {subsection}{\numberline {5.2.2}Grupos de caracter\IeC {\'\i }sticas cl\IeC {\'\i }nicas.}{48}
-\contentsline {subsection}{\numberline {5.2.3}Resultados}{49}
-\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{56}
-\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{57}
-\contentsline {section}{\numberline {7.1}Conclusiones}{57}
-\contentsline {section}{\numberline {7.2}Recomendaciones}{57}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{58}
+\contentsline {chapter}{\numberline {4}Modelo de integraci\IeC {\'o}n de la informaci\IeC {\'o}n}{38}
+\contentsline {section}{\numberline {4.1}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del modelo de datos}{39}
+\contentsline {section}{\numberline {4.2}Gesti\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{41}
+\contentsline {section}{\numberline {4.3}Conclusi\IeC {\'o}n}{43}
+\contentsline {chapter}{\numberline {5}Modelo de miner\IeC {\'\i }a de datos}{44}
+\contentsline {section}{\numberline {5.1}An\IeC {\'a}lisis exploratorio de los datos}{44}
+\contentsline {section}{\numberline {5.2}An\IeC {\'a}lisis textual de informaci\IeC {\'o}n cl\IeC {\'\i }nica.}{46}
+\contentsline {subsection}{\numberline {5.2.1}Preprocesamiento.}{46}
+\contentsline {subsection}{\numberline {5.2.2}Grupos de caracter\IeC {\'\i }sticas cl\IeC {\'\i }nicas.}{47}
+\contentsline {subsection}{\numberline {5.2.3}Resultados}{48}
+\contentsline {chapter}{\numberline {6}Cap\'{\i }tulo ...}{55}
+\contentsline {chapter}{\numberline {7}Conclusiones y recomendaciones}{56}
+\contentsline {section}{\numberline {7.1}Conclusiones}{56}
+\contentsline {section}{\numberline {7.2}Recomendaciones}{56}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{57}

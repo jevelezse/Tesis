@@ -1,12 +1,10 @@
-\chapter{Valiadación de un pipeline para la identificación de variantes}
-
-En este capitulo se presenta el proceso para validar un pipeline que permitió la  identificación de variantes a partir de datos de secuenciación de siguientes generación (NGS), donde se utiliza datos públicos un paciente  para validar la calidad  de las variantes.
-
-\section{Identificación de variantes}
+\chapter{Validación de un pipeline para la identificación de variantes}
 
 Los pipelines son un componente integral de la secuenciación de siguiente generación (NGS), para el procesamiento de los datos en bruto y detectar las alteraciones genómicas que tienen un impacto en la salud de un paciente, por lo tanto se hace necesario desarrollo, validación y monitoreo de los pipelines son necesarios para disminuir los errores de la identificación de variantes ya que pueden tener una consecuencia negativa en la salud de los pacientes \cite{Roy2018}.
 
-\subsection{Analisis Bioinformático de datos de secuenciación}
+En este capítulo se presenta el proceso para validar un pipeline que permitió la  identificación de variantes a partir de datos de secuenciación de siguientes generación (NGS), donde se utiliza datos públicos un paciente  para validar la calidad  de las variantes, y se encuentra organizado de la siguiente forma 1. Identificación de variantes, 2. Datos. 3. Estrategias del pipeline. 4. Resultados y validación. 5. Discusión, 6.conclusiones 7. Resumen. 
+
+\section{Identificación de variantes}
 
 Los pipelines bioinformaticos para NGS son comúnmente desarrollados en una plataforma especifica y pueden ser adaptados según las necesidades del laboratorio, la mayoría de los pipelines consisten en los siguientes pasos \cite{Roy2018}:
 
@@ -80,7 +78,7 @@ Para el presente trabajo se adiciono el filtrado especifico de variantes según 
 	Y se instalo el modulo para python de omics-pipe, para python 2 con la herramienta de R y las librerías que solicita omics-pipe\cite{Fisch2015} , el algoritmo BWA, samtools,vcftools, GATK 3.5,picard, FASTQC y pbs-drmma.Una vez instalados los programas se procesaron las muestras dentro del clúster.  
 
 
-\section{Resultados}
+\section{Resultados y validación}
 	\subsection*{Reporte FASTQC}}
 
 Este reporte utilizando la herramienta FASTQC presenta inicialmente un resumen del estado de las secuencias obtenidas, ya que toma el archivo fastq y lee las métricas de calidad de cada una de las bases y genera un reporte general en formato HTML. Ya que es interactivo y genera varios módulos \cite{Babraham2016}. \\

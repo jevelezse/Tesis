@@ -11,21 +11,29 @@ A level-1 auxiliary file: Kap5/Kap5.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Repeated entry---line 2654 of file library.bib
+Repeated entry---line 728 of file library.bib
  : @article{Fisch2015
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2963 of file library.bib
- : @article{Li2014
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3047 of file library.bib
+Repeated entry---line 2032 of file library.bib
  : @article{Zaki2007
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3082 of file library.bib
+Repeated entry---line 2162 of file library.bib
  : @article{Canuel2015
  :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2507 of file library.bib
+ : @article{Li2014
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3674 of file library.bib
+ : @article{Bao2014
+ :                 ,
+I'm skipping whatever remains of this entry
+I was expecting a `{' or a `('---line 3679 of file library.bib
+ : CONTACT: kmesser@ucsd.edu 
+ :                           SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.},
 I'm skipping whatever remains of this entry
 Warning--empty journal in Maharjan2011
 Warning--empty journal in Kutzera2017
@@ -35,24 +43,24 @@ Warning--empty journal in Wang2017
 Warning--empty journal in Kawashima2017
 You've used 68 entries,
             1791 wiz_defined-function locations,
-            894 strings with 20099 characters,
-and the built_in function-call counts, 17372 in all, are:
-= -- 1293
+            894 strings with 20224 characters,
+and the built_in function-call counts, 17386 in all, are:
+= -- 1295
 > -- 1294
 < -- 4
 + -- 459
 - -- 391
-* -- 1518
-:= -- 2984
+* -- 1516
+:= -- 2986
 add.period$ -- 196
 call.type$ -- 68
 change.case$ -- 65
 chr.to.int$ -- 0
 cite$ -- 74
 duplicate$ -- 601
-empty$ -- 1451
+empty$ -- 1453
 format.name$ -- 391
-if$ -- 3594
+if$ -- 3598
 int.to.chr$ -- 0
 int.to.str$ -- 68
 missing$ -- 63
@@ -64,7 +72,7 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 256
 stack$ -- 0
-substring$ -- 1012
+substring$ -- 1018
 swap$ -- 85
 text.length$ -- 4
 text.prefix$ -- 0
@@ -74,4 +82,4 @@ warning$ -- 6
 while$ -- 160
 width$ -- 70
 write$ -- 714
-(There were 4 error messages)
+(There were 6 error messages)

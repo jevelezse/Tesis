@@ -1,5 +1,4 @@
-\chapter{Modelo de Integración de la Información}
-\section{Introducción}
+\chapter{Modelo de integración de la información}
 
 Las nuevas tecnologías de análisis genético son fáciles y económicas de hacer lo que genera una gran cantidad de datos biológicos y lo que hace que los biólogos trabajen cada vez más con las nuevas tecnologías de análisis genético, haciendo que los biólogos trabajen más y más computacionalmente.Especialmente mediante el uso de  tecnologías de secuenciación (NGS) y presentar un reto para integrar y almacenar la información, pasos que son necesarios para su posterior análisis \cite{Li2014,Cook2016}.\\
 
@@ -12,6 +11,8 @@ El problema de la heterogeneidad  de los datos  se aplica igualmente a los datos
 Para el caso de las variantes se tiene que para cada individuo hay 3.5 millones de variantes por individuo, estas variantes son almacenadas normalmente en el formato VCF (Formato de llamado de variantes), a su vez estos archivos pueden contener varias gigas de información,especialmente las muestras de genomas completos, que representan un problema para el almacenamiento dentro de las bases de datos, bases de datos que han sido desarrolladas para dar soluciones dependientes de las diferentes características y necesidades de los laboratorios\cite{Kutzera2017}.\\
 
 Por ello se hace necesario que se utilicen herramientas para la gestión de la información, por ejemplo django que es un web framework de alto nivel desarrollado en python  fomenta el desarrollo rápido y limpio, para la creación de aplicaciones web, es de código abierto y gratuito.Se basa en los principios de desarrollo rápido, manejo de la seguridad y es altamente escalable . Dentro de las muchas aplicaciones que tiene django una es el manejo y gestión de bases de datos a través de los módulos de python. https://www.djangoproject.com/. 
+
+Este capítulo esta organizado en 1. Diseño e implementación de datos. 2. Gestión de datos clínicos y genómicos. 3. Conclusiones. 4. Resumen.
 
 \section{Diseño e implementación del modelo de datos}
 
@@ -40,15 +41,11 @@ Las tablas diseñadas para gestionar las variantes y las historias clínicas son
 	\item Descripción: Que corresponde a la información clínica disponible.
 \end{itemize} 
 
-
-
 Las historias clínicas fueron transcritas manualmente y cargadas desde un archivo de texto plano con un formato especifico.\\
 
 Las variantes con su historia clínica fueron cargadas mediante un script en bash disponible en https://github.com/jevelezse/variantesBD/blob/master/carga.bash, donde se toman los archivos .csv de annovar junto con los archivos de texto que tienen la información clínica del paciente distribuida de la siguiente forma:
 
-
-
-\section{Resultados} 
+\section{Gestión de datos genómicos y clínicos}
 
 Los resultados obtenidos fueron una aplicación con una interfaz que permite a los usuarios con poco conocimiento de  programación  analizar los datos de variantes y su resumen de la historia clínica. \\
 
@@ -89,12 +86,6 @@ La figura \ref{fig:consulta} muestra una consulta de las variantes que se tienen
 
 Si se desea hacer modificaciones a los datos del paciente también es posible hacerlo desde esta misma interfaz seleccionando el código del paciente, que lleva a la tabla de genes\_varante\_paciente que contiene el formulario de la historia clínica con los datos cargados para ser modificados. 
 
-
-
-\section{Discusión}
-
-\subsection*{Gestión de datos genómicos y clínicos}
-
 La importancia de gestión aplicada al manejo de datos clínicos y de información genética es de vital importancia dado que existen miles de anotaciones que requieren de scripts para cargarlos las anotaciones y como es este caso el historial clínico del paciente \cite{Paila2013}. \\
 
 La aplicación desarrollada para crear y gestionar una base de datos aplicada una bioinformática con aplicaciones a la medicina, es necesario que la base de datos provea las consultas para soportar las decisiones sobre un paciente en especifico teniendo en cuenta sus datos,la relación con datos de otros pacientes y los datos de exomas, además de los datos relacionados con los familiares en caso de que se encuentren estos datos. Mostrando que es posible realizar una integración adecuada de los datos bioinformáticos y clínicos utilizando bases de datos relacionales, con una buena respuesta en las consultas. \cite{Sujansky2001}.
@@ -102,3 +93,7 @@ La aplicación desarrollada para crear y gestionar una base de datos aplicada un
 \section{Conclusión}
 
 La utilización de aplicaciones en Django permite que un bioinformático diseñe e implementar bases de datos aplicadas al diagnostico clínico, donde se puede guardar y gestionar toda la información obtenida de un paciente, lo que permite hacer análisis a profesionales Médicos y biólogos fácilmente. Una vez ha sido implementa la base de datos también es posible aplicar técnicas de minería de datos para optimizar los análisis de la información. \\
+
+\section*{Resumen}
+
+En este capitulo se presento el proceso de diseñar e implementar un sistema de información para la gestíon de datos clínicos y genómicos, dada la importancia de tener toda la información integrada para hacer futuros análisis. Se utilizo la herramienta de Django como gestor de la base de datos, se transcribió las historias clínicas y se cargaron las variantes obtenidas para cada paciente, como resultado se genero un sistema de información que permite realizar consultas de variantes con las características clínicas de los pacientes.   

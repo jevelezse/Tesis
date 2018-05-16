@@ -81,7 +81,9 @@ Partiendo de lo anterior el presente trabajo se implemento un modelo de agrupami
 
 \subsection{Resultados}
 
-El cálculo de la matriz tf-idf, se realiza a partir de frecuencia invertida con la ecuación ${idf}_i = \log_2 \frac{|D|}{|\{d \mid t_i \in d\}|}$ siendo $|D|$ lo que denota el número total de documentos y donde $|\{d\mid t_i \in d\}|$ en  que $t_1$ aparece, la matriz de tf-idf es calculada a partir de la multiplicación de la frecuencia de términos y la frecuencia invertida $\mathit{tf}_{i,j} \cdot \mathit{idf}_i$ \cite{Buckley1988}. 
+El cálculo de la matriz tf-idf, se realiza a partir de frecuencia invertida con la ecuación 
+$${idf}_i = \log_2 \frac{|D|}{|\{d \mid t_i \in d\}|}$$
+siendo $|D|$ lo que denota el número total de documentos y donde $|\{d\mid t_i \in d\}|$ en  que $t_1$ aparece, la matriz de tf-idf es calculada a partir de la multiplicación de la frecuencia de términos y la frecuencia invertida $\mathit{tf}_{i,j} \cdot \mathit{idf}_i$ \cite{Buckley1988}. 
 La figura \ref{fig:IDFTF} representa la matriz IDF-TF de las palabras que se encuentran dentro de la base de datos.  
 
 \begin{figure}[H] 
@@ -91,7 +93,7 @@ La figura \ref{fig:IDFTF} representa la matriz IDF-TF de las palabras que se enc
 	\label{fig:IDFTF}
 \end{figure}
 
-Selección de el número optimo de K se ejecuto el algoritmo k-means obteniendo cinco clusters:
+La selección del número optimo de K se realizo calculando el error cuadrático y el valor shiluetta  :
 
 \begin{figure}[H] 
 	\centering
