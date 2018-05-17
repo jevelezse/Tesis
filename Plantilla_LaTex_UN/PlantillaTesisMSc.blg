@@ -11,75 +11,78 @@ A level-1 auxiliary file: Kap5/Kap5.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Repeated entry---line 728 of file library.bib
- : @article{Fisch2015
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2032 of file library.bib
- : @article{Zaki2007
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2162 of file library.bib
- : @article{Canuel2015
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2507 of file library.bib
- : @article{Li2014
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3674 of file library.bib
+Repeated entry---line 3554 of file library.bib
  : @article{Bao2014
  :                 ,
 I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 3679 of file library.bib
- : CONTACT: kmesser@ucsd.edu 
- :                           SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.},
+Repeated entry---line 3785 of file library.bib
+ : @article{Li2014
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4580 of file library.bib
+ : @article{Zaki2007
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4666 of file library.bib
+ : @article{Canuel2015
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5529 of file library.bib
+ : @article{Fisch2015
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5625 of file library.bib
+ : @article{scikit-learn
+ :                      ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Maharjan2011
 Warning--empty journal in Kutzera2017
 Warning--can't use both volume and number fields in Auwera2014
 Warning--empty publisher in Auwera2014
 Warning--empty journal in Wang2017
+Warning--empty journal in mckinneypandas
+Warning--empty year in mckinneypandas
 Warning--empty journal in Kawashima2017
-You've used 68 entries,
+Warning--there's a number but no volume in Huang2008
+You've used 75 entries,
             1791 wiz_defined-function locations,
-            894 strings with 20224 characters,
-and the built_in function-call counts, 17386 in all, are:
-= -- 1295
-> -- 1294
+            933 strings with 21433 characters,
+and the built_in function-call counts, 18988 in all, are:
+= -- 1431
+> -- 1374
 < -- 4
-+ -- 459
-- -- 391
-* -- 1516
-:= -- 2986
-add.period$ -- 196
-call.type$ -- 68
-change.case$ -- 65
++ -- 489
+- -- 414
+* -- 1650
+:= -- 3243
+add.period$ -- 215
+call.type$ -- 75
+change.case$ -- 72
 chr.to.int$ -- 0
-cite$ -- 74
-duplicate$ -- 601
-empty$ -- 1453
-format.name$ -- 391
-if$ -- 3598
+cite$ -- 84
+duplicate$ -- 659
+empty$ -- 1607
+format.name$ -- 414
+if$ -- 3934
 int.to.chr$ -- 0
-int.to.str$ -- 68
-missing$ -- 63
-newline$ -- 334
-num.names$ -- 67
-pop$ -- 149
+int.to.str$ -- 75
+missing$ -- 69
+newline$ -- 367
+num.names$ -- 74
+pop$ -- 166
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 256
+skip$ -- 281
 stack$ -- 0
-substring$ -- 1018
-swap$ -- 85
+substring$ -- 1149
+swap$ -- 91
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 160
-width$ -- 70
-write$ -- 714
+warning$ -- 9
+while$ -- 177
+width$ -- 77
+write$ -- 783
 (There were 6 error messages)

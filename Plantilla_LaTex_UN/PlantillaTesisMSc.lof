@@ -35,28 +35,28 @@
 \contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Frecuencias sin stop words y palabras sin\IeC {\'o}nimas}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Frecuencia de t\IeC {\'e}rminos}}}{47}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces TFIDF}}{48}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces TF-IDF}}{48}
 \contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces N\IeC {\'u}mero optimo de clusters}}{49}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Valor Silueta de cada cluster}}{49}
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Cluster 1}}{50}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{50}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{50}
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 1}}{50}
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Cluster 2}}{51}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{51}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{51}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {G\IeC {\'e}nero}}}{51}
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Cluster 3}}{52}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Valor Silhouette por cada cluster}}{50}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Cluster 1}}{52}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{52}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{52}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {G\IeC {\'e}nero}}}{52}
-\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Cluster 4}}{53}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 1}}{52}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Cluster 2}}{53}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{53}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{53}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {G\IeC {\'e}nero}}}{53}
-\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Cluster 5}}{54}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Cluster 3}}{54}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{54}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{54}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {G\IeC {\'e}nero}}}{54}
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Cluster 4}}{55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{55}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{55}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {G\IeC {\'e}nero}}}{55}
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Cluster 5}}{56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{56}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{56}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {G\IeC {\'e}nero}}}{56}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
