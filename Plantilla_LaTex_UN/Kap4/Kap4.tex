@@ -168,7 +168,7 @@ Los resultados de validación obtenidos fueron:
 
 Para homogeneidad 0.296, para integridad 1.0, para el V-measure 0.457 y el Rand-Index fue 0. La homogeneidad perfecta sería con un valor de 1.0, en los presentes clusters presentan una baja homogeneidad, pero una una integridad de 1.0 que significa que las etiquetas son perfectamente completas, esto se ve reflejado en el V-measure que es de 0.457 donde tenemos clusters con baja homogeneidad pero una alta integridad.  Rand-Index se obtuvo un valor de 0.0 que muestra que las clases están separadas en diferentes clusters \cite{scikit-learn}. 
 
-\subsection{Asociación de grupos con variantes.}
+\section{Asociación de grupos con variantes.}
 
 Una vez realizado el agrupamiento de la información clínica se aplico un modelo de asociación de las variantes con los clusters obtenidos de la siguiente forma:
 
@@ -193,13 +193,13 @@ Las reglas de asociación se basan en un set de items(elementos) $I = \{i_1,i_2,
 
 \subsection{Variantes vistas como transacciones.}
 
-Uno de los criterios más importantes para la clasificación de variantes es la frecuencia con la que se presentan las variantes dentro de una población según la asociación americana de genética médica \cite{Laboratories2015}, otro de los retos de los análisis de variantes es el estado alélico de las variantes, que se define como una forma alternativa de un mismo gen, en este caso se aplica a las variantes encontradas dentro de la secuenciación.
+Uno de los criterios más importantes para la clasificación de variantes es la frecuencia con la que se presentan las variantes dentro de una población según la asociación americana de genética médica \cite{Laboratories2015}, otro de los retos de los análisis de variantes es el estado alélico de las variantes, que se define como una forma alternativa de un mismo gen, en este caso se aplica a las variantes encontradas dentro de la secuenciación.\\
 
-Este estado alelico puede ser de tres tipos, el homocigoto donde el individo presenta la misma una sola variante y la otra es normal (en términos al genoma de referencia), la otra forma son los heterocigotos, donde solo una variante es distinta con respecto a su referencia y los heterocigotos compuestos que son variantes heterocigotas pero que pueden estar dentro del mismo gen o asociadas con otros. Teniendo en cuenta lo anterior es importante visualizar el estado alelico de las variantes \cite{Laboratories2015.Hannah-Shmouni2015} ya que pueden tener un impacto el el fenotipo del paciente.La realización de identificación entre la relación genotipo-fenotipo,  se ingresan como los patrones de frecuencia de las variantes y que para el trabajo caso serían las transacciones\cite{Breuer2017}.  
+Este estado alelico puede ser de tres tipos, el homocigoto donde el individo presenta la misma una sola variante y la otra es normal (en términos al genoma de referencia), la otra forma son los heterocigotos, donde solo una variante es distinta con respecto a su referencia y los heterocigotos compuestos que son variantes heterocigotas pero que pueden estar dentro del mismo gen o asociadas con otros. Teniendo en cuenta lo anterior es importante visualizar el estado alélico de las variantes \cite{Laboratories2015.Hannah-Shmouni2015} ya que pueden tener un impacto el el fenotipo del paciente.La realización de identificación entre la relación genotipo-fenotipo,  se ingresan como los patrones de frecuencia de las variantes y que para el trabajo caso serían las transacciones\cite{Breuer2017}.  
 
 \subsection{Experimentación}
 
-La confianza y el soporte para este trabajo se ajusto a partir de los resultados experimentales, donde se observo que el soporte es inversamente proporcional a la confianza, esto se debe a la cantidad de variantes que se encuentran dentro de la base de datos. Al correr un experimento con un soporte de 0.2 y una confianza de 0.9 no se generaban ningún tipo de regla, por lo tanto se fue disminuyendo en 0.1 el valor de la confianza y el soporte, finalmente se ajusto un soporte de 0.05 y una confianza de 0.6, dado que con un soporte de 0.1 solo se generaban 5 reglas, utilizando toda los datos disponibles. Una vez realizado este ajuste se dejaron los valores de soporte y confianza igual para todos los experimentos.
+La confianza y el soporte para este trabajo se ajusto a partir de los resultados experimentales, donde se observo que el soporte es inversamente proporcional a la confianza, esto se debe a la cantidad de variantes que se encuentran dentro de la base de datos. Al correr un experimento con un soporte de 0.2 y una confianza de 0.9 no se generaban ningún tipo de regla, por lo tanto se fue disminuyendo en 0.1 el valor de la confianza y el soporte, finalmente se ajusto un soporte de 0.05 y una confianza de 0.6, dado que con un soporte de 0.1 solo se generaban 5 reglas, utilizando toda los datos disponibles. Una vez realizado este ajuste se dejaron los valores de soporte y confianza igual para todos los experimentos.\\
 
 Un vez se obtuvieron los clusters de la base de datos, se realizaron 12 experimentos, los primeros 5 experimentos con todas las variante dentro del set de datos  junto a su clusters, otro a todo el conjunto de datos aplicado con  los datos y filtrado por el gen CFTR. Se volvieron a repetir los mismos experimentos pero removiendo las variantes sinónimas que son las más frecuentes dentro del conjunto de datos.
 
@@ -228,68 +228,106 @@ La figura \ref{fig:cluster1} representa el clúster 1 con la frecuencia de palab
 
 Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:reglas1} que muestra la asociación,sin remover las variantes sinónimas, el resultado obtenido muestra de dos tipos de variantes dentro del clúster 1. Para el genero masculino  se tiene que el tipo de variante es no sinónima, son pacientes de edad entre 10 y 20 años, el estado alélico de las variantes es homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros.
 
-\begin{figure}[]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Kap4/reglas1_2}
 	\caption{Reglas de asociación del cluster 1 sin variantes sinónimas} \label{fig:reglas2}
 \end{figure}
 
 
+\subsubsection*{Cluster 2}
+
 \begin{figure}[H]
 	\centering
 	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster2}}
-	\subfigure[Rango de edad en decadas]{\includegraphics[width=60mm]{Kap4/edadcluster2}}
-	\subfigure[Género]{\includegraphics[width=60mm]{Kap4/Cluster2G}}
+	\subfigure[Rango de edad en décadas.]{\includegraphics[width=60mm]{Kap4/edadc2}}
 	\caption{Cluster 2} \label{fig:c2}
 \end{figure}
 
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
-\begin{table}[]
+\begin{figure}[H]
 	\centering
-	\caption{My caption}
-	\label{my-label}
-	\begin{tabular}{@{}|c|c|@{}}
-		Rango de Edad & No. de pacientes . \\ 
-		0-10          & 15                 \\
-		10-20         & 9                  \\
-		20-30         & 3                  \\
-		30-40         & 7                  \\
-		40-50         & 7                  \\
-		50-60         & 2                  \\ 
-		60-70         & 2                  \\
-		Total         & 45                 \\
-	\end{tabular}
-\end{table}
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas2_1}
+	\caption{Reglas de asociación del cluster 2 con variantes sinónimas} \label{fig:reglas2_1}
+\end{figure}
 
-donde...
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas2_2}
+	\caption{Reglas de asociación del cluster 2 con variantes sinónimas} \label{fig:reglas2_2}
+\end{figure}
+
+\subsubsection*{Cluster 3}
 
 \begin{figure}[H]
 	\centering
 	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster3}}
-	\subfigure[Rango de edad en decadas]{\includegraphics[width=60mm]{Kap4/edadcluster3}}
-	\subfigure[Género]{\includegraphics[width=60mm]{Kap4/Cluster3G}}
+	\subfigure[Rango de edad en décadas.]{\includegraphics[width=60mm]{Kap4/edadc3}}
 	\caption{Cluster 3} \label{fig:c3}
 \end{figure}
 
-Donde ...
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas3_1}
+	\caption{Reglas de asociación del cluster 3 con variantes sinónimas} \label{fig:r3}
+\end{figure}
 
 \begin{figure}[H]
 	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas3_2}
+	\caption{Reglas de asociación del cluster 3 sin variantes sinónimas} \label{fig:r23}
+\end{figure}
+
+\subsubsection*{Cluster 4}
+\begin{figure}[H]
+	\centering
 	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster4}}
-	\subfigure[Rango de edad en decadas]{\includegraphics[width=60mm]{Kap4/edadcluster4}}
-	\subfigure[Género]{\includegraphics[width=60mm]{Kap4/Cluster4G}}
+	\subfigure[Rango de edad en decadas]{\includegraphics[width=60mm]{Kap4/edadc4}}
 	\caption{Cluster 4} \label{fig:c4}
 \end{figure}
 
-Donde 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas4_1}
+	\caption{Reglas de asociación del cluster 4 con variantes sinónimas} \label{fig:r4}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas4_2}
+	\caption{Reglas de asociación del cluster 4 sin variantes sinónimas} \label{fig:re4}
+\end{figure}
+
+\subsubsection*{Cluster 5}
 
 \begin{figure}[H]
 	\centering
 	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster5}}
-	\subfigure[Rango de edad en decadas]{\includegraphics[width=60mm]{Kap4/edadcluster5}}
-	\subfigure[Género]{\includegraphics[width=60mm]{Kap4/Cluster5G}}
+	\subfigure[Rango de edad en decadas]{\includegraphics[width=60mm]{Kap4/edadc5}}
 	\caption{Cluster 5} \label{fig:c5}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas5_1}
+	\caption{Reglas de asociación del cluster 5 con variantes sinónimas} \label{fig:r5}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas5_2}
+	\caption{Reglas de asociación del cluster 5 sin variantes sinónimas} \label{fig:re5}
+\end{figure}
+
+\subsubsection*{CFTR}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/CFTR1}
+	\caption{Reglas de asociación con variantes sinónimas} \label{fig:r6}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/CFRT2}
+	\caption{Reglas de asociación sin variantes sinónimas} \label{fig:r6}
 \end{figure}
