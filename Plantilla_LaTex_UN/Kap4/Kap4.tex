@@ -175,29 +175,64 @@ Una vez realizado el agrupamiento de la información clínica se aplico un model
 \begin{enumerate}
 	\item Consulta de las variantes que se encontraban en cada cluster.
 	\item Asociación de las variantes por cluster.
-	\item Asociación de las variantes por toda la información de la base de datos filtrada por el gen CFTR.
+	\item Asociación de las variantes por toda la información de la base de datos filtrada por el gen CFTR como caso de ejemplo.
 \end{enumerate}
 
-\subsubsection{Resultados}
+La minería de datos frecuentes y las reglas de asociación  es un método popular y bien investigado par describir las relaciones entre variantes en grandes bases de datos \cite{Hahsler2005}. Las reglas de asociación (RA) muestran atributos con valores que ocurren frecuentemente en el set de datos, es posible obtener todos las posibles reglas de algunos atributos de acuerdo a la presencia de otros atributos \cite{Karabatak2009}.\\
 
-Teniendo en cuenta las medidas de validación encontramos  5 clusters con las siguientes estructuras 
+Las reglas de asociación se basan en un set de items(elementos) $I = \{i_1,i_2,.....i_n \}$ que son un conjunto de $n$ atributos binarios. También se tiene que $D = \{t_1,t_2,..... t_m\}$ son el número de transacciones en la base de datos, cada transacción $D$ tiene una identificación única y contienen un subconjunto de elementos en $I$. Una regla se define como una implicación de la forma $X \Rightarrow Y$ donde $X,Y \subseteq I$ y $X \bigcap Y = \emptyset$. Los sets de elementos son llamados $antecedentes$ y $consecuentes$ \cite{Hahsler2005,Karabatak2009}.La selección de reglas interesantes se realiza calculando la confianza y el soporte que son definidos como:
+
+\begin{itemize}
+	\item Dados un set de datos $X \Rightarrow Y$, en una \textit{regla de asociación} tiene una confianza $c$ si $c$ de nuestra transacción que contiene $X$ pero que también contiene $Y$ \cite{Agrawal1994}.
+	
+	\item Dados un set de datos $X \Rightarrow Y$ tiene una \textit{regla de asociación} tiene un soporte $s$ si $s\%$ de las transacciones en nuestra base de datos de transacciones que contienen $X\cup Y$ \cite{Agrawal1994}. 
+	
+	\item Los algoritmos de asociación tratan de encontrar todas las reglas que tengan un mínimo de soporte y un mínimo de confianza\cite{Agrawal1994}. 
+
+\end{itemize}
+
+\subsection{Variantes vistas como transacciones.}
+
+Uno de los criterios más importantes para la clasificación de variantes es la frecuencia con la que se presentan las variantes dentro de una población según la asociación americana de genética médica \cite{Laboratories2015}, otro de los retos de los análisis de variantes es el estado alélico de las variantes, que se define como una forma alternativa de un mismo gen, en este caso se aplica a las variantes encontradas dentro de la secuenciación.
+
+Este estado alelico puede ser de tres tipos, el homocigoto donde el individo presenta la misma una sola variante y la otra es normal (en términos al genoma de referencia), la otra forma son los heterocigotos, donde solo una variante es distinta con respecto a su referencia y los heterocigotos compuestos que son variantes heterocigotas pero que pueden estar dentro del mismo gen o asociadas con otros. Teniendo en cuenta lo anterior es importante visualizar el estado alelico de las variantes \cite{Laboratories2015.Hannah-Shmouni2015} ya que pueden tener un impacto el el fenotipo del paciente.La realización de identificación entre la relación genotipo-fenotipo,  se ingresan como los patrones de frecuencia de las variantes y que para el trabajo caso serían las transacciones\cite{Breuer2017}.  
+
+\subsection{Experimentación}
+
+La confianza y el soporte para este trabajo se ajusto a partir de los resultados experimentales, donde se observo que el soporte es inversamente proporcional a la confianza, esto se debe a la cantidad de variantes que se encuentran dentro de la base de datos. Al correr un experimento con un soporte de 0.2 y una confianza de 0.9 no se generaban ningún tipo de regla, por lo tanto se fue disminuyendo en 0.1 el valor de la confianza y el soporte, finalmente se ajusto un soporte de 0.05 y una confianza de 0.6, dado que con un soporte de 0.1 solo se generaban 5 reglas, utilizando toda los datos disponibles. Una vez realizado este ajuste se dejaron los valores de soporte y confianza igual para todos los experimentos.
+
+Un vez se obtuvieron los clusters de la base de datos, se realizaron 12 experimentos, los primeros 5 experimentos con todas las variante dentro del set de datos  junto a su clusters, otro a todo el conjunto de datos aplicado con  los datos y filtrado por el gen CFTR. Se volvieron a repetir los mismos experimentos pero removiendo las variantes sinónimas que son las más frecuentes dentro del conjunto de datos.
+
+
+\subsubsection{Resultados} 
+
+Teniendo en cuenta las medidas de validación encontramos  5 clusters con las siguientes estructuras:
+
+\subsubsection*{Cluster 1}
 
 \begin{figure}[H]
 	\centering
-	\subfigure[Nube de palabras]{\includegraphics[width=80mm]{Kap4/cluster1}}
-	\subfigure[Rango de edad en decadas]{\includegraphics[width=70mm]{Kap4/edadsexocluster1}}
-	\caption{Cluster 1} \label{fig:c1}
-\end{figure}
+	\subfigure[Nube de palabras]{\includegraphics[width=70mm]{Kap4/cluster1}}
+	\label{f:nube1}
+	\subfigure[Distribucón demográfica de los pacientes]{\includegraphics[width=70mm]{Kap4/edadc1}}
+	\caption{Cluster 1} \label{fig:cluster1}
+\end{figure} 
 
-La figura \ref{fig:c1} representa el clúster 1 con la información clínica que presenta en (a) tenemos la frecuencia de palabras, siendo seno,síndrome y cáncer son las palabras más frecuentes, junto con ovario y familiar.
+La figura \ref{fig:cluster1} representa el clúster 1 con la frecuencia de palabras que se agruparon para este clúster  la figura \ref{fig:cluster1}(a) se muestra la frecuencia de palabras, siendo seno,síndrome y cáncer son las palabras más frecuentes, junto con ovario,familiar sospecha y epilepsia. La figura \ref{fig:cluster1} representa la distribución de pacientes por edad y genero dentro del grupo por rango de edad en un intervalo de 10 años.\\
 
-\begin{figure}[H]
+\begin{figure}[]
 	\centering
-	\includegraphics[width=0.9\textwidth]{Kap4/reglasc1}
-	\caption{Reglas de asociación del cluster 1} \label{fig:reglas}
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas1_1}
+	\caption{Reglas de asociación del cluster 1 con variantes sinónimas} \label{fig:reglas1}
 \end{figure}
 
-Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:reglas} que muestra la asociación de dos tipos de variantes dentro del clúster 1 con el genero masculino donde se tiene que el tipo de variante es no sinónima, son pacientes de edad entre 10 y 20 años, el estado alélico de las variantes es homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros, 
+Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:reglas1} que muestra la asociación,sin remover las variantes sinónimas, el resultado obtenido muestra de dos tipos de variantes dentro del clúster 1. Para el genero masculino  se tiene que el tipo de variante es no sinónima, son pacientes de edad entre 10 y 20 años, el estado alélico de las variantes es homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros.
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas1_2}
+	\caption{Reglas de asociación del cluster 1 sin variantes sinónimas} \label{fig:reglas2}
+\end{figure}
 
 
 \begin{figure}[H]

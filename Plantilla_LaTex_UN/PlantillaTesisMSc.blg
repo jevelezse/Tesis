@@ -11,30 +11,31 @@ A level-1 auxiliary file: Kap5/Kap5.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Repeated entry---line 3554 of file library.bib
+Repeated entry---line 3609 of file library.bib
  : @article{Bao2014
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3785 of file library.bib
+Repeated entry---line 3840 of file library.bib
  : @article{Li2014
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4580 of file library.bib
+Repeated entry---line 4619 of file library.bib
  : @article{Zaki2007
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4666 of file library.bib
+Repeated entry---line 4705 of file library.bib
  : @article{Canuel2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5529 of file library.bib
+Repeated entry---line 5598 of file library.bib
  : @article{Fisch2015
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5625 of file library.bib
+Repeated entry---line 5694 of file library.bib
  : @article{scikit-learn
  :                      ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Laboratories2015.Hannah-Shmouni2015"
 Warning--empty journal in Maharjan2011
 Warning--empty journal in Kutzera2017
 Warning--can't use both volume and number fields in Auwera2014
@@ -44,45 +45,45 @@ Warning--empty journal in mckinneypandas
 Warning--empty year in mckinneypandas
 Warning--empty journal in Kawashima2017
 Warning--there's a number but no volume in Huang2008
-You've used 75 entries,
+You've used 80 entries,
             1791 wiz_defined-function locations,
-            933 strings with 21433 characters,
-and the built_in function-call counts, 18988 in all, are:
-= -- 1431
-> -- 1374
-< -- 4
-+ -- 489
-- -- 414
-* -- 1650
-:= -- 3243
-add.period$ -- 215
-call.type$ -- 75
-change.case$ -- 72
+            969 strings with 23039 characters,
+and the built_in function-call counts, 20597 in all, are:
+= -- 1569
+> -- 1477
+< -- 6
++ -- 525
+- -- 445
+* -- 1777
+:= -- 3495
+add.period$ -- 230
+call.type$ -- 80
+change.case$ -- 77
 chr.to.int$ -- 0
-cite$ -- 84
-duplicate$ -- 659
-empty$ -- 1607
-format.name$ -- 414
-if$ -- 3934
+cite$ -- 89
+duplicate$ -- 726
+empty$ -- 1730
+format.name$ -- 445
+if$ -- 4287
 int.to.chr$ -- 0
-int.to.str$ -- 75
-missing$ -- 69
-newline$ -- 367
-num.names$ -- 74
-pop$ -- 166
+int.to.str$ -- 80
+missing$ -- 74
+newline$ -- 392
+num.names$ -- 79
+pop$ -- 176
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 281
+skip$ -- 327
 stack$ -- 0
-substring$ -- 1149
-swap$ -- 91
-text.length$ -- 4
+substring$ -- 1265
+swap$ -- 118
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 177
-width$ -- 77
-write$ -- 783
+while$ -- 192
+width$ -- 82
+write$ -- 838
 (There were 6 error messages)
