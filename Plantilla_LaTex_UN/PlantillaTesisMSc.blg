@@ -11,29 +11,25 @@ A level-1 auxiliary file: Kap5/Kap5.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Repeated entry---line 3609 of file library.bib
- : @article{Bao2014
- :                 ,
+Repeated entry---line 189 of file library.bib
+ : @article{scikit-learn
+ :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3840 of file library.bib
- : @article{Li2014
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4619 of file library.bib
- : @article{Zaki2007
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4705 of file library.bib
- : @article{Canuel2015
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5598 of file library.bib
+Repeated entry---line 2855 of file library.bib
  : @article{Fisch2015
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5694 of file library.bib
- : @article{scikit-learn
- :                      ,
+Repeated entry---line 3164 of file library.bib
+ : @article{Li2014
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3230 of file library.bib
+ : @article{Zaki2007
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3277 of file library.bib
+ : @article{Canuel2015
+ :                    ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Laboratories2015.Hannah-Shmouni2015"
 Warning--empty journal in Maharjan2011
@@ -47,24 +43,24 @@ Warning--empty journal in Kawashima2017
 Warning--there's a number but no volume in Huang2008
 You've used 80 entries,
             1791 wiz_defined-function locations,
-            969 strings with 23039 characters,
-and the built_in function-call counts, 20597 in all, are:
-= -- 1569
-> -- 1477
+            968 strings with 23100 characters,
+and the built_in function-call counts, 20606 in all, are:
+= -- 1565
+> -- 1489
 < -- 6
-+ -- 525
-- -- 445
-* -- 1777
-:= -- 3495
++ -- 529
+- -- 449
+* -- 1776
+:= -- 3503
 add.period$ -- 230
 call.type$ -- 80
 change.case$ -- 77
 chr.to.int$ -- 0
 cite$ -- 89
 duplicate$ -- 726
-empty$ -- 1730
-format.name$ -- 445
-if$ -- 4287
+empty$ -- 1725
+format.name$ -- 449
+if$ -- 4286
 int.to.chr$ -- 0
 int.to.str$ -- 80
 missing$ -- 74
@@ -76,7 +72,7 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 327
 stack$ -- 0
-substring$ -- 1265
+substring$ -- 1253
 swap$ -- 118
 text.length$ -- 6
 text.prefix$ -- 0
@@ -86,4 +82,4 @@ warning$ -- 9
 while$ -- 192
 width$ -- 82
 write$ -- 838
-(There were 6 error messages)
+(There were 5 error messages)

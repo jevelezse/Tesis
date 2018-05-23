@@ -195,16 +195,16 @@ Las reglas de asociación se basan en un set de items(elementos) $I = \{i_1,i_2,
 
 Uno de los criterios más importantes para la clasificación de variantes es la frecuencia con la que se presentan las variantes dentro de una población según la asociación americana de genética médica \cite{Laboratories2015}, otro de los retos de los análisis de variantes es el estado alélico de las variantes, que se define como una forma alternativa de un mismo gen, en este caso se aplica a las variantes encontradas dentro de la secuenciación.\\
 
-Este estado alelico puede ser de tres tipos, el homocigoto donde el individo presenta la misma una sola variante y la otra es normal (en términos al genoma de referencia), la otra forma son los heterocigotos, donde solo una variante es distinta con respecto a su referencia y los heterocigotos compuestos que son variantes heterocigotas pero que pueden estar dentro del mismo gen o asociadas con otros. Teniendo en cuenta lo anterior es importante visualizar el estado alélico de las variantes \cite{Laboratories2015.Hannah-Shmouni2015} ya que pueden tener un impacto el el fenotipo del paciente.La realización de identificación entre la relación genotipo-fenotipo,  se ingresan como los patrones de frecuencia de las variantes y que para el trabajo caso serían las transacciones\cite{Breuer2017}.  
+Este estado alélico puede ser de tres tipos, el homocigoto donde el individuo presenta la misma una sola variante (en términos al genoma de referencia), la otra forma son los heterocigotos, donde solo una variante es distinta con respecto a su referencia y los heterocigotos compuestos que son variantes heterocigotas pero que pueden estar dentro del mismo gen o asociadas con otros. Teniendo en cuenta lo anterior es importante visualizar el estado alélico de las variantes \cite{Hannah-Shmouni2015,Laboratories2015} ya que pueden tener un impacto el fenotipo del paciente.La identificación entre la relación genotipo-fenotipo, se ingresan como frecuencia de variación, que para el trabajo caso serían las transacciones\cite{Breuer2017}.  
 
 \subsection{Experimentación}
 
-La confianza y el soporte para este trabajo se ajusto a partir de los resultados experimentales, donde se observo que el soporte es inversamente proporcional a la confianza, esto se debe a la cantidad de variantes que se encuentran dentro de la base de datos. Al correr un experimento con un soporte de 0.2 y una confianza de 0.9 no se generaban ningún tipo de regla, por lo tanto se fue disminuyendo en 0.1 el valor de la confianza y el soporte, finalmente se ajusto un soporte de 0.05 y una confianza de 0.6, dado que con un soporte de 0.1 solo se generaban 5 reglas, utilizando toda los datos disponibles. Una vez realizado este ajuste se dejaron los valores de soporte y confianza igual para todos los experimentos.\\
+La confianza y el soporte para este trabajo se ajusto a partir de los resultados experimentales, donde se observo que el soporte es inversamente proporcional a la confianza, esto se debe a la cantidad de variantes que se encuentran dentro de la base de datos. Al correr un experimento con soporte de 0.2 y una confianza de 0.9 no se generaban ningún tipo de regla, por lo tanto se fue disminuyendo en 0.1 el valor de la confianza y el soporte, finalmente se ajusto un soporte de 0.05 y una confianza de 0.6, dado que con un soporte de 0.1 solo se generaban 5 reglas, utilizando toda los datos disponibles. Una vez realizado este ajuste se dejaron los valores de soporte y confianza igual para todos los experimentos.\\
 
 Un vez se obtuvieron los clusters de la base de datos, se realizaron 12 experimentos, los primeros 5 experimentos con todas las variante dentro del set de datos  junto a su clusters, otro a todo el conjunto de datos aplicado con  los datos y filtrado por el gen CFTR. Se volvieron a repetir los mismos experimentos pero removiendo las variantes sinónimas que son las más frecuentes dentro del conjunto de datos.
 
 
-\subsubsection{Resultados} 
+\subsection{Resultados} 
 
 Teniendo en cuenta las medidas de validación encontramos  5 clusters con las siguientes estructuras:
 
@@ -220,19 +220,21 @@ Teniendo en cuenta las medidas de validación encontramos  5 clusters con las si
 
 La figura \ref{fig:cluster1} representa el clúster 1 con la frecuencia de palabras que se agruparon para este clúster  la figura \ref{fig:cluster1}(a) se muestra la frecuencia de palabras, siendo seno,síndrome y cáncer son las palabras más frecuentes, junto con ovario,familiar sospecha y epilepsia. La figura \ref{fig:cluster1} representa la distribución de pacientes por edad y genero dentro del grupo por rango de edad en un intervalo de 10 años.\\
 
-\begin{figure}[]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas1_1}
-	\caption{Reglas de asociación del cluster 1 con variantes sinónimas} \label{fig:reglas1}
+	\includegraphics[width=0.7\textwidth]{Kap4/reglas1_1}
+	\caption{Reglas de asociación del cluster 1 con variantes sinónimas.} \label{fig:reglas1}
 \end{figure}
 
-Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:reglas1} que muestra la asociación,sin remover las variantes sinónimas, el resultado obtenido muestra de dos tipos de variantes dentro del clúster 1. Para el genero masculino  se tiene que el tipo de variante es no sinónima, son pacientes de edad entre 10 y 20 años, el estado alélico de las variantes es homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros.
+Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:reglas1} que muestra la asociación,sin remover las variantes sinónimas, el resultado obtenido muestra de dos tipos de variantes dentro del clúster 1. Para el genero masculino con variantes   no sinónima y que son pacientes de edad entre 10 y 20 años, el estado alélico de las variantes es homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros, donde las pacientes de genero femenino tienen variantes sinónimas con estado heterocigotas.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Kap4/reglas1_2}
-	\caption{Reglas de asociación del cluster 1 sin variantes sinónimas} \label{fig:reglas2}
+	\caption{Reglas de asociación del cluster 1 sin variantes sinónimas.} \label{fig:reglas2}
 \end{figure}
+
+Las 10 primeras reglas removiendo las variantes sinónimas que se muestran en la figura  \ref{fig:reglas2}, nos muestra nuevamente la distribución de este tipo de variante dentro del grupo, donde los pacientes masculinos son pacientes entre 10 y 20 años, con variantes heterocigotas no sinónimas, mientras que para el genero femenino se tienen rangos de edad más amplios desde la edad  de 0 a 50 años.
 
 
 \subsubsection*{Cluster 2}
@@ -244,38 +246,50 @@ Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:regl
 	\caption{Cluster 2} \label{fig:c2}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas2_1}
-	\caption{Reglas de asociación del cluster 2 con variantes sinónimas} \label{fig:reglas2_1}
-\end{figure}
+En la figura \ref{fig:c2}(a) se observa que al igual que el cluster 1 las palabras más frecuentes son cáncer,seno y síndrome, pero aparecen palabras como antecedente tiroides y hermana,según la \ref{fig:c2}(b) se observa que rangos de edad entre 20 y 30 años, y mayores de 40 no hay pacientes masculinos, siendo este un cluster representado principalmente por pacientes femeninas.  
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas2_2}
-	\caption{Reglas de asociación del cluster 2 con variantes sinónimas} \label{fig:reglas2_2}
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas2_1}
+	\caption{Reglas de asociación del cluster 2 con variantes sinónimas.} \label{fig:reglas2_1}
 \end{figure}
+
+La figura \ref{fig:reglas2_1}, nos muestra unicamente una asociación de variantes al género femenino, que corresponde con la baja representación de pacientes de género  masculino.La distribución del estado alélico homocigoto se presenta en mayor frecuencia con pacientes en edad de 30 y 40 años, y son variantes de tipo no sinónimo, a pesar de que el rango de edad no es el más representativo del cluster es el que presenta una mayor frecuencia de variantes.
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Kap4/reglas2_2}
+	\caption{Reglas de asociación del cluster 2 con variantes sinónimas.} \label{fig:reglas2_2}
+\end{figure}
+
+La figura \ref{fig:reglas2_2}, nos muestra la distribución de las variantes según los rangos de edad y que el tipo de variante no sinónimas, no muestra reglas para el estado alélico de las variantes dentro del clúster, solo las asociaciones entre rangos de edad y genero. 
 
 \subsubsection*{Cluster 3}
 
 \begin{figure}[H]
 	\centering
-	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster3}}
+	\subfigure[Nube de palabras.]{\includegraphics[width=60mm]{Kap4/cluster3}}
 	\subfigure[Rango de edad en décadas.]{\includegraphics[width=60mm]{Kap4/edadc3}}
 	\caption{Cluster 3} \label{fig:c3}
 \end{figure}
 
+La figura \ref{fig:c3}(a) nos muestra la frecuencia de palabras donde seno, cáncer y síndrome se tiene la palabra pam tumor maligno y epilepsia. La figura \ref{fig:c3}(b) muestra la distribución donde no hay pacientes de genero masculino para mayores de 60 años.  
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Kap4/reglas3_1}
-	\caption{Reglas de asociación del cluster 3 con variantes sinónimas} \label{fig:r3}
+	\caption{Reglas de asociación del cluster 3 con variantes sinónimas.} \label{fig:r3}
 \end{figure}
+
+La figura \ref{fig:r3} muestra las asociaciones entre las variantes sinónimas al género femenino, donde las variantes sinónimas se encuentran en mayor frecuencia a el rango de edad entre 30 y 40 y son heterocigotas, se presenta una frecuencia de pacientes entre los 20 y 30 años sin asociación a variantes o estado alélico.   
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Kap4/reglas3_2}
-	\caption{Reglas de asociación del cluster 3 sin variantes sinónimas} \label{fig:r23}
+	\caption{Reglas de asociación del cluster 3 sin variantes sinónimas.} \label{fig:re3}
 \end{figure}
+
+La figura \ref{fig:re3} muestra la asociación de rangos de edades con las variantes no sinónimas pero se encuentra que los rangos de edad de 30 y 40  y de 20 y 30 son de genero de genéro femenino, mientras que los demás rangos pertenecen no está asociados a un género en especifico. 
 
 \subsubsection*{Cluster 4}
 \begin{figure}[H]
@@ -285,26 +299,34 @@ Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:regl
 	\caption{Cluster 4} \label{fig:c4}
 \end{figure}
 
+La figura \ref{fig:c4}(a) muestra las frecuencias de palabras que son síndrome y cáncer, pero la palabra seno no es tan predominante como los clusters anteriores, se tienen otras palabras como sospecha, antecedente, historia y trastorno. La figura \ref{fig:c4}(b) muestra que la para este cluster los rangos de edad de 40 a 45 años, de 50 a 55 años y mayores de 60 no cuentan con representación de pacientes de género femenino.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Kap4/reglas4_1}
-	\caption{Reglas de asociación del cluster 4 con variantes sinónimas} \label{fig:r4}
+	\caption{Reglas de asociación del cluster 4 con variantes sinónimas.} \label{fig:r4}
 \end{figure}
+
+La figura \ref{fig:r4} muestra la asociación de las variante heterocigotas a pacientes masculinos de tipo no sinónimas con un rango de edad de 0 a 10 años, mientras que las variantes sinónimas se asocian a pacientes con un rango de edad de 40 a 50 años y son pacientes femeninas. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Kap4/reglas4_2}
-	\caption{Reglas de asociación del cluster 4 sin variantes sinónimas} \label{fig:re4}
+	\caption{Reglas de asociación del cluster 4 sin variantes sinónimas.} \label{fig:re4}
 \end{figure}
+
+La figura \ref{fig:re4} muestra reglas  donde las reglas del cluster nuevamente se discrimina que las variantes no sinónimas son femeninas y están en un rango de edad de (40-50), mientras que las variantes heterocigotas se encuentran en un rango de edad de 0 a 10 años. 
 
 \subsubsection*{Cluster 5}
 
 \begin{figure}[H]
 	\centering
 	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster5}}
-	\subfigure[Rango de edad en decadas]{\includegraphics[width=60mm]{Kap4/edadc5}}
+	\subfigure[Rango de edad en décadas]{\includegraphics[width=60mm]{Kap4/edadc5}}
 	\caption{Cluster 5} \label{fig:c5}
 \end{figure}
+
+La figura \ref{fig:c5}(a) presenta la frecuencia de palabras y este cluster a diferencia de todos los anteriores no presenta la palabras cáncer y seno, como las más frecuentes pero si presenta con más alta frecuencia son síndrome, diagnóstico, estudio, distrofia, requiere y miembro. La figura \ref{fig:c5}(b) muestra la distribución de pacientes por edad y género donde los rangos de 20 a 30 y 40 a 60 no se encuentran pacientes de género masculino, aunque tiene 10 pacientes masculinos en el rango de edad de 0 a 10 años.
 
 \begin{figure}[H]
 	\centering
@@ -312,22 +334,40 @@ Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:regl
 	\caption{Reglas de asociación del cluster 5 con variantes sinónimas} \label{fig:r5}
 \end{figure}
 
+La figura \ref{fig:r5} muestra la asociación de las variantes al genero femenino con un rango de edad de 40 a 50 años y de tipo sinónimas, mientras que las de género masculino  a un rango de edad de 0 a 10 años con variantes no sinónimas.
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas5_2}
+	\includegraphics[width=0.7\textwidth]{Kap4/reglas5_2}
 	\caption{Reglas de asociación del cluster 5 sin variantes sinónimas} \label{fig:re5}
 \end{figure}
 
+La figura \ref{fig:re5} presenta que las variante no sinónimas son más frecuentes en los pacientes con un rando de edad de 0 a 10 años y que las variantes no sinónimas presentan la regla que las variantes se encuentran en un rango de 0 a 50 años de edad son de pacientes femeninas. 
+
+
 \subsubsection*{CFTR}
+
+Visualización de reglas de asociación para toda la base de datos utilizando el gen CFTR como filtro. 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/CFTR1}
+	\includegraphics[width=0.7\textwidth]{Kap4/CFTR1}
 	\caption{Reglas de asociación con variantes sinónimas} \label{fig:r6}
 \end{figure}
 
+La figura \ref{fig:r6} muestra las reglas 30 primeras reglas filtradas por el soporte con para toda la base de datos utilizando parámetro el gen CFTR, donde se observa que las variantes homocigotas son de tipo sinónimas y están más representadas en pacientes de ambos géneros, también se denota una frecuencia en pacientes que tienen entre 0 y 10 años de edad con variantes en este gen son de género masculino. \\
+
+Las pacientes femeninas se tiene el caso de que las variantes son no sinonimas y no hay un  rango de edad directamente asociado a las pacientes femeninas. Los rangos de edad de 10 a 20 y de 30 a 40 tienen una frecuencia de variantes para el gen CFTR igual o mayor al 60\%, lo mismo se presenta con cluster 1,2 y 4. Para cluster 5 si se presenta una alta frecuencia de variantes sinónimas, mientras que para el cluster 3 no aparecen reglas con alta frecuencia con variantes en el gen CFTR. 
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/CFRT2}
-	\caption{Reglas de asociación sin variantes sinónimas} \label{fig:r6}
+	\includegraphics[width=0.7\textwidth]{Kap4/CFTR2}
+	\caption{Reglas de asociación sin variantes sinónimas} \label{fig:re6}
 \end{figure}
+
+La figura \ref{fig:re6} muestra que el estado alélico de las variantes que no son sinónimas, y el estado alélico es heterocigoto para ambos generos, pero el rango de edad entre 0 y 10 años es frecuente para este tipo de variantes,a diferencia de la figura \label{fig:r6} solo se observa una alta frecuencia de las variantes no sinónimas al gen CFTR en cluster 4.  
+
+\section{Discusión}
+
+
+
