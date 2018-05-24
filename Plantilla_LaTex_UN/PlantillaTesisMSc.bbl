@@ -28,8 +28,9 @@ Madhuri Hegde, Avni Santani, Rong Mao, Andrea Ferreira-Gonzalez, Karen~E. Weck,
 
 \bibitem{Li2014}
 Yixue Li and Luonan Chen.
-\newblock {Big biological data: challenges and opportunities.}
-\newblock {\em Genomics, proteomics \& bioinformatics}, 12(5):187--9, oct 2014.
+\newblock {Big Biological Data: Challenges and Opportunities Expanding volume
+  of the big biological data and its bonanza}.
+\newblock {\em Genomics, Proteomics \& Bioinformatics}, 12(5):187--189, 2014.
 
 \bibitem{Lauzon2016}
 David Lauzon, Beatriz Kanzki, Victor Dupuy, Alain April, Michael~S. Phillips,
@@ -128,7 +129,7 @@ Illumina.
 
 \bibitem{Klug2013}
 William~S. Klug and Luis~F. {Pascual Calaforra}.
-\newblock {\em {Conceptos de genn{\'{e}}tica}}.
+\newblock {\em {Conceptos de gen{\'{e}}tica}}.
 \newblock Pearson Educacin{\'{o}}n, 2013.
 
 \bibitem{Poliakov2015}
@@ -239,10 +240,9 @@ Andrew Yates, Wasiu Akanni, M~Ridwan Amode, Daniel Barrell, Konstantinos
 \newblock {\em Nucleic acids research}, 44(D1):D710--6, jan 2016.
 
 \bibitem{Canuel2015}
-Vincent Canuel, Bastien Rance, Paul Avillach, Patrice Degoulet, and Anita
-  Burgun.
+V.~Canuel, B.~Rance, P.~Avillach, P.~Degoulet, and A.~Burgun.
 \newblock {Translational research platforms integrating clinical and omics
-  data: A review of publicly available solutions}.
+  data: a review of publicly available solutions}.
 \newblock {\em Briefings in Bioinformatics}, 16(2):280--290, 2015.
 
 \bibitem{Higasa2016}
@@ -307,11 +307,10 @@ Geraldine A Van~Der Auwera, Mauricio~O Carneiro, Chris Hartl, Ryan Poplin, Ami
 \newblock 2014.
 
 \bibitem{Bao2014}
-Riyue Bao, Lei Huang, Jorge Andrade, Wei Tan, Warren~a Kibbe, Hongmei Jiang,
-  and Gang Feng.
-\newblock {Review of Current Methods, Applications, and Data Management for the
-  Bioinformatics Analysis of Whole Exome Sequencing}.
-\newblock {\em Libertas Academica}, 13:67--82, 2014.
+Lei Bao, Minya Pu, and Karen Messer.
+\newblock {AbsCN-seq: a statistical method to estimate tumor purity, ploidy and
+  absolute copy numbers from next-generation sequencing data.}
+\newblock {\em Bioinformatics (Oxford, England)}, 30(8):1056--1063, jan 2014.
 
 \bibitem{Cornish2015}
 Adam Cornish and Chittibabu Guda.
@@ -508,6 +507,11 @@ Knight~Diagnostic Laboratories, Medical Genetics, Oregon Health, Plank Road,
   Genetics and Genomics and the Association for Molecular Pathology}.
 \newblock {\em Medical Genetics}, 17(5):405--424, 2015.
 
+\bibitem{Compound2012}
+Recessive Compound and Heterozygous Filter.
+\newblock {The Compound-Heterozygous Filter The Compound-Heterozygous Filter}.
+\newblock 2012.
+
 \bibitem{Breuer2017}
 Ren{\'{e}} Breuer, Manuel Mattheisen, Josef Frank, Bertram Krumm, Jens
   Treutlein, Layla Kassem, Jana Strohmaier, Stefan Herms, Thomas~W
@@ -517,5 +521,58 @@ Ren{\'{e}} Breuer, Manuel Mattheisen, Josef Frank, Bertram Krumm, Jens
 \newblock {Genotype-phenotype association mining in bipolar disorder: market
   research meets complex genetics}.
 \newblock {\em bioRxiv}, page 116624, mar 2017.
+
+\bibitem{breuler2017}
+Thomas G.~Schulze {Ren{\'{e}} Breuer, Manuel Mattheisen, Josef Frank, Bertram
+  Krumm, Jens Treutlein, Layla Kassem, Jana Strohmaier, Stefan Herms, Thomas W.
+  M{\"{u}}hleisen, Franziska Degenhardt, Sven Cichon, Markus M. N{\"{o}}then,
+  George Karypis}.
+\newblock {Genotype-phenotype association mining in bipolar disorder: market
+  research meets complex genetics Ren{\'{e}}}.
+\newblock 2017.
+
+\bibitem{GabrielBedoya}
+Maria V.~Parra {Gabriel Bedoya} and {Andr{\'{e}}s Ruiz-Linares}.
+\newblock {NHGRI Collection - 1000 Genomes - Colombian in Medell{\'{i}}n,
+  Colombia}.
+
+\bibitem{Consortium2012}
+The 1000 Genomes~Project Consortium.
+\newblock {An integrated map of genetic variation from 1,092 human genomes}.
+\newblock {\em Nature}, 491(7422):56--65, nov 2012.
+
+\bibitem{Rishishwar2015a}
+Lavanya Rishishwar, Andrew~B. Conley, Charles~H. Wigington, Lu~Wang, Augusto
+  Valderrama-Aguirre, and I.~{King Jordan}.
+\newblock {Ancestry, admixture and fitness in Colombian genomes}.
+\newblock {\em Scientific Reports}, 5(1):12376, dec 2015.
+
+\bibitem{Ignacio2017}
+Ignacio, Alberto G{\'{o}}mez-Guti{\'{e}}rrez, Natalia~Andrea
+  D{\'{i}}az-Duss{\'{a}}n, Mar{\'{i}}a~Claudia Noguera-Santamar{\'{i}}a, Diego
+  D{\'{i}}az-Rinc{\'{o}}n, and Mar{\'{i}}a~Consuelo Casas-G{\'{o}}mez.
+\newblock {Espectro de mutaciones en los genes BRCA1 y BRCA2 asociados a
+  c{\'{a}}ncer de mama en Colombia}.
+\newblock {\em Colombia M{\'{e}}dica}, 48(2):58--63, jun 2017.
+
+\bibitem{Kamphans2013}
+Tom Kamphans, Peggy Sabri, Na~Zhu, Verena Heinrich, Stefan Mundlos, Peter~N.
+  Robinson, Dmitri Parkhomchuk, and Peter~M. Krawitz.
+\newblock {Filtering for Compound Heterozygous Sequence Variants in
+  Non-Consanguineous Pedigrees}.
+\newblock {\em PLoS ONE}, 8(8):1--6, 2013.
+
+\bibitem{Eilbeck2017}
+Karen Eilbeck, Aaron Quinlan, and Mark Yandell.
+\newblock {Settling the score: Variant prioritization and Mendelian disease}.
+\newblock {\em Nature Reviews Genetics}, 18(10):599--612, 2017.
+
+\bibitem{Stenson2017}
+Peter~D. Stenson, Matthew Mort, Edward~V. Ball, Katy Evans, Matthew Hayden,
+  Sally Heywood, Michelle Hussain, Andrew~D. Phillips, and David~N. Cooper.
+\newblock {The Human Gene Mutation Database: towards a comprehensive repository
+  of inherited mutation data for medical research, genetic diagnosis and
+  next-generation sequencing studies}.
+\newblock {\em Human Genetics}, 136(6):665--677, jun 2017.
 
 \end{thebibliography}

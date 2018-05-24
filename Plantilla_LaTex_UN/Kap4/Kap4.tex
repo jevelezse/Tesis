@@ -4,13 +4,13 @@ La necesidad de comprender los procesos biológicos que están implicados en las
 
 El mayor reto de la minería de datos genómicos esta en la extracción de información relevante de grandes volúmenes de datos clínicos y transformarlos en conocimiento, los mayores retos están en: a) La recolección de los datos clínicos y genómicos, b) recuperación de información relevante de datos y c) extracción de nuevos conocimientos de la información \cite{Farid2016}. \\  
 
-Este capitulo esta organizado en análisis exploratorio de los datos que se describe en la sección 5.1, el siguiente, es el analisis textual de información clínica que es discutido en la sección 5.2 en este apartado se describe el analisis de asociación de variantes con la información clínica. Finalmente, el apartado de 5.3 se presentan las conclusiones junto con el resumen del capitulo. 
+Este capitulo esta organizado en análisis exploratorio de los datos que se describe en la sección 5.1, el siguiente, es el analisis textual de información clínica que es discutido en la sección 5.2 Es el de  asociación de variantes con la información clínica. Finalmente, el apartado de 5.3 se presentan las conclusiones junto con el resumen del capitulo. 
 
 \section{Análisis exploratorio de los datos.}
 
 Se realizo el análisis exploratorio de la información contenida dentro de la base de datos.Se tomo una muestra de 250 pacientes donados por el laboratorio Genetix S.A.S de los cuales solo 228 contaban con consentimiento informado para utilizar la información con fines de investigación.\\
 
-Los datos fueron consultados desde la base de datos diseña en el cápitulo anterior y fue gestionada con la librería de python pandas \cite{mckinneypandas}. Obteniendose los siguientes resultados:
+Los datos fueron consultados desde la base de datos diseña en el cápitulo anterior y fue gestionada con la librería de python pandas \cite{mckinneypandas}. Obteniéndose los siguientes resultados:
 
 \begin{figure}[h!]
 	\centering
@@ -35,7 +35,7 @@ La base de datos contiene 228 pacientes de los cuales 133 son de género femenin
 
 Las variantes desconocidas son el tercer tipo de variante más frecuente dado que aún existe el problema de selección del transcripto para realizar la nomenclatura adecuada de las variantes, por lo que el anotador informa que son desconocidas \cite{McCarthy2014}. La figura\ref{f:variantedad} muestra la distribución de las variantes identificadas según el rango de edad, siendo el rango con mayor número de variantes los pacientes que se encuentran entre las edades de 0 a 10 años, dado a que es la población más representada dentro de la base de datos. \\
 
-El estado alélico de las variantes (cigocidad) que se encuentran dentro de la base de datos se dividen en heterocigotas 458639 que corresponden al 57,05\% del total de las variantes  y homocigotas 345239 que corresponden al 42,95\%. La distribución de la cigocidad de las variantes se puede explicar desde el error que se puede generar en la identificación de las variantes dado que durante el llamado  de variantes es posible que una variante homocigota se catalogue como heterocigota o si durante el proceso de secuenciación se identifican erróneamente los nucleótidos \cite{Babraham2016}\cite{Pirooznia2014}. 
+El estado alélico de las variantes (cigocidad) que se encuentran dentro de la base de datos se dividen en heterocigotas 458639 que corresponden al 57,05\% del total de las variantes  y homocigotas 345239 que corresponden al 42,95\%. La distribución de la cigocidad de las variantes se puede explicar desde el error que se puede generar en la identificación de las variantes dado que durante el llamado  de variantes en el que es posible que una variante homocigota se catalogue como heterocigota o si durante el proceso de secuenciación se identifican erróneamente los nucleótidos \cite{Babraham2016}\cite{Pirooznia2014}. 
 
 
 \section{Análisis textual de información clínica.}
@@ -193,15 +193,17 @@ Las reglas de asociación se basan en un set de items(elementos) $I = \{i_1,i_2,
 
 \subsection{Variantes vistas como transacciones.}
 
-Uno de los criterios más importantes para la clasificación de variantes es la frecuencia con la que se presentan las variantes dentro de una población según la asociación americana de genética médica \cite{Laboratories2015}, otro de los retos de los análisis de variantes es el estado alélico de las variantes, que se define como una forma alternativa de un mismo gen, en este caso se aplica a las variantes encontradas dentro de la secuenciación.\\
+Uno de los criterios más importantes para la clasificación de variantes es la frecuencia con la que se presentan las variantes dentro de una población según la asociación americana de genética médica \cite{Laboratories2015}, otro de los retos de los análisis de variantes es el estado alélico de las variantes, que se define como una forma alternativa de un gen, en este caso se aplica a las variantes encontradas dentro de la secuenciación; existen tres tipos de estado alélico: el primero es el homocigoto donde los dos alélos son idénticos, el heterocigoto cuando los alélos son diferentes y el heterocigoto compuesto que hace referencia a dos variantes heterocigotas que afectan diferentes copias del gen o la misma copia \cite{Klug2013,Compound2012}.\\
 
-Este estado alélico puede ser de tres tipos, el homocigoto donde el individuo presenta la misma una sola variante (en términos al genoma de referencia), la otra forma son los heterocigotos, donde solo una variante es distinta con respecto a su referencia y los heterocigotos compuestos que son variantes heterocigotas pero que pueden estar dentro del mismo gen o asociadas con otros. Teniendo en cuenta lo anterior es importante visualizar el estado alélico de las variantes \cite{Hannah-Shmouni2015,Laboratories2015} ya que pueden tener un impacto el fenotipo del paciente.La identificación entre la relación genotipo-fenotipo, se ingresan como frecuencia de variación, que para el trabajo caso serían las transacciones\cite{Breuer2017}.  
+Teniendo en cuenta lo anterior es importante visualizar el estado alélico de las variantes \cite{Hannah-Shmouni2015,Laboratories2015} ya que pueden tener un impacto el fenotipo del paciente.La identificación entre la relación genotipo-fenotipo, se ingresan como frecuencia de variación, que para el trabajo caso serían las transacciones\cite{Breuer2017}.\\
+
+La relación genotipo-fenotipo que se observa es  la de utilizar los datos de gen, el tipo de variante, la edad, el género y el clúster (representación del fenotipo), como los patrones a recibir, para mirar las asociaciones y las reglas dentro de todo el set de datos. La identificación de patrones frecuentes, puede ser aprovechado por reglas de asociación y con ello identificar los estados alélicos de las variantes en los genes que se encuentran dentro de la base de datos \cite{breuler2017}.\\
 
 \subsection{Experimentación}
 
 La confianza y el soporte para este trabajo se ajusto a partir de los resultados experimentales, donde se observo que el soporte es inversamente proporcional a la confianza, esto se debe a la cantidad de variantes que se encuentran dentro de la base de datos. Al correr un experimento con soporte de 0.2 y una confianza de 0.9 no se generaban ningún tipo de regla, por lo tanto se fue disminuyendo en 0.1 el valor de la confianza y el soporte, finalmente se ajusto un soporte de 0.05 y una confianza de 0.6, dado que con un soporte de 0.1 solo se generaban 5 reglas, utilizando toda los datos disponibles. Una vez realizado este ajuste se dejaron los valores de soporte y confianza igual para todos los experimentos.\\
 
-Un vez se obtuvieron los clusters de la base de datos, se realizaron 12 experimentos, los primeros 5 experimentos con todas las variante dentro del set de datos  junto a su clusters, otro a todo el conjunto de datos aplicado con  los datos y filtrado por el gen CFTR. Se volvieron a repetir los mismos experimentos pero removiendo las variantes sinónimas que son las más frecuentes dentro del conjunto de datos.
+Una vez se ajustaron los valores de soporte y confianza se realizaron 12 experimentos, los primeros 5 experimentos con todas las variante dentro del set de datos junto a su clusters, otro a todo el conjunto de datos aplicado con los datos y filtrado por el gen CFTR. Se volvieron a repetir los mismos experimentos pero removiendo las variantes sinónimas que son las más frecuentes dentro del conjunto de datos.
 
 
 \subsection{Resultados} 
@@ -235,7 +237,6 @@ Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:regl
 \end{figure}
 
 Las 10 primeras reglas removiendo las variantes sinónimas que se muestran en la figura  \ref{fig:reglas2}, nos muestra nuevamente la distribución de este tipo de variante dentro del grupo, donde los pacientes masculinos son pacientes entre 10 y 20 años, con variantes heterocigotas no sinónimas, mientras que para el genero femenino se tienen rangos de edad más amplios desde la edad  de 0 a 50 años.
-
 
 \subsubsection*{Cluster 2}
 
@@ -367,7 +368,24 @@ Las pacientes femeninas se tiene el caso de que las variantes son no sinonimas y
 
 La figura \ref{fig:re6} muestra que el estado alélico de las variantes que no son sinónimas, y el estado alélico es heterocigoto para ambos generos, pero el rango de edad entre 0 y 10 años es frecuente para este tipo de variantes,a diferencia de la figura \label{fig:r6} solo se observa una alta frecuencia de las variantes no sinónimas al gen CFTR en cluster 4.  
 
+\section{Visualización}
+
+Finalmente se desarrollo un dashboard utilizando la herramienta R, para mostrar todos los resultados obtenidas en el presente trabajo, para que las variantes que fueron encontradas puedan ser consultadas por la comunidad académica y científica. Este aplicativo presenta una pestaña general que muestra, la distribución demográfica de la población, la distribución del tipo de variantes encontradas y la distribución de las variantes encontradas por rangos de edad. Posteriormente se muestra una pestaña con cada cluster, donde se muestran las reglas de asociación obtenidas, la frecuencia de palabras del cluster y los rangos de edad por genero del cluster. Finalmente se muestra las reglas de asociación para el gen CFTR sin las variantes sinónimas y una tabla final con las variantes anotadas se obtuvieron. 
+
 \section{Discusión}
 
+El presente trabajo presenta los resultados de las variantes de la muestra poblacional que es de 228 pacientes y se cuenta con información como edad y genero,además que son pertenecientes a diferentes regiones del país (las muestras fueron remitidas de diferentes instituciones a nivel nacional, las muestras no contaban con la ubicación geográfica del paciente), esto en comparación con el proyecto de 1000 genomas, donde se secuenciaron 136 individuos de la ciudad de Medellín-Antioquia y el cual es un set de datos que no representan la población colombiana que es altamente diversa \cite{GabrielBedoya,Consortium2012}. Los datos que se encuentran dentro de este proyecto son utilizados principalmente para realizar análisis de ancestria \cite{Rishishwar2015a} y no evaluación de variantes dentro de la población, que igualmente no reflejan la ancestria y mezcla de la población colombiana. 
 
+\subsection*{Asociación de variantes con sus grupos de características clínicas}
+
+Los resultados de los grupos reflejan las características clínicas que se encuentran dentro de la base de datos, siendo el cáncer de seno el principal casual para llevar acabo las pruebas de secuenciación, esto corresponde con una de las bases para realizar la prueba de secuenciación en Colombia, ya que su valor diagnóstico y pronostico ha sido ampliamente estudiado en el país donde se da la importancia de la evaluación de la frecuencia de variantes en los genes BRCA1 y BRCA2 dentro de nuestra población, esto explica la razón de la alta frecuencia de las palabras cáncer y seno en cuatro de los cinco clusters obtenidos \cite{Ignacio2017,Arias-blanco2015}.\\
+
+A pesar de que los 4 primeros clusters están siendo representados por palabras similares, en el cuarto cluster la frecuencia de la palabra seno disminuye en comparación con los otros tres, se muestran diferencias significativas entre los rangos de edad y la distribución de géneros en cada uno de los clusters, y al incluir las reglas de asociación de cada uno de los clusters se tiene que las variantes no son iguales, inclusive a pesar de que la representación de pacientes femeninas aún es alta la distribución de sus variantes difiere entre clusters, a pesar de que la homogeneidad de los mismos es baja, la diferencia entre cluters es altamente notoria.\\  
+
+El cluster 5 que es único cluster las palabras cáncer y seno como las palabras más frecuentes, pero si la palabra síndrome que es común en todos los clústers, al hacer una evaluación de los pacientes, en este grupo se tienen otras palabras por lo tanto son pacientes que vienen por otras causas distintas a cáncer de seno, también es un grupo con una representación más alta de hombres. Este cluster atípico tiene una regla donde se muestra que las variantes heterocigotas no sinonimas se encuentran  en pacientes de 0 a 10 años. El hecho de que este grupo no asocie su variantes a un genero y si a un estado alélico nos puede llegar a mostrar que este grupo de pacientes tienen variantes autosomicas dominantes o que son variantes heterocigotas compuestas, y que las manifestaciones clínicas se presentan en una edad temprana \cite{Kamphans2013}. \\
+
+La identificación de las causas genéticas de enfermedades por medio de la priorización de variantes partiendo de su tipo, deja una pobre aplicación de las variantes que causan perdida de la función biológica dependiendo de su estado alélico \cite{Eilbeck2017} dado que en las bases de datos normalmente el estado alélico no está disponible y su interpretación puede ser compleja \cite{Stenson2017}. \\
+
+
+La visualización de la distribución de las variantes muestra  pa
 
