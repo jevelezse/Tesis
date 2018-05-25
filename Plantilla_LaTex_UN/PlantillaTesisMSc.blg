@@ -8,30 +8,33 @@ A level-1 auxiliary file: Kap2/Kap2.aux
 A level-1 auxiliary file: Kap3/Kap3.aux
 A level-1 auxiliary file: Kap4/Kap4.aux
 A level-1 auxiliary file: Kap5/Kap5.aux
-A level-1 auxiliary file: Kap6/Kap6.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Repeated entry---line 3434 of file library.bib
- : @article{Li2014
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4466 of file library.bib
- : @article{Bao2014
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5396 of file library.bib
+Repeated entry---line 1649 of file library.bib
  : @article{scikit-learn
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5533 of file library.bib
+Repeated entry---line 2203 of file library.bib
+ : @article{Li2014
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2379 of file library.bib
  : @article{Canuel2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5752 of file library.bib
+Repeated entry---line 3246 of file library.bib
  : @article{Fisch2015
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6087 of file library.bib
+I was expecting a `{' or a `('---line 3247 of file library.bib
+ : abstract = {Motivation: Omics Pipe (http://sulab.scripps.edu/omicspipe) is a computational framework that automates multi-omics data analysis pipelines on high performance compute clusters and in the cloud. It supports best practice published pipelines for RNA-seq, miRNA-seq, Exome-seq, Whole-Genome sequencing, ChIP-seq analyses and automatic processing of data from The Cancer Genome Atlas (TCGA). Omics Pipe provides researchers with a tool for reproducible, open source and extensible next generation sequencing analysis. The goal of Omics Pipe is to democratize next-generation sequencing analysis by dramatically increasing the accessibility and reproducibility of best practice computational pipelines, which will enable researchers to generate biologically meaningful and interpretable results.\nResults: Using Omics Pipe, we analyzed 100 TCGA breast invasive carcinoma paired tumor-normal datasets based on the latest UCSC hg19 RefSeq annotation. Omics Pipe automatically downloaded and processed the desired TCGA samples on a high throughput compute cluster to produce a results report for each sample. We aggregated the individual sample results and compared them to the analysis in the original publications. This comparison revealed high overlap between the analyses, as well as novel findings due to the use of updated annotations and methods.\nAvailability and implementation: Source code for Omics Pipe is freely available on the web (https://bitbucket.org/sulab/omics_pipe). Omics Pipe is distributed as a standalone Python package for installation (https://pypi.python.org/pypi/omics_pipe) and as an Amazon Machine Image in Amazon Web Services Elastic Compute Cloud that contains all necessary third-party software dependencies and databases (https://pythonhosted.org/omics_pipe/AWS_installation.html).\nContact: asu@scripps.edu 
+ :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         or kfisch@ucsd.edu\nSupplementary Information: Supplementary data are available at Bioinformatics online.},
+I'm skipping whatever remains of this entry
+I was expecting a `{' or a `('---line 3247 of file library.bib
+ : abstract = {Motivation: Omics Pipe (http://sulab.scripps.edu/omicspipe) is a computational framework that automates multi-omics data analysis pipelines on high performance compute clusters and in the cloud. It supports best practice published pipelines for RNA-seq, miRNA-seq, Exome-seq, Whole-Genome sequencing, ChIP-seq analyses and automatic processing of data from The Cancer Genome Atlas (TCGA). Omics Pipe provides researchers with a tool for reproducible, open source and extensible next generation sequencing analysis. The goal of Omics Pipe is to democratize next-generation sequencing analysis by dramatically increasing the accessibility and reproducibility of best practice computational pipelines, which will enable researchers to generate biologically meaningful and interpretable results.\nResults: Using Omics Pipe, we analyzed 100 TCGA breast invasive carcinoma paired tumor-normal datasets based on the latest UCSC hg19 RefSeq annotation. Omics Pipe automatically downloaded and processed the desired TCGA samples on a high throughput compute cluster to produce a results report for each sample. We aggregated the individual sample results and compared them to the analysis in the original publications. This comparison revealed high overlap between the analyses, as well as novel findings due to the use of updated annotations and methods.\nAvailability and implementation: Source code for Omics Pipe is freely available on the web (https://bitbucket.org/sulab/omics_pipe). Omics Pipe is distributed as a standalone Python package for installation (https://pypi.python.org/pypi/omics_pipe) and as an Amazon Machine Image in Amazon Web Services Elastic Compute Cloud that contains all necessary third-party software dependencies and databases (https://pythonhosted.org/omics_pipe/AWS_installation.html).\nContact: asu@scripps.edu or kfisch@ucsd.edu\nsupplementary 
+ :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Information: Supplementary data are available at Bioinformatics online.},
+I'm skipping whatever remains of this entry
+Repeated entry---line 3634 of file library.bib
  : @article{Zaki2007
  :                  ,
 I'm skipping whatever remains of this entry
@@ -40,51 +43,49 @@ Warning--empty journal in Kutzera2017
 Warning--can't use both volume and number fields in Auwera2014
 Warning--empty publisher in Auwera2014
 Warning--empty journal in Wang2017
-Warning--empty journal in mckinneypandas
-Warning--empty year in mckinneypandas
 Warning--empty journal in Kawashima2017
 Warning--there's a number but no volume in Huang2008
 Warning--empty journal in Compound2012
-Warning--empty journal in breuler2017
-You've used 89 entries,
+Warning--there's a number but no volume in Vasquez2010
+You've used 96 entries,
             1791 wiz_defined-function locations,
-            1016 strings with 25371 characters,
-and the built_in function-call counts, 22632 in all, are:
-= -- 1729
-> -- 1607
-< -- 6
-+ -- 572
-- -- 483
-* -- 1945
-:= -- 3839
-add.period$ -- 256
-call.type$ -- 89
-change.case$ -- 86
+            1058 strings with 28033 characters,
+and the built_in function-call counts, 26383 in all, are:
+= -- 1923
+> -- 2103
+< -- 7
++ -- 740
+- -- 644
+* -- 2396
+:= -- 4556
+add.period$ -- 278
+call.type$ -- 96
+change.case$ -- 93
 chr.to.int$ -- 0
-cite$ -- 100
-duplicate$ -- 801
-empty$ -- 1912
-format.name$ -- 483
-if$ -- 4710
+cite$ -- 105
+duplicate$ -- 876
+empty$ -- 2091
+format.name$ -- 644
+if$ -- 5412
 int.to.chr$ -- 0
-int.to.str$ -- 89
-missing$ -- 82
-newline$ -- 436
-num.names$ -- 88
-pop$ -- 197
+int.to.str$ -- 96
+missing$ -- 89
+newline$ -- 472
+num.names$ -- 95
+pop$ -- 201
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 360
+skip$ -- 383
 stack$ -- 0
-substring$ -- 1387
-swap$ -- 125
-text.length$ -- 6
+substring$ -- 1572
+swap$ -- 143
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 212
-width$ -- 91
-write$ -- 929
-(There were 6 error messages)
+warning$ -- 9
+while$ -- 238
+width$ -- 98
+write$ -- 1015
+(There were 7 error messages)

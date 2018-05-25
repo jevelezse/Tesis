@@ -4,7 +4,8 @@ La necesidad de comprender los procesos biológicos que están implicados en las
 
 El mayor reto de la minería de datos genómicos esta en la extracción de información relevante de grandes volúmenes de datos clínicos y transformarlos en conocimiento, los mayores retos están en: a) La recolección de los datos clínicos y genómicos, b) recuperación de información relevante de datos y c) extracción de nuevos conocimientos de la información \cite{Farid2016}. \\  
 
-Este capitulo esta organizado en análisis exploratorio de los datos que se describe en la sección 5.1, el siguiente, es el analisis textual de información clínica que es discutido en la sección 5.2 Es el de  asociación de variantes con la información clínica. Finalmente, el apartado de 5.3 se presentan las conclusiones junto con el resumen del capitulo. 
+
+Este capitulo esta organizado en análisis exploratorio de los datos que se describe en la sección 5.1 Análisis exploratorio de los datos, 5.2 Análisis textual de información clínica, 5.3 Asociación de grupos con variantes, 5.4 Visualización, 5.5 Discusión y 5.6 Conclusiones y resumen. 
 
 \section{Análisis exploratorio de los datos.}
 
@@ -63,7 +64,7 @@ Los resultados que se obtuvieron para la frecuencia de palabras fueron seno, cá
 	\caption{Frecuencias sin stop words y palabras sinónimas} \label{fig:sin}
 \end{figure} 
 
-Las frecuencia de palabras nos muestra las principales características de la información clínica siendo las palabras cáncer y seno los principales fenotipos, también se encuentra la palabra síndrome que puede asociarse a diferentes  enfermedades y la palabra sospecha hace referencia a diagnósticos ambiguos que pueden tener los pacientes, una de las contribuciones de la secuenciación es que basado en el fenotipo puede ayudar a un diagnóstico,entre diferentes síntomas y síndromes que pueden ser aplicados a enfermedades raras y complejas\cite{Tetreault2015a}.
+Las frecuencia de palabras nos muestra las principales características de la información clínica siendo las palabras cáncer y seno los principales fenotipos, también se encuentra la palabra síndrome que puede asociarse a diferentes  enfermedades y la palabra sospecha hace referencia a diagnósticos ambiguos que pueden tener los pacientes, una de las contribuciones de la secuenciación es que basado en el fenotipo puede ayudar a un diagnóstico,entre diferentes síntomas y síndromes que pueden ser aplicados a enfermedades raras y complejas\cite{Tetreault2015a}. \\
 
 \subsection{Grupos de características clínicas.}
 
@@ -224,7 +225,7 @@ La figura \ref{fig:cluster1} representa el clúster 1 con la frecuencia de palab
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Kap4/reglas1_1}
+	\includegraphics[width=0.8\textwidth]{Kap4/reglas1_1}
 	\caption{Reglas de asociación del cluster 1 con variantes sinónimas.} \label{fig:reglas1}
 \end{figure}
 
@@ -232,7 +233,7 @@ Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:regl
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas1_2}
+	\includegraphics[width=0.8\textwidth]{Kap4/reglas1_2}
 	\caption{Reglas de asociación del cluster 1 sin variantes sinónimas.} \label{fig:reglas2}
 \end{figure}
 
@@ -251,7 +252,7 @@ En la figura \ref{fig:c2}(a) se observa que al igual que el cluster 1 las palabr
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas2_1}
+	\includegraphics[width=0.8\textwidth]{Kap4/reglas2_1}
 	\caption{Reglas de asociación del cluster 2 con variantes sinónimas.} \label{fig:reglas2_1}
 \end{figure}
 
@@ -259,7 +260,7 @@ La figura \ref{fig:reglas2_1}, nos muestra unicamente una asociación de variant
  
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas2_2}
+	\includegraphics[width=0.8\textwidth]{Kap4/reglas2_2}
 	\caption{Reglas de asociación del cluster 2 con variantes sinónimas.} \label{fig:reglas2_2}
 \end{figure}
 
@@ -267,7 +268,7 @@ La figura \ref{fig:reglas2_2}, nos muestra la distribución de las variantes seg
 
 \subsubsection*{Cluster 3}
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\subfigure[Nube de palabras.]{\includegraphics[width=60mm]{Kap4/cluster3}}
 	\subfigure[Rango de edad en décadas.]{\includegraphics[width=60mm]{Kap4/edadc3}}
@@ -278,19 +279,19 @@ La figura \ref{fig:c3}(a) nos muestra la frecuencia de palabras donde seno, cán
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas3_1}
+	\includegraphics[width=0.8\textwidth]{Kap4/reglas3_1}
 	\caption{Reglas de asociación del cluster 3 con variantes sinónimas.} \label{fig:r3}
 \end{figure}
 
-La figura \ref{fig:r3} muestra las asociaciones entre las variantes sinónimas al género femenino, donde las variantes sinónimas se encuentran en mayor frecuencia a el rango de edad entre 30 y 40 y son heterocigotas, se presenta una frecuencia de pacientes entre los 20 y 30 años sin asociación a variantes o estado alélico.   
+La figura \ref{fig:r3} muestra las asociaciones entre las variantes sinónimas al género femenino, donde las variantes sinónimas se encuentran en mayor frecuencia a el rango de edad entre 40 a 50 años y son heterocigotas, se presenta una frecuencia de pacientes entre los 10 y 20 años a variantes con un estado alélico homocigoto y al genero femenino, mientras que para el rango de edad de 0 a 10 años el estado alélico esta dividido entre homocigoto y heterocigoto, pero con variantes no sinónimas.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas3_2}
+	\includegraphics[width=0.8\textwidth]{Kap4/reglas3_2}
 	\caption{Reglas de asociación del cluster 3 sin variantes sinónimas.} \label{fig:re3}
 \end{figure}
 
-La figura \ref{fig:re3} muestra la asociación de rangos de edades con las variantes no sinónimas pero se encuentra que los rangos de edad de 30 y 40  y de 20 y 30 son de genero de genéro femenino, mientras que los demás rangos pertenecen no está asociados a un género en especifico. 
+La figura \ref{fig:re3} muestra la asociación de rangos de edades con las variantes no sinónimas donde las variantes del género masculino son para un rango de edad entre 0 y 10 años de edad, mientras que los demás rangos pertenecen no está asociados a un género en especifico, para el genero femenino se observa que el rango de edad es de 10 a 20 y de 40 a 50,mientras que los demás rangos de edad no muestran otro tipo de asociación para este tipo de variantes.  
 
 \subsubsection*{Cluster 4}
 \begin{figure}[H]
@@ -304,7 +305,7 @@ La figura \ref{fig:c4}(a) muestra las frecuencias de palabras que son síndrome 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas4_1}
+	\includegraphics[width=0.8\textwidth]{Kap4/reglas4_1}
 	\caption{Reglas de asociación del cluster 4 con variantes sinónimas.} \label{fig:r4}
 \end{figure}
 
@@ -312,7 +313,7 @@ La figura \ref{fig:r4} muestra la asociación de las variante heterocigotas a pa
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas4_2}
+	\includegraphics[width=0.8\textwidth]{Kap4/reglas4_2}
 	\caption{Reglas de asociación del cluster 4 sin variantes sinónimas.} \label{fig:re4}
 \end{figure}
 
@@ -331,7 +332,7 @@ La figura \ref{fig:c5}(a) presenta la frecuencia de palabras y este cluster a di
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/reglas5_1}
+	\includegraphics[width=0.8\textwidth]{Kap4/reglas5_1}
 	\caption{Reglas de asociación del cluster 5 con variantes sinónimas} \label{fig:r5}
 \end{figure}
 
@@ -352,7 +353,7 @@ Visualización de reglas de asociación para toda la base de datos utilizando el
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Kap4/CFTR1}
+	\includegraphics[width=0.87\textwidth]{Kap4/CFTR1}
 	\caption{Reglas de asociación con variantes sinónimas} \label{fig:r6}
 \end{figure}
 
@@ -362,7 +363,7 @@ Las pacientes femeninas se tiene el caso de que las variantes son no sinonimas y
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Kap4/CFTR2}
+	\includegraphics[width=0.8\textwidth]{Kap4/CFTR2}
 	\caption{Reglas de asociación sin variantes sinónimas} \label{fig:re6}
 \end{figure}
 
@@ -370,22 +371,54 @@ La figura \ref{fig:re6} muestra que el estado alélico de las variantes que no s
 
 \section{Visualización}
 
-Finalmente se desarrollo un dashboard utilizando la herramienta R, para mostrar todos los resultados obtenidas en el presente trabajo, para que las variantes que fueron encontradas puedan ser consultadas por la comunidad académica y científica. Este aplicativo presenta una pestaña general que muestra, la distribución demográfica de la población, la distribución del tipo de variantes encontradas y la distribución de las variantes encontradas por rangos de edad. Posteriormente se muestra una pestaña con cada cluster, donde se muestran las reglas de asociación obtenidas, la frecuencia de palabras del cluster y los rangos de edad por genero del cluster. Finalmente se muestra las reglas de asociación para el gen CFTR sin las variantes sinónimas y una tabla final con las variantes anotadas se obtuvieron. 
+Finalmente se desarrollo un dashboard utilizando la herramienta R, para mostrar todos los resultados obtenidas en el presente trabajo, para que las variantes que fueron encontradas puedan ser consultadas por la comunidad académica y científica. Este aplicativo presenta una pestaña general que muestra, la distribución demográfica de la población, la distribución del tipo de variantes encontradas y la distribución de las variantes encontradas por rangos de edad. Posteriormente se muestra una pestaña con cada cluster, donde se muestran las reglas de asociación obtenidas, la frecuencia de palabras del cluster y los rangos de edad por genero del cluster. Finalmente se muestra las reglas de asociación para el gen CFTR sin las variantes sinónimas y una tabla final con las variantes anotadas se obtuvieron. La figura \ref{fig:dash} muestra un screenshot  del aplicativo de visualización desarrollado, en la que se muestra los analisis exploratorios de las variantes.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{Kap4/dash}
+	\caption{Screenshot del dashboard desarrollado} \label{fig:dash}
+\end{figure}
 
 \section{Discusión}
 
 El presente trabajo presenta los resultados de las variantes de la muestra poblacional que es de 228 pacientes y se cuenta con información como edad y genero,además que son pertenecientes a diferentes regiones del país (las muestras fueron remitidas de diferentes instituciones a nivel nacional, las muestras no contaban con la ubicación geográfica del paciente), esto en comparación con el proyecto de 1000 genomas, donde se secuenciaron 136 individuos de la ciudad de Medellín-Antioquia y el cual es un set de datos que no representan la población colombiana que es altamente diversa \cite{GabrielBedoya,Consortium2012}. Los datos que se encuentran dentro de este proyecto son utilizados principalmente para realizar análisis de ancestria \cite{Rishishwar2015a} y no evaluación de variantes dentro de la población, que igualmente no reflejan la ancestria y mezcla de la población colombiana. 
 
-\subsection*{Asociación de variantes con sus grupos de características clínicas}
+\subsection{Asociación de variantes con sus grupos de características clínicas.}
 
 Los resultados de los grupos reflejan las características clínicas que se encuentran dentro de la base de datos, siendo el cáncer de seno el principal casual para llevar acabo las pruebas de secuenciación, esto corresponde con una de las bases para realizar la prueba de secuenciación en Colombia, ya que su valor diagnóstico y pronostico ha sido ampliamente estudiado en el país donde se da la importancia de la evaluación de la frecuencia de variantes en los genes BRCA1 y BRCA2 dentro de nuestra población, esto explica la razón de la alta frecuencia de las palabras cáncer y seno en cuatro de los cinco clusters obtenidos \cite{Ignacio2017,Arias-blanco2015}.\\
 
-A pesar de que los 4 primeros clusters están siendo representados por palabras similares, en el cuarto cluster la frecuencia de la palabra seno disminuye en comparación con los otros tres, se muestran diferencias significativas entre los rangos de edad y la distribución de géneros en cada uno de los clusters, y al incluir las reglas de asociación de cada uno de los clusters se tiene que las variantes no son iguales, inclusive a pesar de que la representación de pacientes femeninas aún es alta la distribución de sus variantes difiere entre clusters, a pesar de que la homogeneidad de los mismos es baja, la diferencia entre cluters es altamente notoria.\\  
+Los pacientes que se encuentran entre 0 y 10 años son la población más alta dentro de la base de datos (96 individuos)  y los que más variantes tienen, a pesar de ello las variantes que se presentan en este grupo poblacional no presentan la mismas reglas de asociación en los grupos frecuencia por ejemplo en el cluster 2 con las variantes \ref{fig:reglas2_1} se observa que no hay reglas frecuentes.\\ 
 
-El cluster 5 que es único cluster las palabras cáncer y seno como las palabras más frecuentes, pero si la palabra síndrome que es común en todos los clústers, al hacer una evaluación de los pacientes, en este grupo se tienen otras palabras por lo tanto son pacientes que vienen por otras causas distintas a cáncer de seno, también es un grupo con una representación más alta de hombres. Este cluster atípico tiene una regla donde se muestra que las variantes heterocigotas no sinonimas se encuentran  en pacientes de 0 a 10 años. El hecho de que este grupo no asocie su variantes a un genero y si a un estado alélico nos puede llegar a mostrar que este grupo de pacientes tienen variantes autosomicas dominantes o que son variantes heterocigotas compuestas, y que las manifestaciones clínicas se presentan en una edad temprana \cite{Kamphans2013}. \\
+Los 4 primeros clusters están siendo representados por palabras similares, en el cuarto cluster la frecuencia de la palabra seno disminuye en comparación con los otros tres, se muestran diferencias significativas entre los rangos de edad y la distribución de géneros en cada uno de los clusters, y al incluir las reglas de asociación de cada uno de los clusters se tiene que las variantes no son iguales, inclusive a pesar de que la representación de pacientes femeninas aún es más alta la distribución de sus variantes difiere entre clusters, a pesar de que la homogeneidad de los mismos es baja, la diferencia entre cluters la composición de variantes y pacientes es altamente notoria.\\  
 
-La identificación de las causas genéticas de enfermedades por medio de la priorización de variantes partiendo de su tipo, deja una pobre aplicación de las variantes que causan perdida de la función biológica dependiendo de su estado alélico \cite{Eilbeck2017} dado que en las bases de datos normalmente el estado alélico no está disponible y su interpretación puede ser compleja \cite{Stenson2017}. \\
+El cluster 5 que es único cluster las palabras cáncer y seno como las palabras más frecuentes, pero si la palabra síndrome que es común en todos los clústers, al hacer una evaluación de los pacientes, en este grupo se tienen otras palabras por lo tanto son pacientes que vienen por otras causas distintas a cáncer de seno, también es un grupo con una representación más alta de hombres. Este cluster atípico tiene una regla donde se muestra que las variantes heterocigotas no sinonimas se encuentran  en pacientes de 0 a 10 años. El hecho de que este grupo no asocie su variantes a un genero y si a un estado alélico nos puede llegar a mostrar que este grupo de pacientes tienen variantes autosomicas dominantes o variantes heterocigotas compuestas, y que las manifestaciones clínicas se presentan en una edad temprana \cite{Kamphans2013}. \\
+
+La identificación de las causas genéticas de enfermedades por medio de la priorización de variantes partiendo de su tipo, deja una pobre aplicación de las variantes que causan perdida de la función biológica dependiendo de su estado alélico \cite{Eilbeck2017} dado que en las bases de datos normalmente el estado alélico no está disponible y su interpretación puede ser compleja \cite{Stenson2017} en el presente trabajo se muestra las variantes y su estado alélico dentro de la población muestreada. 
 
 
-La visualización de la distribución de las variantes muestra  pa
+\subsection{Variantes con el gen CFTR}
 
+Las variantes del gen CFTR son asociadas a la fibrosis quistica, ya que pueden ser causantes de perdida de la función biologica de la proteína, aunque la relación de las variantes con las manifestaciones no está completamente identificada, una de las razones por lo que su relación entre variante y enfermedad esta dada por la complejidad alélica de las variantes. Para este gen en particular se han reportado más de 2000 variantes pero solo unas pocas son asociadas a fibrosis quistica aproximadamente el 10\% han sido asociadas a variantes y su estado alélico. Se ha estimado que las técnicas de NGS es capaz de detectar el 80\% de las variantes del gen y tiene estimada una taza de detección de las variantes para fibrosis quistica clásica del 97\% \cite{Rowntree2003,Terlizzi2017b,Farrell2016}. El diagnostico de esta enfermedad se realiza mediante la evaluación clínica de los principales síntomas, normalmente este diagnóstico seda en los primeros años de vida \cite{Terlizzi2017b}.\\
+
+Los rangos de edad frecuentes donde se encuentran variantes para este gen son de 0 a 20 y de 30 a 40, los demás rangos no se encuentran dentro de las reglas frecuentes, los rangos de edad de las variantes corresponden a las mismas edades en las que se realizan los diagnósticos de esta enfermedad \cite{Terlizzi2017b}, aunque el rango de 30 a 40 años de edad son pacientes adultos también ha sido referenciado que dependiendo de la etiología de la enfermedad existen diagnósticos tardíos de la enfermedad para rangos de edad entre los 18 a 40 años \cite{Farrell2008}, dentro de la población estudiada no tenemos un rango de edad de 20 a 30. \\
+
+Todos los clusters, tiene una representación de las palabras fibrosis o quistica, pero en el cluster 3 no se encuentra representado con las reglas frecuentes asociadas al gen CFTR, al realizar un filtrado de reglas para esté gen unicamente en cluster 3 tenenos que solo se generan solo 3 reglas, que asocian las variantes de este gen a dos rangos de edad que son entre 50 a 60 y entre 20 a 30 unicamente al género masculino, siendo estos rangos de edad tardíos para el diagnostico de la enfermedad \cite{Farrell2008}. Mientras que al remover las variantes sinónimas el único cluster con alta frecuencia de variación es el clúster 4 que presenta solo 4 pacientes con cinco diagnósticos o sospecha de fibrosis quistica, lo que muestra que es un grupo que presenta una alta frecuencia de variantes para el gen CFTR, el estado alélico es heterocigoto para estas variaciones.\\
+
+La evaluación de variantes en el gen CFTR y la variante no sinónima más frecuentes es CFTR:exon11:c.1408G>A:p.V470M que es una variante con una frecuencia poblacional a nivel mundial del 50\% \cite{Zerbino2018}, mientras que en  nuestra base de datos se encuentra en 49 pacientes del total de la muestra poblacional que corresponde al 21,49\%, por lo tanto la distriubución de esta variante dentro de la población colombiana es mucho menor a la reportada a nivel mundial.\\
+
+Aunque existen pacientes con sospechas y/o diagnósticos de pacientes con fibrosis quistica encontramos que las variantes patogénicas más frecuentes dentro de la población colombiana no se han identificada \cite{Vasquez2010}, dado que las regiones de splicing han sido removidas en el presente estudio, lo que limmita la evalución de la asociación de tipos de variantes que no se encuentran en regiones codificantes de genes, y no se observan otros tipos de variantes distintos a variantes sinónimos y no sinónimas. 
+
+\subsection{Conclusión}
+
+La utilización de técnicas de minería de datos en el campo de la bioinformática aplicada al apoyo diagnostico y a la agrupación de pacientes según sus características diagnosticas, a nivel masivo junto con las variantes obtenidas a partir de técnicas se secuenciación, permiten hacer una inferencia del estado de la población y seguimiento de datos epidemiológicos de variantes y sus posibles efectos en fenotipos de los pacientes.
+
+\subsection*{Resumen}
+
+El presente capítulo muestra la aplicación de un modelo de minería para analizar datos clínicos y genómicos, donde las técnicas clásicas de  agrupamiento para identificar características clínicas de pacientes son útiles para diferenciar patrones de diagnóstico, la utilización de reglas de asociación para identificar variantes y su distribución dentro de la población, que muestran patrones desde diferentes puntos de vista.\\
+
+El desarrollo de herramientas de visualización de la información, para mostrar los resultados del proceso de minería, generar análisis propios y posibles preguntas que aporten a la investigación, en el presente se muestra la distribución de las variantes por estado alélico, edad y genero de los pacientes, también un caso de estudio para el gen CFTR que no muestra asociaciones patogénicas en los pacientes estudiados.
+
+
+
+
+   

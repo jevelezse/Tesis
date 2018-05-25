@@ -2,7 +2,7 @@
 
 Los pipelines son un componente integral de la secuenciación de siguiente generación (NGS), para el procesamiento de los datos en bruto y detectar las alteraciones genómicas que tienen un impacto en la salud de un paciente, por lo tanto se hace necesario desarrollo, validación y monitoreo de los pipelines son necesarios para disminuir los errores de la identificación de variantes ya que pueden tener una consecuencia negativa en la salud de los pacientes \cite{Roy2018}.
 
-En este capítulo se presenta el proceso para validar un pipeline que permitió la  identificación de variantes a partir de datos de secuenciación de siguientes generación (NGS), donde se utiliza datos públicos un paciente  para validar la calidad  de las variantes, y se encuentra organizado de la siguiente forma 1. Identificación de variantes, 2. Datos. 3. Estrategias del pipeline. 4. Resultados y validación. 5. Discusión, 6.conclusiones 7. Resumen. 
+En este capítulo se presenta el proceso para validar un pipeline que permitió la  identificación de variantes a partir de datos de secuenciación de siguientes generación (NGS), donde se utiliza datos públicos un paciente  para validar la calidad  de las variantes, y se encuentra organizado de la siguiente forma 3.1 Identificación de variantes, 3.2 Datos. 3.3 Estrategias del pipeline. 3.4 Resultados y validación. 3.5 Discusión, 3.6.conclusiones y  resumen. 
 
 \section{Identificación de variantes}
 
@@ -18,7 +18,7 @@ Los pipelines bioinformaticos para NGS son comúnmente desarrollados en una plat
 \end{enumerate}
  
 
-La eficiencia de la identificación de variantes depende de la exactitud del llamado de las bases (la identificación correcta de cada nucleótido dentro de la secuencia), esto es realizado durante el proceso de secuenciación de alta velocidad con la que se identifican los nucleótidos hace que puedan ocurrir errores en la identificación correcta de las bases, se considera que al momento la exactitud de ese llamado esta alrededor del 99.5\% \cite{Tetreault2015}.Teniendo en cuenta lo anterior es recomendable  priorizar la sensibilidad (Buscar tantas variantes como sea posible para evitar perder cualquier variante) sobre la especificidad (Limita la proporción de falsos positivos en un conjunto de variantes) \cite{Auwera2014}.  \\
+La eficiencia de la identificación de variantes depende de la exactitud del llamado de las bases (la identificación correcta de cada nucleótido dentro de la secuencia), esto se realizo debido a que durante el proceso de secuenciación que es de alta velocidad, y en ocasione se identifican los nucleótidos de manera incorrecta, se considera que al momento la exactitud de ese llamado esta alrededor del 99.5\% \cite{Tetreault2015}.Teniendo en cuenta lo anterior es recomendable  priorizar la sensibilidad (Buscar tantas variantes como sea posible para evitar perder cualquier variante) sobre la especificidad (Limita la proporción de falsos positivos en un conjunto de variantes) \cite{Auwera2014}.  \\
 
 Para el presente trabajo se realizaron mediciones de la calidad de las secuencias y el mapeo, post-alineamiento y el llamado de variantes, siguiendo las buenas practicas para el llamado de variantes \cite{Fisch2015}.Teniendo en cuenta que existen múltiples herramientas para realizar el llamado de variantes tanto de uso privado como open source que permite  seguir las buenas practicas de identificación de variantes se hace necesario integrar las diversas herramientas para poder obtener las datos de buena calidad. Y surge la pregunta de ¿cuáles de todos los métodos y las herramientas son la más apropiada para hacer el llamado de variantes en exones \cite{Bao2014}\cite{Cornish2015}.\\
 
@@ -224,22 +224,25 @@ En la figura \ref{fig:variaciones2} se observa el comportamiento de la distribuc
 
 El diagrama de la figura \ref{fig:diagrama2} muestra la comparación de las variantes obtenidas y su respectiva concordancia done el 100\% del exoma esta representado en las variaciones encontradas mienteras que un 96\% de las variaciones obtenidas por omicspipe son un 96\% dejando solo un 4\% de las variantes no encontradas dentro del exoma publico. \\
 
-GATK realiza un reporte de la evaluación cunado se comparan dos archivos de distintas variaciones, este puede ser abierto como un archivo de texto o cargado directamente en R utilizando la librería \textit{gsalib} quien lee el archivo \textit{merged.eval.gatkreport}, esto genera una lista que tiene anidados varios data.frame, dentro de ellos para este caso se tomo el \textit{ValidationReport)} que genera una tabla con los falsos positivos, falsos negativos, calcula la sensibilidad y la especificidad  y el valor predictivo positivo (PPV). Que para nuestro caso de nuestro exoma se encuentran en la tabla \ref{tabla:tabla3}:
+GATK realiza un reporte de la evaluación cuando se comparan dos archivos de distintas variaciones, este puede ser abierto como un archivo de texto o cargado directamente en R utilizando la librería \textit{gsalib} quien lee el archivo \textit{merged.eval.gatkreport}, esto genera una lista que tiene anidados varios data.frame, dentro de ellos para este caso se tomo el \textit{ValidationReport)} que genera una tabla con los falsos positivos, falsos negativos, calcula la sensibilidad y la especificidad  y el valor predictivo positivo (PPV). Que para nuestro caso de nuestro exoma se muestran en la tabla \ref{tabla:tabla3}:
 
 \begin{table}[H]
 	\begin{center}
-		\begin{tabular}{|l|l|l|l|}
+		\begin{tabular}{|l|l|}
 			\hline 
-			\textbf{TP} & \textbf{FP} & \textbf{FN} & \text{TN} \\
+			\textbf{TP} &  \textbf{TN} \\
 			\hline 
-			32110 & 0 & 1033 & 0 \\ \hline
+			32110 & 0  \\ \hline
+			\textbf{FP} &  \textbf{FN} \\
+			\hline
+			1033 &  0\\ \hline
 		\end{tabular}
 		\caption{Tabla de validación 1.}
 		\label{tabla:tabla3}
 	\end{center}
 \end{table}
 
-La tabla \ref{tabla:tabla3} refleja que para el conjunto de datos no hay falsos positivos ni verdaderos negativos, pero si falsos negativos, es decir 1033 variantes del conjunto de datos obtenidos. (\textit{GATK para calcular estas métricas se compara contra una base de datos que el usuario disponga para determinar variantes existentes}).  La tabla \ref{tabla:tabla4} muestra la sensibilidad, especificidad y el valor predictivo positivo (PPV).
+La tabla \ref{tabla:tabla3} refleja que para el conjunto de datos no hay falsos negativos ni verdaderos negativos, pero si falsos positivos, es decir 1033 variantes del conjunto de datos obtenidos que no son reales pero fueron identificadas. (\textit{GATK para calcular estas métricas se compara contra una base de datos que el usuario disponga para determinar variantes existentes}).  La tabla \ref{tabla:tabla4} muestra la sensibilidad, especificidad y el valor predictivo positivo (PPV).
 
 \begin{table}[H]
 	\begin{center}
@@ -290,9 +293,9 @@ Teniendo en cuenta lo anterior se puede inferir que las secuencias duplicadas so
 \subsection*{Variantes obtenidas}
 \subsubsection*{Variantes de illumina y omics pipeline}
 
-En los datos obtenidos para illumina inicialmente reflejados en la tabla \ref{tabla:final}, muestran una alta discordancia ya que inicialmente las variantes no se les aplicó un segundo filtro, siguiendo las recomendaciones de  GATK , donde por el pipeline de Omics tiene por defecto el variant quality score racalibration (VQRS) que se basa en machine learning para filtrar las variantes y generar una alta sensibilidad verdadera, que es el método más recomendado, pero tiene limitaciones estadísticas y es más robusto que el hard filtering, este es recomendado para datos pequeños \cite{Auwera2014}. \\
+En los datos obtenidos para illumina inicialmente reflejados en la tabla \ref{tabla:final}, muestran una alta discordancia ya que inicialmente las variantes no se les aplicó un segundo filtro, siguiendo las recomendaciones de  GATK , donde por el pipeline de Omics tiene por defecto el variant quality score racalibration (VQRS) que se basa en machine learning para filtrar las variantes y generar una alta sensibilidad, que es el método más recomendado, pero tiene limitaciones estadísticas y es más robusto que el hard filtering, este es recomendado para datos pequeños \cite{Auwera2014}. \\
 
-Al realizar una calibración de los datos con la calidad y con hard filtering en GATK se obtiene una similitud entre la cantidad de variantes obtenidas por omics con respecto a Illumina, pero aún es posible ver que la distribución de las variantes es similar para ambos conjuntos de datos (véase la figura \ref{fig:distribucion}) y se acerca más después de realizar el filtrado. Esto se presenta debido a que no existe una formula para determinar cuales anotaciones y filtros son adecuados, además el VQSR genera datos de entrenamiento para determinar las variaciones y se hacen recomendaciones según lo que se ha observado empíricamente dentro del desarrollo de los algoritmos \cite{Auwera2014}. \\
+Al realizar una calibración de los datos con la calidad y con hard filtering en GATK se obtiene una similitud entre la cantidad de variantes obtenidas por omics pipe con respecto a Illumina, pero aún es posible ver que la distribución de las variantes es similar para ambos conjuntos de datos (véase la figura \ref{fig:distribucion}) y se ve una mayor similitud  después de realizar el filtrado. Esto se presenta debido a que no existe una formula para determinar cuales anotaciones y filtros son adecuados, además el VQSR genera datos de entrenamiento para determinar las variantes. Por esta razón se hacen recomendaciones según lo que se ha observado empíricamente dentro del desarrollo de los algoritmos \cite{Auwera2014}. \\
 
 A pesar de que la distribución de las variante es similar, aun con el filtrado de las variantes existe que la concordancia entre ambas técnicas tiende a ser del 50\% (véase la figura \ref{fig:diagrama}), aunque illumina utiliza GATK la versión implementada es la 1.6 que en este momento no cuenta con documentación (https://www.broadinstitute.org/gatk/guide/version-history) que illumina utiliza la versión 1.6 y la función UnifiedGenotyper que presenta algunas inconsistencias para la identificación de indels, mientras que la versión de GATK 3.5 utiliza la función HaplotyperCaller que mejora el llamado de variantes, y corrige algunas inconsistencias para la identificación de indels \cite{ORawe2013}. Además es la función recomendada para organismos diploides, este se enfoca en dos tipos de identificación inicialmente los SNPs y los indels, y puede identificar cuando hay varios tipos de variantes cercanas a otras \cite{Auwera2014}. \\
 
@@ -302,11 +305,10 @@ Illumina no provee los parametros utilizados para hacer el llamado de variantes 
 
 Para este estudio se utilizo una muestra del genoma completo de la muestra NA12878 son de 34,886 variaciones \cite{Cornish2015} en el presente estudio 32850 y el pipeline obtuvo un total de 34217, lo que permite inferir que las variante identificadas son solo de 2036 variaciones (dependiendo de las muestras y los genes que fueron secuenciados) y que se realizo un muestreo partir de un archivo bed. Además si se aplica un filtro para retirar las variaciones con baja calidad, el llamado de variantes de GATK mejora de manera significativa si necesidad de hacer cambios en el preprocesamiento de los datos \cite{Warden2014} \\
 
-Las dos resultados presentan una distribución similar en cuanto a las variantes por cromosoma y no hay variantes desconocidas dentro de la muestra,esto se debe a la alta curación que tiene este exoma, la figura \ref{fig:variaciones2} presenta la distribución a lo largo de los cromosomas donde se presenta leves diferencias entre los datos públicos y los datos generados por el pipeline con una diferencia del 4\% entre las dos resultados, no existen falsos positivos ni verdaderos negativos identificados dentro del conjunto de los datos del pipeline, se presenta una sensibilidad del 96\% que es alta , dado que las calibraciones y los algoritmos presentan falencias reales para la identificación de variantes \cite{Auwera2014}. Esto se puede corregir por dos vias, aplicando un filtro de Quality by Depth (QD) >= 4 and Fisher Strand Bias (FS) =< 30 para dar un balance  a la sencibilidad y la especificidad \cite{Tsai2016} o aplicando múltiples pipelines.\\
+Las dos resultados presentan una distribución similar en cuanto a las variantes por cromosoma y no hay variantes desconocidas dentro de la muestra,esto se debe a la alta curación que tiene este exoma, la figura \ref{fig:variaciones2} presenta la distribución a lo largo de los cromosomas donde se presenta leves diferencias entre los datos públicos y los datos generados por el pipeline con una diferencia del 4\% entre las dos resultados, no existen falsos negativos ni verdaderos negativos identificados dentro del conjunto de los datos del pipeline, se presenta una sensibilidad del 96\% que es una buena, dado que las calibraciones y los algoritmos presentan falencias reales para la identificación de variantes \cite{Auwera2014}. Esto se puede corregir por dos vias, aplicando un filtro de Quality by Depth (QD) >= 4 and Fisher Strand Bias (FS) =< 30 para dar un balance  a la sensibilidad y la especificidad \cite{Tsai2016} o aplicando múltiples pipelines.\\
 
-La no existencia de falsos negativos y verdaderos positivos, esta supeditada al hecho de que se tomo una muestra de las muestras comunes, es decir que tanto en la muestra a comparar con la obtenida se van a ver las posiciones entre los datos analizados, aún con esta limitante acerca de la posición de las variantes en la región génomica se logra ver el error que se esta obteniendo dentro del pipeline, aunque la precisión es alta y no hay false descovery rate (FDR).\\
 
-La sensibilidad de un solo pipeline esta en promedio de 95\% al 99\% ,que esta dentro del rango de aceptabilidad para la identificación de las variantes \cite{Liu2013}. Para nuestro pipeline tenemos una precisión de 100\%. Lo que muestra que hay baja probabilidad de error.\\
+La sensibilidad de un solo pipeline esta en promedio de 95\% al 99\% ,que esta dentro del rango de aceptabilidad para la identificación de las variantes \cite{Liu2013}. Para nuestro pipeline tenemos una precisión de 100\%. Lo que nos indica que hay  una baja probabilidad de error.\\
 
 Al realizar la anotación se logro encontrar una de las variantes reportadas para el exoma, en el gen CYP2C19 en la misma posición reportada, con la misma variación mostrando la concordancia entre los resultados del pipeline y la muestra original. \\
 
