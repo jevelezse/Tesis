@@ -475,9 +475,12 @@ Trupti~M Kodinariya and Prashant~R Makwana.
   and Management Studies}, 1(6):2321--7782, 2013.
 
 \bibitem{scikit-learn}
-F~Pedregosa, G~Varoquax, A~Gramfort, V~Michel, B~Thirion, and O~Grisel.
-\newblock {Scikit-learn: machine learning in Python}.
-\newblock {\em J Mach Learn Res}, 12:2825--2830, 2011.
+Fabian Pedregosa, Ga{\"{e}}l Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau,
+  Matthieu Brucher, Matthieu Perrot, and {\'{E}}douard Duchesnay.
+\newblock {Scikit-learn: Machine Learning in Python}.
+\newblock {\em Journal of Machine Learning}, 12:2825--2830, 2011.
 
 \bibitem{Rousseeuw1987}
 Peter~J. Rousseeuw.

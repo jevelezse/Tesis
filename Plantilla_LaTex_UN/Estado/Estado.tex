@@ -53,7 +53,7 @@ La fibrosis quística es una enfermedad multisistemica causada por mutaciones pu
 \section{Bioinformática}
 
 
-La bioinformática según la asociación americana de patología y el colegio americano de patología es la disciplina que conceptualiza la biología en términos de macro-moléculas y aplica técnicas informáticas (matemática aplicada, ciencias de la computación y estadística) para entender y organizar la información asociada a esas macro-moléculas, en gran escala \cite{Roy2018}.  
+La bioinformática según la asociación americana de patología y el colegio americano de patología es la disciplina que conceptualiza la biología en términos de macro-moléculas y aplica técnicas informáticas (matemática aplicada, ciencias de la computación y estadística) para entender y organizar la información asociada a esas macro-moléculas, en gran escala \cite{Roy2018}.\\  
  
 La bioinformática combina retos de investigación en las áreas de la biología y la informática para desarrollar diferentes métodos y herramientas para el análisis de datos biológicos y puede tratar acerca  del almacenamiento, simulación y análisis de datos biológicos aplicando el uso de herramientas computacionales  como la minería de datos, esta ultima siendo definida como una herramienta de investigación, desarrollo y aplicación para expandir el uso de los datos biológicos y médicos con fines de investigación y generación de nuevos conocimientos, incluyendo las herramientas que permitan almacenar, archivar y analizar o visualizar dichos datos \cite{Littlefield} \\
 
@@ -61,30 +61,17 @@ El auge de las tecnología de NGS permitió que la bioinformática diera respues
 
 \subsection{Integración de datos genómicos y clínicos}
 
-En la era de las omícas, los datos se presentan en diferentes formas y en varios niveles en términos biológicos, los cuales incluyen los datos genómicos, datos de transcriptomica, epigenomica, metabulomica, entre otros, donde se incluyen también las diferentes datos poblacionales humanos y las historias clínicas, la escala de estos datos se encuentran  entre  pentabyte y exabyte \cite{Li2014}.Aunque la definición de “big data” es muy discutida dentro de las ciencias de la información, sin embargo el nombre se hace referencia a la “gran cantidad de datos” que se caracterizan por el volumen del procesamiento, la variabilidad de los mismos y la veracidad de la calidad de los datos \cite{Li2014}. Partiendo de lo anterior los datos genómicos  pueden ser catalogados como “big data” ya que poseen las siguientes características: Son numerosos, no pueden ser almacenados dentro de una base regular de datos, la velocidad  de generación y procesamiento es muy rápida \cite{Hashem2015}. \\
+En la era de las omícas, los datos se presentan en diferentes formas y en varios niveles en términos biológicos, los cuales incluyen los datos genómicos, datos de transcriptomica, epigenomica, metabulomica, entre otros, donde se incluyen también las diferentes datos poblacionales humanos y las historias clínicas, la escala de estos datos se encuentran  entre  pentabyte y exabyte \cite{Li2014}.\\
+
+Aunque la definición de “big data” es muy discutida dentro de las ciencias de la información, sin embargo el nombre se hace referencia a la “gran cantidad de datos” que se caracterizan por el volumen del procesamiento, la variabilidad de los mismos y la veracidad de la calidad de los datos \cite{Li2014}. Partiendo de lo anterior los datos genómicos  pueden ser catalogados como “big data” ya que poseen las siguientes características: Son numerosos, no pueden ser almacenados dentro de una base regular de datos, la velocidad  de generación y procesamiento es muy rápida \cite{Hashem2015}. \\
 
 En el diagnóstico de enfermedades los datos genómicos vistos como "big data" comparten los mismos retos tecnológicos como son: el almacenamiento, la transferencia de la información, control del acceso y manejo de la información, otros retos computacionales propios de los datos es el moldeamiento de los sistemas biológicos, la gran escala y diversidad de los datos donde los modelos no optimizados que pueden fallar \cite{Ren2015}. \\
 
-Para el manejo de los datos se han aplicado varios modelos de sistemas de información en  bioinformática con diversas herramientas para integrar datos biológicos, utilizando sistemas de bodega de datos que están disponibles de manera gratuita y que fueron desarrollados con el fin de dar respuesta algunos de los problemas en el manejo de datos biológicos, dada la importancia que tiene de poder utilizar toda la información necesaria de manera eficiente \cite{Triplet2014}, algunas de estas bases de datos públicas son las de NCBI y ensambl  que hacen parte de un consorcio internacional \cite{Sherry2001,Yates2016}. En la tabla \ref{inv} se describen algunos softwares libres para la integración de datos.\\
-
-\begin{table}[H]
-	\centering
-	\caption{SOFTWARE PARA LA INTEGRACIÓN DE DATOS GENÓMICOS CON FINES DE INVESTIGACIÓN}
-	\label{inv}
-	\begin{tabular}{|l|p{13cm}|}
-		\hline
-		Software     & Descripción                                                                                                                                                                                                                                                                                                                                                                                 \\ \hline
-		BioMart      & Permite la integración de datos biológicos, esta herramienta optimiza  de manera rápida la integración de grandes cantidades de datos, de fácil uso (los biólogos moleculares y médicos no poseen generalmente bases sólidas de programación) y ha sido usado por laboratorios para integrar portales de enfermedades de cáncer, datos de microarreglos y expresión génica \cite{Triplet2014}.     \\ \cline{1-2}
-		BioXRT       & Fue desarrollado por biólogos para publicar sus datos en internet, está recomendado para laboratorios pequeños  y que necesiten publicar sus resultados para correlaciónalos con otros resultados de otros laboratorios, también ha sido utilizado en varios  proyectos para la anotación del cromosoma 7 y el estudio estructural de variantes genéticas asociadas a autismo \cite{Triplet2014}.       \\ \cline{1-2}
-		InterMine    & Provee un modelo de datos para llamar 28 bases de datos libres como Gene Ontology, que permite la implementación de flujos de trabajos de manera automatizada \cite{Triplet2014}.                                                                                                                                                                                                              \\ \hline
-		PathwayTools & Es una herramienta que permite utilizar organismos específicos para realizar las búsquedas o modelos de organismos en las bases de datos, estas pueden ser publicadas y visualizadas en la web, incluye una predicción de varias reacciones metabólicas de los microorganismos \cite{Triplet2014}.                                                                                                  \\ \cline{1-2}
-		Illumina     & Presenta su propia herramienta integradora que permite hacer la anotación funcional de genes,  la filtración y categorización de datos que puedan tener un impacto biológico en variantes relevantes, generando un reporte resumido de las enfermedades con un significado biológico y en un formato estructurado, pero no integra la información clínica de un paciente \cite{Illumina2017}.      \\ \hline
-	\end{tabular}
-\end{table}
+Para el manejo de los datos se han aplicado varios modelos de sistemas de información en  bioinformática con diversas herramientas para integrar datos biológicos, utilizando sistemas de bodega de datos que están disponibles de manera gratuita y que fueron desarrollados con el fin de dar respuesta algunos de los problemas en el manejo de datos biológicos, dada la importancia que tiene de poder utilizar toda la información necesaria de manera eficiente \cite{Triplet2014}, algunas de estas bases de datos públicas son las de NCBI y ensambl  que hacen parte de un consorcio internacional \cite{Sherry2001,Yates2016}.
 
 Muchas  herramientas han sido implementadas con fines de investigación, más no con fines diagnósticos,  en este sentido se han implementado otras herramientas que permiten integrar datos con fines diagnósticos, ya que en este caso se requieren parámetros de seguridad por los datos que contienen información clínica y que deben ser manejados de manera privada. Esto implica otro manejo de datos biológicos ya que se adicionan nuevos datos como condiciones del paciente, tratamientos entre otros datos \cite{Canuel2015}. La tabla \ref{r}presenta algunos de los softwares para integrar datos con fines de diagnósticos.\\
 
-\begin{table}[H]
+\begin{table}[]
 	\centering
 	\caption{SOFTWARE DE INTEGRACIÓN DE DATOS GENÓMICOS CON FINES DIAGNÓSTICOS}
 	\label{r}

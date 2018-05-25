@@ -3,67 +3,67 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces SNPs en Humanos.}}{12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Pipeline basado en las buenas practicas para el llamado de variantes.}}{24}
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Pipeline basado en las buenas practicas para el llamado de variantes.}}{25}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Calidad del llamado de bases en una secuencia Estad\IeC {\'\i }sticas b\IeC {\'a}sicas del reporte FASTQ}}{26}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Variantes obtenidas por Omics pipe}}{27}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Variaciones de la muestra}}{28}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Variantes obtenidas mediante calibraci\IeC {\'o}n}}}{28}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Variantes illumina}}}{28}
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{28}
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{29}
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre variantes comunes de Omics y de Illumina}}{29}
-\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas.}}{30}
-\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Variaciones de la muestras dentro del exoma}}{31}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Variantes obtenidas por Omics}}}{31}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Variantes p\IeC {\'u}blicas}}}{31}
-\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas}}{31}
-\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre las variantes publicas y las obtenidas por el pipeline.}}{32}
-\contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces Imagen de la variante presente en el exoma p\IeC {\'u}blico}}{33}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Pipeline basado en las buenas practicas para el llamado de variantes.}}{23}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Pipeline basado en las buenas practicas para el llamado de variantes.}}{24}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Calidad del llamado de bases en una secuencia Estad\IeC {\'\i }sticas b\IeC {\'a}sicas del reporte FASTQ}}{25}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Variantes obtenidas por Omics pipe}}{26}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Variaciones de la muestra}}{27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Variantes obtenidas mediante calibraci\IeC {\'o}n}}}{27}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Variantes illumina}}}{27}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{27}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas}}{28}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre variantes comunes de Omics y de Illumina}}{28}
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas.}}{29}
+\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Variaciones de la muestras dentro del exoma}}{30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Variantes obtenidas por Omics}}}{30}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Variantes p\IeC {\'u}blicas}}}{30}
+\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Distribuci\IeC {\'o}n de variantes a lo largo de los cromosomas para los exomas}}{30}
+\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre las variantes publicas y las obtenidas por el pipeline.}}{31}
+\contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces Imagen de la variante presente en el exoma p\IeC {\'u}blico}}{32}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Esquema de datos integrados}}{39}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Modelo entidad relaci\IeC {\'o}n}}{40}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Interfaz de ingreso para administrar la base de datos.}}{41}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Interfaz de administraci\IeC {\'o}n.}}{41}
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Ingreso de pacientes.}}{42}
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Consulta a variantes}}{42}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Esquema de datos integrados}}{38}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Modelo entidad relaci\IeC {\'o}n}}{39}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Interfaz de ingreso para administrar la base de datos.}}{40}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Interfaz de administraci\IeC {\'o}n.}}{40}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Ingreso de pacientes.}}{41}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Consulta a variantes}}{41}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Distribuci\IeC {\'o}n de rango de edades y g\IeC {\'e}neros de los pacientes}}{45}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Distribuci\IeC {\'o}n del tipo de variantes}}{45}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distribuci\IeC {\'o}n de variantes seg\IeC {\'u}n su tipo.}}}{45}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribuci\IeC {\'o}n de variantes por rango de edad}}}{45}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Frecuencias sin stop words y palabras sin\IeC {\'o}nimas}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{47}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Frecuencia de t\IeC {\'e}rminos}}}{47}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces TF-IDF}}{48}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces N\IeC {\'u}mero optimo de clusters}}{49}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Valor Silhouette por cada cluster}}{50}
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Cluster 1}}{53}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{53}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribuc\IeC {\'o}n demogr\IeC {\'a}fica de los pacientes}}}{53}
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 1 con variantes sin\IeC {\'o}nimas.}}{54}
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 1 sin variantes sin\IeC {\'o}nimas.}}{55}
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Cluster 2}}{56}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{56}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en d\IeC {\'e}cadas.}}}{56}
-\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 2 con variantes sin\IeC {\'o}nimas.}}{57}
-\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 2 con variantes sin\IeC {\'o}nimas.}}{58}
-\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Cluster 3}}{59}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras.}}}{59}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en d\IeC {\'e}cadas.}}}{59}
-\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 3 con variantes sin\IeC {\'o}nimas.}}{59}
-\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 3 sin variantes sin\IeC {\'o}nimas.}}{60}
-\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces Cluster 4}}{61}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{61}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{61}
-\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 4 con variantes sin\IeC {\'o}nimas.}}{61}
-\contentsline {figure}{\numberline {\relax 5.18}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 4 sin variantes sin\IeC {\'o}nimas.}}{62}
-\contentsline {figure}{\numberline {\relax 5.19}{\ignorespaces Cluster 5}}{63}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{63}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en d\IeC {\'e}cadas}}}{63}
-\contentsline {figure}{\numberline {\relax 5.20}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 5 con variantes sin\IeC {\'o}nimas}}{64}
-\contentsline {figure}{\numberline {\relax 5.21}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 5 sin variantes sin\IeC {\'o}nimas}}{65}
-\contentsline {figure}{\numberline {\relax 5.22}{\ignorespaces Reglas de asociaci\IeC {\'o}n con variantes sin\IeC {\'o}nimas}}{66}
-\contentsline {figure}{\numberline {\relax 5.23}{\ignorespaces Reglas de asociaci\IeC {\'o}n sin variantes sin\IeC {\'o}nimas}}{67}
-\contentsline {figure}{\numberline {\relax 5.24}{\ignorespaces Screenshot del dashboard desarrollado}}{68}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Distribuci\IeC {\'o}n de rango de edades y g\IeC {\'e}neros de los pacientes}}{44}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Distribuci\IeC {\'o}n del tipo de variantes}}{44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distribuci\IeC {\'o}n de variantes seg\IeC {\'u}n su tipo.}}}{44}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribuci\IeC {\'o}n de variantes por rango de edad}}}{44}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Frecuencias sin stop words y palabras sin\IeC {\'o}nimas}}{46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{46}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Frecuencia de t\IeC {\'e}rminos}}}{46}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces TF-IDF}}{47}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces N\IeC {\'u}mero optimo de clusters}}{48}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Valor Silhouette por cada cluster}}{49}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Cluster 1}}{52}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{52}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribuc\IeC {\'o}n demogr\IeC {\'a}fica de los pacientes}}}{52}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 1 con variantes sin\IeC {\'o}nimas.}}{53}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 1 sin variantes sin\IeC {\'o}nimas.}}{54}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Cluster 2}}{55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{55}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en d\IeC {\'e}cadas.}}}{55}
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 2 con variantes sin\IeC {\'o}nimas.}}{56}
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 2 con variantes sin\IeC {\'o}nimas.}}{57}
+\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Cluster 3}}{58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras.}}}{58}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en d\IeC {\'e}cadas.}}}{58}
+\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 3 con variantes sin\IeC {\'o}nimas.}}{58}
+\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 3 sin variantes sin\IeC {\'o}nimas.}}{59}
+\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces Cluster 4}}{60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{60}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{60}
+\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 4 con variantes sin\IeC {\'o}nimas.}}{60}
+\contentsline {figure}{\numberline {\relax 5.18}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 4 sin variantes sin\IeC {\'o}nimas.}}{61}
+\contentsline {figure}{\numberline {\relax 5.19}{\ignorespaces Cluster 5}}{62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{62}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en d\IeC {\'e}cadas}}}{62}
+\contentsline {figure}{\numberline {\relax 5.20}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 5 con variantes sin\IeC {\'o}nimas}}{63}
+\contentsline {figure}{\numberline {\relax 5.21}{\ignorespaces Reglas de asociaci\IeC {\'o}n del cluster 5 sin variantes sin\IeC {\'o}nimas}}{64}
+\contentsline {figure}{\numberline {\relax 5.22}{\ignorespaces Reglas de asociaci\IeC {\'o}n con variantes sin\IeC {\'o}nimas}}{65}
+\contentsline {figure}{\numberline {\relax 5.23}{\ignorespaces Reglas de asociaci\IeC {\'o}n sin variantes sin\IeC {\'o}nimas}}{66}
+\contentsline {figure}{\numberline {\relax 5.24}{\ignorespaces Screenshot del dashboard desarrollado}}{67}
 \addvspace {10\p@ }
