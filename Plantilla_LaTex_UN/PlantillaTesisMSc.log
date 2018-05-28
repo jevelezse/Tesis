@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  25 MAY 2018 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  28 MAY 2018 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1523,12 +1523,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-<Kap2/diagrama1.png, id=161, 611.28375pt x 440.64626pt>
-File: Kap2/diagrama1.png Graphic file (type png)
-<use Kap2/diagrama1.png>
-Package pdftex.def Info: Kap2/diagrama1.png  used on input line 162. on input l
-ine 162.
-Package pdftex.def Info: Requested size: 140.84256pt x 101.52132pt on input lin
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Kap2/validacion2.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<Kap2/validacion2.pdf, id=161, pagebox=cropbox, 379.4175pt x 284.62335pt>
+File: Kap2/validacion2.pdf Graphic file (type pdf)
+<use Kap2/validacion2.pdf>
+Package pdftex.def Info: Kap2/validacion2.pdf  used on input line 162. on input
+ line 162.
+Package pdftex.def Info: Requested size: 140.84256pt x 105.65642pt on input lin
 e 162.
 
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
@@ -1537,19 +1541,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
 LaTeX Info: Redefining \. on input line 169.
 LaTeX Info: Redefining \% on input line 169.
-[28 <./Kap2/variaciones.png> <./Kap2/diagrama1.png>]
+[28 <./Kap2/variaciones.png> <./Kap2/validacion2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
-<Kap2/latex_table2.png, id=167, 501.875pt x 772.8875pt>
+<Kap2/latex_table2.png, id=173, 501.875pt x 772.8875pt>
 File: Kap2/latex_table2.png Graphic file (type png)
 <use Kap2/latex_table2.png>
 Package pdftex.def Info: Kap2/latex_table2.png  used on input line 193. on inpu
 t line 193.
 Package pdftex.def Info: Requested size: 187.78531pt x 289.19525pt on input lin
 e 193.
-<Kap2/variantesexo1.png, id=168, 846.16125pt x 474.77374pt>
+<Kap2/variantesexo1.png, id=174, 846.16125pt x 474.77374pt>
 File: Kap2/variantesexo1.png Graphic file (type png)
 <use Kap2/variantesexo1.png>
 Package pdftex.def Info: Kap2/variantesexo1.png  used on input line 201. on inp
@@ -1561,7 +1565,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--201
 []\OT1/cmr/m/n/10 (a) Va-rian-tes ob-te-ni-das por
  []
 
-<Kap2/variantesexo2.png, id=169, 734.745pt x 572.1375pt>
+<Kap2/variantesexo2.png, id=175, 734.745pt x 572.1375pt>
 File: Kap2/variantesexo2.png Graphic file (type png)
 <use Kap2/variantesexo2.png>
 Package pdftex.def Info: Kap2/variantesexo2.png  used on input line 204. on inp
@@ -1574,19 +1578,23 @@ Underfull \vbox (badness 7963) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 208.
 LaTeX Info: Redefining \% on input line 208.
  [29 <./Kap2/latex_table2.png>]
-<Kap2/variaciones2.png, id=174, 1103.12125pt x 455.7025pt>
+<Kap2/variaciones2.png, id=180, 1103.12125pt x 455.7025pt>
 File: Kap2/variaciones2.png Graphic file (type png)
 <use Kap2/variaciones2.png>
 Package pdftex.def Info: Kap2/variaciones2.png  used on input line 213. on inpu
 t line 213.
 Package pdftex.def Info: Requested size: 469.47046pt x 193.93869pt on input lin
 e 213.
-<Kap2/diagrama2.png, id=175, 641.39626pt x 458.71375pt>
-File: Kap2/diagrama2.png Graphic file (type png)
-<use Kap2/diagrama2.png>
-Package pdftex.def Info: Kap2/diagrama2.png  used on input line 221. on input l
-ine 221.
-Package pdftex.def Info: Requested size: 140.84256pt x 100.72835pt on input lin
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Kap2/validacion1.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<Kap2/validacion1.pdf, id=181, pagebox=cropbox, 379.4175pt x 284.62335pt>
+File: Kap2/validacion1.pdf Graphic file (type pdf)
+<use Kap2/validacion1.pdf>
+Package pdftex.def Info: Kap2/validacion1.pdf  used on input line 221. on input
+ line 221.
+Package pdftex.def Info: Requested size: 140.84256pt x 105.65642pt on input lin
 e 221.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1606,12 +1614,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
 LaTeX Info: Redefining \. on input line 261.
 LaTeX Info: Redefining \% on input line 261.
-[31 <./Kap2/diagrama2.png>]
+[31 <./Kap2/validacion1.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
-<Kap2/IGV.png, id=186, 1371.1225pt x 743.77875pt>
+<Kap2/IGV.png, id=201, 1371.1225pt x 743.77875pt>
 File: Kap2/IGV.png Graphic file (type png)
 <use Kap2/IGV.png>
 Package pdftex.def Info: Kap2/IGV.png  used on input line 270. on input line 27
@@ -1732,14 +1740,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 ]
-<Kap3/flujo2.png, id=208, 963.6pt x 542.025pt>
+<Kap3/flujo2.png, id=222, 963.6pt x 542.025pt>
 File: Kap3/flujo2.png Graphic file (type png)
 <use Kap3/flujo2.png>
 Package pdftex.def Info: Kap3/flujo2.png  used on input line 23. on input line 
 23.
 Package pdftex.def Info: Requested size: 234.73523pt x 132.03224pt on input lin
 e 23.
-<Kap3/modeloEER.png, id=209, 950.55125pt x 1147.28625pt>
+<Kap3/modeloEER.png, id=223, 950.55125pt x 1147.28625pt>
 File: Kap3/modeloEER.png Graphic file (type png)
 <use Kap3/modeloEER.png>
 Package pdftex.def Info: Kap3/modeloEER.png  used on input line 32. on input li
@@ -1769,14 +1777,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<Kap3/admin_django.png, id=218, 454.69875pt x 337.26pt>
+<Kap3/admin_django.png, id=232, 454.69875pt x 337.26pt>
 File: Kap3/admin_django.png Graphic file (type png)
 <use Kap3/admin_django.png>
 Package pdftex.def Info: Kap3/admin_django.png  used on input line 54. on input
  line 54.
 Package pdftex.def Info: Requested size: 187.78531pt x 139.28613pt on input lin
 e 54.
-<Kap3/django_admin.png, id=219, 1371.1225pt x 325.215pt>
+<Kap3/django_admin.png, id=233, 1371.1225pt x 325.215pt>
 File: Kap3/django_admin.png Graphic file (type png)
 <use Kap3/django_admin.png>
 Package pdftex.def Info: Kap3/django_admin.png  used on input line 62. on input
@@ -1796,14 +1804,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 LaTeX Info: Redefining \. on input line 69.
 LaTeX Info: Redefining \% on input line 69.
 [40 <./Kap3/admin_django.png> <./Kap3/django_admin.png>]
-<Kap3/ingresar_paciente.png, id=225, 1360.08125pt x 603.25375pt>
+<Kap3/ingresar_paciente.png, id=239, 1360.08125pt x 603.25375pt>
 File: Kap3/ingresar_paciente.png Graphic file (type png)
 <use Kap3/ingresar_paciente.png>
 Package pdftex.def Info: Kap3/ingresar_paciente.png  used on input line 72. on 
 input line 72.
 Package pdftex.def Info: Requested size: 234.73523pt x 104.1074pt on input line
  72.
-<Kap3/consulta.png, id=226, 1371.1225pt x 600.2425pt>
+<Kap3/consulta.png, id=240, 1371.1225pt x 600.2425pt>
 File: Kap3/consulta.png Graphic file (type png)
 <use Kap3/consulta.png>
 Package pdftex.def Info: Kap3/consulta.png  used on input line 80. on input lin
@@ -1850,7 +1858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<Kap4/general.pdf, id=235, pagebox=cropbox, 469.755pt x 325.215pt>
+<Kap4/general.pdf, id=249, pagebox=cropbox, 469.755pt x 325.215pt>
 File: Kap4/general.pdf Graphic file (type pdf)
 <use Kap4/general.pdf>
 Package pdftex.def Info: Kap4/general.pdf  used on input line 18. on input line
@@ -1860,14 +1868,14 @@ e 18.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Kap4/variantes.png, id=236, 299.61937pt x 299.61937pt>
+<Kap4/variantes.png, id=250, 299.61937pt x 299.61937pt>
 File: Kap4/variantes.png Graphic file (type png)
 <use Kap4/variantes.png>
 Package pdftex.def Info: Kap4/variantes.png  used on input line 27. on input li
 ne 27.
 Package pdftex.def Info: Requested size: 164.31752pt x 164.32027pt on input lin
 e 27.
-<Kap4/edad.png, id=237, 413.29407pt x 275.52937pt>
+<Kap4/edad.png, id=251, 413.29407pt x 275.52937pt>
 File: Kap4/edad.png Graphic file (type png)
 <use Kap4/edad.png>
 Package pdftex.def Info: Kap4/edad.png  used on input line 30. on input line 30
@@ -1903,14 +1911,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 60.
 
-<Kap4/sin_stop.png, id=249, 513.92pt x 371.3875pt>
+<Kap4/sin_stop.png, id=263, 513.92pt x 371.3875pt>
 File: Kap4/sin_stop.png Graphic file (type png)
 <use Kap4/sin_stop.png>
 Package pdftex.def Info: Kap4/sin_stop.png  used on input line 62. on input lin
 e 62.
 Package pdftex.def Info: Requested size: 170.71652pt x 123.3686pt on input line
  62.
-<Kap4/frecuecias.pdf, id=250, pagebox=cropbox, 722.7pt x 722.7pt>
+<Kap4/frecuecias.pdf, id=264, pagebox=cropbox, 722.7pt x 722.7pt>
 File: Kap4/frecuecias.pdf Graphic file (type pdf)
 <use Kap4/frecuecias.pdf>
 Package pdftex.def Info: Kap4/frecuecias.pdf  used on input line 63. on input l
@@ -1937,7 +1945,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
 LaTeX Info: Redefining \. on input line 88.
 LaTeX Info: Redefining \% on input line 88.
 [46 <./Kap4/sin_stop.png (PNG copy)> <./Kap4/frecuecias.pdf>]
-<Kap4/tfidf.pdf, id=295, pagebox=cropbox, 722.7pt x 722.7pt>
+<Kap4/tfidf.pdf, id=309, pagebox=cropbox, 722.7pt x 722.7pt>
 File: Kap4/tfidf.pdf Graphic file (type pdf)
 <use Kap4/tfidf.pdf>
 Package pdftex.def Info: Kap4/tfidf.pdf  used on input line 94. on input line 9
@@ -1952,7 +1960,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 LaTeX Info: Redefining \. on input line 108.
 LaTeX Info: Redefining \% on input line 108.
 [47 <./Kap4/tfidf.pdf>]
-<Kap4/Clusters.pdf, id=335, pagebox=cropbox, 433.62pt x 289.08pt>
+<Kap4/Clusters.pdf, id=349, pagebox=cropbox, 433.62pt x 289.08pt>
 File: Kap4/Clusters.pdf Graphic file (type pdf)
 <use Kap4/Clusters.pdf>
 Package pdftex.def Info: Kap4/Clusters.pdf  used on input line 113. on input li
@@ -1967,7 +1975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 LaTeX Info: Redefining \. on input line 129.
 LaTeX Info: Redefining \% on input line 129.
 [48 <./Kap4/Clusters.pdf>]
-<Kap4/S.png, id=377, 578.16pt x 578.16pt>
+<Kap4/S.png, id=391, 578.16pt x 578.16pt>
 File: Kap4/S.png Graphic file (type png)
 <use Kap4/S.png>
 Package pdftex.def Info: Kap4/S.png  used on input line 135. on input line 135.
@@ -2006,14 +2014,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
 LaTeX Info: Redefining \. on input line 206.
 LaTeX Info: Redefining \% on input line 206.
 [51]
-<Kap4/cluster1.png, id=390, 513.92pt x 371.3875pt>
+<Kap4/cluster1.png, id=404, 513.92pt x 371.3875pt>
 File: Kap4/cluster1.png Graphic file (type png)
 <use Kap4/cluster1.png>
 Package pdftex.def Info: Kap4/cluster1.png  used on input line 218. on input li
 ne 218.
 Package pdftex.def Info: Requested size: 199.16928pt x 143.93382pt on input lin
 e 218.
-<Kap4/edadc1.png, id=391, 413.29407pt x 275.52937pt>
+<Kap4/edadc1.png, id=405, 413.29407pt x 275.52937pt>
 File: Kap4/edadc1.png Graphic file (type png)
 <use Kap4/edadc1.png>
 Package pdftex.def Info: Kap4/edadc1.png  used on input line 220. on input line
@@ -2028,14 +2036,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 LaTeX Info: Redefining \. on input line 225.
 LaTeX Info: Redefining \% on input line 225.
 [52 <./Kap4/cluster1.png (PNG copy)> <./Kap4/edadc1.png (PNG copy)>]
-<Kap4/reglas1_1.png, id=395, 583.17876pt x 562.1pt>
+<Kap4/reglas1_1.png, id=409, 583.17876pt x 562.1pt>
 File: Kap4/reglas1_1.png Graphic file (type png)
 <use Kap4/reglas1_1.png>
 Package pdftex.def Info: Kap4/reglas1_1.png  used on input line 228. on input l
 ine 228.
 Package pdftex.def Info: Requested size: 375.57779pt x 362.01567pt on input lin
 e 228.
-<Kap4/reglas1_2.png, id=396, 578.16pt x 528.97626pt>
+<Kap4/reglas1_2.png, id=410, 578.16pt x 528.97626pt>
 File: Kap4/reglas1_2.png Graphic file (type png)
 <use Kap4/reglas1_2.png>
 Package pdftex.def Info: Kap4/reglas1_2.png  used on input line 236. on input l
@@ -2048,14 +2056,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 239.
 LaTeX Info: Redefining \% on input line 239.
  [53 <./Kap4/reglas1_1.png>]
-<Kap4/cluster2.png, id=401, 513.92pt x 371.3875pt>
+<Kap4/cluster2.png, id=415, 513.92pt x 371.3875pt>
 File: Kap4/cluster2.png Graphic file (type png)
 <use Kap4/cluster2.png>
 Package pdftex.def Info: Kap4/cluster2.png  used on input line 246. on input li
 ne 246.
 Package pdftex.def Info: Requested size: 170.71652pt x 123.3686pt on input line
  246.
-<Kap4/edadc2.png, id=402, 413.29407pt x 277.035pt>
+<Kap4/edadc2.png, id=416, 413.29407pt x 277.035pt>
 File: Kap4/edadc2.png Graphic file (type png)
 <use Kap4/edadc2.png>
 Package pdftex.def Info: Kap4/edadc2.png  used on input line 247. on input line
@@ -2068,7 +2076,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 250.
 LaTeX Info: Redefining \% on input line 250.
  [54 <./Kap4/reglas1_2.png>]
-<Kap4/reglas2_1.png, id=407, 647.41875pt x 553.06625pt>
+<Kap4/reglas2_1.png, id=421, 647.41875pt x 553.06625pt>
 File: Kap4/reglas2_1.png Graphic file (type png)
 <use Kap4/reglas2_1.png>
 Package pdftex.def Info: Kap4/reglas2_1.png  used on input line 255. on input l
@@ -2081,7 +2089,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 258.
 LaTeX Info: Redefining \% on input line 258.
  [55 <./Kap4/cluster2.png (PNG copy)> <./Kap4/edadc2.png (PNG copy)>]
-<Kap4/reglas2_2.png, id=411, 530.98375pt x 566.115pt>
+<Kap4/reglas2_2.png, id=425, 530.98375pt x 566.115pt>
 File: Kap4/reglas2_2.png Graphic file (type png)
 <use Kap4/reglas2_2.png>
 Package pdftex.def Info: Kap4/reglas2_2.png  used on input line 263. on input l
@@ -2094,14 +2102,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 266.
 LaTeX Info: Redefining \% on input line 266.
  [56 <./Kap4/reglas2_1.png>]
-<Kap4/cluster3.png, id=416, 513.92pt x 371.3875pt>
+<Kap4/cluster3.png, id=430, 513.92pt x 371.3875pt>
 File: Kap4/cluster3.png Graphic file (type png)
 <use Kap4/cluster3.png>
 Package pdftex.def Info: Kap4/cluster3.png  used on input line 273. on input li
 ne 273.
 Package pdftex.def Info: Requested size: 170.71652pt x 123.3686pt on input line
  273.
-<Kap4/edadc3.png, id=417, 413.29407pt x 277.035pt>
+<Kap4/edadc3.png, id=431, 413.29407pt x 277.035pt>
 File: Kap4/edadc3.png Graphic file (type png)
 <use Kap4/edadc3.png>
 Package pdftex.def Info: Kap4/edadc3.png  used on input line 274. on input line
@@ -2112,7 +2120,7 @@ e 274.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Kap4/reglas3_1.png, id=418, 420.57124pt x 557.08125pt>
+<Kap4/reglas3_1.png, id=432, 420.57124pt x 557.08125pt>
 File: Kap4/reglas3_1.png Graphic file (type png)
 <use Kap4/reglas3_1.png>
 Package pdftex.def Info: Kap4/reglas3_1.png  used on input line 282. on input l
@@ -2132,21 +2140,21 @@ LaTeX Info: Redefining \% on input line 285.
 
 [58 <./Kap4/cluster3.png (PNG copy)> <./Kap4/edadc3.png (PNG copy)> <./Kap4/reg
 las3_1.png>]
-<Kap4/reglas3_2.png, id=428, 425.33907pt x 298.86656pt>
+<Kap4/reglas3_2.png, id=442, 425.33907pt x 298.86656pt>
 File: Kap4/reglas3_2.png Graphic file (type png)
 <use Kap4/reglas3_2.png>
 Package pdftex.def Info: Kap4/reglas3_2.png  used on input line 290. on input l
 ine 290.
 Package pdftex.def Info: Requested size: 375.57779pt x 263.91544pt on input lin
 e 290.
-<Kap4/cluster4.png, id=429, 513.92pt x 371.3875pt>
+<Kap4/cluster4.png, id=443, 513.92pt x 371.3875pt>
 File: Kap4/cluster4.png Graphic file (type png)
 <use Kap4/cluster4.png>
 Package pdftex.def Info: Kap4/cluster4.png  used on input line 299. on input li
 ne 299.
 Package pdftex.def Info: Requested size: 170.71652pt x 123.3686pt on input line
  299.
-<Kap4/edadc4.png, id=430, 413.29407pt x 277.035pt>
+<Kap4/edadc4.png, id=444, 413.29407pt x 277.035pt>
 File: Kap4/edadc4.png Graphic file (type png)
 <use Kap4/edadc4.png>
 Package pdftex.def Info: Kap4/edadc4.png  used on input line 300. on input line
@@ -2159,7 +2167,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 303.
 LaTeX Info: Redefining \% on input line 303.
  [59 <./Kap4/reglas3_2.png (PNG copy)>]
-<Kap4/reglas4_1.png, id=434, 587.19376pt x 464.73625pt>
+<Kap4/reglas4_1.png, id=448, 587.19376pt x 464.73625pt>
 File: Kap4/reglas4_1.png Graphic file (type png)
 <use Kap4/reglas4_1.png>
 Package pdftex.def Info: Kap4/reglas4_1.png  used on input line 308. on input l
@@ -2170,21 +2178,21 @@ LaTeX Info: Redefining \. on input line 313.
 LaTeX Info: Redefining \% on input line 313.
  [60 <./Kap4/cluster4.png (PNG copy)> <./Kap4/edadc4.png (PNG copy)> <./Kap4/re
 glas4_1.png>]
-<Kap4/reglas4_2.png, id=439, 561.09625pt x 557.08125pt>
+<Kap4/reglas4_2.png, id=453, 561.09625pt x 557.08125pt>
 File: Kap4/reglas4_2.png Graphic file (type png)
 <use Kap4/reglas4_2.png>
 Package pdftex.def Info: Kap4/reglas4_2.png  used on input line 316. on input l
 ine 316.
 Package pdftex.def Info: Requested size: 375.57779pt x 372.88548pt on input lin
 e 316.
-<Kap4/cluster5.png, id=440, 513.92pt x 371.3875pt>
+<Kap4/cluster5.png, id=454, 513.92pt x 371.3875pt>
 File: Kap4/cluster5.png Graphic file (type png)
 <use Kap4/cluster5.png>
 Package pdftex.def Info: Kap4/cluster5.png  used on input line 326. on input li
 ne 326.
 Package pdftex.def Info: Requested size: 170.71652pt x 123.3686pt on input line
  326.
-<Kap4/edadc5.png, id=441, 413.29407pt x 277.035pt>
+<Kap4/edadc5.png, id=455, 413.29407pt x 277.035pt>
 File: Kap4/edadc5.png Graphic file (type png)
 <use Kap4/edadc5.png>
 Package pdftex.def Info: Kap4/edadc5.png  used on input line 327. on input line
@@ -2197,7 +2205,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 330.
 LaTeX Info: Redefining \% on input line 330.
  [61 <./Kap4/reglas4_2.png>]
-<Kap4/reglas5_1.png, id=446, 585.18625pt x 537.00626pt>
+<Kap4/reglas5_1.png, id=460, 585.18625pt x 537.00626pt>
 File: Kap4/reglas5_1.png Graphic file (type png)
 <use Kap4/reglas5_1.png>
 Package pdftex.def Info: Kap4/reglas5_1.png  used on input line 335. on input l
@@ -2210,7 +2218,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 338.
 LaTeX Info: Redefining \% on input line 338.
  [62 <./Kap4/cluster5.png (PNG copy)> <./Kap4/edadc5.png (PNG copy)>]
-<Kap4/reglas5_2.png, id=450, 613.29124pt x 573.14125pt>
+<Kap4/reglas5_2.png, id=464, 613.29124pt x 573.14125pt>
 File: Kap4/reglas5_2.png Graphic file (type png)
 <use Kap4/reglas5_2.png>
 Package pdftex.def Info: Kap4/reglas5_2.png  used on input line 343. on input l
@@ -2223,7 +2231,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 346.
 LaTeX Info: Redefining \% on input line 346.
  [63 <./Kap4/reglas5_1.png>]
-<Kap4/CFTR1.png, id=456, 484.81125pt x 465.74pt>
+<Kap4/CFTR1.png, id=470, 484.81125pt x 465.74pt>
 File: Kap4/CFTR1.png Graphic file (type png)
 <use Kap4/CFTR1.png>
 Package pdftex.def Info: Kap4/CFTR1.png  used on input line 356. on input line 
@@ -2240,7 +2248,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
-<Kap4/CFTR2.png, id=461, 542.025pt x 465.74pt>
+<Kap4/CFTR2.png, id=475, 542.025pt x 465.74pt>
 File: Kap4/CFTR2.png Graphic file (type png)
 <use Kap4/CFTR2.png>
 Package pdftex.def Info: Kap4/CFTR2.png  used on input line 366. on input line 
@@ -2250,7 +2258,7 @@ e 366.
 LaTeX Info: Redefining \. on input line 369.
 LaTeX Info: Redefining \% on input line 369.
 [65 <./Kap4/CFTR1.png>]
-<Kap4/dash.png, id=466, 1371.1225pt x 706.64pt>
+<Kap4/dash.png, id=480, 1371.1225pt x 706.64pt>
 File: Kap4/dash.png Graphic file (type png)
 <use Kap4/dash.png>
 Package pdftex.def Info: Kap4/dash.png  used on input line 378. on input line 3
@@ -2391,7 +2399,7 @@ LaTeX Warning: There were multiply-defined labels.
 ### bottom level 
 Here is how much of TeX's memory you used:
  7617 strings out of 492995
- 116804 string characters out of 6135074
+ 116872 string characters out of 6135074
  283830 words of memory out of 5000000
  10884 multiletter control sequences out of 15000+600000
  15414 words of font info for 58 fonts, out of 8000000 for 9000
@@ -2412,10 +2420,10 @@ onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PlantillaTesisMSc.pdf (92 pages, 7494951 bytes).
+Output written on PlantillaTesisMSc.pdf (92 pages, 7475922 bytes).
 PDF statistics:
- 579 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
+ 594 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

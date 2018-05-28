@@ -1,0 +1,193 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{5}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{Farid2016}
+\begin{barticle}
+\bauthor{\bsnm{Farid}, \binits{D.M.}},
+\bauthor{\bsnm{Al-Mamun}, \binits{M.A.}},
+\bauthor{\bsnm{Manderick}, \binits{B.}},
+\bauthor{\bsnm{Nowe}, \binits{A.}}:
+\batitle{{An adaptive rule-based classifier for mining big biological data}}.
+\bjtitle{Expert Systems with Applications}
+\bvolume{64},
+\bfpage{305}--\blpage{316}
+(\byear{2016}).
+doi:\doiurl{10.1016/j.eswa.2016.08.008}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem{Littlefield}
+\begin{botherref}
+\oauthor{\bsnm{Littlefield}, \binits{R.}}:
+{An introduction into Data Mining in Bioinformatics.}
+\url{https://littlefield.co/an-introduction-into-data-mining-in-bioinformatics-964511e9ea21}
+Accessed 2017-11-19
+\end{botherref}
+\endbibitem
+
+%%% 3
+\bibitem{Zaki2007}
+\begin{barticle}
+\bauthor{\bsnm{Zaki}, \binits{M.J.}},
+\bauthor{\bsnm{Karypis}, \binits{G.}},
+\bauthor{\bsnm{Yang}, \binits{J.}}:
+\batitle{{Data mining in bioinformatics (BIOKDD)}}.
+\bjtitle{Algorithms for Molecular Biology}
+\bvolume{2}(\bissue{1}),
+\bfpage{4}
+(\byear{2007}).
+doi:\doiurl{10.1186/1748-7188-2-4}.
+\arxivurl{arXiv:1011.1669v3}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem{Hannah-Shmouni2015}
+\begin{barticle}
+\bauthor{\bsnm{Hannah-Shmouni}, \binits{F.}},
+\bauthor{\bsnm{Seidelmann}, \binits{S.B.}},
+\bauthor{\bsnm{Sirrs}, \binits{S.}},
+\bauthor{\bsnm{Mani}, \binits{A.}},
+\bauthor{\bsnm{Jacoby}, \binits{D.}}:
+\batitle{{The Genetic Challenges and Opportunities in Advanced Heart Failure}}.
+\bjtitle{Canadian Journal of Cardiology}
+\bvolume{31}(\bissue{11}),
+\bfpage{1338}--\blpage{1350}
+(\byear{2015}).
+doi:\doiurl{10.1016/j.cjca.2015.07.735}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem{Kawashima2017}
+\begin{botherref}
+\oauthor{\bsnm{Kawashima}, \binits{K.}}:
+{Text Mining and Pattern Clustering for Relation Extraction of Breast Cancer
+  and Related Genes},
+1--5
+(2017)
+\end{botherref}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>{An adaptive rule-based classifier for mining big biological
+  data}</p></title>
+  <aug>
+    <au><snm>Farid</snm><fnm>DM</fnm></au>
+    <au><snm>Al Mamun</snm><fnm>MA</fnm></au>
+    <au><snm>Manderick</snm><fnm>B</fnm></au>
+    <au><snm>Nowe</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Expert Systems with Applications</source>
+  <pubdate>2016</pubdate>
+  <volume>64</volume>
+  <fpage>305</fpage>
+  <lpage>-316</lpage>
+</bibl>
+
+<bibl id="B2">
+  <title><p>{An introduction into Data Mining in Bioinformatics.}</p></title>
+  <aug>
+    <au><snm>Littlefield</snm><fnm>R</fnm></au>
+  </aug>
+  <url>https://littlefield.co/an-introduction-into-data-mining-in-bioinformatics-964511e9ea21</url>
+</bibl>
+
+<bibl id="B3">
+  <title><p>{Data mining in bioinformatics (BIOKDD)}</p></title>
+  <aug>
+    <au><snm>Zaki</snm><fnm>MJ</fnm></au>
+    <au><snm>Karypis</snm><fnm>G</fnm></au>
+    <au><snm>Yang</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Algorithms for Molecular Biology</source>
+  <pubdate>2007</pubdate>
+  <volume>2</volume>
+  <issue>1</issue>
+  <fpage>4</fpage>
+</bibl>
+
+<bibl id="B4">
+  <title><p>{The Genetic Challenges and Opportunities in Advanced Heart
+  Failure}</p></title>
+  <aug>
+    <au><snm>Hannah Shmouni</snm><fnm>F</fnm></au>
+    <au><snm>Seidelmann</snm><fnm>SB</fnm></au>
+    <au><snm>Sirrs</snm><fnm>S</fnm></au>
+    <au><snm>Mani</snm><fnm>A</fnm></au>
+    <au><snm>Jacoby</snm><fnm>D</fnm></au>
+  </aug>
+  <source>Canadian Journal of Cardiology</source>
+  <publisher>Elsevier Ltd</publisher>
+  <pubdate>2015</pubdate>
+  <volume>31</volume>
+  <issue>11</issue>
+  <fpage>1338</fpage>
+  <lpage>-1350</lpage>
+  <url>http://linkinghub.elsevier.com/retrieve/pii/S0828282X15013161</url>
+</bibl>
+
+<bibl id="B5">
+  <title><p>{Text Mining and Pattern Clustering for Relation Extraction of
+  Breast Cancer and Related Genes}</p></title>
+  <aug>
+    <au><snm>Kawashima</snm><fnm>K</fnm></au>
+  </aug>
+  <pubdate>2017</pubdate>
+  <fpage>1</fpage>
+  <lpage>-5</lpage>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment

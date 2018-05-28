@@ -159,7 +159,7 @@ Al realizar la comparación entre los dos archivos vcf se obtuvieron los siguien
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\textwidth]{Kap2/diagrama1}
+	\includegraphics[width=0.3\textwidth]{Kap2/validacion2}
 	\caption{Diagrama de relación entre variantes comunes de Omics y de Illumina} \label{fig:diagrama}
 \end{figure}
 
@@ -218,13 +218,13 @@ En la figura \ref{fig:variaciones2} se observa el comportamiento de la distribuc
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\textwidth]{Kap2/diagrama2}
+	\includegraphics[width=0.3\textwidth]{Kap2/validacion1}
 	\caption{Diagrama de relación entre las variantes publicas y las obtenidas por el pipeline.} \label{fig:diagrama2}
 \end{figure}
 
-El diagrama de la figura \ref{fig:diagrama2} muestra la comparación de las variantes obtenidas y su respectiva concordancia done el 100\% del exoma esta representado en las variaciones encontradas mienteras que un 96\% de las variaciones obtenidas por omicspipe son un 96\% dejando solo un 4\% de las variantes no encontradas dentro del exoma publico. \\
+El diagrama de la figura \ref{fig:diagrama2} muestra la comparación entre variantes obtenidas y su respectiva concordancia, donde el 100\% del exoma esta representado en las variaciones encontradas mientras que un 96\% de las variaciones obtenidas por omicspipe corresponden a las variantes del exoma y un 4\% de las variantes no se encontraron dentro del exoma publico. \\
 
-GATK realiza un reporte de la evaluación cuando se comparan dos archivos de distintas variaciones, este puede ser abierto como un archivo de texto o cargado directamente en R utilizando la librería \textit{gsalib} quien lee el archivo \textit{merged.eval.gatkreport}, esto genera una lista que tiene anidados varios data.frame, dentro de ellos para este caso se tomo el \textit{ValidationReport)} que genera una tabla con los falsos positivos, falsos negativos, calcula la sensibilidad y la especificidad  y el valor predictivo positivo (PPV). Que para nuestro caso de nuestro exoma se muestran en la tabla \ref{tabla:tabla3}:
+GATK realiza un reporte de la evaluación cuando se comparan dos archivos de distintas variaciones, este puede ser abierto como un archivo de texto o cargado directamente en R utilizando la librería \textit{gsalib} que lee el archivo \textit{merged.eval.gatkreport}, esto genera una lista que tiene anidados varios data.frame, dentro de ellos para este caso se tomo el \textit{ValidationReport)} que genera una tabla con los falsos positivos, falsos negativos, calcula la sensibilidad y la especificidad  y el valor predictivo positivo (PPV). Que para nuestro caso de nuestro exoma se muestran en la tabla \ref{tabla:tabla3}:
 
 \begin{table}[H]
 	\begin{center}
