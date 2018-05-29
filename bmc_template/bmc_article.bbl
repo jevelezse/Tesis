@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{5}
+\begin{thebibliography}{12}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -112,6 +112,139 @@ doi:\doiurl{10.1016/j.cjca.2015.07.735}
 \end{botherref}
 \endbibitem
 
+%%% 6
+\bibitem{Fu2013}
+\begin{barticle}
+\bauthor{\bsnm{Fu}, \binits{W.}},
+\bauthor{\bsnm{O'Connor}, \binits{T.D.}},
+\bauthor{\bsnm{Jun}, \binits{G.}},
+\bauthor{\bsnm{Kang}, \binits{H.M.}},
+\bauthor{\bsnm{Abecasis}, \binits{G.}},
+\bauthor{\bsnm{Leal}, \binits{S.M.}},
+\bauthor{\bsnm{Gabriel}, \binits{S.}},
+\bauthor{\bsnm{Altshuler}, \binits{D.}},
+\bauthor{\bsnm{Shendure}, \binits{J.}},
+\bauthor{\bsnm{Nickerson}, \binits{D.A.}},
+\bauthor{\bsnm{Bamshad}, \binits{M.J.}},
+\bauthor{\bsnm{Akey}, \binits{J.M.}}:
+\batitle{{Analysis of 6,515 exomes reveals the recent origin of most human
+  protein-coding variants}}.
+\bjtitle{Nature}
+\bvolume{493}(\bissue{7431}),
+\bfpage{216}--\blpage{220}
+(\byear{2013}).
+doi:\doiurl{10.1038/nature11690}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{McCarthy2014}
+\begin{botherref}
+\oauthor{\bsnm{McCarthy}, \binits{D.J.}},
+\oauthor{\bsnm{Humburg}, \binits{P.}},
+\oauthor{\bsnm{Kanapin}, \binits{A.}},
+\oauthor{\bsnm{Rivas}, \binits{M.A.}},
+\oauthor{\bsnm{Gaulton}, \binits{K.}},
+\oauthor{\bsnm{Cazier}, \binits{J.B.}},
+\oauthor{\bsnm{Donnelly}, \binits{P.}}:
+{Choice of transcripts and software has a large effect on variant annotation}.
+Genome Medicine
+\textbf{6}(3)
+(2014).
+doi:\doiurl{10.1186/gm543}
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem{Babraham2016}
+\begin{botherref}
+\oauthor{\bsnm{{Babraham Bioinformatics}}}:
+{FASTQC manual}
+(2016).
+\url{http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/Help/3 Analysis
+  Modules/}
+Accessed 2016-06-25
+\end{botherref}
+\endbibitem
+
+%%% 9
+\bibitem{Pirooznia2014}
+\begin{barticle}
+\bauthor{\bsnm{Pirooznia}, \binits{M.}},
+\bauthor{\bsnm{Kramer}, \binits{M.}},
+\bauthor{\bsnm{Parla}, \binits{J.}},
+\bauthor{\bsnm{Goes}, \binits{F.S.}},
+\bauthor{\bsnm{Potash}, \binits{J.B.}},
+\bauthor{\bsnm{McCombie}, \binits{W.R.}},
+\bauthor{\bsnm{Zandi}, \binits{P.P.}}:
+\batitle{{Validation and assessment of variant calling pipelines for
+  next-generation sequencing}}.
+\bjtitle{Human genomics}
+\bvolume{8}(\bissue{1}),
+\bfpage{14}
+(\byear{2014}).
+doi:\doiurl{10.1186/1479-7364-8-14}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{Tetreault2015a}
+\begin{botherref}
+\oauthor{\bsnm{Tetreault}, \binits{M.}},
+\oauthor{\bsnm{Bareke}, \binits{E.}},
+\oauthor{\bsnm{Nadaf}, \binits{J.}},
+\oauthor{\bsnm{Alirezaie}, \binits{N.}},
+\oauthor{\bsnm{Majewski}, \binits{J.}}:
+{Whole-exome sequencing as a diagnostic tool: Current challenges and future
+  opportunities}.
+Informa Healthcare
+(2015).
+doi:\doiurl{10.1586/14737159.2015.1039516}.
+\end{botherref}
+\endbibitem
+
+%%% 11
+\bibitem{Buckley1988}
+\begin{barticle}
+\bauthor{\bsnm{Salton}, \binits{G.}},
+\bauthor{\bsnm{Buckley}, \binits{C.}}:
+\batitle{{Term-Weighting Approaches in Automatic Text Retrieval}}.
+\bjtitle{Information Processing \& Management}
+\bvolume{24}(\bissue{5}),
+\bfpage{513}--\blpage{523}
+(\byear{1988})
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem{scikit-learn}
+\begin{barticle}
+\bauthor{\bsnm{Pedregosa}, \binits{F.}},
+\bauthor{\bsnm{Varoquaux}, \binits{G.}},
+\bauthor{\bsnm{Gramfort}, \binits{A.}},
+\bauthor{\bsnm{Michel}, \binits{V.}},
+\bauthor{\bsnm{Thirion}, \binits{B.}},
+\bauthor{\bsnm{Grisel}, \binits{O.}},
+\bauthor{\bsnm{Blondel}, \binits{M.}},
+\bauthor{\bsnm{Prettenhofer}, \binits{P.}},
+\bauthor{\bsnm{Weiss}, \binits{R.}},
+\bauthor{\bsnm{Dubourg}, \binits{V.}},
+\bauthor{\bsnm{Vanderplas}, \binits{J.}},
+\bauthor{\bsnm{Passos}, \binits{A.}},
+\bauthor{\bsnm{Cournapeau}, \binits{D.}},
+\bauthor{\bsnm{Brucher}, \binits{M.}},
+\bauthor{\bsnm{Perrot}, \binits{M.}},
+\bauthor{\bsnm{Duchesnay}, \binits{{\'{E}}.}}:
+\batitle{{Scikit-learn: Machine Learning in Python}}.
+\bjtitle{Journal of Machine Learning}
+\bvolume{12},
+\bfpage{2825}--\blpage{2830}
+(\byear{2011}).
+doi:\doiurl{10.1007/s13398-014-0173-7.2}.
+\arxivurl{arXiv:1201.0490v2}
+\end{barticle}
+\endbibitem
+
 \end{thebibliography}
 
 \newcommand{\BMCxmlcomment}[1]{}
@@ -187,6 +320,142 @@ doi:\doiurl{10.1016/j.cjca.2015.07.735}
   <pubdate>2017</pubdate>
   <fpage>1</fpage>
   <lpage>-5</lpage>
+</bibl>
+
+<bibl id="B6">
+  <title><p>{Analysis of 6,515 exomes reveals the recent origin of most human
+  protein-coding variants}</p></title>
+  <aug>
+    <au><snm>Fu</snm><fnm>W</fnm></au>
+    <au><snm>O'Connor</snm><fnm>TD</fnm></au>
+    <au><snm>Jun</snm><fnm>G</fnm></au>
+    <au><snm>Kang</snm><fnm>HM</fnm></au>
+    <au><snm>Abecasis</snm><fnm>G</fnm></au>
+    <au><snm>Leal</snm><fnm>SM</fnm></au>
+    <au><snm>Gabriel</snm><fnm>S</fnm></au>
+    <au><snm>Altshuler</snm><fnm>D</fnm></au>
+    <au><snm>Shendure</snm><fnm>J</fnm></au>
+    <au><snm>Nickerson</snm><fnm>DA</fnm></au>
+    <au><snm>Bamshad</snm><fnm>MJ</fnm></au>
+    <au><snm>Akey</snm><fnm>JM</fnm></au>
+  </aug>
+  <source>Nature</source>
+  <pubdate>2013</pubdate>
+  <volume>493</volume>
+  <issue>7431</issue>
+  <fpage>216</fpage>
+  <lpage>-220</lpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>{Choice of transcripts and software has a large effect on variant
+  annotation}</p></title>
+  <aug>
+    <au><snm>McCarthy</snm><fnm>DJ</fnm></au>
+    <au><snm>Humburg</snm><fnm>P</fnm></au>
+    <au><snm>Kanapin</snm><fnm>A</fnm></au>
+    <au><snm>Rivas</snm><fnm>MA</fnm></au>
+    <au><snm>Gaulton</snm><fnm>K</fnm></au>
+    <au><snm>Cazier</snm><fnm>JB</fnm></au>
+    <au><snm>Donnelly</snm><fnm>P</fnm></au>
+  </aug>
+  <source>Genome Medicine</source>
+  <pubdate>2014</pubdate>
+  <volume>6</volume>
+  <issue>3</issue>
+</bibl>
+
+<bibl id="B8">
+  <title><p>{FASTQC manual}</p></title>
+  <aug>
+    <au><cnm>{Babraham Bioinformatics}</cnm></au>
+  </aug>
+  <source>www.bioinformatics.bbsrc.ac.uk/projects/fastqc/Help/3 Analysis
+  Modules</source>
+  <pubdate>2016</pubdate>
+  <url>http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/Help/3 Analysis
+  Modules/</url>
+</bibl>
+
+<bibl id="B9">
+  <title><p>{Validation and assessment of variant calling pipelines for
+  next-generation sequencing}</p></title>
+  <aug>
+    <au><snm>Pirooznia</snm><fnm>M</fnm></au>
+    <au><snm>Kramer</snm><fnm>M</fnm></au>
+    <au><snm>Parla</snm><fnm>J</fnm></au>
+    <au><snm>Goes</snm><fnm>FS</fnm></au>
+    <au><snm>Potash</snm><fnm>JB</fnm></au>
+    <au><snm>McCombie</snm><fnm>WR</fnm></au>
+    <au><snm>Zandi</snm><fnm>PP</fnm></au>
+  </aug>
+  <source>Human genomics</source>
+  <pubdate>2014</pubdate>
+  <volume>8</volume>
+  <issue>1</issue>
+  <fpage>14</fpage>
+  <url>http://www.humgenomics.com/content/8/1/14</url>
+</bibl>
+
+<bibl id="B10">
+  <title><p>{Whole-exome sequencing as a diagnostic tool: Current challenges
+  and future opportunities}</p></title>
+  <aug>
+    <au><snm>Tetreault</snm><fnm>M</fnm></au>
+    <au><snm>Bareke</snm><fnm>E</fnm></au>
+    <au><snm>Nadaf</snm><fnm>J</fnm></au>
+    <au><snm>Alirezaie</snm><fnm>N</fnm></au>
+    <au><snm>Majewski</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Expert Review of Molecular Diagnostics</source>
+  <publisher>Informa Healthcare</publisher>
+  <pubdate>2015</pubdate>
+  <volume>15</volume>
+  <issue>6</issue>
+  <fpage>749</fpage>
+  <lpage>-760</lpage>
+  <url>http://www.tandfonline.com/doi/abs/10.1586/14737159.2015.1039516?journalCode=iero20#.VxmiWVg_zcU.mendeley</url>
+</bibl>
+
+<bibl id="B11">
+  <title><p>{Term-Weighting Approaches in Automatic Text Retrieval}</p></title>
+  <aug>
+    <au><snm>Salton</snm><fnm>G</fnm></au>
+    <au><snm>Buckley</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Information Processing & Management</source>
+  <pubdate>1988</pubdate>
+  <volume>24</volume>
+  <issue>5</issue>
+  <fpage>513</fpage>
+  <lpage>-523</lpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>{Scikit-learn: Machine Learning in Python}</p></title>
+  <aug>
+    <au><snm>Pedregosa</snm><fnm>F</fnm></au>
+    <au><snm>Varoquaux</snm><fnm>G</fnm></au>
+    <au><snm>Gramfort</snm><fnm>A</fnm></au>
+    <au><snm>Michel</snm><fnm>V</fnm></au>
+    <au><snm>Thirion</snm><fnm>B</fnm></au>
+    <au><snm>Grisel</snm><fnm>O</fnm></au>
+    <au><snm>Blondel</snm><fnm>M</fnm></au>
+    <au><snm>Prettenhofer</snm><fnm>P</fnm></au>
+    <au><snm>Weiss</snm><fnm>R</fnm></au>
+    <au><snm>Dubourg</snm><fnm>V</fnm></au>
+    <au><snm>Vanderplas</snm><fnm>J</fnm></au>
+    <au><snm>Passos</snm><fnm>A</fnm></au>
+    <au><snm>Cournapeau</snm><fnm>D</fnm></au>
+    <au><snm>Brucher</snm><fnm>M</fnm></au>
+    <au><snm>Perrot</snm><fnm>M</fnm></au>
+    <au><snm>Duchesnay</snm><fnm>{\'{E}}</fnm></au>
+  </aug>
+  <source>Journal of Machine Learning</source>
+  <pubdate>2011</pubdate>
+  <volume>12</volume>
+  <fpage>2825</fpage>
+  <lpage>-2830</lpage>
 </bibl>
 
 </refgrp>

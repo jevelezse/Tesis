@@ -24,6 +24,10 @@ Repeated entry---line 3722 of file library.bib
  : @article{Zaki2007
  :                  ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3969 of file library.bib
+ : @article{scikit-learn
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "koon"
 Warning--I didn't find a database entry for "khar"
 Warning--I didn't find a database entry for "zvai"
@@ -34,45 +38,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 5 entries,
+You've used 12 entries,
             7128 wiz_defined-function locations,
-            1169 strings with 10207 characters,
-and the built_in function-call counts, 24298 in all, are:
-= -- 2925
-> -- 151
-< -- 89
-+ -- 567
-- -- 42
-* -- 1877
-:= -- 4885
-add.period$ -- 8
-call.type$ -- 5
-change.case$ -- 40
-chr.to.int$ -- 188
-cite$ -- 5
-duplicate$ -- 450
-empty$ -- 1452
-format.name$ -- 143
-if$ -- 5375
+            1232 strings with 12618 characters,
+and the built_in function-call counts, 77491 in all, are:
+= -- 9058
+> -- 468
+< -- 229
++ -- 1438
+- -- 160
+* -- 6768
+:= -- 15554
+add.period$ -- 22
+call.type$ -- 12
+change.case$ -- 124
+chr.to.int$ -- 414
+cite$ -- 12
+duplicate$ -- 1315
+empty$ -- 5121
+format.name$ -- 617
+if$ -- 16606
 int.to.chr$ -- 1
-int.to.str$ -- 13
-missing$ -- 168
-newline$ -- 189
-num.names$ -- 25
-pop$ -- 207
+int.to.str$ -- 28
+missing$ -- 462
+newline$ -- 449
+num.names$ -- 60
+pop$ -- 602
 preamble$ -- 1
-purify$ -- 22
-quote$ -- 10
-skip$ -- 1352
+purify$ -- 51
+quote$ -- 24
+skip$ -- 3851
 stack$ -- 0
-substring$ -- 3305
-swap$ -- 139
-text.length$ -- 74
+substring$ -- 11896
+swap$ -- 390
+text.length$ -- 176
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 195
+type$ -- 458
 warning$ -- 0
-while$ -- 165
+while$ -- 477
 width$ -- 0
-write$ -- 230
-(There was 1 error message)
+write$ -- 647
+(There were 2 error messages)

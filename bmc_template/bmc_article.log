@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  28 MAY 2018 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  29 MAY 2018 01:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -406,21 +406,6 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip55
 \JustifyingParindent=\skip56
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/05/19 3.10 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count91
-\U@D=\dimen105
-)
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -435,37 +420,37 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
-\Gin@req@height=\dimen106
-\Gin@req@width=\dimen107
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
 )
 (./bmc_article.aux)
 \openout1 = `bmc_article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
-\scratchdimen=\dimen108
+\scratchcounter=\count91
+\scratchdimen=\dimen107
 \scratchbox=\box30
-\nofMPsegments=\count93
-\nofMParguments=\count94
+\nofMPsegments=\count92
+\nofMParguments=\count93
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count95
-\MPscratchDim=\dimen109
-\MPnumerator=\count96
-\makeMPintoPDFobject=\count97
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen108
+\MPnumerator=\count95
+\makeMPintoPDFobject=\count96
 \everyMPtoPDFconversion=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -525,60 +510,60 @@ e
 ))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 90.
+(lastpage)             ! on input line 89.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 90.
+LaTeX Info: Redefining \selectfont on input line 89.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 96.
+(Font)              size <12> substituted on input line 95.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 104.
+(Font)              size <24.88> substituted on input line 103.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 125.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 124.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 125.
+(Font)              size <5> substituted on input line 124.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 125.
+(Font)              size <5> substituted on input line 124.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 125.
+(Font)              size <5> substituted on input line 124.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 125.
+(Font)              <11> on input line 124.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 125.
+(Font)              <7.69997> on input line 124.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 125.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 125
+(Font)              <5.5> on input line 124.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 124
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 125.
+LaTeX Font Info:    No file OMScmss.fd. on input line 124.
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textdagger' on input line 125.
+(Font)              for symbol `textdagger' on input line 124.
 
 \address@aff1=\toks21
 \address@aff2=\toks22
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 221.
+(Font)              <7> on input line 220.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 221.
+(Font)              <5> on input line 220.
 
-Underfull \hbox (badness 2181) in paragraph at lines 259--261
+Underfull \hbox (badness 2181) in paragraph at lines 258--260
 []\OT1/cmr/m/n/10 Clustering tech-niques of dif-fer-en-tially ex-pressed
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 261.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 260.
 
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -591,62 +576,152 @@ File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/general.pdf Grap
 hic file (type pdf)
 <use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/general.pdf>
 Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
-p4/general.pdf  used on input line 271. on input line 271.
+p4/general.pdf  used on input line 270. on input line 270.
 Package pdftex.def Info: Requested size: 145.20148pt x 100.52283pt on input lin
-e 271.
+e 270.
 </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/variantes.png, id=14,
  299.61937pt x 299.61937pt>
 File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/variantes.png Gr
 aphic file (type png)
 <use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/variantes.png>
 Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
-p4/variantes.png  used on input line 278. on input line 278.
+p4/variantes.png  used on input line 276. on input line 276.
 Package pdftex.def Info: Requested size: 145.20148pt x 145.20549pt on input lin
-e 278.
+e 276.
 </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edad.png, id=15, 413.
 29407pt x 275.52937pt>
 File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edad.png Graphic
  file (type png)
 <use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edad.png>
 Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
-p4/edad.png  used on input line 285. on input line 285.
+p4/edad.png  used on input line 283. on input line 283.
 Package pdftex.def Info: Requested size: 145.20148pt x 96.80249pt on input line
- 285.
+ 283.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+</home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/sin_stop.png, id=16, 
+513.92pt x 371.3875pt>
+File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/sin_stop.png Gra
+phic file (type png)
+<use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/sin_stop.png>
+Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
+p4/sin_stop.png  used on input line 299. on input line 299.
+Package pdftex.def Info: Requested size: 145.20148pt x 104.92848pt on input lin
+e 299.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/general.pdf> </hom
+e/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/variantes.png (PNG copy)> 
+</home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edad.png (PNG copy)>]
+</home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/tfidf.pdf, id=25, pag
+ebox=cropbox, 722.7pt x 722.7pt>
+File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/tfidf.pdf Graphi
+c file (type pdf)
+<use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/tfidf.pdf>
+Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
+p4/tfidf.pdf  used on input line 315. on input line 315.
+Package pdftex.def Info: Requested size: 145.20148pt x 145.19908pt on input lin
+e 315.
+</home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/cluster1.png, id=26, 
+513.92pt x 371.3875pt>
+File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/cluster1.png Gra
+phic file (type png)
+<use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/cluster1.png>
+Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
+p4/cluster1.png  used on input line 336. on input line 336.
+Package pdftex.def Info: Requested size: 145.20148pt x 104.92848pt on input lin
+e 336.
+</home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edadc1.png, id=27, 41
+3.29407pt x 275.52937pt>
+File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edadc1.png Graph
+ic file (type png)
+<use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edadc1.png>
+Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
+p4/edadc1.png  used on input line 343. on input line 343.
+Package pdftex.def Info: Requested size: 145.20148pt x 96.80249pt on input line
+ 343.
+</home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/reglas1_1.png, id=28,
+ 583.17876pt x 562.1pt>
+File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/reglas1_1.png Gr
+aphic file (type png)
+<use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/reglas1_1.png>
+Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
+p4/reglas1_1.png  used on input line 351. on input line 351.
+Package pdftex.def Info: Requested size: 193.59705pt x 186.59999pt on input lin
+e 351.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/sin_stop.png (PNG 
+copy)> </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/tfidf.pdf> </h
+ome/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/cluster1.png (PNG copy)>
+ </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edadc1.png (PNG copy
+)>]
+</home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/cluster2.png, id=74, 
+513.92pt x 371.3875pt>
+File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/cluster2.png Gra
+phic file (type png)
+<use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/cluster2.png>
+Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
+p4/cluster2.png  used on input line 361. on input line 361.
+Package pdftex.def Info: Requested size: 145.20148pt x 104.92848pt on input lin
+e 361.
+</home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edadc2.png, id=75, 41
+3.29407pt x 277.035pt>
+File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edadc2.png Graph
+ic file (type png)
+<use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edadc2.png>
+Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
+p4/edadc2.png  used on input line 368. on input line 368.
+Package pdftex.def Info: Requested size: 145.20148pt x 97.33147pt on input line
+ 368.
+</home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/reglas2_1.png, id=76,
+ 647.41875pt x 553.06625pt>
+File: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/reglas2_1.png Gr
+aphic file (type png)
+<use /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/reglas2_1.png>
+Package pdftex.def Info: /home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Ka
+p4/reglas2_1.png  used on input line 375. on input line 375.
+Package pdftex.def Info: Requested size: 193.59705pt x 165.38104pt on input lin
+e 375.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (100.82578pt too wide) in alignment at lines 316--325
- [][][] []
- []
+LaTeX Warning: Reference `fig: reglas2_1' on page 4 undefined on input line 381
+.
 
 
-LaTeX Warning: Citation `koon' on page 2 undefined on input line 327.
+LaTeX Warning: Citation `koon' on page 4 undefined on input line 384.
 
 
-LaTeX Warning: Citation `khar' on page 2 undefined on input line 327.
+LaTeX Warning: Citation `khar' on page 4 undefined on input line 384.
 
 
-LaTeX Warning: Citation `zvai' on page 2 undefined on input line 327.
+LaTeX Warning: Citation `zvai' on page 4 undefined on input line 384.
 
 
-LaTeX Warning: Citation `xjon' on page 2 undefined on input line 327.
+LaTeX Warning: Citation `xjon' on page 4 undefined on input line 384.
 
 
-LaTeX Warning: Citation `marg' on page 2 undefined on input line 327.
+LaTeX Warning: Citation `marg' on page 4 undefined on input line 384.
 
-(./bmc_article.bbl [2 </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4
-/general.pdf> </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/variant
-es.png (PNG copy)> </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/ed
-ad.png (PNG copy)>])
+(./bmc_article.bbl [4 </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4
+/reglas1_1.png> </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/clust
+er2.png (PNG copy)> </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/e
+dadc2.png (PNG copy)> </home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4
+/reglas2_1.png>])
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 393.
+(Font)              <8> on input line 450.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 393.
+(Font)              <6> on input line 450.
  
 AED: lastpage setting LastPage
-[3
+[5
 
 ] (./bmc_article.aux)
 
@@ -661,32 +736,29 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3416 strings out of 492995
- 45257 string characters out of 6135074
- 119732 words of memory out of 5000000
- 6919 multiletter control sequences out of 15000+600000
- 10683 words of font info for 37 fonts, out of 8000000 for 9000
+ 3035 strings out of 492995
+ 42342 string characters out of 6135074
+ 108978 words of memory out of 5000000
+ 6539 multiletter control sequences out of 15000+600000
+ 12082 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,37p,639b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,37p,1009b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-sbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on bmc_article.pdf (3 pages, 1257050 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on bmc_article.pdf (5 pages, 3046830 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

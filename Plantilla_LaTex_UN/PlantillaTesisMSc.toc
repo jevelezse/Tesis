@@ -40,4 +40,3 @@
 \contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{71}
 \contentsline {section}{\numberline {6.1}Conclusiones}{71}
 \contentsline {section}{\numberline {6.2}Trabajo futuro}{72}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{73}

@@ -32,11 +32,11 @@ Los datos fueron consultados desde la base de datos diseña en el cápitulo ante
 	\label{f:variantesgeneral}
 \end{figure}
 
-La base de datos contiene 228 pacientes de los cuales 133 son de género femenino y tienen un total de 468.485 variantes y 95 de género masculino con 345.239 de variantes obteniendo  un total de 803.878 variantes. La  figura \ref{fig:general} representa la distribución de pacientes por rango de edades y la figura \ref{f:variantesgeneral} representa la distribución de variantes según su tipo. En la figura \ref{f:generosgeneral} muestra el número de variantes que son sinónimas y no sinónimas siendo las más frecuentes en la población, a  nivel mundial se conoce que estos son lo tipos de variantes más frecuentes\cite{Fu2013}.\\
+La base de datos contiene 228 pacientes de los cuales 133 son de género femenino y tienen un total de 468.485 variantes y 95 pacientes de género masculino con 345.239 de variantes obteniendo  un total de 803.878 variantes. La  figura \ref{fig:general} representa la distribución de pacientes por rango de edades y la figura \ref{f:variantesgeneral} representa la distribución de variantes según su tipo. En la figura \ref{f:generosgeneral} muestra el número de variantes que son sinónimas y no sinónimas siendo las más frecuentes en la población, a  nivel mundial se conoce que estos son lo tipos de variantes más frecuentes\cite{Fu2013}.\\
 
 Las variantes desconocidas son el tercer tipo de variante más frecuente dado que aún existe el problema de selección del transcripto para realizar la nomenclatura adecuada de las variantes, por lo que el anotador informa que son desconocidas \cite{McCarthy2014}. La figura\ref{f:variantedad} muestra la distribución de las variantes identificadas según el rango de edad, siendo el rango con mayor número de variantes los pacientes que se encuentran entre las edades de 0 a 10 años, dado a que es la población más representada dentro de la base de datos. \\
 
-El estado alélico de las variantes (cigocidad) que se encuentran dentro de la base de datos se dividen en heterocigotas 458639 que corresponden al 57,05\% del total de las variantes  y homocigotas 345239 que corresponden al 42,95\%. La distribución de la cigocidad de las variantes se puede explicar desde el error que se puede generar en la identificación de las variantes dado que durante el llamado  de variantes en el que es posible que una variante homocigota se catalogue como heterocigota o si durante el proceso de secuenciación se identifican erróneamente los nucleótidos \cite{Babraham2016}\cite{Pirooznia2014}. 
+El estado alélico de las variantes (cigocidad) que se encuentran dentro de la base de datos se dividen en heterocigotas 458639 que corresponden al 57,05\% del total de las variantes  y homocigotas 345239 que corresponden al 42,95\%. La distribución de la cigocidad de las variantes se puede explicar desde el error que se puede generar en la identificación de las variantes dado que durante el llamado  de variantes es posible que una variante homocigota se catalogue como heterocigota, si durante el proceso de secuenciación se identifican erróneamente los nucleótidos \cite{Babraham2016}\cite{Pirooznia2014}. 
 
 
 \section{Análisis textual de información clínica.}
@@ -211,8 +211,6 @@ Una vez se ajustaron los valores de soporte y confianza se realizaron 12 experim
 
 Teniendo en cuenta las medidas de validación encontramos  5 clusters con las siguientes estructuras:
 
-\subsubsection*{Cluster 1}
-
 \begin{figure}[H]
 	\centering
 	\subfigure[Nube de palabras]{\includegraphics[width=70mm]{Kap4/cluster1}}
@@ -221,7 +219,7 @@ Teniendo en cuenta las medidas de validación encontramos  5 clusters con las si
 	\caption{Cluster 1} \label{fig:cluster1}
 \end{figure} 
 
-La figura \ref{fig:cluster1} representa el clúster 1 con la frecuencia de palabras que se agruparon para este clúster  la figura \ref{fig:cluster1}(a) se muestra la frecuencia de palabras, siendo seno,síndrome y cáncer son las palabras más frecuentes, junto con ovario,familiar sospecha y epilepsia. La figura \ref{fig:cluster1} representa la distribución de pacientes por edad y genero dentro del grupo por rango de edad en un intervalo de 10 años.\\
+La figura \ref{fig:cluster1} representa el clúster 1 con la frecuencia de palabras que se agruparon para este clúster  la figura \ref{fig:cluster1}(a) se muestra la frecuencia de palabras, siendo seno,síndrome y cáncer son las palabras más frecuentes, junto con ovario,familiar sospecha y epilepsia. La figura \ref{fig:cluster1}(b) representa la distribución de pacientes por edad y genero dentro del grupo por rango de edad en un intervalo de 10 años.\\
 
 \begin{figure}[H]
 	\centering
@@ -229,7 +227,7 @@ La figura \ref{fig:cluster1} representa el clúster 1 con la frecuencia de palab
 	\caption{Reglas de asociación del cluster 1 con variantes sinónimas.} \label{fig:reglas1}
 \end{figure}
 
-Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:reglas1} que muestra la asociación,sin remover las variantes sinónimas, el resultado obtenido muestra de dos tipos de variantes dentro del clúster 1. Para el genero masculino con variantes   no sinónima y que son pacientes de edad entre 10 y 20 años, el estado alélico de las variantes es homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros, donde las pacientes de genero femenino tienen variantes sinónimas con estado heterocigotas.
+Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:reglas1} que muestra la asociación de variantes con información clinica del cluster 1. Los resultados son sin remover las variantes sinónimas. Para el presente cluster se muestran dos tipos de variantes  distribuidas por el género masculino con variantes no sinónimas y que son pacientes de edad entre 10 y 20 años, el estado alélico de las variantes es homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros, donde las pacientes de género femenino tienen variantes sinónimas con estado heterocigotas.
 
 \begin{figure}[H]
 	\centering
@@ -371,7 +369,7 @@ La figura \ref{fig:re6} muestra que el estado alélico de las variantes que no s
 
 \section{Visualización}
 
-Finalmente se desarrollo un dashboard utilizando la herramienta R, para mostrar todos los resultados obtenidas en el presente trabajo, para que las variantes que fueron encontradas puedan ser consultadas por la comunidad académica y científica. Este aplicativo presenta una pestaña general que muestra, la distribución demográfica de la población, la distribución del tipo de variantes encontradas y la distribución de las variantes encontradas por rangos de edad. Posteriormente se muestra una pestaña con cada cluster, donde se muestran las reglas de asociación obtenidas, la frecuencia de palabras del cluster y los rangos de edad por genero del cluster. Finalmente se muestra las reglas de asociación para el gen CFTR sin las variantes sinónimas y una tabla final con las variantes anotadas se obtuvieron. La figura \ref{fig:dash} muestra un screenshot  del aplicativo de visualización desarrollado, en la que se muestra los analisis exploratorios de las variantes.
+Finalmente se desarrollo un dashboard utilizando la herramienta R, para mostrar todos los resultados obtenidas en el presente trabajo, para que las variantes que fueron encontradas puedan ser consultadas por la comunidad académica y científica. Este aplicativo presenta una pestaña general que muestra, la distribución demográfica de la población, la distribución del tipo de variantes encontradas y la distribución de las variantes encontradas por rangos de edad. Posteriormente se muestra una pestaña con cada cluster, donde se muestran las reglas de asociación obtenidas, la frecuencia de palabras del cluster y los rangos de edad por genero del cluster. Finalmente se muestra las reglas de asociación para el gen CFTR sin las variantes sinónimas y una tabla final con las variantes anotadas se obtuvieron. La figura \ref{fig:dash} muestra un screenshot  del aplicativo de visualización desarrollado, en la que se muestra los análisis exploratorios de las variantes.
 
 \begin{figure}[H]
 	\centering

@@ -55,7 +55,6 @@
 %\usepackage[applemac]{inputenc} %applemac support if unicode package fails
 %\usepackage[latin1]{inputenc} %\UNIX support if unicode package fails
 \usepackage{ragged2e}
-\usepackage[english]{babel}
 \usepackage{graphicx}
 
 
@@ -274,7 +273,6 @@ The exploratory analysis of the information contained in the database was carrie
 \end{figure}
 
 \begin{figure}[h!]
-	\centering
 	\includegraphics[width=0.3\textwidth]{/home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/variantes.png}
 	\caption{Distribution of age range and gender of patients}
 	\label{f:generosgeneral}
@@ -287,43 +285,102 @@ The exploratory analysis of the information contained in the database was carrie
 	\label{f:variantesgeneral}
 \end{figure}
 
+The database contains 228 patients of which 133 are female and have a total of 468,485 variants and 95 male patients with 345,239 variants obtaining a total of 803,878 variants. Figure \ref{fig:general} represents the distribution of patients by age range and Figure \ref{f:generosgeneral} represents the distribution of variants according to their type. In Figure \ref{f:generosgeneral} shows the number of variants that are synonymous and not synonymous, being the most frequent in the population, at a global level it is known that these are the most frequent types of variants\cite{Fu2013}. 
+
+The unknown variants are the third type of variant more frequent given that there is still the problem of selecting the transcript to perform the appropriate nomenclature of the variants, so the annotator reports that they are unknown \cite{McCarthy2014}. Figure \ref{f:variantesgeneral} shows the distribution of the variants identified according to the age range, the range with the highest number of variants being patients between the ages of 0 to 10 years, given that it is the most represented population within the database.
+
+The allelic state of the variants (zygosity) found within the database are divided into 458639 heterozygotes corresponding to 57.05\% of the total of the variants and homozygous 345239 corresponding to 42.95\%. The distribution of the zygosity of the variants can be explained from the error that can be generated in the identification of the variants given that during the call of variants it is possible that a homozygous variant is classified as heterozygous, if during the sequencing process it is identified wrongly nucleotides \cite{Babraham2016,Pirooznia2014}.
+
+\subsection*{Textual analysis of clinical information.}
+The results obtained for the frequency of words were breast, cancer, syndrome, suspicion and years. In figure \ref{fig:sin} shows the first 30 most frequent words and the word cloud of all the documents.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.3\textwidth]{/home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/sin_stop}
+	\caption{Wordcloud in Spanish}
+	\label{fig:sin}
+\end{figure}
+
+The frequency of words shows us the main characteristics of the clinical information, the words cancer and breast are the main phenotypes, the word syndrome is also found that can be associated with different diseases and the word suspicion refers to ambiguous diagnoses that patients may have, One of the contributions of sequencing is that based on the phenotype can help a diagnosis, between different symptoms and syndromes that can be applied to rare and complex diseases \cite{Tetreault2015a}. 
+
+\subsubsection*{Clusters of clinical characteristics.}
+
+\paragraph*{Data transformation}
+Calculation of the tf-idf matrix, is done from inverted frequency with the equation:
+$${idf}_i = \log_2 \frac{|D|}{|\{d \mid t_i \in d\}|}$$
+being $|D|$ what denotes the total number of documents and where $|\{d\mid t_i \in d\}|$ in which $t_1$  appears, the matrix of tf-idf is calculated from the multiplication of the frequency of terms and the inverted frequency $\mathit{tf}_{i,j} \cdot \mathit{idf}_i$ \cite{Buckley1988}.
+
+\begin{figure}[h!] 
+	\centering
+	\includegraphics[width=0.3\textwidth]{/home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/tfidf.pdf}
+	\caption{TF-IDF} 
+	\label{fig:IDFTF}
+\end{figure}
+
+Figure \ref{fig:IDFTF} represents the IDF-TF matrix of the words found within the database.
+
+\subsubsection*{Clustering model validation}
+
+Inertia was computed and  the graph of the quadratic error vs the number of clusters was made.Where cluster 5 and 6 can be selected as the optimum of $K$ .For the definition of the optimal number of $K$, we also calculate the Silhouette coefficient, which is an evaluation of the clusters. Silhouette coefficient was \textit{0.534}. 
+
+For 5 clusters obtained, the validation measures that are inside the library scikit-learn were: For homogeneity 0.296, for integrity 1.0, for V-measure 0.457 and the Rand-Index was 0. The perfect homogeneity would be with a value of 1.0, in the present clusters they present a low homogeneity, but an integrity of 1.0 which means that the labels are perfectly complete, this is reflected in the V-measure which is 0.457 where we have clusters with low homogeneity but high integrity. Rand-Index a value of 0.0 was obtained that shows that the classes are separated into different clusters \cite{scikit-learn}.
+
+\subsection*{Association of clusters with variants.}
+
+Results of applying association rules to the variants along with their clusters were:
+
+\subsubsection*{Cluster 1}
+
+\begin{figure}[h!] 
+	\centering
+	\includegraphics[width=0.3\textwidth]{/home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/cluster1}
+	\caption{Wordcloud cluster 1} 
+	\label{f:nube1}
+\end{figure}
+
+\begin{figure}[h!] 
+	\centering
+	\includegraphics[width=0.3\textwidth]{/home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edadc1}
+	\caption{Cluster 1} 
+	\label{fig:cluster1}
+\end{figure}
 
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.4\textwidth]{/home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/reglas1_1}
+	\caption{Cluster 1 association rules with synonymous variants.} \label{fig:reglas1}
+\end{figure}
+
+The figure 	\ref{f:nube1} represents the cluster 1 with the frequency of words that were grouped for this cluster and frequency of words is shown, being breast, syndrome and cancer are the most frequent words, along with ovarian, familial suspicion and epilepsy. Figure \ref {fig:cluster1} represents the distribution of patients by age and gender within the group by age range over a 10-year interval. The first 10 rules obtained are represented by the figure \ref{fig:reglas1} that shows the association of variants with clinical information of cluster 1. The results are without removing the synonymous variants. For the present cluster there are two types of variants distributed by the male gender with nonsynonymous variants and that are patients aged between 10 and 20 years, the allelic state of the variants is homozygous, for this group a high difference is observed in the rules both genders, where female patients have synonymous variants with heterozygous status.
+
+\subsubsection*{Cluster 2}
+
+\begin{figure}[h!] 
+	\centering
+	\includegraphics[width=0.3\textwidth]{/home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/cluster2}
+	\caption{Wordcloud cluster 2} 
+	\label{f:nube2}
+\end{figure}
+
+\begin{figure}[h!] 
+	\centering
+	\includegraphics[width=0.3\textwidth]{/home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/edadc2}
+	\caption{Cluster 2} 
+	\label{fig:cluster2}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.4\textwidth]{/home/jennifer/Documentos/latex1/Plantilla_LaTex_UN/Kap4/reglas2_1}
+	\caption{Cluster 2 association rules with synonymous variants.} \label{fig:reglas2}
+\end{figure}
+
+In the figure \ref{f:nube2} is observed that like cluster 1 the most frequent words are cancer, breast and syndrome, but words like thyroid and sister antecedents appear, according to the figure \ref{fig:cluster2} is observed that age ranges between 20 and 30 years, and over 40 there are no male patients, this being a cluster represented mainly by female patients.
+
+The figure \ref{fig: reglas2_1}, shows us only an association of variants to the female gender, which corresponds to the low representation of male patients.The distribution of the homozygous allelic state occurs more frequently with patients of the age of 30 and 40 years, and they are variants of non-synonymous type, although the age range is not the most representative of the cluster, it is the one with the highest frequency of variants.
 
 
-\subsubsection*{Sub-sub heading for section}
-Text for this sub-sub-heading \ldots
-\paragraph*{Sub-sub-sub heading for section}
-Text for this sub-sub-sub-heading \ldots
-In this section we examine the growth rate of the mean of $Z_0$, $Z_1$ and $Z_2$. In
-addition, we examine a common modeling assumption and note the
-importance of considering the tails of the extinction time $T_x$ in
-studies of escape dynamics.
-We will first consider the expected resistant population at $vT_x$ for
-some $v>0$, (and temporarily assume $\alpha=0$)
-
-$
- E \bigl[Z_1(vT_x) \bigr]= E
-\biggl[\mu T_x\int_0^{v\wedge
-1}Z_0(uT_x)
-\exp \bigl(\lambda_1T_x(v-u) \bigr)\,du \biggr].$
-
-If we assume that sensitive cells follow a deterministic decay
-$Z_0(t)=xe^{\lambda_0 t}$ and approximate their extinction time as
-$T_x\approx-\frac{1}{\lambda_0}\log x$, then we can heuristically
-estimate the expected value as
-%
-\begin{eqnarray}\label{eqexpmuts}
-E\bigl[Z_1(vT_x)\bigr] &=& \frac{\mu}{r}\log x
-\int_0^{v\wedge1}x^{1-u}x^{({\lambda_1}/{r})(v-u)}\,du
-\nonumber\\
-&=& \frac{\mu}{r}x^{1-{\lambda_1}/{\lambda_0}v}\log x\int_0^{v\wedge
-1}x^{-u(1+{\lambda_1}/{r})}\,du
-\nonumber\\
-&=& \frac{\mu}{\lambda_1-\lambda_0}x^{1+{\lambda_1}/{r}v} \biggl(1-\exp \biggl[-(v\wedge1) \biggl(1+
-\frac{\lambda_1}{r}\biggr)\log x \biggr] \biggr).
-\end{eqnarray}
-%
 Thus we observe that this expected value is finite for all $v>0$ (also see \cite{koon,khar,zvai,xjon,marg}).
 %\nocite{oreg,schn,pond,smith,marg,hunn,advi,koha,mouse}
 
