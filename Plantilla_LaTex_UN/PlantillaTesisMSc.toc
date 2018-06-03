@@ -4,35 +4,37 @@
 \contentsline {chapter}{Lista de figuras}{3}
 \contentsline {chapter}{Lista de tablas}{5}
 \contentsline {chapter}{\numberline {1}Introducci\'{o}n}{6}
-\contentsline {chapter}{\numberline {2}Estado del Arte}{10}
-\contentsline {section}{\numberline {2.1}Biolog\IeC {\'\i }a molecular y secuenciaci\IeC {\'o}n masiva.}{10}
+\contentsline {chapter}{\numberline {2}Estado del Arte}{11}
+\contentsline {section}{\numberline {2.1}Biolog\IeC {\'\i }a molecular y secuenciaci\IeC {\'o}n masiva.}{11}
 \contentsline {section}{\numberline {2.2}Bioinform\IeC {\'a}tica}{14}
-\contentsline {subsection}{\numberline {2.2.1}Integraci\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{14}
+\contentsline {subsection}{\numberline {2.2.1}Integraci\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{15}
 \contentsline {subsection}{\numberline {2.2.2}An\IeC {\'a}lisis de datos gen\IeC {\'o}micos con aplicaciones cl\IeC {\'\i }nicas}{17}
-\contentsline {subsection}{\numberline {2.2.3}Miner\IeC {\'\i }a de datos gen\IeC {\'o}micos}{19}
-\contentsline {chapter}{\numberline {3}Validaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{21}
-\contentsline {section}{\numberline {3.1}Identificaci\IeC {\'o}n de variantes}{21}
-\contentsline {section}{\numberline {3.2}Datos}{22}
-\contentsline {section}{\numberline {3.3}Estrategias del pipeline}{23}
-\contentsline {section}{\numberline {3.4}Resultados y validaci\IeC {\'o}n}{25}
-\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{32}
-\contentsline {section}{\numberline {3.6}Conclusiones}{35}
-\contentsline {chapter}{\numberline {4}Modelo de integraci\IeC {\'o}n de la informaci\IeC {\'o}n}{37}
+\contentsline {subsection}{\numberline {2.2.3}Miner\IeC {\'\i }a de datos gen\IeC {\'o}micos}{20}
+\contentsline {subsection}{\numberline {2.2.4}La miner\IeC {\'\i }a de texto en el campo cl\IeC {\'\i }nico}{21}
+\contentsline {chapter}{\numberline {3}Validaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{22}
+\contentsline {section}{\numberline {3.1}Identificaci\IeC {\'o}n de variantes}{22}
+\contentsline {section}{\numberline {3.2}Datos}{23}
+\contentsline {section}{\numberline {3.3}Estrategias del pipeline}{24}
+\contentsline {section}{\numberline {3.4}Resultados y validaci\IeC {\'o}n}{26}
+\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{34}
+\contentsline {section}{\numberline {3.6}Conclusiones}{37}
+\contentsline {chapter}{\numberline {4}Modelo de integraci\IeC {\'o}n de la informaci\IeC {\'o}n}{38}
 \contentsline {section}{\numberline {4.1}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del modelo de datos}{38}
+\contentsline {subsection}{\numberline {4.1.1}Datos}{38}
 \contentsline {section}{\numberline {4.2}Gesti\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{40}
 \contentsline {section}{\numberline {4.3}Conclusi\IeC {\'o}n}{42}
-\contentsline {chapter}{\numberline {5}Modelo de miner\IeC {\'\i }a de datos}{43}
-\contentsline {section}{\numberline {5.1}An\IeC {\'a}lisis exploratorio de los datos.}{43}
+\contentsline {chapter}{\numberline {5}Miner\IeC {\'\i }a de datos cl\IeC {\'\i }nicos y gen\IeC {\'o}micos}{43}
+\contentsline {section}{\numberline {5.1}An\IeC {\'a}lisis descriptivo de la informaci\IeC {\'o}n.}{43}
 \contentsline {section}{\numberline {5.2}An\IeC {\'a}lisis textual de informaci\IeC {\'o}n cl\IeC {\'\i }nica.}{45}
 \contentsline {subsection}{\numberline {5.2.1}Preprocesamiento.}{45}
 \contentsline {subsection}{\numberline {5.2.2}Grupos de caracter\IeC {\'\i }sticas cl\IeC {\'\i }nicas.}{46}
-\contentsline {subsubsection}{\nonumberline Transformaci\IeC {\'o}n de los datos.}{47}
-\contentsline {subsubsection}{\nonumberline Validaci\IeC {\'o}n del modelo de clustering.}{47}
+\contentsline {subsection}{\numberline {5.2.3}Transformaci\IeC {\'o}n de los datos.}{46}
+\contentsline {subsection}{\numberline {5.2.4}Experimentaci\IeC {\'o}n y validaci\IeC {\'o}n del modelo de clustering.}{47}
 \contentsline {section}{\numberline {5.3}Asociaci\IeC {\'o}n de grupos con variantes.}{50}
-\contentsline {subsection}{\numberline {5.3.1}Variantes vistas como transacciones.}{51}
-\contentsline {subsection}{\numberline {5.3.2}Experimentaci\IeC {\'o}n}{52}
-\contentsline {subsection}{\numberline {5.3.3}Resultados}{52}
-\contentsline {section}{\numberline {5.4}Visualizaci\IeC {\'o}n}{66}
+\contentsline {subsection}{\numberline {5.3.1}Variantes vistas como transacciones.}{50}
+\contentsline {subsection}{\numberline {5.3.2}Experimentaci\IeC {\'o}n}{51}
+\contentsline {subsection}{\numberline {5.3.3}Resultados}{51}
+\contentsline {section}{\numberline {5.4}Prototipo de visualizaci\IeC {\'o}n}{66}
 \contentsline {section}{\numberline {5.5}Discusi\IeC {\'o}n}{67}
 \contentsline {subsection}{\numberline {5.5.1}Asociaci\IeC {\'o}n de variantes con sus grupos de caracter\IeC {\'\i }sticas cl\IeC {\'\i }nicas.}{67}
 \contentsline {subsection}{\numberline {5.5.2}Variantes con el gen CFTR}{69}
@@ -40,3 +42,4 @@
 \contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{71}
 \contentsline {section}{\numberline {6.1}Conclusiones}{71}
 \contentsline {section}{\numberline {6.2}Trabajo futuro}{72}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{73}

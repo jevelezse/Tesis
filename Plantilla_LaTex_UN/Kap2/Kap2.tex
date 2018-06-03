@@ -218,31 +218,33 @@ En la figura \ref{fig:variaciones2} se observa el comportamiento de la distribuc
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\textwidth]{Kap2/validacion1}
+	\includegraphics[width=0.4\textwidth]{Kap2/validacion1}
 	\caption{Diagrama de relación entre las variantes publicas y las obtenidas por el pipeline.} \label{fig:diagrama2}
 \end{figure}
 
 El diagrama de la figura \ref{fig:diagrama2} muestra la comparación entre variantes obtenidas y su respectiva concordancia, donde el 100\% del exoma esta representado en las variaciones encontradas mientras que un 96\% de las variaciones obtenidas por omicspipe corresponden a las variantes del exoma y un 4\% de las variantes no se encontraron dentro del exoma publico. \\
 
-GATK realiza un reporte de la evaluación cuando se comparan dos archivos de distintas variaciones, este puede ser abierto como un archivo de texto o cargado directamente en R utilizando la librería \textit{gsalib} que lee el archivo \textit{merged.eval.gatkreport}, esto genera una lista que tiene anidados varios data.frame, dentro de ellos para este caso se tomo el \textit{ValidationReport)} que genera una tabla con los falsos positivos, falsos negativos, calcula la sensibilidad y la especificidad  y el valor predictivo positivo (PPV). Que para nuestro caso de nuestro exoma se muestran en la tabla \ref{tabla:tabla3}:
+GATK realiza un reporte de la evaluación cuando se comparan dos archivos de distintas variaciones, este puede ser abierto como un archivo de texto o cargado directamente en R utilizando la librería \textit{gsalib} que lee el archivo \textit{merged.eval.gatkreport}, esto genera una lista que tiene anidados varios data.frame, dentro de ellos para este caso se tomo el \textit{ValidationReport}.
+
+El \textit{ValidationReport}  genera una tabla con los verdaderos positivos (\textit{TP}),son las variantes verdaderas definidas como las variantes que previamente han sido identificada en el exoma NA12878, los verdaderos negativos (\textit{TN}),variantes que han sido previamente identificadas pero no son identificadas por el pipeline implementado,los falsos positivos (\textit{FP}) son variantes que no se encuentran en el exoma NA12878, pero que son identificadas por el pipeline y los falsos negativos (\textit{FN})  son las variantes que no están en el exoma NA12878 y que no se identifican, calcula la sensibilidad y la especificidad  y el valor predictivo positivo (PPV). 
 
 \begin{table}[H]
 	\begin{center}
 		\begin{tabular}{|l|l|}
 			\hline 
-			\textbf{TP} &  \textbf{TN} \\
+			\textbf{TP} &  \textbf{FP} \\
 			\hline 
-			32110 & 0  \\ \hline
-			\textbf{FP} &  \textbf{FN} \\
+			32110 & 1033  \\ \hline
+			\textbf{FN} &  \textbf{TN} \\
 			\hline
-			1033 &  0\\ \hline
+			0 &  0\\ \hline
 		\end{tabular}
 		\caption{Tabla de validación 1.}
 		\label{tabla:tabla3}
 	\end{center}
 \end{table}
 
-La tabla \ref{tabla:tabla3} refleja que para el conjunto de datos no hay falsos negativos ni verdaderos negativos, pero si falsos positivos, es decir 1033 variantes del conjunto de datos obtenidos que no son reales pero fueron identificadas. (\textit{GATK para calcular estas métricas se compara contra una base de datos que el usuario disponga para determinar variantes existentes}).  La tabla \ref{tabla:tabla4} muestra la sensibilidad, especificidad y el valor predictivo positivo (PPV).
+La tabla \ref{tabla:tabla3} refleja que para el conjunto de datos no hay falsos negativos ni falsos positivos, pero si falsos positivos, es decir 1033 variantes del conjunto de datos obtenidos que no son reales pero fueron identificadas. (\textit{GATK para calcular estas métricas se compara contra una base de datos que el usuario disponga para determinar variantes existentes}).  La tabla \ref{tabla:tabla4} muestra la sensibilidad, especificidad y el valor predictivo positivo (PPV).
 
 \begin{table}[H]
 	\begin{center}

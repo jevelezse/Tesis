@@ -1,24 +1,19 @@
 \chapter{Modelo de integración de la información}
 
-Las nuevas tecnologías de análisis genético son fáciles y económicas de hacer lo que genera una gran cantidad de datos biológicos y lo que hace que los biólogos trabajen cada vez más con las nuevas tecnologías de análisis genético, haciendo que los biólogos trabajen más y más computacionalmente.Especialmente mediante el uso de  tecnologías de secuenciación (NGS) y presentar un reto para integrar y almacenar la información, pasos que son necesarios para su posterior análisis \cite{Li2014,Cook2016}.\\
+El mayor de los retos aplicado al análisis de variantes, es desarrollar herramientas que permitan al investigador acceder a la información fácilmente y que pueda tener una base de datos,donde pueda consultar, analizar y actualizar la información de sus experimentos \cite{Li2014}.En el campo clínico esto representa un reto aun mayor dado que se hace necesario recolectar los datos genéticos junto con los datos clínicos para poder hacer análisis más acertados y a gran escala \cite{Paila2013}.\\
 
-La gran cantidad de datos presentan un reto para organizar y manejar datos que crecen de manera exponencial y que son de diversos tipos, dado que los datos son generados a diferentes niveles y con diferentes métodos (ejemplo: Variantes de exones o imágenes de patología), datos que a su vez deben ser almacenados en distintas formas, esta situación muestra una seria dificultad para realizar un análisis integral de los datos \cite{Cook2016,Li2014}.\\
 
-El mayor de los retos es crear herramientas que permitan al investigador acceder a la información fácilmente y que pueda tener una base de datos intercalable,donde pueda consultar, analizar y actualizar la información de sus experimentos \cite{Li2014}.En el campo clínico esto representa un reto aun mayor dado que se hace necesario recolectar los datos genéticos junto con los datos clínicos para poder hacer análisis más acertados y a gran escala \cite{Paila2013}.\\
-
-El problema de la heterogeneidad  de los datos  se aplica igualmente a los datos clínicos que describen pacientes individuales y además a los datos biológicos que caracterizan nuestro genoma. Específicamente la información genómica y clínica son datos altamente heterogéneos con respecto a los modelos de datos que emplean normalmente, los esquemas de datos que especifican, los lenguajes de consulta que soportan y las terminologías que reconocen \cite{Sujansky2001}.\\
-
-Para el caso de las variantes se tiene que para cada individuo hay 3.5 millones de variantes por individuo, estas variantes son almacenadas normalmente en el formato VCF (Formato de llamado de variantes), a su vez estos archivos pueden contener varias gigas de información,especialmente las muestras de genomas completos, que representan un problema para el almacenamiento dentro de las bases de datos, bases de datos que han sido desarrolladas para dar soluciones dependientes de las diferentes características y necesidades de los laboratorios\cite{Kutzera2017}.\\
-
-Por ello se hace necesario que se utilicen herramientas para la gestión de la información, por ejemplo django que es un web framework de alto nivel desarrollado en python  fomenta el desarrollo rápido y limpio, para la creación de aplicaciones web, es de código abierto y gratuito.Se basa en los principios de desarrollo rápido, manejo de la seguridad y es altamente escalable . Dentro de las muchas aplicaciones que tiene django una es el manejo y gestión de bases de datos a través de los módulos de python. https://www.djangoproject.com/. 
-
-Este capítulo esta organizado en 1. Diseño e implementación de datos. 2. Gestión de datos clínicos y genómicos. 3. Conclusiones. 4. Resumen.
+Este capítulo presenta el desarrollo de un sistema de información para la gestión de información clínica y genómica, desde el diseño e implementación de la base de datos.Este capítulo esta   organizado en 3.1. Diseño e implementación de datos. 3.2. Gestión de datos clínicos y genómicos. 3.3. Conclusiones y  Resumen.
 
 \section{Diseño e implementación del modelo de datos}
 
-A continuación proponemos la utilización de una base de datos con información clínica  y las variantes obtenidas a partir del pipeline. La figura \ref{fig:flujo2} representa el esquema de datos que fue utilizado para realizar la integración de la información dentro de la base de datos.
+\subsection{Datos}
 
-\begin{figure}[H] 
+Se tomaron una  250 pacientes previa autorización  del laboratorio Genetix S.A.S de los cuales solo 228 contaban con consentimiento informado para utilizar la información con fines de investigación.  La información disponible, se cargo en un archivo de texto plano con la siguiente información: Edad,genero y diagnóstico y adicionalmente para cada paciente se tenían las variantes en un archivo csv, resultado de la anotación realizada en con wAnnorvar según el pipeline implementado en el capítulo 2.\\
+
+A continuación proponemos la utilización de una base de datos con información clínica  y las variantes obtenidas a partir del pipeline. La figura \ref{fig:flujo2} representa el esquema de datos que fue utilizado para realizar la integración de la información dentro de la base de datos. \\
+
+\begin{figure}[h!] 
 	\centering
 	\includegraphics[width=0.5\textwidth]{Kap3/flujo2}
 	\caption{Esquema de datos integrados} 
@@ -41,7 +36,6 @@ Las tablas diseñadas para gestionar las variantes y las historias clínicas son
 	\item Descripción: Que corresponde a la información clínica disponible.
 \end{itemize} 
 
-Las historias clínicas fueron transcritas manualmente y cargadas desde un archivo de texto plano con un formato especifico.\\
 
 Las variantes con su historia clínica fueron cargadas mediante un script en bash disponible en https://github.com/jevelezse/variantesBD/blob/master/carga.bash, donde se toman los archivos .csv de annovar junto con los archivos de texto que tienen la información clínica del paciente distribuida de la siguiente forma:
 

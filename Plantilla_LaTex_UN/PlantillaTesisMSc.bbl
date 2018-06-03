@@ -1,0 +1,655 @@
+\begin{thebibliography}{10}
+
+\bibitem{Mohammed2014}
+Emad~A. Mohammed, Behrouz~H. Far, and Christopher Naugler.
+\newblock {Applications of the MapReduce programming framework to clinical big
+  data analysis: Current landscape and future trends}.
+\newblock {\em BioData Mining}, 7(1):1--23, 2014.
+
+\bibitem{Hwang2015}
+Sohyun Hwang, Eiru Kim, Insuk Lee, and Edward~M. Marcotte.
+\newblock {Systematic comparison of variant calling pipelines using gold
+  standard personal exome variants}.
+\newblock {\em Scientific Reports}, 5(December):17875, 2015.
+
+\bibitem{Wu2014}
+Jiaxin Wu, Yanda Li, and Rui Jiang.
+\newblock {Integrating Multiple Genomic Data to Predict Disease-Causing
+  Nonsynonymous Single Nucleotide Variants in Exome Sequencing Studies}.
+\newblock {\em PLoS Genetics}, 10(3), 2014.
+
+\bibitem{Hegde2017}
+Madhuri Hegde, Avni Santani, Rong Mao, Andrea Ferreira-Gonzalez, Karen~E. Weck,
+  and Karl~V. Voelkerding.
+\newblock {Development and validation of clinical whole-exome and whole-genome
+  sequencing for detection of germline variants in inherited disease}.
+\newblock {\em Archives of Pathology and Laboratory Medicine}, 141(6):798--805,
+  2017.
+
+\bibitem{Li2014}
+Yixue Li and Luonan Chen.
+\newblock {Big biological data: Challenges and opportunities}.
+\newblock {\em Genomics, Proteomics and Bioinformatics}, 12(5):187--189, 2014.
+
+\bibitem{Lauzon2016}
+David Lauzon, Beatriz Kanzki, Victor Dupuy, Alain April, Michael~S. Phillips,
+  Johanne Tremblay, and Pavel Hamet.
+\newblock {Addressing Provenance Issues in Big Data Genome Wide Association
+  Studies (GWAS)}.
+\newblock {\em Proceedings - 2016 IEEE 1st International Conference on
+  Connected Health: Applications, Systems and Engineering Technologies, CHASE
+  2016}, pages 382--387, 2016.
+
+\bibitem{CoriellInstitute}
+Joan Stephenson.
+\newblock {1000 Genomes Project}, 2008.
+
+\bibitem{Arias-blanco2015}
+Juan~Felipe Arias-Blanco, Eder~Alonso Ospino-Dur{\'{a}}n, Carlos~M.
+  Restrepo-Fern{\'{a}}ndez, Luis Guzm{\'{a}}n-AbiSaab, Dora~Janeth
+  Fonseca-Mendoza, Diana~Isabel {\'{A}}ngel-Guevara, Elena Del~Pilar
+  Garz{\'{o}}n-Venegas, Oscar Gamboa-Garay, Alexandra~J. Obreg{\'{o}}n-Tito,
+  and Yenny G{\'{o}}mez-Parrado.
+\newblock {Prevalencia de mutaci{\'{o}}n y de variantes de secuencia para los
+  genes BRCA1 y BRCA2 en una muestra de mujeres colombianas con sospecha de
+  s{\'{i}}ndrome de c{\'{a}}ncer de mama hereditario: serie de casos}.
+\newblock {\em Revista Colombiana de Obstetricia y Ginecolog{\'{i}}a},
+  66(4):287, 2015.
+
+\bibitem{Li2017}
+Quan Li and Kai Wang.
+\newblock {InterVar: Clinical Interpretation of Genetic Variants by the 2015
+  ACMG-AMP Guidelines}.
+\newblock {\em American Journal of Human Genetics}, 100(2):267--280, 2017.
+
+\bibitem{Fisch2015}
+Kathleen~M. Fisch, Tobias Mei{\ss}ner, Louis Gioia, Jean~Christophe Ducom,
+  Tristan~M. Carland, Salvatore Loguercio, and Andrew~I. Su.
+\newblock {Omics Pipe: A community-based framework for reproducible multi-omics
+  data analysis}.
+\newblock {\em Bioinformatics}, 31(11):1724--1728, 2015.
+
+\bibitem{Huttenhower2010}
+Curtis Huttenhower and Oliver Hofmann.
+\newblock {A quick guide to large-scale genomic data mining}.
+\newblock {\em PLoS Computational Biology}, 6(5):1--6, 2010.
+
+\bibitem{Pabinger2014}
+Stephan Pabinger, Andreas Dander, Maria Fischer, Rene Snajder, Michael Sperk,
+  Mirjana Efremova, Birgit Krabichler, Michael~R. Speicher, Johannes Zschocke,
+  and Zlatko Trajanoski.
+\newblock {A survey of tools for variant analysis of next-generation genome
+  sequencing data}.
+\newblock {\em Briefings in Bioinformatics}, 15(2):256--278, 2014.
+
+\bibitem{Maharjan2011}
+Merina Maharjan.
+\newblock {Genome Analysis with MapReduce}.
+\newblock pages 1--23, 2011.
+
+\bibitem{Hannah-Shmouni2015}
+Fady Hannah-Shmouni, Sara~B. Seidelmann, Sandra Sirrs, Arya Mani, and Daniel
+  Jacoby.
+\newblock {The Genetic Challenges and Opportunities in Advanced Heart Failure}.
+\newblock {\em Canadian Journal of Cardiology}, 31(11):1338--1350, 2015.
+
+\bibitem{Louie2007}
+Brenton Louie, Peter Mork, Fernando Martin-Sanchez, Alon Halevy, and Peter
+  Tarczy-Hornoch.
+\newblock {Data integration and genomic medicine}, feb 2007.
+
+\bibitem{Watson1953}
+Matthew~B. Dobbs.
+\newblock {Genetics in orthopaedics: Editorial comment}, 2007.
+
+\bibitem{Herraez2012}
+Angel Herr{\'{a}}ez.
+\newblock {\em {Biolog{\'{i}}a Molecular e Ingenier{\'{i}}a Gen{\'{e}}tica.
+  2{\textordfeminine} ed.}}
+\newblock Elsevier Ltd, Barcelona, 2012.
+
+\bibitem{Pei}
+Esha Oommen, Amber Hummel, Lisa Allmannsberger, David Cuthbertson, Simon
+  Carette, Christian Pagnoux, Gary~S. Hoffman, Dieter~E. Jenne, Nader~A.
+  Khalidi, Curry~L. Koening, Carol~A. Langford, Carol~A. McAlear, Larry
+  Moreland, Philip Seo, Antoine Sreih, Steven~R. Ytterberg, Peter~A. Merkel,
+  Ulrich Specks, and Paul~A. Monach.
+\newblock {IgA antibodies to myeloperoxidase in patients with eosinophilic
+  granulomatosis with polyangiitis (Churg-Strauss)}.
+\newblock {\em Clinical and experimental rheumatology}, 35(1):98--101, 2017.
+
+\bibitem{Kulski2016}
+Jerzy~K. Kulski.
+\newblock {Next-Generation Sequencing — An Overview of the History, Tools,
+  and “Omic” Applications}.
+\newblock In {\em Next Generation Sequencing - Advances, Applications and
+  Challenges}. InTech, jan 2016.
+
+\bibitem{Kutzera2017}
+Joachim Kutzera and Patrick May.
+\newblock {Data Integration in the Life Sciences}.
+\newblock 6254:22--28, 2010.
+
+\bibitem{Illumina2017}
+Illumina.
+\newblock {Whole Exome Sequencing | Detect exonic variants}, 2017.
+
+\bibitem{Klug2013}
+W.~Klug and M.~Cummings.
+\newblock {\em {Conceptos de Gen{\'{e}}tica}}.
+\newblock Pearson Educacin{\'{o}}n, 1999.
+
+\bibitem{Poliakov2015}
+Eugenia Poliakov, David~N. Cooper, Elena~I. Stepchenkova, and Igor~B. Rogozin.
+\newblock {Genetics in Genomic Era}.
+\newblock {\em Genetics Research International}, 2015:1--2, 2015.
+
+\bibitem{Deng2011}
+Xutao Deng.
+\newblock {SeqGene: A comprehensive software solution for mining exome- and
+  transcriptome- sequencing data}.
+\newblock {\em BMC Bioinformatics}, 12:267, jun 2011.
+
+\bibitem{Wenger2017}
+James~T. Robinson, Helga Thorvaldsd{\'{o}}ttir, Aaron~M. Wenger, Ahmet Zehir,
+  and Jill~P. Mesirov.
+\newblock {Variant review with the integrative genomics viewer}.
+\newblock {\em Cancer Research}, 77(21):e31--e34, 2017.
+
+\bibitem{Liu2016}
+Xiaoming Liu, Chunlei Wu, Chang Li, and Eric Boerwinkle.
+\newblock {dbNSFP v3.0: A One-Stop Database of Functional Predictions and
+  Annotations for Human Nonsynonymous and Splice-Site SNVs}.
+\newblock {\em Human Mutation}, 37(3):235--241, 2016.
+
+\bibitem{Shendure2016}
+Jay Shendure.
+\newblock {Human genomics: A deep dive into genetic variation}.
+\newblock {\em Nature}, 536(7616):277--278, aug 2016.
+
+\bibitem{Triplet2014}
+Thomas Triplet and Gregory Butler.
+\newblock {A review of genomic data warehousing systems}.
+\newblock {\em Briefings in Bioinformatics}, 15(4):471--483, jul 2014.
+
+\bibitem{Lubin2017}
+Ira~M. Lubin, Nazneen Aziz, Lawrence~J. Babb, Dennis Ballinger, Himani Bisht,
+  Deanna~M. Church, Shaun Cordes, Karen Eilbeck, Fiona Hyland, Lisa Kalman,
+  Melissa Landrum, Edward~R. Lockhart, Donna Maglott, Gabor Marth, John~D.
+  Pfeifer, Heidi~L. Rehm, Somak Roy, Zivana Tezak, Rebecca Truty, Mollie
+  Ullman-Cullere, Karl~V. Voelkerding, Elizabeth~A. Worthey, Alexander~W.
+  Zaranek, and Justin~M. Zook.
+\newblock {Principles and Recommendations for Standardizing the Use of the
+  Next-Generation Sequencing Variant File in Clinical Settings}.
+\newblock {\em Journal of Molecular Diagnostics}, 19(3):417--426, 2017.
+
+\bibitem{Jurca2016}
+Gabriela Jurca, Omar Addam, Alper Aksac, Shang Gao, Tansel {\"{O}}zyer, Douglas
+  Demetrick, and Reda Alhajj.
+\newblock {Integrating text mining, data mining, and network analysis for
+  identifying genetic breast cancer trends}.
+\newblock {\em BMC Research Notes}, 9(1):236, 2016.
+
+\bibitem{Terlizzi2017}
+Vito Terlizzi, Giuseppe Castaldo, Donatello Salvatore, Marco Lucarelli, Valeria
+  Raia, Adriano Angioni, Vincenzo Carnovale, Natalia Cirilli, Rosaria Casciaro,
+  Carla Colombo, Antonella~Miriam {Di Lullo}, Ausilia Elce, Paola Iacotucci,
+  Marika Comegna, Manuela Scorza, Vincenzina Lucidi, Anna Perfetti, Roberta
+  Cimino, Serena Quattrucci, Manuela Seia, Valentina~Maria Sofia, Federica
+  Zarrilli, and Felice Amato.
+\newblock {Genotype-phenotype correlation and functional studies in patients
+  with cystic fibrosis bearing CFTR complex alleles}.
+\newblock {\em Journal of Medical Genetics}, 54(4):224--235, 2017.
+
+\bibitem{Roy2018}
+Somak Roy, Christopher Coldren, Arivarasan Karunamurthy, Nefize~S. Kip, Eric~W.
+  Klee, Stephen~E. Lincoln, Annette Leon, Mrudula Pullambhatla, Robyn~L.
+  Temple-Smolkin, Karl~V. Voelkerding, Chen Wang, and Alexis~B. Carter.
+\newblock {Standards and Guidelines for Validating Next-Generation Sequencing
+  Bioinformatics Pipelines: A Joint Recommendation of the Association for
+  Molecular Pathology and the College of American Pathologists}.
+\newblock {\em Journal of Molecular Diagnostics}, 20(1):4--27, 2018.
+
+\bibitem{Littlefield}
+Rayan Littlefield.
+\newblock {An introduction into Data Mining in Bioinformatics.}
+
+\bibitem{Searls2010}
+David~B. Searls.
+\newblock {The Roots of Bioinformatics}.
+\newblock {\em PLoS Computational Biology}, 6(6):7, jun 2010.
+
+\bibitem{Hashem2015}
+Ibrahim Abaker~Targio Hashem, Ibrar Yaqoob, Nor~Badrul Anuar, Salimah Mokhtar,
+  Abdullah Gani, and Samee {Ullah Khan}.
+\newblock {The rise of "big data" on cloud computing: Review and open research
+  issues}.
+\newblock {\em Information Systems}, 47:98--115, jan 2015.
+
+\bibitem{Ren2015}
+Guomin Ren and Roman Krawetz.
+\newblock {Applying computation biology and "big data" to develop multiplex
+  diagnostics for complex chronic diseases such as osteoarthritis}.
+\newblock {\em Biomarkers}, 20(8):533--539, 2015.
+
+\bibitem{Cook2016}
+Charles~E. Cook, Mary~Todd Bergman, Robert~D. Finn, Guy Cochrane, Ewan Birney,
+  and Rolf Apweiler.
+\newblock {The European Bioinformatics Institute in 2016: Data growth and
+  integration}.
+\newblock {\em Nucleic Acids Research}, 44(D1):D20--D26, 2016.
+
+\bibitem{Sujansky2001}
+Walter Sujansky.
+\newblock {Heterogeneous database integration in biomedicine}.
+\newblock {\em Journal of Biomedical Informatics}, 34(4):285--298, 2001.
+
+\bibitem{Sherry2001}
+S.~T. Sherry.
+\newblock {dbSNP: the NCBI database of genetic variation}.
+\newblock {\em Nucleic Acids Research}, 29(1):308--311, jan 2001.
+
+\bibitem{Yates2016}
+Andrew Yates, Wasiu Akanni, M.~Ridwan Amode, Daniel Barrell, Konstantinos
+  Billis, Denise Carvalho-Silva, Carla Cummins, Peter Clapham, Stephen
+  Fitzgerald, Laurent Gil, Carlos~Garc{\'{i}}a Gir{\'{o}}n, Leo Gordon, Thibaut
+  Hourlier, Sarah~E. Hunt, Sophie~H. Janacek, Nathan Johnson, Thomas
+  Juettemann, Stephen Keenan, Ilias Lavidas, Fergal~J. Martin, Thomas Maurel,
+  William McLaren, Daniel~N. Murphy, Rishi Nag, Michael Nuhn, Anne Parker,
+  Mateus Patricio, Miguel Pignatelli, Matthew Rahtz, Harpreet~Singh Riat,
+  Daniel Sheppard, Kieron Taylor, Anja Thormann, Alessandro Vullo, Steven~P.
+  Wilder, Amonida Zadissa, Ewan Birney, Jennifer Harrow, Matthieu Muffato,
+  Emily Perry, Magali Ruffier, Giulietta Spudich, Stephen~J. Trevanion, Fiona
+  Cunningham, Bronwen~L. Aken, Daniel~R. Zerbino, and Paul Flicek.
+\newblock {Ensembl 2016}.
+\newblock {\em Nucleic Acids Research}, 44(D1):D710--D716, jan 2016.
+
+\bibitem{Canuel2015}
+Vincent Canuel, Bastien Rance, Paul Avillach, Patrice Degoulet, and Anita
+  Burgun.
+\newblock {Translational research platforms integrating clinical and omics
+  data: A review of publicly available solutions}.
+\newblock {\em Briefings in Bioinformatics}, 16(2):280--290, 2015.
+
+\bibitem{Higasa2016}
+Koichiro Higasa, Noriko Miyake, Jun Yoshimura, Kohji Okamura, Tetsuya Niihori,
+  Hirotomo Saitsu, Koichiro Doi, Masakazu Shimizu, Kazuhiko Nakabayashi, Yoko
+  Aoki, Yoshinori Tsurusaki, Shinichi Morishita, Takahisa Kawaguchi, Osuke
+  Migita, Keiko Nakayama, Mitsuko Nakashima, Jun Mitsui, Maiko Narahara, Keiko
+  Hayashi, Ryo Funayama, Daisuke Yamaguchi, Hiroyuki Ishiura, Wen~Ya Ko,
+  Kenichiro Hata, Takeshi Nagashima, Ryo Yamada, Yoichi Matsubara, Akihiro
+  Umezawa, Shoji Tsuji, Naomichi Matsumoto, and Fumihiko Matsuda.
+\newblock {Human genetic variation database, a reference database of genetic
+  variations in the Japanese population}.
+\newblock {\em Journal of Human Genetics}, 61(6):547--553, 2016.
+
+\bibitem{variome2017}
+{About the Human Variome Project: what we do and why we do it - Human Variome
+  Project}.
+
+\bibitem{Kashyap2015}
+Hirak Kashyap, Hasin~Afzal Ahmed, Nazrul Hoque, Swarup Roy, and Dhruba~Kumar
+  Bhattacharyya.
+\newblock {Big Data Analytics in Bioinformatics: A Machine Learning
+  Perspective}.
+\newblock {\em Journal of Latex Class Files}, 13(9):1--20, 2015.
+
+\bibitem{Bustos2007}
+Ligia Bustos, Ricardo Moreno, and Nestor Duque.
+\newblock {Modelo de una bodega de datos para el soporte a la
+  investigaci{\'{o}}n bioinform{\'{a}}tica}.
+\newblock {\em Scientia}, XIII(037):13--18, 2007.
+
+\bibitem{Staccini2014}
+Stefan Naulaerts, Pieter Meysman, Wout Bittremieux, Trung~Nghia Vu, Wim~Vanden
+  Berghe, Bart Goethals, and Kris Laukens.
+\newblock {A primer to frequent itemset mining for bioinformatics}.
+\newblock {\em Briefings in Bioinformatics}, 16(2):216--231, 2015.
+
+\bibitem{Farid2016}
+Dewan~Md Farid, Mohammad~Abdullah Al-Mamun, Bernard Manderick, and Ann Nowe.
+\newblock {An adaptive rule-based classifier for mining big biological data}.
+\newblock {\em Expert Systems with Applications}, 64:305--316, 2016.
+
+\bibitem{Zaki2007}
+Mohammed~J. Zaki, George Karypis, and Jiong Yang.
+\newblock {Data mining in bioinformatics (BIOKDD)}.
+\newblock {\em Algorithms for Molecular Biology}, 2(1):4, apr 2007.
+
+\bibitem{Kawashima2017}
+Koya Kawashima.
+\newblock {Text Mining and Pattern Clustering for Relation Extraction of Breast
+  Cancer and Related Genes}.
+\newblock pages 1--5, 2017.
+
+\bibitem{Jain2010}
+Anil~K. Jain.
+\newblock {Data clustering: 50 years beyond K-means}.
+\newblock {\em Pattern Recognition Letters}, 31(8):651--666, 2010.
+
+\bibitem{Buckley1988}
+Gerard Salton and Christopher Buckley.
+\newblock {Term-Weighting Approaches in Automatic Text Retrieval}.
+\newblock {\em Information Processing \& Management}, 24(5):513--523, 1988.
+
+\bibitem{VishalGupta2009}
+Gurpreet S.~Lehal {Vishal Gupta}.
+\newblock {A Survey of Text Mining Techniques and Applications}.
+\newblock {\em journal of Emerging Technologies in web Intelligence}, 1(1):17,
+  2009.
+
+\bibitem{Tetreault2015}
+Martine Tetreault, Eric Bareke, Javad Nadaf, Najmeh Alirezaie, and Jacek
+  Majewski.
+\newblock {Whole-exome sequencing as a diagnostic tool: Current challenges and
+  future opportunities}.
+\newblock {\em Expert Review of Molecular Diagnostics}, 15(6):749--760, 2015.
+
+\bibitem{Auwera2014}
+Geraldine A Van~Der Auwera, Mauricio~O Carneiro, Chris Hartl, Ryan Poplin, Ami
+  Levy-moonshine, Tadeusz Jordan, Khalid Shakir, David Roazen, Joel Thibault,
+  Eric Banks, Kiran~V Garimella, David Altshuler, Stacey Gabriel, and Mark~A
+  Depristo.
+\newblock {\em {From FastQ data to high confidence varant calls: the Genome
+  Analysis Toolkit best practices pipeline}}, volume~11.
+\newblock 2014.
+
+\bibitem{Bao2014}
+Lei Bao, Minya Pu, and Karen Messer.
+\newblock {AbsCN-seq: a statistical method to estimate tumor purity, ploidy and
+  absolute copy numbers from next-generation sequencing data.}
+\newblock {\em Bioinformatics (Oxford, England)}, 30(8):1056--1063, jan 2014.
+
+\bibitem{Cornish2015}
+Adam Cornish and Chittibabu Guda.
+\newblock {A Comparison of Variant Calling Pipelines Using Genome in a Bottle
+  as a Reference}.
+\newblock {\em BioMed Research International}, 2015(BioMed Research
+  International):11, 2015.
+
+\bibitem{Babraham2016}
+{Babraham Bioinformatics}.
+\newblock {FASTQC manual}, 2016.
+
+\bibitem{Yang2015}
+Hui Yang and Kai Wang.
+\newblock {Genomic variant annotation and prioritization with ANNOVAR and
+  wANNOVAR}.
+\newblock {\em Nature Protocols}, 10(10):1556--1566, 2015.
+
+\bibitem{Pirooznia2014}
+Mehdi Pirooznia, Melissa Kramer, Jennifer Parla, Fernando~S. Goes, James~B.
+  Potash, W.~Richard McCombie, and Peter~P. Zandi.
+\newblock {Validation and assessment of variant calling pipelines for
+  next-generation sequencing}.
+\newblock {\em Human genomics}, 8(1):14, 2014.
+
+\bibitem{Zhou2013}
+Qian Zhou, Xiaoquan Su, Anhui Wang, Jian Xu, and Kang Ning.
+\newblock {QC-Chain: Fast and Holistic Quality Control Method for
+  Next-Generation Sequencing Data}.
+\newblock {\em PLoS ONE}, 8(4), 2013.
+
+\bibitem{Pandey2016}
+Ram~Vinay Pandey, Stephan Pabinger, Albert Kriegner, and Andreas
+  Weinh{\"{a}}usel.
+\newblock {ClinQC: A tool for quality control and cleaning of Sanger and NGS
+  data in clinical research}.
+\newblock {\em BMC Bioinformatics}, 17(1):56, 2016.
+
+\bibitem{ORawe2013}
+Jason O'Rawe, Tao Jiang, Guangqing Sun, Yiyang Wu, Wei Wang, Jingchu Hu, Paul
+  Bodily, Lifeng Tian, Hakon Hakonarson, W.~Evan Johnson, Zhi Wei, Kai Wang,
+  and Gholson~J. Lyon.
+\newblock {Low concordance of multiple variant-calling pipelines: Practical
+  implications for exome and genome sequencing}.
+\newblock {\em Genome Medicine}, 5(3):28, 2013.
+
+\bibitem{Warden2014}
+Charles~D. Warden, Aaron~W. Adamson, Susan~L. Neuhausen, and Xiwei Wu.
+\newblock {Detailed comparison of two popular variant calling packages for
+  exome and targeted exon studies}.
+\newblock {\em PeerJ}, 2:e600, 2014.
+
+\bibitem{Tsai2016}
+Ellen~A. Tsai, Rimma Shakbatyan, Jason Evans, Peter Rossetti, Chet Graham,
+  Himanshu Sharma, Chiao~Feng Lin, and Matthew~S. Lebo.
+\newblock {Bioinformaticsworkflow for clinical whole genome sequencing at
+  partners healthcare personalized medicine}.
+\newblock {\em Journal of Personalized Medicine}, 6(1):12, 2016.
+
+\bibitem{Liu2013}
+Xiangtao Liu, Shizhong Han, Zuoheng Wang, Joel Gelernter, and Bao~Zhu Yang.
+\newblock {Variant Callers for Next-Generation Sequencing Data: A Comparison
+  Study}.
+\newblock {\em PLoS ONE}, 8(9):1--11, 2013.
+
+\bibitem{Paila2013}
+Umadevi Paila, Brad~A. Chapman, Rory Kirchner, and Aaron~R. Quinlan.
+\newblock {GEMINI: Integrative Exploration of Genetic Variation and Genome
+  Annotations}.
+\newblock {\em PLoS Computational Biology}, 9(7), 2013.
+
+\bibitem{Wang2017}
+Fei Wang, Xiao-li Li, Jason T~L Wang, and See-kiong Ng.
+\newblock {Guest Editorial: Special Section on Biological Data Mining and Its
+  Applications in Healthcare}.
+\newblock 14(3):501--502, 2017.
+
+\bibitem{Fu2013}
+Wenqing Fu, Timothy~D. O'Connor, Goo Jun, Hyun~Min Kang, Goncalo Abecasis,
+  Suzanne~M. Leal, Stacey Gabriel, David Altshuler, Jay Shendure, Deborah~A.
+  Nickerson, Michael~J. Bamshad, and Joshua~M. Akey.
+\newblock {Analysis of 6,515 exomes reveals the recent origin of most human
+  protein-coding variants}.
+\newblock {\em Nature}, 493(7431):216--220, 2013.
+
+\bibitem{McCarthy2014}
+Davis~J. McCarthy, Peter Humburg, Alexander Kanapin, Manuel~A. Rivas, Kyle
+  Gaulton, Jean~Baptiste Cazier, and Peter Donnelly.
+\newblock {Choice of transcripts and software has a large effect on variant
+  annotation}.
+\newblock {\em Genome Medicine}, 6(3), 2014.
+
+\bibitem{mckinneypandas}
+Wes McKinney.
+\newblock {pandas: a Foundational Python Library for Data Analysis and
+  Statistics}.
+\newblock {\em Python for High Performance and Scientific Computing}, pages
+  1--9, 2011.
+
+\bibitem{Tetreault2015a}
+Martine Tetreault, Eric Bareke, Javad Nadaf, Najmeh Alirezaie, and Jacek
+  Majewski.
+\newblock {Whole-exome sequencing as a diagnostic tool: Current challenges and
+  future opportunities}, may 2015.
+
+\bibitem{Huang2008}
+Anna Huang.
+\newblock {Similarity measures for text document clustering}.
+\newblock {\em Proceedings of the Sixth New Zealand}, (April):49--56, 2008.
+
+\bibitem{scipy}
+Travis~E Oliphant.
+\newblock {SciPy: Open source scientific tools for Python}, 2007.
+
+\bibitem{Kodinariya2013}
+Trupti~M Kodinariya and Prashant~R Makwana.
+\newblock {Review on determining number of Cluster in K-Means Clustering}.
+\newblock {\em International Journal of Advance Research in Computer Science
+  and Management Studies}, 1(6):2321--7782, 2013.
+
+\bibitem{scikit-learn}
+F~Pedregosa, G~Varoquax, A~Gramfort, V~Michel, B~Thirion, and O~Grisel.
+\newblock {Scikit-learn: machine learning in Python}.
+\newblock {\em J Mach Learn Res}, 12:2825--2830, 2011.
+
+\bibitem{Rousseeuw1987}
+Peter~J. Rousseeuw.
+\newblock {Silhouettes: A graphical aid to the interpretation and validation of
+  cluster analysis}.
+\newblock {\em Journal of Computational and Applied Mathematics}, 20(C):53--65,
+  1987.
+
+\bibitem{Rosenberg2007}
+Andrew Rosenberg and Julia Hirschberg.
+\newblock {V-measure: A conditional entropy-based external cluster evaluation
+  measure}.
+\newblock {\em Proceedings of the Joint Conference on Empirical Methods in
+  Natural Language Processing and Computational Natural Language
+  (EMNLP-CoNLL'07)}, 1(June):410--420, 2007.
+
+\bibitem{Hahsler2005}
+Michael Hahsler, Bettina Gr{\"{u}}n, and Kurt Hornik.
+\newblock {Mathematical Tools for Data Mining}.
+\newblock {\em Journal of Statistical Software}, 14(15):1--25, 2008.
+
+\bibitem{Karabatak2009}
+Murat Karabatak and M.~Cevdet Ince.
+\newblock {An expert system for detection of breast cancer based on association
+  rules and neural network}.
+\newblock {\em Expert Systems with Applications}, 36(2 PART 2):3465--3469,
+  2009.
+
+\bibitem{Agrawal1994}
+Carlos Serrano-Cinca, Yolanda Fuertes-Call{\'{e}}n, and Cecilio Mar-Molinero.
+\newblock {Measuring DEA efficiency in Internet companies}.
+\newblock {\em Decision Support Systems}, 38(4):557--573, 2005.
+
+\bibitem{Laboratories2015}
+Knight~Diagnostic Laboratories, Medical Genetics, Oregon Health, Plank Road,
+  Clinical Molecular, Nationwide Children, Ohio State, Ioana Berindan-neagoe,
+  Paloma Monroig, Barbara Pasculli, A~George, Translational Medicine,
+  Pharmacy~Iuliu Hatieganu, San Juan, Puerto Rico, and Pharmacological
+  Sciences.
+\newblock {HHS Public Access}.
+\newblock {\em CA Cancer J Clin}, 17(5):405--424, 2015.
+
+\bibitem{Compound2012}
+Recessive Compound and Heterozygous Filter.
+\newblock {The Compound-Heterozygous Filter The Compound-Heterozygous Filter}.
+\newblock 2012.
+
+\bibitem{Breuer2017}
+Ren{\'{e}} Breuer, Manuel Mattheisen, Josef Frank, Bertram Krumm, Jens
+  Treutlein, Layla Kassem, Jana Strohmaier, Stefan Herms, Thomas~W
+  M{\"{u}}hleisen, Franziska Degenhardt, Sven Cichon, Markus N{\"{o}}then,
+  George Karypis, Bipolar Disorder Genetics~(BiGS) Consortium, Francis~J
+  McMahon, Marcella Rietschel, and Thomas~G. Schulze.
+\newblock {Genotype-phenotype association mining in bipolar disorder: market
+  research meets complex genetics}.
+\newblock {\em bioRxiv}, page 116624, mar 2017.
+
+\bibitem{breuler2017}
+Ren{\'{e}} Breuer, Manuel Mattheisen, Josef Frank, Bertram Krumm, Jens
+  Treutlein, Layla Kassem, Jana Strohmaier, Stefan Herms, Thomas~W
+  M{\"{u}}hleisen, Franziska Degenhardt, Sven Cichon, Markus N{\"{o}}then,
+  George Karypis, Bipolar Disorder Genetics~(BiGS) Consortium, Francis~J
+  McMahon, Marcella Rietschel, and Thomas~G. Schulze.
+\newblock {Genotype-phenotype association mining in bipolar disorder: market
+  research meets complex genetics}.
+\newblock {\em bioRxiv}, page 116624, 2017.
+
+\bibitem{GabrielBedoya}
+Maria V.~Parra {Gabriel Bedoya} and {Andr{\'{e}}s Ruiz-Linares}.
+\newblock {NHGRI Collection - 1000 Genomes - Colombian in Medell{\'{i}}n,
+  Colombia}.
+
+\bibitem{Consortium2012}
+The 1000 Genomes~Project Consortium*.
+\newblock {An integrated map of genetic variation from 1,092 human genomes}.
+\newblock {\em Nature}, 491(7422):56--65, nov 2012.
+
+\bibitem{Rishishwar2015a}
+Lavanya Rishishwar, Andrew~B. Conley, Charles~H. Wigington, Lu~Wang, Augusto
+  Valderrama-Aguirre, and I.~{King Jordan}.
+\newblock {Ancestry, admixture and fitness in Colombian genomes}.
+\newblock {\em Scientific Reports}, 5(1):12376, dec 2015.
+
+\bibitem{Ignacio2017}
+Ignacio Brice{\~{n}}o-Balc{\'{a}}zar, Alberto G{\'{o}}mez-Guti{\'{e}}rrez,
+  Natalia~Andrea D{\'{i}}az-Duss{\'{a}}n, Mar{\'{i}}a~Claudia
+  Noguera-Santamar{\'{i}}a, Diego D{\'{i}}az-Rinc{\'{o}}n, and
+  Mar{\'{i}}a~Consuelo Casas-G{\'{o}}mez.
+\newblock {Colombia m\'{e}dica.}
+\newblock {\em Colombia M{\'{e}}dica}, 48(2):58--63, jun 2017.
+
+\bibitem{Kamphans2013}
+Tom Kamphans, Peggy Sabri, Na~Zhu, Verena Heinrich, Stefan Mundlos, Peter~N.
+  Robinson, Dmitri Parkhomchuk, and Peter~M. Krawitz.
+\newblock {Filtering for Compound Heterozygous Sequence Variants in
+  Non-Consanguineous Pedigrees}.
+\newblock {\em PLoS ONE}, 8(8):1--6, 2013.
+
+\bibitem{Eilbeck2017}
+Karen Eilbeck, Aaron Quinlan, and Mark Yandell.
+\newblock {Settling the score: Variant prioritization and Mendelian disease}.
+\newblock {\em Nature Reviews Genetics}, 18(10):599--612, 2017.
+
+\bibitem{Stenson2017}
+Peter~D. Stenson, Matthew Mort, Edward~V. Ball, Katy Evans, Matthew Hayden,
+  Sally Heywood, Michelle Hussain, Andrew~D. Phillips, and David~N. Cooper.
+\newblock {The Human Gene Mutation Database: towards a comprehensive repository
+  of inherited mutation data for medical research, genetic diagnosis and
+  next-generation sequencing studies}.
+\newblock {\em Human Genetics}, 136(6):665--677, jun 2017.
+
+\bibitem{Rowntree2003}
+Rebecca~K. Rowntree and Ann Harris.
+\newblock {The phenotypic consequences of CFTR mutations}.
+\newblock {\em Annals of Human Genetics}, 67(5):471--485, sep 2003.
+
+\bibitem{Terlizzi2017b}
+Vito Terlizzi, Giuseppe Castaldo, Donatello Salvatore, Marco Lucarelli, Valeria
+  Raia, Adriano Angioni, Vincenzo Carnovale, Natalia Cirilli, Rosaria Casciaro,
+  Carla Colombo, Antonella~Miriam {Di Lullo}, Ausilia Elce, Paola Iacotucci,
+  Marika Comegna, Manuela Scorza, Vincenzina Lucidi, Anna Perfetti, Roberta
+  Cimino, Serena Quattrucci, Manuela Seia, Valentina~Maria Sofia, Federica
+  Zarrilli, and Felice Amato.
+\newblock {Genotype-phenotype correlation and functional studies in patients
+  with cystic fibrosis bearing CFTR complex alleles}.
+\newblock {\em Journal of Medical Genetics}, 54(4):224--235, 2017.
+
+\bibitem{Farrell2016}
+Philip~M. Farrell, Terry~B. White, Michelle~S. Howenstine, Anne Munck,
+  Richard~B. Parad, Margaret Rosenfeld, Olaf Sommerburg, Frank~J. Accurso,
+  Jane~C. Davies, Michael~J. Rock, Don~B. Sanders, Michael Wilschanski,
+  Isabelle Sermet-Gaudelus, Hannah Blau, Silvia Gartner, and Susanna~A.
+  McColley.
+\newblock {Diagnosis of Cystic Fibrosis in Screened Populations}.
+\newblock {\em Journal of Pediatrics}, 181:S33--S44, 2017.
+
+\bibitem{Farrell2008}
+Philip~M. Farrell, Beryl~J. Rosenstein, Terry~B. White, Frank~J. Accurso, Carlo
+  Castellani, Garry~R. Cutting, Peter~R. Durie, Vicky~A. LeGrys, John Massie,
+  Richard~B. Parad, Michael~J. Rock, and Preston~W. Campbell.
+\newblock {Guidelines for Diagnosis of Cystic Fibrosis in Newborns through
+  Older Adults: Cystic Fibrosis Foundation Consensus Report}.
+\newblock {\em Journal of Pediatrics}, 153(2):S4--S14, aug 2008.
+
+\bibitem{Zerbino2018}
+Daniel~R. Zerbino, Premanand Achuthan, Wasiu Akanni, M.~Ridwan Amode, Daniel
+  Barrell, Jyothish Bhai, Konstantinos Billis, Carla Cummins, Astrid Gall,
+  Carlos~Garc{\'{i}}a Gir{\'{o}}n, Laurent Gil, Leo Gordon, Leanne Haggerty,
+  Erin Haskell, Thibaut Hourlier, Osagie~G. Izuogu, Sophie~H. Janacek, Thomas
+  Juettemann, Jimmy~Kiang To, Matthew~R. Laird, Ilias Lavidas, Zhicheng Liu,
+  Jane~E. Loveland, Thomas Maurel, William McLaren, Benjamin Moore, Jonathan
+  Mudge, Daniel~N. Murphy, Victoria Newman, Michael Nuhn, Denye Ogeh,
+  Chuang~Kee Ong, Anne Parker, Mateus Patricio, Harpreet~Singh Riat, Helen
+  Schuilenburg, Dan Sheppard, Helen Sparrow, Kieron Taylor, Anja Thormann,
+  Alessandro Vullo, Brandon Walts, Amonida Zadissa, Adam Frankish, Sarah~E.
+  Hunt, Myrto Kostadima, Nicholas Langridge, Fergal~J. Martin, Matthieu
+  Muffato, Emily Perry, Magali Ruffier, Dan~M. Staines, Stephen~J. Trevanion,
+  Bronwen~L. Aken, Fiona Cunningham, Andrew Yates, and Paul Flicek.
+\newblock {Ensembl 2018}.
+\newblock {\em Nucleic Acids Research}, 46(D1):D754--D761, jan 2018.
+
+\bibitem{Vasquez2010}
+Dra~Catalina V{\'{a}}squez, Ricardo Aristiz{\'{a}}bal, Wilson Daza, Danitza
+  Madero, Socorro Medina, William Parra, Angela~Mar{\'{i}}a Pedraza, Jose
+  Ricardo, Ricardo Posada, Marco Sara, and Iv{\'{a}}n Stand.
+\newblock {Fibrosis qu{\'{i}}stica en Colombia}.
+\newblock {\em Neumologia pediatrica http://www.neumologia-pediatrica.cl},
+  (1):44--50, 2010.
+
+\end{thebibliography}

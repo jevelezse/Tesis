@@ -18,9 +18,9 @@ Dado que la utilización de NGS permitío dar respuesta para entender enfermedad
 
 La secuenciación de exones (secuenciación de exoma) ha sido un buen método para identificar SNPs (Polimorfismos de Nucleótido Único) y los SNV (Variantes de nucleótido simple) como se observa en la sigueinte figura \ref{fig:snp}, y permitió identificar pequeñas delecciones o inserciones (indels) que pueden  ser la causa de enfermedades y de la variación en los fenotipos \cite{Deng2011,Wenger2017}.
 
-\begin{figure}[H] 
+\begin{figure}[h!] 
 	\centering
-	\includegraphics[width=0.8\textwidth]{Estado/snp}
+	\includegraphics[width=0.5\textwidth]{Estado/snp}
 	\caption{SNPs en Humanos.} \label{fig:snp}
 \end{figure}
 
@@ -67,7 +67,15 @@ Aunque la definición de “big data” es muy discutida dentro de las ciencias 
 
 En el diagnóstico de enfermedades los datos genómicos vistos como "big data" comparten los mismos retos tecnológicos como son: el almacenamiento, la transferencia de la información, control del acceso y manejo de la información, otros retos computacionales propios de los datos es el moldeamiento de los sistemas biológicos, la gran escala y diversidad de los datos donde los modelos no optimizados que pueden fallar \cite{Ren2015}. \\
 
-Para el manejo de los datos se han aplicado varios modelos de sistemas de información en  bioinformática con diversas herramientas para integrar datos biológicos, utilizando sistemas de bodega de datos que están disponibles de manera gratuita y que fueron desarrollados con el fin de dar respuesta algunos de los problemas en el manejo de datos biológicos, dada la importancia que tiene de poder utilizar toda la información necesaria de manera eficiente \cite{Triplet2014}, algunas de estas bases de datos públicas son las de NCBI y ensambl  que hacen parte de un consorcio internacional \cite{Sherry2001,Yates2016}.
+Las nuevas tecnologías de análisis genético son fáciles y económicas de hacer lo que genera una gran cantidad de datos biológicos y lo que hace que los biólogos trabajen cada vez más con las nuevas tecnologías de análisis genético, haciendo que los biólogos trabajen más y más computacionalmente.Especialmente mediante el uso de  tecnologías de secuenciación (NGS) y presentar un reto para integrar y almacenar la información, pasos que son necesarios para su posterior análisis \cite{Li2014,Cook2016}.\\
+
+La gran cantidad de datos presentan un reto para organizar y manejar datos que crecen de manera exponencial y que son de diversos tipos, dado que los datos son generados a diferentes niveles y con diferentes métodos (ejemplo: Variantes de exones o imágenes de patología), datos que a su vez deben ser almacenados en distintas formas, esta situación muestra una seria dificultad para realizar un análisis integral de los datos \cite{Cook2016,Li2014}.\\
+
+El problema de la heterogeneidad  de los datos  se aplica igualmente a los datos clínicos que describen pacientes individuales y además a los datos biológicos que caracterizan nuestro genoma. Específicamente la información genómica y clínica son datos altamente heterogéneos con respecto a los modelos de datos que emplean normalmente, los esquemas de datos que especifican, los lenguajes de consulta que soportan y las terminologías que reconocen \cite{Sujansky2001}.\\
+
+Para el caso de las secuencias de genomas se tiene que para cada individuo tiene 3.2 millones de bases, que al ser comparadas contra un genoma de referencia muestran los cambias que cada individuo posee, estas variantes son almacenadas normalmente en el formato VCF (Formato de llamado de variantes), a su vez estos archivos pueden contener varias gigas de información, que representan un problema para el almacenamiento dentro de las bases de datos,y por lo tanto se hace necesario que se desarrollen soluciones dependientes de las diferentes características y necesidades de los laboratorios\cite{Kutzera2017}.\\
+
+Para el manejo de los datos se han aplicado varios modelos de sistemas de información en  bioinformática con diversas herramientas para integrar datos biológicos, utilizando por ejemplo sistemas de bodega de datos; que están disponibles de manera gratuita y que fueron desarrollados con el fin de dar respuesta algunos de los problemas en el manejo de datos biológicos, dada la importancia que tiene de poder utilizar toda la información necesaria de manera eficiente se han propuesto diversas soluciones \cite{Triplet2014}, algunas de estas bases de datos públicas son las de NCBI y ensambl  que hacen parte de un consorcio internacional \cite{Sherry2001,Yates2016}.
 
 Muchas  herramientas han sido implementadas con fines de investigación, más no con fines diagnósticos,  en este sentido se han implementado otras herramientas que permiten integrar datos con fines diagnósticos, ya que en este caso se requieren parámetros de seguridad por los datos que contienen información clínica y que deben ser manejados de manera privada. Esto implica otro manejo de datos biológicos ya que se adicionan nuevos datos como condiciones del paciente, tratamientos entre otros datos \cite{Canuel2015}. La tabla \ref{r}presenta algunos de los softwares para integrar datos con fines de diagnósticos.\\
 
@@ -134,6 +142,17 @@ Algunas de las tareas de minería de datos son:1.Clasificación: Donde se clasif
 
 La utilización de las técnicas de secuenciación de alto rendimiento junto  la aplicación de técnicas de minería de datos pueden aportar al diagnóstico de enfermedades complejas  como las fallas cardiacas y el cáncer que presentan diversas causas \cite{Hannah-Shmouni2015} . Partiendo de lo anterior se hace necesario saber la relación entre las moléculas biológicas y las características de una enfermedad vistas desde la alteración de uno o varios genes y las posibles alteraciones que estos causan en una persona \cite{Li2014}.\\
 
+\subsection{La minería de texto en el campo clínico}
+
+En los procesos médicos, la relación entre los factores que pueden afectar la salud juega un papel importante. Una de las relaciones más comunes es la relación entre los genes y las enfermedades donde la secuenciación de exones tiene una alta aplicabilidad. Pero la identificación manual de este tipo de relaciones es compleja dada la cantidad de características que se pueden presentar como el diagnóstico propio de la enfermedad y/o la respuesta a los tratamientos \cite{Kawashima2017}.\\
+
+La minería texto y puede ser aplicada en la medicina, donde el clustering (agrupamiento) puede ser considerado el método más importante, ya que se basa en aprendizaje de maquina no supervisado y que ha sido aplicado a diferentes problemas\cite{Kawashima2017}, teniendo en cuenta que uno de los objetivos del agrupamiento de datos, es la  identificación de grupos naturales en datos sin etiquetas\cite{Jain2010}.\\
+
+Para realizar implementar un modelo de minería de texto,normalmente se realiza el cálculo de la frecuencia de términos $\mathit{tf}_{i,j}$ y posterior mente el cálculo de la matriz tf-idf, que se realiza a partir de frecuencia invertida con la ecuación 
+$${idf}_i = \log_2 \frac{|D|}{|\{d \mid t_i \in d\}|}$$
+siendo $|D|$ lo que denota el número total de documentos y donde $|\{d\mid t_i \in d\}|$ en  que $t_1$ aparece, la matriz de tf-idf es calculada a partir de la multiplicación de la frecuencia de términos y la frecuencia invertida $\mathit{tf}_{i,j} \cdot \mathit{idf}_i$ \cite{Buckley1988,VishalGupta2009}.
+
+C
 
 \section*{Resumen}
 

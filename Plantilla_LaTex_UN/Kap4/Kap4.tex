@@ -1,17 +1,13 @@
-\chapter{Modelo de minería de datos}
+\chapter{Minería de datos clínicos y genómicos}
 
-La necesidad de comprender los procesos biológicos que están implicados en las distintas enfermedades, a partir de los datos biológicos que hay disponibles como las secuencias genómicas, los microarreglos, las interacciones proteicas, las imágenes biomédicas entre otros y la rápida adopción de las historias clínicas electrónicas proporciona una oportunidad de realizar investigaciones a gran escala. Por lo tanto las técnicas de minería de datos para el descubrimiento de conocimiento a partir de la obtención de información proveniente de diferentes fuentes son cada vez mas importantes en la investigación biológica y médica \cite{Wang2017}.\\
-
-El mayor reto de la minería de datos genómicos esta en la extracción de información relevante de grandes volúmenes de datos clínicos y transformarlos en conocimiento, los mayores retos están en: a) La recolección de los datos clínicos y genómicos, b) recuperación de información relevante de datos y c) extracción de nuevos conocimientos de la información \cite{Farid2016}. \\  
+Las técnicas de minería de datos para el descubrimiento de conocimiento a partir de la obtención de información proveniente de diferentes fuentes son cada vez mas importantes en la investigación biológica y médica \cite{Wang2017}.El mayor reto de la minería de datos genómicos esta en la extracción de información relevante de grandes volúmenes de datos clínicos y transformarlos en conocimiento, los mayores retos están en: a) La recolección de los datos clínicos y genómicos, b) recuperación de información relevante de datos y c) extracción de nuevos conocimientos de la información \cite{Farid2016}. \\  
 
 
-Este capitulo esta organizado en las siguientes secciones: 5.1 Análisis exploratorio de los datos, 5.2 Análisis textual de información clínica, 5.3 Asociación de grupos con variantes, 5.4 Visualización, 5.5 Discusión y 5.6 Conclusiones y resumen. 
+Este capítulo presenta el diserño y la implementación de un modelo de minería aplicado a variantes en pacientes colombianos y esta organizado en las siguientes secciones: 5.1 Análisis exploratorio de los datos, 5.2 Análisis textual de información clínica, 5.3 Asociación de grupos con variantes, 5.4 Visualización, 5.5 Discusión y 5.6 Conclusiones y resumen. 
 
-\section{Análisis exploratorio de los datos.}
+\section{Análisis descriptivo de la información.}
 
-Se realizo el análisis exploratorio de la información contenida dentro de la base de datos.Se tomo una muestra de 250 pacientes donados por el laboratorio Genetix S.A.S de los cuales solo 228 contaban con consentimiento informado para utilizar la información con fines de investigación.\\
-
-Los datos fueron consultados desde la base de datos diseña en el cápitulo anterior y fue gestionada con la librería de python pandas \cite{mckinneypandas}. Obteniéndose los siguientes resultados:
+Obteniéndose los siguientes resultados:
 
 \begin{figure}[h!]
 	\centering
@@ -37,6 +33,8 @@ La base de datos contiene 228 pacientes de los cuales 133 son de género femenin
 Las variantes desconocidas son el tercer tipo de variante más frecuente dado que aún existe el problema de selección del transcripto para realizar la nomenclatura adecuada de las variantes, por lo que el anotador informa que son desconocidas \cite{McCarthy2014}. La figura\ref{f:variantedad} muestra la distribución de las variantes identificadas según el rango de edad, siendo el rango con mayor número de variantes los pacientes que se encuentran entre las edades de 0 a 10 años, dado a que es la población más representada dentro de la base de datos. \\
 
 El estado alélico de las variantes (cigocidad) que se encuentran dentro de la base de datos se dividen en heterocigotas 458639 que corresponden al 57,05\% del total de las variantes  y homocigotas 345239 que corresponden al 42,95\%. La distribución de la cigocidad de las variantes se puede explicar desde el error que se puede generar en la identificación de las variantes dado que durante el llamado  de variantes es posible que una variante homocigota se catalogue como heterocigota, si durante el proceso de secuenciación se identifican erróneamente los nucleótidos \cite{Babraham2016}\cite{Pirooznia2014}. 
+
+Los datos fueron consultados desde la base de datos diseña en el cápitulo anterior y fue gestionada con la librería de python pandas \cite{mckinneypandas}.
 
 
 \section{Análisis textual de información clínica.}
@@ -68,10 +66,6 @@ Las frecuencia de palabras nos muestra las principales características de la in
 
 \subsection{Grupos de características clínicas.}
 
-En los procesos médicos, la relación entre los factores que pueden afectar la salud juega un papel importante. Una de las relaciones más comunes es la relación entre los genes y las enfermedades donde la secuenciación de exones tiene una alta aplicabilidad. Pero la identificación manual de este tipo de relaciones es compleja dada la cantidad de características que se pueden presentar como el diagnóstico propio de la enfermedad y/o la respuesta a los tratamientos \cite{Kawashima2017}.\\
-
-La minería texto y puede ser aplicado al análisis en la medicina, donde el clustering (agrupamiento) puede ser considerado el método más importante que se utiliza en aprendizaje de maquina no supervisado que ha sido aplicado a diferentes problemas\cite{Kawashima2017}, teniendo en cuenta que no de los objetivos del agrupamiento de datos, es la  identificación de grupos naturales en datos sin etiquetas\cite{Jain2010}.\\
-
 Partiendo de lo anterior el presente trabajo se implemento un modelo de agrupamiento utilizando el kmeans  para identificar grupos de características clínicas con la siguiente metodología:
 
 \begin{enumerate}
@@ -82,11 +76,8 @@ Partiendo de lo anterior el presente trabajo se implemento un modelo de agrupami
 	\item Análisis de resultados. 	  
 \end{enumerate}
 
-\subsubsection{Transformación de los datos.}
+\subsection{Transformación de los datos.}
 
-El cálculo de la matriz tf-idf, se realiza a partir de frecuencia invertida con la ecuación 
-$${idf}_i = \log_2 \frac{|D|}{|\{d \mid t_i \in d\}|}$$
-siendo $|D|$ lo que denota el número total de documentos y donde $|\{d\mid t_i \in d\}|$ en  que $t_1$ aparece, la matriz de tf-idf es calculada a partir de la multiplicación de la frecuencia de términos y la frecuencia invertida $\mathit{tf}_{i,j} \cdot \mathit{idf}_i$ \cite{Buckley1988}. 
 La figura \ref{fig:IDFTF} representa la matriz IDF-TF de las palabras que se encuentran dentro de la base de datos.  
 
 \begin{figure}[H] 
@@ -102,9 +93,9 @@ $$   1 - \frac{u \cdot v}
 
 donde $u.v$ donde el punto es el producto de $u$ y $v$.
 
-\subsubsection{Validación del modelo de clustering.}
+\subsection{Experimentación y validación del modelo de clustering.}
 
-La selección del número óptimo de $K$ se realizo utilizando el método del codo, este es uno de los métodos más antiguos para determinar el número de de cluster, se realizan varios experimentos iniciando por un $K$ = 2 y realizando un incremento de 1, para los cuáles se calcula el costo que conlleva cada una de las ejecuciones; entre más se aumente el número de $K7$ el costo disminuye y el número de $K$ alcanza una meseta, este valor es el que se desea obtener, visualmente se realiza la identificación mediente un gráfico de error cuadrático y número de clusters , la razón es que al continuar el aumento del número de K los nuevos clusters son muy cercanos a otros ya generados \cite{Kodinariya2013}.\\   
+La selección del número óptimo de $K$ se realizo utilizando el método del codo, este es uno de los métodos más antiguos para determinar el número de cluster, se realizan varios experimentos iniciando por un $K$ = 2 y realizando un incremento de 1, para los cuáles se calcula el costo que conlleva cada una de las ejecuciones; entre más se aumente el número de $K7$ el costo disminuye y el número de $K$ alcanza una meseta, este valor es el que se desea obtener, visualmente se realiza la identificación mediente un gráfico de error cuadrático y número de clusters , la razón es que al continuar el aumento del número de K los nuevos clusters son muy cercanos a otros ya generados \cite{Kodinariya2013}.\\   
 
 El cálculo del error cuadrático vs el número de clusters se realizo utilizando la libreria de python scikit learn, donde se computa el valor de la inercia que es calculada como la suma de cuadrados por cada punto cercano al centroide y es asignado al cluster. Así que  $I = \sum_{i}(d(i,cr))$ donde $cr$ es el centroide que fue asignado al cluster y $d$ es la distancia cuadrada \cite{scikit-learn}. 
 
@@ -179,7 +170,7 @@ Una vez realizado el agrupamiento de la información clínica se aplico un model
 	\item Asociación de las variantes por toda la información de la base de datos filtrada por el gen CFTR como caso de ejemplo.
 \end{enumerate}
 
-La minería de datos frecuentes y las reglas de asociación  es un método popular y bien investigado par describir las relaciones entre variantes en grandes bases de datos \cite{Hahsler2005}. Las reglas de asociación (RA) muestran atributos con valores que ocurren frecuentemente en el set de datos, es posible obtener todos las posibles reglas de algunos atributos de acuerdo a la presencia de otros atributos \cite{Karabatak2009}.\\
+La minería de datos frecuentes y las reglas de asociación  es un método popular y bien investigado para describir las relaciones entre variantes en grandes bases de datos \cite{Hahsler2005}. Las reglas de asociación (RA) muestran atributos con valores que ocurren frecuentemente en el set de datos, es posible obtener todas las posibles reglas de algunos atributos según la presencia de otros atributos \cite{Karabatak2009}.\\
 
 Las reglas de asociación se basan en un set de items(elementos) $I = \{i_1,i_2,.....i_n \}$ que son un conjunto de $n$ atributos binarios. También se tiene que $D = \{t_1,t_2,..... t_m\}$ son el número de transacciones en la base de datos, cada transacción $D$ tiene una identificación única y contienen un subconjunto de elementos en $I$. Una regla se define como una implicación de la forma $X \Rightarrow Y$ donde $X,Y \subseteq I$ y $X \bigcap Y = \emptyset$. Los sets de elementos son llamados $antecedentes$ y $consecuentes$ \cite{Hahsler2005,Karabatak2009}.La selección de reglas interesantes se realiza calculando la confianza y el soporte que son definidos como:
 
@@ -367,7 +358,7 @@ Las pacientes femeninas se tiene el caso de que las variantes son no sinonimas y
 
 La figura \ref{fig:re6} muestra que el estado alélico de las variantes que no son sinónimas, y el estado alélico es heterocigoto para ambos generos, pero el rango de edad entre 0 y 10 años es frecuente para este tipo de variantes,a diferencia de la figura \label{fig:r6} solo se observa una alta frecuencia de las variantes no sinónimas al gen CFTR en cluster 4.  
 
-\section{Visualización}
+\section{Prototipo de visualización}
 
 Finalmente se desarrollo un dashboard utilizando la herramienta R, para mostrar todos los resultados obtenidas en el presente trabajo, para que las variantes que fueron encontradas puedan ser consultadas por la comunidad académica y científica. Este aplicativo presenta una pestaña general que muestra, la distribución demográfica de la población, la distribución del tipo de variantes encontradas y la distribución de las variantes encontradas por rangos de edad. Posteriormente se muestra una pestaña con cada cluster, donde se muestran las reglas de asociación obtenidas, la frecuencia de palabras del cluster y los rangos de edad por genero del cluster. Finalmente se muestra las reglas de asociación para el gen CFTR sin las variantes sinónimas y una tabla final con las variantes anotadas se obtuvieron. La figura \ref{fig:dash} muestra un screenshot  del aplicativo de visualización desarrollado, en la que se muestra los análisis exploratorios de las variantes.
 
