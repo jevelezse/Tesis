@@ -10,86 +10,87 @@ A level-1 auxiliary file: Kap4/Kap4.aux
 A level-1 auxiliary file: Kap5/Kap5.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Repeated entry---line 3978 of file library.bib
- : @article{Canuel2015
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4334 of file library.bib
+Repeated entry---line 4588 of file library.bib
  : @article{Fisch2015
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 4335 of file library.bib
+I was expecting a `{' or a `('---line 4589 of file library.bib
  : abstract = {Motivation: Omics Pipe (http://sulab.scripps.edu/omicspipe) is a computational framework that automates multi-omics data analysis pipelines on high performance compute clusters and in the cloud. It supports best practice published pipelines for RNA-seq, miRNA-seq, Exome-seq, Whole-Genome sequencing, ChIP-seq analyses and automatic processing of data from The Cancer Genome Atlas (TCGA). Omics Pipe provides researchers with a tool for reproducible, open source and extensible next generation sequencing analysis. The goal of Omics Pipe is to democratize next-generation sequencing analysis by dramatically increasing the accessibility and reproducibility of best practice computational pipelines, which will enable researchers to generate biologically meaningful and interpretable results.\nResults: Using Omics Pipe, we analyzed 100 TCGA breast invasive carcinoma paired tumor-normal datasets based on the latest UCSC hg19 RefSeq annotation. Omics Pipe automatically downloaded and processed the desired TCGA samples on a high throughput compute cluster to produce a results report for each sample. We aggregated the individual sample results and compared them to the analysis in the original publications. This comparison revealed high overlap between the analyses, as well as novel findings due to the use of updated annotations and methods.\nAvailability and implementation: Source code for Omics Pipe is freely available on the web (https://bitbucket.org/sulab/omics_pipe). Omics Pipe is distributed as a standalone Python package for installation (https://pypi.python.org/pypi/omics_pipe) and as an Amazon Machine Image in Amazon Web Services Elastic Compute Cloud that contains all necessary third-party software dependencies and databases (https://pythonhosted.org/omics_pipe/AWS_installation.html).\nContact: asu@scripps.edu 
  :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         or kfisch@ucsd.edu\nSupplementary Information: Supplementary data are available at Bioinformatics online.},
 I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 4335 of file library.bib
+I was expecting a `{' or a `('---line 4589 of file library.bib
  : abstract = {Motivation: Omics Pipe (http://sulab.scripps.edu/omicspipe) is a computational framework that automates multi-omics data analysis pipelines on high performance compute clusters and in the cloud. It supports best practice published pipelines for RNA-seq, miRNA-seq, Exome-seq, Whole-Genome sequencing, ChIP-seq analyses and automatic processing of data from The Cancer Genome Atlas (TCGA). Omics Pipe provides researchers with a tool for reproducible, open source and extensible next generation sequencing analysis. The goal of Omics Pipe is to democratize next-generation sequencing analysis by dramatically increasing the accessibility and reproducibility of best practice computational pipelines, which will enable researchers to generate biologically meaningful and interpretable results.\nResults: Using Omics Pipe, we analyzed 100 TCGA breast invasive carcinoma paired tumor-normal datasets based on the latest UCSC hg19 RefSeq annotation. Omics Pipe automatically downloaded and processed the desired TCGA samples on a high throughput compute cluster to produce a results report for each sample. We aggregated the individual sample results and compared them to the analysis in the original publications. This comparison revealed high overlap between the analyses, as well as novel findings due to the use of updated annotations and methods.\nAvailability and implementation: Source code for Omics Pipe is freely available on the web (https://bitbucket.org/sulab/omics_pipe). Omics Pipe is distributed as a standalone Python package for installation (https://pypi.python.org/pypi/omics_pipe) and as an Amazon Machine Image in Amazon Web Services Elastic Compute Cloud that contains all necessary third-party software dependencies and databases (https://pythonhosted.org/omics_pipe/AWS_installation.html).\nContact: asu@scripps.edu or kfisch@ucsd.edu\nsupplementary 
  :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Information: Supplementary data are available at Bioinformatics online.},
 I'm skipping whatever remains of this entry
-Repeated entry---line 4549 of file library.bib
- : @article{Li2014
- :                ,
+Repeated entry---line 4943 of file library.bib
+ : @article{Bao2014
+ :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5201 of file library.bib
+Repeated entry---line 5437 of file library.bib
  : @article{scikit-learn
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5392 of file library.bib
+Repeated entry---line 6583 of file library.bib
  : @article{Zaki2007
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5519 of file library.bib
- : @article{Bao2014
- :                 ,
+Repeated entry---line 6737 of file library.bib
+ : @article{Canuel2015
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6834 of file library.bib
+ : @article{Li2014
+ :                ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Maharjan2011
 Warning--empty journal in Kutzera2017
 Warning--empty journal in Kawashima2017
+Warning--empty journal in Allahyari2017
+Warning--there's a number but no volume in Huang2008
 Warning--can't use both volume and number fields in Auwera2014
 Warning--empty publisher in Auwera2014
 Warning--empty journal in Wang2017
-Warning--there's a number but no volume in Huang2008
 Warning--empty journal in Compound2012
 Warning--there's a number but no volume in Vasquez2010
-You've used 97 entries,
+You've used 99 entries,
             1791 wiz_defined-function locations,
-            1064 strings with 28160 characters,
-and the built_in function-call counts, 26540 in all, are:
-= -- 1941
-> -- 2095
+            1075 strings with 28852 characters,
+and the built_in function-call counts, 27103 in all, are:
+= -- 1975
+> -- 2152
 < -- 7
-+ -- 738
-- -- 641
-* -- 2410
-:= -- 4576
-add.period$ -- 281
-call.type$ -- 97
-change.case$ -- 94
++ -- 758
+- -- 659
+* -- 2463
+:= -- 4681
+add.period$ -- 287
+call.type$ -- 99
+change.case$ -- 96
 chr.to.int$ -- 0
-cite$ -- 106
-duplicate$ -- 885
-empty$ -- 2115
-format.name$ -- 641
-if$ -- 5449
+cite$ -- 109
+duplicate$ -- 902
+empty$ -- 2153
+format.name$ -- 659
+if$ -- 5558
 int.to.chr$ -- 0
-int.to.str$ -- 97
-missing$ -- 90
-newline$ -- 477
-num.names$ -- 96
-pop$ -- 202
+int.to.str$ -- 99
+missing$ -- 92
+newline$ -- 487
+num.names$ -- 98
+pop$ -- 208
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 386
+skip$ -- 392
 stack$ -- 0
-substring$ -- 1590
-swap$ -- 144
+substring$ -- 1615
+swap$ -- 145
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 9
-while$ -- 240
-width$ -- 99
-write$ -- 1026
+warning$ -- 10
+while$ -- 244
+width$ -- 101
+write$ -- 1046
 (There were 8 error messages)

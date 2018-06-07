@@ -69,7 +69,8 @@ Las frecuencia de palabras nos muestra las principales características de la in
 Partiendo de lo anterior el presente trabajo se implemento un modelo de agrupamiento utilizando el kmeans  para identificar grupos de características clínicas con la siguiente metodología:
 
 \begin{enumerate}
-	\item Cálculo de la matriz tf-idf y se normalizo. 
+	\item Cálculo de la matriz tf-idf y se normalizo.
+	\item Cálculo de la medida de similitud.  
 	\item Estimación de el número de k optimo.
 	\item Implementación del algoritmo k-means.
 	\item Validación de los clusters.
@@ -87,7 +88,8 @@ La figura \ref{fig:IDFTF} representa la matriz IDF-TF de las palabras que se enc
 	\label{fig:IDFTF}
 \end{figure}
 
-Una vez obtenida la matriz tf-idf se normalizo y se le aplico la similaridad de coseno que es una de las medidas más populares para aplicar en documentos de texto. Esta medida tiene como ventaja que es independiente del largo del documento \cite{Huang2008}.Esta similitud fue computada de acuerdo a la siguiente formula donde la similitud ente $u$  y $v$ es definida como  según la librería scipy de python \cite{scipy}, Donde posteriormente los datos fueron utilizados para el clustering:
+Se calculo la similitud de coseno de acuerdo a la siguiente formula donde la similitud ente $u$  y $v$ está definida según la librería scipy de python \cite{scipy}:
+
 $$   1 - \frac{u \cdot v}
 {||u||_2 ||v||_2}. $$
 
@@ -95,7 +97,7 @@ donde $u.v$ donde el punto es el producto de $u$ y $v$.
 
 \subsection{Experimentación y validación del modelo de clustering.}
 
-La selección del número óptimo de $K$ se realizo utilizando el método del codo, este es uno de los métodos más antiguos para determinar el número de cluster, se realizan varios experimentos iniciando por un $K$ = 2 y realizando un incremento de 1, para los cuáles se calcula el costo que conlleva cada una de las ejecuciones; entre más se aumente el número de $K7$ el costo disminuye y el número de $K$ alcanza una meseta, este valor es el que se desea obtener, visualmente se realiza la identificación mediente un gráfico de error cuadrático y número de clusters , la razón es que al continuar el aumento del número de K los nuevos clusters son muy cercanos a otros ya generados \cite{Kodinariya2013}.\\   
+  
 
 El cálculo del error cuadrático vs el número de clusters se realizo utilizando la libreria de python scikit learn, donde se computa el valor de la inercia que es calculada como la suma de cuadrados por cada punto cercano al centroide y es asignado al cluster. Así que  $I = \sum_{i}(d(i,cr))$ donde $cr$ es el centroide que fue asignado al cluster y $d$ es la distancia cuadrada \cite{scikit-learn}. 
 
@@ -108,57 +110,16 @@ El cálculo del error cuadrático vs el número de clusters se realizo utilizand
 
 Una vez se computo la inercia se realizo genero el gráfico del error cuadrático vs el número de clusters  la figura \ref{fig:Clusters} muestra el gráfico de codo obtenido, donde se puede seleccionar el cluster 5 y 6 como óptimo de $K$.\\
 
-Para definir el número de optimo de $K$ también se computo el coeficiente de Silhouette que es una evaluación de los clusters, donde los valores altos son relacionados a modelos que tienen clusteres bien definidos .El coefiente está definido por cada muestra y está compuesta por dos valores que son \cite{scikit-learn,Rousseeuw1987}:
-
-\begin{itemize}
-	\item \textbf{a:} La distancia media entre una muestra y todos los puntos de la misma clase.
-	\item \textbf{b:} La distancia media entre una muestra y todos los otros puntos en el próximo cluster más cercano.
-\end{itemize}
-
-El coeficiente Silhouette $s$ para una sola muestra se da como:
-
-$$s = \frac{b-a}{max(a,b)}$$
-
-Para un set de datos el coeficiente Silhouette es el promedio del coeficiente por cada muestra \cite{scikit-learn,Rousseeuw1987}. En el presente trabajo los resultados del coeficiente de Silhouette fue de  \textit{0.534}, adicionalmente se gráfico los valores de del coeficiente Silhouette para un $K$ = 5 y se presenta en la figura \ref{fig:S}:
+Para definir el número de optimo de $K$ también se computo el coeficiente de Silhouette  que fue de \textit{0.534}, adicionalmente se gráfico los valores de del coeficiente Silhouette para un $K$ = 5 y se presenta en la figura \ref{fig:S}:
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[width=0.3\textwidth]{Kap4/S}
+	\includegraphics[width=0.5\textwidth]{Kap4/S}
 	\caption{Valor Silhouette por cada cluster} 
 	\label{fig:S}
 \end{figure}
 
-Para los clusters obtenidos se calcularon las medidas de validación que están dentro de la librería scikit-learn \cite{scikit-learn} son:
-
-\begin{itemize}
-	\item  \textbf{Homogeneidad:} Definida como donde cada cluster contiene solo datos de una misma clase.
-	\item \textbf{Integridad:} Donde todos los miembros de una misma clase son asignados al mismo clúster.	
-	\item \textbf{V-measure:} Es la medida armónica ente la homogeneidad y la integridad \cite{Rosenberg2007}. 		
-\end{itemize}
-
-El cálculo de la homogeneidad y la integridad del cluster es realizada por:
-$$h=1- \frac{H(C|K)}{H(C)} $$
-
-$$c=1- \frac{H(K|C)}{H(K)}$$
-
-donde $H(C|K)$ es la entropía condicional de las clases en cada asignación de cluster y que son calculadas por:
-
-$$H(C|K)= - \sum_{c=1}^{|C|} \sum_{k=1}^{|K|} \frac{n_c,_k}{n} . \log \frac{n_c,_k}{n_k}$$ 
-
-y $H(C)$ es la entropia de clases y es calculada:
-$$H(C)=  - \sum_{c=1}^{|C|} \frac{n_c}{n} . \log \frac{n_c}{n}$$ 
-con $n$ que es el número total de muestras $n_c$ y $n_k$ son el número de muestras asignadas respectivamente a la clase $c$ y al cluster $k$, y finalmente $n_c,_k$ son el número de muestras de las clases$c$ asignadas al cluster $k$.
-
-Finalmente el V-measure está definido de la siguiente manera \cite{Rosenberg2007}:
-
-$$v= 2.\frac{h.c}{h+c}$$
-
-También se calculo Rand-Index que calcula una medida de similitud entre dos grupos al cosiderar todos los pares de las muestras y los pares de conteo que se asignan al mismo cluster o en diferentes grupos. Calculado de la siguente manera \cite{scikit-learn}:
-$$ARI = (RI - Expected_RI) / (max(RI) - Expected_RI)$$
-
-Los resultados de validación obtenidos fueron:
-
-Para homogeneidad 0.296, para integridad 1.0, para el V-measure 0.457 y el Rand-Index fue 0. La homogeneidad perfecta sería con un valor de 1.0, en los presentes clusters presentan una baja homogeneidad, pero una una integridad de 1.0 que significa que las etiquetas son perfectamente completas, esto se ve reflejado en el V-measure que es de 0.457 donde tenemos clusters con baja homogeneidad pero una alta integridad.  Rand-Index se obtuvo un valor de 0.0 que muestra que las clases están separadas en diferentes clusters \cite{scikit-learn}. 
+Los resultados de validación obtenidos fueron: homogeneidad 0.296, para integridad 1.0, para el V-measure 0.457. La homogeneidad perfecta sería con un valor de 1.0, en los presentes clusters presentan una baja homogeneidad, pero una una integridad de 1.0 que significa que las etiquetas son perfectamente completas, esto se ve reflejado en el V-measure que es de 0.457 donde tenemos clusters con baja homogeneidad pero una alta integridad \cite{scikit-learn}. 
 
 \section{Asociación de grupos con variantes.}
 
@@ -170,18 +131,7 @@ Una vez realizado el agrupamiento de la información clínica se aplico un model
 	\item Asociación de las variantes por toda la información de la base de datos filtrada por el gen CFTR como caso de ejemplo.
 \end{enumerate}
 
-La minería de datos frecuentes y las reglas de asociación  es un método popular y bien investigado para describir las relaciones entre variantes en grandes bases de datos \cite{Hahsler2005}. Las reglas de asociación (RA) muestran atributos con valores que ocurren frecuentemente en el set de datos, es posible obtener todas las posibles reglas de algunos atributos según la presencia de otros atributos \cite{Karabatak2009}.\\
 
-Las reglas de asociación se basan en un set de items(elementos) $I = \{i_1,i_2,.....i_n \}$ que son un conjunto de $n$ atributos binarios. También se tiene que $D = \{t_1,t_2,..... t_m\}$ son el número de transacciones en la base de datos, cada transacción $D$ tiene una identificación única y contienen un subconjunto de elementos en $I$. Una regla se define como una implicación de la forma $X \Rightarrow Y$ donde $X,Y \subseteq I$ y $X \bigcap Y = \emptyset$. Los sets de elementos son llamados $antecedentes$ y $consecuentes$ \cite{Hahsler2005,Karabatak2009}.La selección de reglas interesantes se realiza calculando la confianza y el soporte que son definidos como:
-
-\begin{itemize}
-	\item Dados un set de datos $X \Rightarrow Y$, en una \textit{regla de asociación} tiene una confianza $c$ si $c$ de nuestra transacción que contiene $X$ pero que también contiene $Y$ \cite{Agrawal1994}.
-	
-	\item Dados un set de datos $X \Rightarrow Y$ tiene una \textit{regla de asociación} tiene un soporte $s$ si $s\%$ de las transacciones en nuestra base de datos de transacciones que contienen $X\cup Y$ \cite{Agrawal1994}. 
-	
-	\item Los algoritmos de asociación tratan de encontrar todas las reglas que tengan un mínimo de soporte y un mínimo de confianza\cite{Agrawal1994}. 
-
-\end{itemize}
 
 \subsection{Variantes vistas como transacciones.}
 
