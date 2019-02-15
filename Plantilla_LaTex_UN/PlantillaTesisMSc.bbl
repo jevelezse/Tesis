@@ -29,7 +29,8 @@ Madhuri Hegde, Avni Santani, Rong Mao, Andrea Ferreira-Gonzalez, Karen~E. Weck,
 \bibitem{Li2014}
 Yixue Li and Luonan Chen.
 \newblock {Big biological data: Challenges and opportunities}.
-\newblock {\em Genomics, Proteomics and Bioinformatics}, 12(5):187--189, 2014.
+\newblock {\em Genomics, Proteomics and Bioinformatics}, 12(5):187--189, oct
+  2014.
 
 \bibitem{Lauzon2016}
 David Lauzon, Beatriz Kanzki, Victor Dupuy, Alain April, Michael~S. Phillips,
@@ -322,6 +323,12 @@ Koya Kawashima.
   Cancer and Related Genes}.
 \newblock pages 1--5, 2017.
 
+\bibitem{Neveol2014}
+A~N{\'{e}}v{\'{e}}ol, H~K Dalianis, G~Savova, and P~Zweigenbaum.
+\newblock {Clinical Natural Language Processing in languages other than
+  English: opportunities and challenges}.
+\newblock {\em Journal of Biomedical Semantics}, 9(12):1--13, 2018.
+
 \bibitem{Jain2010}
 Anil~K. Jain.
 \newblock {Data clustering: 50 years beyond K-means}.
@@ -494,11 +501,12 @@ Umadevi Paila, Brad~A. Chapman, Rory Kirchner, and Aaron~R. Quinlan.
   Annotations}.
 \newblock {\em PLoS Computational Biology}, 9(7), 2013.
 
-\bibitem{Wang2017}
-Fei Wang, Xiao-li Li, Jason T~L Wang, and See-kiong Ng.
-\newblock {Guest Editorial: Special Section on Biological Data Mining and Its
-  Applications in Healthcare}.
-\newblock 14(3):501--502, 2017.
+\bibitem{mckinneypandas}
+Wes McKinney.
+\newblock {pandas: a Foundational Python Library for Data Analysis and
+  Statistics}.
+\newblock {\em Python for High Performance and Scientific Computing}, pages
+  1--9, 2011.
 
 \bibitem{Fu2013}
 Wenqing Fu, Timothy~D. O'Connor, Goo Jun, Hyun~Min Kang, Goncalo Abecasis,
@@ -514,13 +522,6 @@ Davis~J. McCarthy, Peter Humburg, Alexander Kanapin, Manuel~A. Rivas, Kyle
 \newblock {Choice of transcripts and software has a large effect on variant
   annotation}.
 \newblock {\em Genome Medicine}, 6(3), 2014.
-
-\bibitem{mckinneypandas}
-Wes McKinney.
-\newblock {pandas: a Foundational Python Library for Data Analysis and
-  Statistics}.
-\newblock {\em Python for High Performance and Scientific Computing}, pages
-  1--9, 2011.
 
 \bibitem{Tetreault2015a}
 Martine Tetreault, Eric Bareke, Javad Nadaf, Najmeh Alirezaie, and Jacek

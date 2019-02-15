@@ -244,7 +244,7 @@ El \textit{ValidationReport}  genera una tabla con los verdaderos positivos (\te
 	\end{center}
 \end{table}
 
-La tabla \ref{tabla:tabla3} refleja que para el conjunto de datos no hay falsos negativos ni falsos positivos, pero si falsos positivos, es decir 1033 variantes del conjunto de datos obtenidos que no son reales pero fueron identificadas. (\textit{GATK para calcular estas métricas se compara contra una base de datos que el usuario disponga para determinar variantes existentes}).  La tabla \ref{tabla:tabla4} muestra la sensibilidad, especificidad y el valor predictivo positivo (PPV).
+La tabla \ref{tabla:tabla3} refleja que para el conjunto de datos no hay falsos negativos, pero si falsos positivos, es decir  que se obtuvieron 1033 variantes del conjunto de datos que no son reales pero fueron identificadas. (\textit{GATK para calcular estas métricas se compara contra una base de datos que el usuario disponga para determinar variantes existentes}).  La tabla \ref{tabla:tabla4} muestra la sensibilidad, especificidad y el valor predictivo positivo (PPV).
 
 \begin{table}[H]
 	\begin{center}
@@ -259,7 +259,7 @@ La tabla \ref{tabla:tabla3} refleja que para el conjunto de datos no hay falsos 
 	\end{center}
 \end{table}
 
-Donde se tiene que existe una sensibilidad de 96.88\%, una especificidad del 100\% y un PPV de 100.Además después de la limpieza de los datos se realizo la anotación del archivo vcf obtenido, para el gen CYP2C19 utilizando la versión gráfica de annovar \cite{Yang2015} y obteniéndose el siguiente resultado: \\
+La tabla \label{tabla:tabla4} muestra la sensibilidad de 96.88\%, una especificidad del 100\% y un PPV de 100.Además después de realizada la limpieza de los datos se hizo la anotación del archivo vcf obtenido y se filtro para el gen CYP2C19 utilizando la versión gráfica de annovar \cite{Yang2015} y obteniéndose el siguiente resultado: \\
 
 \texttt{chr10,96541616,96541616,G,A,exonic,CYP2C19,synonymous SNV, CYP2C19:}
 
@@ -328,4 +328,4 @@ Es necesario crear o generar la manera de optimizar los tiempos de ejecución de
 
 \section*{Resumen}
 
-Se realizo la implementación y validación de un pipeline para la identificación variantes a partir de secuencias de exomicas a partir de muestras de pacientes colombianos y del genoma público de la muestra NA12878 donde se identificaron las variantes que presentes en el mismo, teniendo en cuenta las buenas practicas para el análisis de variantes lo que permitió desarrollar un mecanismo para obtener variantes de buena calidad.
+Se realizo la implementación y validación de un pipeline para la identificación variantes a partir de secuencias de exomicas a partir de muestras de pacientes colombianos y del genoma público de la muestra NA12878 donde se identificaron las variantes que están presentes en el mismo, teniendo en cuenta las buenas practicas para el llamado de variantes lo que permitió desarrollar un mecanismo para obtener variantes de buena calidad.

@@ -1,4 +1,4 @@
-\chapter{Modelo de integración de la información}
+\chapter{Modelo de integración de datos}
 
 El mayor de los retos aplicado al análisis de variantes, es desarrollar herramientas que permitan al investigador acceder a la información fácilmente y que pueda tener una base de datos,donde pueda consultar, analizar y actualizar la información de sus experimentos \cite{Li2014}.En el campo clínico esto representa un reto aun mayor dado que se hace necesario recolectar los datos genéticos junto con los datos clínicos para poder hacer análisis más acertados y a gran escala \cite{Paila2013}.\\
 
@@ -7,11 +7,11 @@ Este capítulo presenta el desarrollo de un sistema de información para la gest
 
 \section{Diseño e implementación del modelo de datos}
 
-\subsection{Datos}
+\subsubsection{Datos}
 
 Se tomaron una  250 pacientes previa autorización  del laboratorio Genetix S.A.S de los cuales solo 228 contaban con consentimiento informado para utilizar la información con fines de investigación.  La información disponible, se cargo en un archivo de texto plano con la siguiente información: Edad,genero y diagnóstico y adicionalmente para cada paciente se tenían las variantes en un archivo csv, resultado de la anotación realizada en con wAnnorvar según el pipeline implementado en el capítulo 2.\\
 
-A continuación proponemos la utilización de una base de datos con información clínica  y las variantes obtenidas a partir del pipeline. La figura \ref{fig:flujo2} representa el esquema de datos que fue utilizado para realizar la integración de la información dentro de la base de datos. \\
+A continuación proponemos la utilización de una base de datos con información clínica  y las variantes obtenidas a partir del pipeline. La figura \ref{fig:flujo2} representa el esquema de datos que fue utilizado para realizar la integración de la información dentro de la base de datos. \\ 
 
 \begin{figure}[h!] 
 	\centering
@@ -84,10 +84,12 @@ La importancia de gestión aplicada al manejo de datos clínicos y de informaci�
 
 La aplicación desarrollada para crear y gestionar una base de datos aplicada una bioinformática con aplicaciones a la medicina, es necesario que la base de datos provea las consultas para soportar las decisiones sobre un paciente en especifico teniendo en cuenta sus datos,la relación con datos de otros pacientes y los datos de exomas, además de los datos relacionados con los familiares en caso de que se encuentren estos datos. Mostrando que es posible realizar una integración adecuada de los datos bioinformáticos y clínicos utilizando bases de datos relacionales, con una buena respuesta en las consultas. \cite{Sujansky2001}.
 
+Los datos fueron consultados  desde mysql y cargada a librería de python pandas \cite{mckinneypandas}.
+
 \section{Conclusión}
 
 La utilización de aplicaciones en Django permite que un bioinformático diseñe e implementar bases de datos aplicadas al diagnostico clínico, donde se puede guardar y gestionar toda la información obtenida de un paciente, lo que permite hacer análisis a profesionales Médicos y biólogos fácilmente. Una vez ha sido implementa la base de datos también es posible aplicar técnicas de minería de datos para optimizar los análisis de la información. \\
 
 \section*{Resumen}
 
-En este capitulo se presento el proceso de diseñar e implementar un sistema de información para la gestíon de datos clínicos y genómicos, dada la importancia de tener toda la información integrada para hacer futuros análisis. Se utilizo la herramienta de Django como gestor de la base de datos, se transcribió las historias clínicas y se cargaron las variantes obtenidas para cada paciente, como resultado se genero un sistema de información que permite realizar consultas de variantes con las características clínicas de los pacientes.   
+En este capitulo se presento el proceso de diseñar e implementar un sistema de información para la gestión de datos clínicos y genómicos, dada la importancia de tener toda la información integrada para hacer futuros análisis. Se utilizo la herramienta de Django como gestor de la base de datos,se transcribió las información clínica y se cargaron las variantes obtenidas para cada paciente, como resultado se genero un sistema de información que permite realizar consultas de variantes con las características clínicas de los pacientes.   
