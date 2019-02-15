@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Integraci\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{15}
 \contentsline {subsection}{\numberline {2.2.2}An\IeC {\'a}lisis de datos gen\IeC {\'o}micos con aplicaciones cl\IeC {\'\i }nicas}{17}
 \contentsline {section}{\numberline {2.3}Miner\IeC {\'\i }a de datos gen\IeC {\'o}micos}{20}
-\contentsline {subsection}{\numberline {2.3.1}La miner\IeC {\'\i }a de texto en el campo cl\IeC {\'\i }nico}{21}
+\contentsline {subsection}{\numberline {2.3.1}Miner\IeC {\'\i }a de texto en el campo cl\IeC {\'\i }nico}{21}
 \contentsline {subsubsection}{\nonumberline Preprocesamiento}{21}
 \contentsline {subsubsection}{\nonumberline Agrupamiento}{22}
 \contentsline {subsection}{\numberline {2.3.2}Reglas de asociaci\IeC {\'o}n para el an\IeC {\'a}lisis de variantes}{25}
@@ -29,24 +29,24 @@
 \contentsline {section}{\numberline {4.3}Conclusi\IeC {\'o}n}{46}
 \contentsline {chapter}{\numberline {5}Modelo de miner\IeC {\'\i }a de datos cl\IeC {\'\i }nicos y gen\IeC {\'o}micos}{47}
 \contentsline {section}{\numberline {5.1}Dise\IeC {\~n}o del modelo de miner\IeC {\'\i }a de datos}{47}
-\contentsline {section}{\numberline {5.2}An\IeC {\'a}lisis descriptivo de datos cl\IeC {\'\i }nicos y variantes}{48}
-\contentsline {section}{\numberline {5.3}An\IeC {\'a}lisis textual de informaci\IeC {\'o}n cl\IeC {\'\i }nica}{49}
-\contentsline {subsection}{\numberline {5.3.1}Preprocesamiento.}{49}
-\contentsline {subsection}{\numberline {5.3.2}An\IeC {\'a}lisis de frecuencia de pal\IeC {\'a}bras}{50}
-\contentsline {subsection}{\numberline {5.3.3}Caracterizaci\IeC {\'o}n de las historias cl\IeC {\'\i }nicas usando diagn\IeC {\'o}stico}{51}
-\contentsline {subsection}{\numberline {5.3.4}Experimentaci\IeC {\'o}n y validaci\IeC {\'o}n del modelo de agrupamiento}{52}
-\contentsline {subsubsection}{\nonumberline Jer\IeC {\'a}rquico}{52}
-\contentsline {subsubsection}{\nonumberline k means}{52}
+\contentsline {section}{\numberline {5.2}An\IeC {\'a}lisis exploratorio de datos cl\IeC {\'\i }nicos y variantes}{48}
+\contentsline {section}{\numberline {5.3}An\IeC {\'a}lisis textual de informaci\IeC {\'o}n cl\IeC {\'\i }nica}{50}
+\contentsline {subsection}{\numberline {5.3.1}Preprocesamiento.}{50}
+\contentsline {subsection}{\numberline {5.3.2}An\IeC {\'a}lisis de frecuencia de pal\IeC {\'a}bras}{51}
+\contentsline {subsection}{\numberline {5.3.3}Caracterizaci\IeC {\'o}n de las historias cl\IeC {\'\i }nicas usando diagn\IeC {\'o}stico}{52}
+\contentsline {subsection}{\numberline {5.3.4}Experimentaci\IeC {\'o}n y validaci\IeC {\'o}n del modelo de agrupamiento}{53}
+\contentsline {subsubsection}{\nonumberline Jer\IeC {\'a}rquico}{53}
+\contentsline {subsubsection}{\nonumberline k means}{53}
 \contentsline {section}{\numberline {5.4}Asociaci\IeC {\'o}n de grupos de historias cl\IeC {\'\i }nicas con variantes}{54}
-\contentsline {subsection}{\numberline {5.4.1}Variantes vistas como transacciones}{54}
+\contentsline {subsection}{\numberline {5.4.1}Variantes vistas como transacciones}{55}
 \contentsline {subsection}{\numberline {5.4.2}Experimentos}{55}
-\contentsline {subsection}{\numberline {5.4.3}Resultados}{55}
-\contentsline {section}{\numberline {5.5}Prototipo de visualizaci\IeC {\'o}n}{68}
-\contentsline {section}{\numberline {5.6}Discusi\IeC {\'o}n}{69}
-\contentsline {subsection}{\numberline {5.6.1}Asociaci\IeC {\'o}n de variantes con sus grupos de caracter\IeC {\'\i }sticas cl\IeC {\'\i }nicas.}{69}
-\contentsline {subsection}{\numberline {5.6.2}Variantes con el gen CFTR}{71}
-\contentsline {subsection}{\numberline {5.6.3}Conclusi\IeC {\'o}n}{72}
-\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{73}
-\contentsline {section}{\numberline {6.1}Conclusiones}{73}
-\contentsline {section}{\numberline {6.2}Trabajo futuro}{74}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{75}
+\contentsline {subsection}{\numberline {5.4.3}Resultados}{56}
+\contentsline {section}{\numberline {5.5}Prototipo de visualizaci\IeC {\'o}n}{69}
+\contentsline {section}{\numberline {5.6}Discusi\IeC {\'o}n}{70}
+\contentsline {subsection}{\numberline {5.6.1}Asociaci\IeC {\'o}n de variantes con sus grupos de caracter\IeC {\'\i }sticas cl\IeC {\'\i }nicas.}{70}
+\contentsline {subsection}{\numberline {5.6.2}Variantes con el gen CFTR}{72}
+\contentsline {subsection}{\numberline {5.6.3}Conclusi\IeC {\'o}n}{73}
+\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{74}
+\contentsline {section}{\numberline {6.1}Conclusiones}{74}
+\contentsline {section}{\numberline {6.2}Trabajo futuro}{75}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{76}
