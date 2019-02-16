@@ -210,48 +210,41 @@ La figura \ref{f:grupo11} representa el grupo 1 con la frecuencia de palabras qu
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Kap4/reglas1_1}
-	\caption{Reglas de asociación del grupo 1 con variantes sinónimas.} \label{fig:reglas1}
+	\subfigure[Reglas de asociacióncon variantes sinónimas.]{\label{fig:re1}
+		\includegraphics[width=100mm]{Kap4/reglas1_1}}
+	\subfigure[Reglas de asociación sin variantes sinónimas]{\label{fig:r1}
+		\includegraphics[width=100mm]{Kap4/reglas1_2}}
+	\caption{Reglas de asociación del grupo 1.}
+	\label{fig:reglas1}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{Kap4/reglas1_2}
-	\caption{Reglas de asociación del grupo 1 sin variantes sinónimas.} \label{fig:reglas2}
-\end{figure}
+La figura \ref{fig:reglas1} que muestra la asociación de variantes con información clínica del grupo 1.En la figura \label{fig:re1} se presentan los resultados reglas de asociación sin remover las variantes sinónimas. Para el presente grupo se obtuvo dos tipos de variantes  distribuidas por género, donde el masculino presenta variantes  sinónimas y que son pacientes con un rango de edad entre 10 y 20 años, con un estado alélico homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros, donde las pacientes de género femenino tienen variantes sinónimas con estado heterocigotas y con mayor diferencia de rango  de edad, pero las pacientes con la edad de 10 a 20 años no presentan variantes homocigotas a diferencia de los pacientes de genero masculino. \\
 
-Las primeras 10 reglas obtenidas se representan mediante la figura \ref{fig:reglas1} que muestra la asociación de variantes con información clinica del grupo 1. Los resultados son sin remover las variantes sinónimas. Para el presente grupo se muestran dos tipos de variantes  distribuidas por el género masculino con variantes no sinónimas y que son pacientes de edad entre 10 y 20 años, el estado alélico de las variantes es homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros, donde las pacientes de género femenino tienen variantes sinónimas con estado heterocigotas.
-
-
-
-Las 10 primeras reglas removiendo las variantes sinónimas que se muestran en la figura  \ref{fig:reglas2}, nos muestra nuevamente la distribución de este tipo de variante dentro del grupo, donde los pacientes masculinos son pacientes entre 10 y 20 años, con variantes heterocigotas no sinónimas, mientras que para el genero femenino se tienen rangos de edad más amplios desde la edad  de 0 a 50 años.
+En cuanto a las reglas removiendo las variantes sinónimas que se muestran en la figura  \ref{fig:r1}, se observa que  nuevamente la distribución que los pacientes masculinos son pacientes entre 10 y 20 años, con variantes heterocigotas , mientras que para el genero femenino se tienen rangos de edad más amplios desde la edad  de 0 a 50 años, en este caso las variantes homocigotas están como una regla independiente.
 
 \subsubsection*{Grupo 2}
 
 \begin{figure}[H]
 	\centering
-	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster2}}
-	\subfigure[Rango de edad en décadas.]{\includegraphics[width=60mm]{Kap4/edadc2}}
+	\subfigure[Nube de palabras]{\label{fig:nube2}\includegraphics[width=60mm]{Kap4/cluster2}}
+	\subfigure[Rango de edad en décadas.]{\label{fig:demo2}\includegraphics[width=60mm]{Kap4/edadc2}}
 	\caption{Grupo 2} \label{fig:c2}
 \end{figure}
 
-En la figura \ref{fig:c2}(a) se observa que al igual que el grupo 1 las palabras más frecuentes son cáncer,seno y síndrome, pero aparecen palabras como antecedente tiroides y hermana,según la \ref{fig:c2}(b) se observa que rangos de edad entre 20 y 30 años, y mayores de 40 no hay pacientes masculinos, siendo este un grupo representado principalmente por pacientes femeninas.  
+En la figura \ref{fig:nube2} se observa que al igual que el grupo 1 las palabras más frecuentes son cáncer,seno y síndrome, pero aparecen palabras como antecedente tiroides y hermana,según la \ref{fig:demo2} se observa rangos de edad entre 20 y 30 años y para el rango entre 30 y 40 años y para mayores de 60 no hay pacientes masculinos, siendo este un grupo representado principalmente por pacientes femeninas.  
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Kap4/reglas2_1}
-	\caption{Reglas de asociación del grupo 2 con variantes sinónimas.} \label{fig:reglas2_1}
+	\subfigure[Reglas de asociación con variantes sinonimas]{\label{fig:reglas2.1}
+		\includegraphics[width=100mm]{Kap4/reglas2_1}}
+	\subfigure[Reglas de asociación sin variantes sinonimas]{\label{fig:reglas2.2}
+		\includegraphics[width=100mm]{Kap4/reglas2_2}}
+	\caption{Reglas de asociación del grupo 2}\label{fig:reglas2}
 \end{figure}
 
-La figura \ref{fig:reglas2_1}, nos muestra unicamente una asociación de variantes al género femenino, que corresponde con la baja representación de pacientes de género  masculino.La distribución del estado alélico homocigoto se presenta en mayor frecuencia con pacientes en edad de 30 y 40 años, y son variantes de tipo no sinónimo, a pesar de que el rango de edad no es el más representativo del grupo es el que presenta una mayor frecuencia de variantes.
+La figura \ref{fig:reglas2.1}, nos muestra unicamente una asociación de variantes al género femenino, que corresponde con la baja representación de pacientes de género  masculino en este grupo,mientras que al remover las variantes sinónimas en la figura \label{fig:reglas2.2} .La distribución del estado alélico homocigoto se presenta en mayor frecuencia con pacientes en edad de 30 y 40 años y son variantes de tipo no sinónimo, a pesar de que el rango de edad no es el más representativo dentro grupo es el que presenta una mayor frecuencia de variantes.
  
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{Kap4/reglas2_2}
-	\caption{Reglas de asociación del grupo 2 con variantes sinónimas.} \label{fig:reglas2_2}
-\end{figure}
 
-La figura \ref{fig:reglas2_2}, nos muestra la distribución de las variantes según los rangos de edad y que el tipo de variante no sinónimas, no muestra reglas para el estado alélico de las variantes dentro del clúster, solo las asociaciones entre rangos de edad y genero. 
 
 \subsubsection*{Grupo 3}
 
