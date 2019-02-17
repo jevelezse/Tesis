@@ -8,17 +8,23 @@ Este capítulo presenta el diseño y la implementación de un modelo de minería
 
 La selección de las tareas de minería a realizar se dio por la necesidad de caracterizar los fenotipos de los individuos a partir de la información clínica y para poder realizar esta tarea fue necesario realizar procesamiento de lenguaje natural de dicha información para poder generar grupos de pacientes. En cuanto las variantes se utilizo reglas de asociación para poder aprovechar las frecuencias de las variantes y a que otras características pueden estar asociadas.El modelo de minería de datos esta representado por la figura  \ref{fig:kdd}:\\
 
-\begin{figure}[H]
+\begin{figure}[]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Kap4/KDDtesis.pdf}
+	\includegraphics[width=1\textwidth]{Kap4/KDDtesis.pdf}
 	\caption{Modelo de minería de datos}
 	\label{fig:kdd}
 \end{figure}
 
 
- La figura \ref{fig:kdd} se divide en partes que son una representación gráfica de como se diseño el modelo de minería en la  parte A) Resume la integración de datos que se realizo en el capitulo anterior. B) Muestra que la información integrada se proceso de forma separada pero paralela, se tiene un procesamiento de lenguaje natural de la información clínica disponible, y una preparación de las variantes para ser asociadas. C) Muestra el proceso de minería de datos, en el cual se realiza el análisis exploratorio de los datos después de haber sido preprocesados, y la aplicación de las técnicas del modelo de minería que fueron agrupamiento de la información clínica y reglas de asociación para las variantes. Finalmente la parte D) muestra la propuesta para la visualización de los resultados en cuál se encuentran las nubes de palabras de los grupos obtenidos después de realizar el agrupamiento, un ejemplo de los resultados del análisis exploratorio y un ejemplo de la visualización de reglas de asociación de las variantes.
-
-
+ La figura \ref{fig:kdd} se divide en partes que son una representación gráfica de como se diseño el modelo de minería:
+ 
+ \begin{enumerate}[A)]
+ 	\item Resume la integración de datos que se realizo en el capitulo anterior.
+ 	\item Muestra que la información integrada se proceso de forma separada pero paralela, se tiene un procesamiento de lenguaje natural de la información clínica disponible, y una preparación de las variantes para ser asociadas.
+ 	\item Muestra el proceso de minería de datos, en el cual se realiza el análisis exploratorio de los datos después de haber sido preprocesados, y la aplicación de las técnicas del modelo de minería que fueron agrupamiento de la información clínica y reglas de asociación para las variantes.
+ 	\item  Muestra la propuesta para la visualización de los resultados en cuál se encuentran las nubes de palabras de los grupos obtenidos después de realizar el agrupamiento, un ejemplo de los resultados del análisis exploratorio y un ejemplo de la visualización de reglas de asociación de las variantes.
+ \end{enumerate}
+ 
 
 \section{Análisis exploratorio de datos clínicos y variantes}
 
@@ -26,7 +32,7 @@ Se presenta un análisis de los datos clínicos  y genómicos de los pacientes d
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Kap4/general}
+	\includegraphics[width=0.5\textwidth]{Kap4/general}
 	\caption{Distribución de rango de edades y géneros de los pacientes}
 	\label{fig:general}
 \end{figure}
@@ -70,21 +76,16 @@ La figura \ref{fig:sin}(a) muestra las distribución de las palábras más frecu
 
 \begin{figure}[H]
 	\centering
-	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/sin_stop}}
-	\subfigure[Frecuencia de términos]{\includegraphics[width=60mm]{Kap4/frecuecias.pdf}}
-	\caption{Palabras más frecuentes en el diagnóstico clínico  presentes en las historias clínicas } \label{fig:sin}
-\end{figure} 
+	\subfigure[Nube de palabras]{\label{fig:nubegeneral}\includegraphics[width=80mm]{Kap4/sin_stop}}
+	\subfigure[Frecuencia de palabras]{\label{fig:palabras}\includegraphics[width=60mm]{Kap4/frecuecias.pdf}}
+	\subfigure[TF-IDF]{\label{fig:IDFTF}\includegraphics[width=60mm]{Kap4/tfidf.pdf}}
+	\caption{Frecuencia de palabras y frecuencias TFIDF} \label{fig:sin}
+\end{figure}
+
 
 Las frecuencia de palabras muestran las principales características de la información clínica, siendo las palabras cáncer y seno los principales fenotipos, también se encuentra la palabra síndrome que puede asociarse a diferentes  enfermedades y la palabra sospecha hace referencia a diagnósticos ambiguos que pueden tener los pacientes, una de las contribuciones de la secuenciación es que basado en el fenotipo puede ayudar a un diagnóstico,entre diferentes síntomas y síndromes que pueden ser aplicados a enfermedades raras y complejas\cite{Tetreault2015a}.Sobre  la matriz  de frecuencias normalizada se cálculo la matriz tf-idf \\
 
 La figura \ref{fig:IDFTF} representa la matriz IDF-TF de las 30 primeras palabras de los diagnósticos.  
-
-\begin{figure}[H] 
-	\centering
-	\includegraphics[width=0.5\textwidth]{Kap4/tfidf.pdf}
-	\caption{TF-IDF} 
-	\label{fig:IDFTF}
-\end{figure}
 
 Se calculo la similitud de coseno de acuerdo a la siguiente formula donde la similitud ente $u$  y $v$ está definida según la librería scipy de python \cite{scipy}:
 
@@ -132,10 +133,10 @@ El cálculo del error cuadrático vs el número de grupos se realizo utilizando 
 	\centering
 	\subfigure[Error cuadrático.]{
 		\label{f:Clusters}
-		\includegraphics[width=0.35\textwidth]{Kap4/Clusters}}
+		\includegraphics[width=0.40\textwidth]{Kap4/Clusters}}
 	\subfigure[Valor Silhouette por cada grupo]{
 		\label{f:S}
-		\includegraphics[width=0.35\textwidth]{Kap4/S}}
+		\includegraphics[width=0.30\textwidth]{Kap4/S}}
 	\caption{Gráficos para la selección del número optimo de K}
 	\label{f:medidas}
 \end{figure}

@@ -30,45 +30,45 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Modelo de miner\IeC {\'\i }a de datos}}{48}
 \contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Distribuci\IeC {\'o}n de rango de edades y g\IeC {\'e}neros de los pacientes}}{49}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Distribuci\IeC {\'o}n del tipo de variantes}}{50}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distribuci\IeC {\'o}n de variantes seg\IeC {\'u}n su tipo.}}}{50}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribuci\IeC {\'o}n de variantes por rango de edad}}}{50}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Palabras m\IeC {\'a}s frecuentes en el diagn\IeC {\'o}stico cl\IeC {\'\i }nico presentes en las historias cl\IeC {\'\i }nicas }}{51}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Distribuci\IeC {\'o}n del tipo de variantes}}{49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distribuci\IeC {\'o}n de variantes seg\IeC {\'u}n su tipo.}}}{49}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribuci\IeC {\'o}n de variantes por rango de edad}}}{49}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Frecuencia de palabras y frecuencias TFIDF}}{51}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{51}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Frecuencia de t\IeC {\'e}rminos}}}{51}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces TF-IDF}}{52}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Grupos de diagn\IeC {\'o}sticos}}{53}
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Gr\IeC {\'a}ficos para la selecci\IeC {\'o}n del n\IeC {\'u}mero optimo de K}}{54}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error cuadr\IeC {\'a}tico.}}}{54}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Valor Silhouette por cada grupo}}}{54}
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Grupo 1}}{56}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Frecuencia de palabras}}}{51}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {TF-IDF}}}{51}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Grupos de diagn\IeC {\'o}sticos}}{52}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Gr\IeC {\'a}ficos para la selecci\IeC {\'o}n del n\IeC {\'u}mero optimo de K}}{53}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error cuadr\IeC {\'a}tico.}}}{53}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Valor Silhouette por cada grupo}}}{53}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Grupo 1}}{56}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{56}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribuc\IeC {\'o}n demogr\IeC {\'a}fica de los pacientes}}}{56}
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 1.}}{57}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 1.}}{57}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reglas de asociaci\IeC {\'o}ncon variantes sin\IeC {\'o}nimas.}}}{57}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reglas de asociaci\IeC {\'o}n sin variantes sin\IeC {\'o}nimas}}}{57}
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Grupo 2}}{58}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Grupo 2}}{58}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{58}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en d\IeC {\'e}cadas.}}}{58}
-\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 2}}{59}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 2}}{59}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reglas de asociaci\IeC {\'o}n con variantes sinonimas}}}{59}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reglas de asociaci\IeC {\'o}n sin variantes sinonimas}}}{59}
-\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Grupo 3}}{60}
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Grupo 3}}{60}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras.}}}{60}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en d\IeC {\'e}cadas.}}}{60}
-\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 3 con variantes sin\IeC {\'o}nimas.}}{60}
-\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 3 sin variantes sin\IeC {\'o}nimas.}}{61}
-\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Grupo 4}}{62}
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 3 con variantes sin\IeC {\'o}nimas.}}{60}
+\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 3 sin variantes sin\IeC {\'o}nimas.}}{61}
+\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Grupo 4}}{62}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{62}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en decadas}}}{62}
-\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 4 con variantes sin\IeC {\'o}nimas.}}{63}
-\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 4 sin variantes sin\IeC {\'o}nimas.}}{64}
-\contentsline {figure}{\numberline {\relax 5.18}{\ignorespaces Grupo 5}}{65}
+\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 4 con variantes sin\IeC {\'o}nimas.}}{63}
+\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 4 sin variantes sin\IeC {\'o}nimas.}}{64}
+\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces Grupo 5}}{65}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nube de palabras}}}{65}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Rango de edad en d\IeC {\'e}cadas}}}{65}
-\contentsline {figure}{\numberline {\relax 5.19}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 5 con variantes sin\IeC {\'o}nimas}}{66}
-\contentsline {figure}{\numberline {\relax 5.20}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 5 sin variantes sin\IeC {\'o}nimas}}{67}
-\contentsline {figure}{\numberline {\relax 5.21}{\ignorespaces Reglas de asociaci\IeC {\'o}n con variantes sin\IeC {\'o}nimas}}{68}
-\contentsline {figure}{\numberline {\relax 5.22}{\ignorespaces Reglas de asociaci\IeC {\'o}n sin variantes sin\IeC {\'o}nimas}}{69}
-\contentsline {figure}{\numberline {\relax 5.23}{\ignorespaces Screenshot del dashboard desarrollado}}{70}
+\contentsline {figure}{\numberline {\relax 5.18}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 5 con variantes sin\IeC {\'o}nimas}}{66}
+\contentsline {figure}{\numberline {\relax 5.19}{\ignorespaces Reglas de asociaci\IeC {\'o}n del grupo 5 sin variantes sin\IeC {\'o}nimas}}{67}
+\contentsline {figure}{\numberline {\relax 5.20}{\ignorespaces Reglas de asociaci\IeC {\'o}n con variantes sin\IeC {\'o}nimas}}{68}
+\contentsline {figure}{\numberline {\relax 5.21}{\ignorespaces Reglas de asociaci\IeC {\'o}n sin variantes sin\IeC {\'o}nimas}}{69}
+\contentsline {figure}{\numberline {\relax 5.22}{\ignorespaces Screenshot del dashboard desarrollado}}{70}
 \addvspace {10\p@ }
