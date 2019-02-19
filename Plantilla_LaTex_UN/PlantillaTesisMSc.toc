@@ -41,12 +41,13 @@
 \contentsline {subsection}{\numberline {5.4.1}Variantes vistas como transacciones}{54}
 \contentsline {subsection}{\numberline {5.4.2}Experimentos}{55}
 \contentsline {subsection}{\numberline {5.4.3}Resultados}{55}
-\contentsline {section}{\numberline {5.5}Prototipo de visualizaci\IeC {\'o}n}{69}
-\contentsline {section}{\numberline {5.6}Discusi\IeC {\'o}n}{70}
-\contentsline {subsection}{\numberline {5.6.1}Asociaci\IeC {\'o}n de variantes con sus grupos de caracter\IeC {\'\i }sticas cl\IeC {\'\i }nicas.}{70}
-\contentsline {subsection}{\numberline {5.6.2}Variantes con el gen CFTR}{72}
-\contentsline {subsection}{\numberline {5.6.3}Conclusi\IeC {\'o}n}{73}
-\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{74}
-\contentsline {section}{\numberline {6.1}Conclusiones}{74}
-\contentsline {section}{\numberline {6.2}Trabajo futuro}{75}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{76}
+\contentsline {subsection}{\numberline {5.4.4}RB1}{64}
+\contentsline {section}{\numberline {5.5}Prototipo de visualizaci\IeC {\'o}n}{65}
+\contentsline {section}{\numberline {5.6}Discusi\IeC {\'o}n}{65}
+\contentsline {subsection}{\numberline {5.6.1}Asociaci\IeC {\'o}n de variantes con sus grupos de caracter\IeC {\'\i }sticas cl\IeC {\'\i }nicas.}{66}
+\contentsline {subsection}{\numberline {5.6.2}Variantes con el gen CFTR y RB1}{67}
+\contentsline {subsection}{\numberline {5.6.3}Conclusi\IeC {\'o}n}{69}
+\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{70}
+\contentsline {section}{\numberline {6.1}Conclusiones}{70}
+\contentsline {section}{\numberline {6.2}Trabajo futuro}{71}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{72}

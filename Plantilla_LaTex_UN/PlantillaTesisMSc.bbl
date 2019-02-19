@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Mohammed2014}
 Emad~A. Mohammed, Behrouz~H. Far, and Christopher Naugler.
@@ -29,8 +29,7 @@ Madhuri Hegde, Avni Santani, Rong Mao, Andrea Ferreira-Gonzalez, Karen~E. Weck,
 \bibitem{Li2014}
 Yixue Li and Luonan Chen.
 \newblock {Big biological data: Challenges and opportunities}.
-\newblock {\em Genomics, Proteomics and Bioinformatics}, 12(5):187--189, oct
-  2014.
+\newblock {\em Genomics, Proteomics and Bioinformatics}, 12(5):187--189, 2014.
 
 \bibitem{Lauzon2016}
 David Lauzon, Beatriz Kanzki, Victor Dupuy, Alain April, Michael~S. Phillips,
@@ -426,10 +425,11 @@ Geraldine A Van~Der Auwera, Mauricio~O Carneiro, Chris Hartl, Ryan Poplin, Ami
 \newblock 2014.
 
 \bibitem{Bao2014}
-Lei Bao, Minya Pu, and Karen Messer.
-\newblock {AbsCN-seq: a statistical method to estimate tumor purity, ploidy and
-  absolute copy numbers from next-generation sequencing data.}
-\newblock {\em Bioinformatics (Oxford, England)}, 30(8):1056--1063, jan 2014.
+Riyue Bao, Lei Huang, Jorge Andrade, Wei Tan, Warren~a Kibbe, Hongmei Jiang,
+  and Gang Feng.
+\newblock {Review of Current Methods, Applications, and Data Management for the
+  Bioinformatics Analysis of Whole Exome Sequencing}.
+\newblock {\em Libertas Academica}, 13:67--82, 2014.
 
 \bibitem{Cornish2015}
 Adam Cornish and Chittibabu Guda.
@@ -588,6 +588,7 @@ Ignacio Brice{\~{n}}o-Balc{\'{a}}zar, Alberto G{\'{o}}mez-Guti{\'{e}}rrez,
   Natalia~Andrea D{\'{i}}az-Duss{\'{a}}n, Mar{\'{i}}a~Claudia
   Noguera-Santamar{\'{i}}a, Diego D{\'{i}}az-Rinc{\'{o}}n, and
   Mar{\'{i}}a~Consuelo Casas-G{\'{o}}mez.
+\newblock {Colombia m\'edica.}
 \newblock {\em Colombia M{\'{e}}dica}, 48(2):58--63, jun 2017.
 
 \bibitem{Kamphans2013}
@@ -667,5 +668,12 @@ Dra~Catalina V{\'{a}}squez, Ricardo Aristiz{\'{a}}bal, Wilson Daza, Danitza
 \newblock {Fibrosis qu{\'{i}}stica en Colombia}.
 \newblock {\em Neumologia pediatrica http://www.neumologia-pediatrica.cl},
   (1):44--50, 2010.
+
+\bibitem{Parma2017}
+Diana Parma, Marcela Ferrer, Leonela Luce, Florencia Giliberto, and Irene
+  Szijan.
+\newblock {RB1 gene mutations in Argentine retinoblastoma patients.
+  Implications for genetic counseling}.
+\newblock {\em PLoS ONE}, 12(12):1--12, 2017.
 
 \end{thebibliography}
