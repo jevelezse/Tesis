@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  20 FEB 2019 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  21 FEB 2019 00:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -829,12 +829,12 @@ e
 
 
 (./HojaTitulo/HojaTituloMSc.tex
-<HojaTitulo/escudo.png, id=1, 234.8775pt x 123.46124pt>
+<HojaTitulo/escudo.png, id=1, 214.8025pt x 230.8625pt>
 File: HojaTitulo/escudo.png Graphic file (type png)
 <use HojaTitulo/escudo.png>
 Package pdftex.def Info: HojaTitulo/escudo.png  used on input line 6. on input 
 line 6.
-Package pdftex.def Info: Requested size: 234.87692pt x 123.46092pt on input lin
+Package pdftex.def Info: Requested size: 128.88249pt x 138.51855pt on input lin
 e 6.
  [1
 
@@ -1147,7 +1147,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<Estado/snp.png, id=79, 964.60374pt x 517.935pt>
+<Estado/snp.png, id=80, 964.60374pt x 517.935pt>
 File: Estado/snp.png Graphic file (type png)
 <use Estado/snp.png>
 Package pdftex.def Info: Estado/snp.png  used on input line 25. on input line 2
@@ -1447,14 +1447,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 51.
 
-<Kap2/pipe.pdf, id=136, pagebox=cropbox, 154.5775pt x 464.73625pt>
+<Kap2/pipe.pdf, id=137, pagebox=cropbox, 154.5775pt x 464.73625pt>
 File: Kap2/pipe.pdf Graphic file (type pdf)
 <use Kap2/pipe.pdf>
 Package pdftex.def Info: Kap2/pipe.pdf  used on input line 53. on input line 53
 .
 Package pdftex.def Info: Requested size: 93.89265pt x 282.29735pt on input line
  53.
-<Kap2/pipeline1.png, id=137, 1543.6872pt x 1158.729pt>
+<Kap2/pipeline1.png, id=138, 1543.6872pt x 1158.729pt>
 File: Kap2/pipeline1.png Graphic file (type png)
 <use Kap2/pipeline1.png>
 Package pdftex.def Info: Kap2/pipeline1.png  used on input line 61. on input li
@@ -2458,7 +2458,7 @@ ssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PlantillaTesisMSc.pdf (91 pages, 7026394 bytes).
+Output written on PlantillaTesisMSc.pdf (91 pages, 7043369 bytes).
 PDF statistics:
  620 PDF objects out of 1000 (max. 8388607)
  308 compressed objects within 4 object streams
