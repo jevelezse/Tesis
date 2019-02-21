@@ -11,20 +11,11 @@ Este capítulo presenta el desarrollo de un sistema de información para la gest
 
 Se tomaron una  250 pacientes previa autorización  del laboratorio Genetix S.A.S de los cuales solo 228 contaban con consentimiento informado para utilizar la información con fines de investigación.  La información disponible, se cargo en un archivo de texto plano con la siguiente información: Edad,genero y diagnóstico y adicionalmente para cada paciente se tenían las variantes en un archivo csv, resultado de la anotación realizada en con wAnnorvar según el pipeline implementado en el capítulo 2.\\
 
-A continuación proponemos la utilización de una base de datos con información clínica  y las variantes obtenidas a partir del pipeline. La figura \ref{fig:flujo2} representa el esquema de datos que fue utilizado para realizar la integración de la información dentro de la base de datos. \\ 
-
-\begin{figure}[h!] 
-	\centering
-	\includegraphics[width=0.5\textwidth]{Kap3/flujo2}
-	\caption{Esquema de datos integrados} 
-	\label{fig:flujo2}
-\end{figure}
-
-Teniendo en cuenta la información a utilizar se diseño el esquema EER  que muestra la figura \ref{fig:t} con las tablas generadas por la aplicación para crear la base de datos propias de Django y las tablas de para la gestión del las variantes junto con la historia clínica.
+A continuación proponemos la utilización de una base de datos con información clínica  y las variantes obtenidas a partir del pipeline para el llamado de variantes. Teniendo en cuenta la información a utilizar se diseño el esquema EER  que muestra la figura \ref{fig:t} con las tablas generadas por la aplicación para crear la base de datos propias de Django y las tablas de para la gestión del las variantes junto con la historia clínica.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Kap3/modeloEER}
+	\includegraphics[width=1\textwidth]{Kap3/EER}
 	\caption{Modelo entidad relación} \label{fig:t}
 \end{figure}
 

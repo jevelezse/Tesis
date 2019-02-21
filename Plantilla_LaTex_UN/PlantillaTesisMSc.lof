@@ -21,12 +21,11 @@
 \contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Diagrama de relaci\IeC {\'o}n entre las variantes publicas y las obtenidas por el pipeline.}}{36}
 \contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces Imagen de la variante presente en el exoma p\IeC {\'u}blico}}{37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Esquema de datos integrados}}{43}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Modelo entidad relaci\IeC {\'o}n}}{43}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Interfaz de ingreso para administrar la base de datos.}}{44}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Interfaz de administraci\IeC {\'o}n.}}{44}
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Ingreso de pacientes.}}{45}
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Consulta a variantes}}{45}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Modelo entidad relaci\IeC {\'o}n}}{43}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Interfaz de ingreso para administrar la base de datos.}}{44}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Interfaz de administraci\IeC {\'o}n.}}{44}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Ingreso de pacientes.}}{45}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Consulta a variantes}}{45}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Modelo de miner\IeC {\'\i }a de datos}}{48}
 \contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Distribuci\IeC {\'o}n de rango de edades y g\IeC {\'e}neros de los pacientes}}{49}
