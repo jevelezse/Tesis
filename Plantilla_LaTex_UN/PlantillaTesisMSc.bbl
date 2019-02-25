@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{10}
 
 \bibitem{Mohammed2014}
 Emad~A. Mohammed, Behrouz~H. Far, and Christopher Naugler.
@@ -29,7 +29,8 @@ Madhuri Hegde, Avni Santani, Rong Mao, Andrea Ferreira-Gonzalez, Karen~E. Weck,
 \bibitem{Li2014}
 Yixue Li and Luonan Chen.
 \newblock {Big biological data: Challenges and opportunities}.
-\newblock {\em Genomics, Proteomics and Bioinformatics}, 12(5):187--189, 2014.
+\newblock {\em Genomics, Proteomics and Bioinformatics}, 12(5):187--189, oct
+  2014.
 
 \bibitem{Lauzon2016}
 David Lauzon, Beatriz Kanzki, Victor Dupuy, Alain April, Michael~S. Phillips,
@@ -314,7 +315,7 @@ Dewan~Md Farid, Mohammad~Abdullah Al-Mamun, Bernard Manderick, and Ann Nowe.
 \bibitem{Zaki2007}
 Mohammed~J. Zaki, George Karypis, and Jiong Yang.
 \newblock {Data mining in bioinformatics (BIOKDD)}.
-\newblock {\em Algorithms for Molecular Biology}, 2(1):4, apr 2007.
+\newblock {\em Algorithms for Molecular Biology}, 2(1):4, 2007.
 
 \bibitem{Kawashima2017}
 Koya Kawashima.
@@ -501,13 +502,6 @@ Umadevi Paila, Brad~A. Chapman, Rory Kirchner, and Aaron~R. Quinlan.
   Annotations}.
 \newblock {\em PLoS Computational Biology}, 9(7), 2013.
 
-\bibitem{mckinneypandas}
-Wes McKinney.
-\newblock {pandas: a Foundational Python Library for Data Analysis and
-  Statistics}.
-\newblock {\em Python for High Performance and Scientific Computing}, pages
-  1--9, 2011.
-
 \bibitem{Fu2013}
 Wenqing Fu, Timothy~D. O'Connor, Goo Jun, Hyun~Min Kang, Goncalo Abecasis,
   Suzanne~M. Leal, Stacey Gabriel, David Altshuler, Jay Shendure, Deborah~A.
@@ -567,6 +561,31 @@ Ren{\'{e}} Breuer, Manuel Mattheisen, Josef Frank, Bertram Krumm, Jens
   research meets complex genetics}.
 \newblock {\em bioRxiv}, page 116624, 2017.
 
+\bibitem{Rowntree2003}
+Rebecca~K. Rowntree and Ann Harris.
+\newblock {The phenotypic consequences of CFTR mutations}.
+\newblock {\em Annals of Human Genetics}, 67(5):471--485, sep 2003.
+
+\bibitem{Terlizzi2017b}
+Vito Terlizzi, Giuseppe Castaldo, Donatello Salvatore, Marco Lucarelli, Valeria
+  Raia, Adriano Angioni, Vincenzo Carnovale, Natalia Cirilli, Rosaria Casciaro,
+  Carla Colombo, Antonella~Miriam {Di Lullo}, Ausilia Elce, Paola Iacotucci,
+  Marika Comegna, Manuela Scorza, Vincenzina Lucidi, Anna Perfetti, Roberta
+  Cimino, Serena Quattrucci, Manuela Seia, Valentina~Maria Sofia, Federica
+  Zarrilli, and Felice Amato.
+\newblock {Genotype-phenotype correlation and functional studies in patients
+  with cystic fibrosis bearing CFTR complex alleles}.
+\newblock {\em Journal of Medical Genetics}, 54(4):224--235, 2017.
+
+\bibitem{Farrell2016}
+Philip~M. Farrell, Terry~B. White, Michelle~S. Howenstine, Anne Munck,
+  Richard~B. Parad, Margaret Rosenfeld, Olaf Sommerburg, Frank~J. Accurso,
+  Jane~C. Davies, Michael~J. Rock, Don~B. Sanders, Michael Wilschanski,
+  Isabelle Sermet-Gaudelus, Hannah Blau, Silvia Gartner, and Susanna~A.
+  McColley.
+\newblock {Diagnosis of Cystic Fibrosis in Screened Populations}.
+\newblock {\em Journal of Pediatrics}, 181:S33--S44, 2017.
+
 \bibitem{GabrielBedoya}
 Maria V.~Parra {Gabriel Bedoya} and {Andr{\'{e}}s Ruiz-Linares}.
 \newblock {NHGRI Collection - 1000 Genomes - Colombian in Medell{\'{i}}n,
@@ -610,31 +629,6 @@ Peter~D. Stenson, Matthew Mort, Edward~V. Ball, Katy Evans, Matthew Hayden,
   of inherited mutation data for medical research, genetic diagnosis and
   next-generation sequencing studies}.
 \newblock {\em Human Genetics}, 136(6):665--677, jun 2017.
-
-\bibitem{Rowntree2003}
-Rebecca~K. Rowntree and Ann Harris.
-\newblock {The phenotypic consequences of CFTR mutations}.
-\newblock {\em Annals of Human Genetics}, 67(5):471--485, sep 2003.
-
-\bibitem{Terlizzi2017b}
-Vito Terlizzi, Giuseppe Castaldo, Donatello Salvatore, Marco Lucarelli, Valeria
-  Raia, Adriano Angioni, Vincenzo Carnovale, Natalia Cirilli, Rosaria Casciaro,
-  Carla Colombo, Antonella~Miriam {Di Lullo}, Ausilia Elce, Paola Iacotucci,
-  Marika Comegna, Manuela Scorza, Vincenzina Lucidi, Anna Perfetti, Roberta
-  Cimino, Serena Quattrucci, Manuela Seia, Valentina~Maria Sofia, Federica
-  Zarrilli, and Felice Amato.
-\newblock {Genotype-phenotype correlation and functional studies in patients
-  with cystic fibrosis bearing CFTR complex alleles}.
-\newblock {\em Journal of Medical Genetics}, 54(4):224--235, 2017.
-
-\bibitem{Farrell2016}
-Philip~M. Farrell, Terry~B. White, Michelle~S. Howenstine, Anne Munck,
-  Richard~B. Parad, Margaret Rosenfeld, Olaf Sommerburg, Frank~J. Accurso,
-  Jane~C. Davies, Michael~J. Rock, Don~B. Sanders, Michael Wilschanski,
-  Isabelle Sermet-Gaudelus, Hannah Blau, Silvia Gartner, and Susanna~A.
-  McColley.
-\newblock {Diagnosis of Cystic Fibrosis in Screened Populations}.
-\newblock {\em Journal of Pediatrics}, 181:S33--S44, 2017.
 
 \bibitem{Farrell2008}
 Philip~M. Farrell, Beryl~J. Rosenstein, Terry~B. White, Frank~J. Accurso, Carlo

@@ -3,7 +3,7 @@
 El mayor de los retos aplicado al análisis de variantes, es desarrollar herramientas que permitan al investigador acceder a la información fácilmente y que pueda tener una base de datos,donde pueda consultar, analizar y actualizar la información de sus experimentos \cite{Li2014}.En el campo clínico esto representa un reto aun mayor dado que se hace necesario recolectar los datos genéticos junto con los datos clínicos para poder hacer análisis más acertados y a gran escala \cite{Paila2013}.\\
 
 
-Este capítulo presenta el desarrollo de un sistema de información para la gestión de información clínica y genómica, desde el diseño e implementación de la base de datos.Este capítulo esta   organizado en 3.1. Diseño e implementación de datos. 3.2. Gestión de datos clínicos y genómicos. 3.3. Conclusiones y  Resumen.
+Este capítulo presenta el desarrollo de un sistema de información para la gestión de información clínica y genómica, desde el diseño e implementación de la base de datos. Este capítulo esta  organizado en 3.1. Diseño e implementación de datos. 3.2. Gestión de datos clínicos y genómicos. 3.3. Conclusiones y  Resumen.
 
 \section{Diseño e implementación del modelo de datos}
 
@@ -11,7 +11,9 @@ Este capítulo presenta el desarrollo de un sistema de información para la gest
 
 Se tomaron una  250 pacientes previa autorización  del laboratorio Genetix S.A.S de los cuales solo 228 contaban con consentimiento informado para utilizar la información con fines de investigación.  La información disponible, se cargo en un archivo de texto plano con la siguiente información: Edad,genero y diagnóstico y adicionalmente para cada paciente se tenían las variantes en un archivo csv, resultado de la anotación realizada en con wAnnorvar según el pipeline implementado en el capítulo 2.\\
 
-A continuación proponemos la utilización de una base de datos con información clínica  y las variantes obtenidas a partir del pipeline para el llamado de variantes. Teniendo en cuenta la información a utilizar se diseño el esquema EER  que muestra la figura \ref{fig:t} con las tablas generadas por la aplicación para crear la base de datos propias de Django y las tablas de para la gestión del las variantes junto con la historia clínica.
+\subsubsection{Base de datos}
+
+Se propone el desarrollo de una base de datos relacional con información clínica  y las variantes obtenidas a partir del pipeline para el llamado de variantes. Teniendo en cuenta los datos, se diseño un modelo EER que muestra la figura \ref{fig:t} con tablas para la gestión de variantes junto a la historia clínica, y con las herramientas de administración de Django.
 
 \begin{figure}[H]
 	\centering
@@ -19,13 +21,30 @@ A continuación proponemos la utilización de una base de datos con información
 	\caption{Modelo entidad relación} \label{fig:t}
 \end{figure}
 
-Las tablas diseñadas para gestionar las variantes y las historias clínicas son gene\_variants\_paciente que contienen:
+Las tablas diseñadas para gestionar las variantes y las historias clínicas son las de color verde la primera es gene\_variants\_paciente con el siguiente diccionario de datos:
+
+\begin{table}[]
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textit{\textbf{Campo}} & \textit{\textbf{Tamaño}} & \textit{\textbf{Tipo de dato}} & \textit{\textbf{Descripción}}             \\ \hline
+		Código                  & 100                      & Caracter                       & Es el código del paciente                 \\ \hline
+		Sexo                    & 4                        & Cáracter                       & Indica el sexo del paciente               \\ \hline
+		Madre                   & 11                       & Númerico                       & Código de madre de un paciente            \\ \hline
+		Padre                   & 11                       & Númerico                       & Código de padre de un paciente            \\ \hline
+		Edad                    & 11                       & Númerico                       & Edad del paciente                         \\ \hline
+		Historia Clínica        & 4,294,967,295            & Cáracter                       & Contiene la historia clínica del paciente \\ \hline
+	\end{tabular}
+\end{table}
 
 \begin{itemize}
 	\item Edad: 0-99. Los recién nacidos  o menores de un año tienen una edad de 0.
 	\item Sexo: F o M según corresponda.
 	\item Descripción: Que corresponde a la información clínica disponible.
 \end{itemize} 
+
+La otra tabla es gene\_variants\_variantes que es la tabla que contiene las variantes de cada uno de los pacientes y tiene las siguientes columnas:
+
+
 
 
 Las variantes con su historia clínica fueron cargadas mediante un script en bash disponible en https://github.com/jevelezse/variantesBD/blob/master/carga.bash, donde se toman los archivos .csv de annovar junto con los archivos de texto que tienen la información clínica del paciente distribuida de la siguiente forma:
@@ -34,17 +53,17 @@ Las variantes con su historia clínica fueron cargadas mediante un script en bas
 
 Los resultados obtenidos fueron una aplicación con una interfaz que permite a los usuarios con poco conocimiento de  programación  analizar los datos de variantes y su resumen de la historia clínica. \\
 
-\begin{figure}[h] 
+\begin{figure}[H] 
 	\centering
 	\includegraphics[width=0.4\textwidth]{Kap3/admin_django}
 	\caption{Interfaz de ingreso para  administrar la base de datos.} \label{fig:admin}
 \end{figure}
 
-Inicialmente la figura\ref{fig:admin}, muestra la solicitud de usuario y contraseña para acceder a la aplicación, es diferente a la base de MySQL, pero  puede tener  una contraseña igual o diferente a la de la base de datos.
+Inicialmente la figura\ref{fig:admin}, muestra la solicitud de usuario y contraseña para acceder a la aplicación, es diferente a la base de MySQL, pero  puede tener  una contraseña igual o diferente a la de la base de datos.\\
 
-\begin{figure}[h] 
+\begin{figure}[H] 
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap3/django_admin}
+	\includegraphics[width=1\textwidth]{Kap3/django_admin}
 	\caption{Interfaz de administración.} \label{fig:admin2}
 \end{figure}
 
@@ -54,15 +73,15 @@ Desde esta interfaz se puede agregar un grupo, más usuarios, pacientes y/o vari
 
 \begin{figure}[h] 
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap3/ingresar_paciente}
+	\includegraphics[width=1\textwidth]{Kap3/ingresar_paciente}
 	\caption{Ingreso de pacientes.} \label{fig:pacientes}
 \end{figure}
 
-En la figura \ref{fig:pacientes} se muestra el formulario para ingresar una nueva historia o de modificar una historia clínica de un paciente de manera manual.
+En la figura \ref{fig:pacientes} se muestra el formulario para ingresar una nueva historia o de modificar una historia clínica de un paciente de manera manual.\\
 
 \begin{figure}[h] 
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap3/consulta}
+	\includegraphics[width=1\textwidth]{Kap3/consulta}
 	\caption{Consulta a variantes} \label{fig:consulta}
 \end{figure}
 
@@ -74,8 +93,6 @@ Si se desea hacer modificaciones a los datos del paciente también es posible ha
 La importancia de gestión aplicada al manejo de datos clínicos y de información genética es de vital importancia dado que existen miles de anotaciones que requieren de scripts para cargarlos las anotaciones y como es este caso el historial clínico del paciente \cite{Paila2013}. \\
 
 La aplicación desarrollada para crear y gestionar una base de datos aplicada una bioinformática con aplicaciones a la medicina, es necesario que la base de datos provea las consultas para soportar las decisiones sobre un paciente en especifico teniendo en cuenta sus datos,la relación con datos de otros pacientes y los datos de exomas, además de los datos relacionados con los familiares en caso de que se encuentren estos datos. Mostrando que es posible realizar una integración adecuada de los datos bioinformáticos y clínicos utilizando bases de datos relacionales, con una buena respuesta en las consultas. \cite{Sujansky2001}.
-
-Los datos fueron consultados  desde mysql y cargada a librería de python pandas \cite{mckinneypandas}.
 
 \section{Conclusión}
 

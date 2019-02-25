@@ -2,7 +2,9 @@
 
 Con el desarrollo de la las tecnologías de secuenciación masiva los biólogos moleculares se han visto en la necesidad  de utilizar metodologías computacionales para analizar datos biológicos a gran escala, además de la aplicación de estas tecnologías en medicina requieren de un diseño y una validación que permita obtener nuevos conocimientos que sean  aplicables en la salud de los colombianos.
 
-\section{Biología molecular y secuenciación masiva.}
+Este capítulo presenta el estado del arte de la secuenciación y de propuestas para análisis de datos biológicos. Esta organizado en 2.1. Biología molecular y secuenciación masiva, 2.2 Bioinformática, 2.3 Minería de datos genómicos.
+
+\section{Biología molecular y secuenciación masiva}
 
 Desde  que  Watson y Crick propusieron la estructura del ADN en 1953 \cite{Watson1953}, el estudio del ADN ha sido básico en el desarrollo de la biología molecular, incluso el mismo Francis Crick fue quien propuso el dogma central de la misma para describir la relevancia del ADN en los seres vivos y la utilización de la información que contiene por las células,dada la importancia del  ADN  en las décadas de 1970 y 1980 se desarrollaron  técnicas para determinar el orden de los nucleótidos  (técnicas de secuenciación) de manera más eficiente que la secuenciación de las proteínas y se definieron secuencias de algunos organismos como el virus de Episten Barr y  de la mitocondria humana, mediante la utilización de métodos químicos propuestos por Maxam y Gilbert en 1977 y Sanger en 1980 siendo este último el más popular, estas técnicas son conocidas como tecnicas primera generación \cite{Herraez2012}. \\
 
@@ -18,7 +20,7 @@ Dado que la utilización de NGS permitío dar respuesta para entender enfermedad
 
 \subsection{Identificación de variantes}
 
-La secuenciación de exones (secuenciación de exoma) ha sido un buen método para identificar SNPs (Polimorfismos de Nucleótido Único) y las SNV (Variantes de nucleótido simple) como se observa en la sigueinte figura \ref{fig:snp}, y permitió identificar pequeñas delecciones o inserciones (indels) que pueden  ser  causales de enfermedades y de la variación fenotipíca de los individuos \cite{Deng2011,Wenger2017}.
+La secuenciación de exones (secuenciación de exoma) ha sido un buen método para identificar SNPs (Polimorfismos de Nucleótido Único) y las SNV (Variantes de nucleótido simple) como se observa en la sigueinte figura \ref{fig:snp}, y permitió identificar pequeñas delecciones o inserciones (indels) que pueden  ser  causales de enfermedades y de la variación fenotipíca de los individuos \cite{Deng2011,Wenger2017}.\\
 
 \begin{figure}[h!] 
 	\centering
@@ -36,7 +38,7 @@ A pesar de ser herramientas de investigación  que han sido desarrolladas, Illum
 
 Los datos obtenidos a partir de técnicas de NGS han tenido un crecimiento vertiginoso y presentan un reto para el manejo y análisis de los mismos, debido a que los formatos de los datos y las inconsistencias de las secuencias como resultado de los procesos experimentales, la importación de las secuencias a nivel digital, el ensamble de los fragmentos de ADN, el alineamiento y post-alineamiento de grandes cantidades de datos biológicos hace que se convierta en una de las bases de la investigación en bioinformática \cite{Deng2011,Triplet2014}.
 
-\subsection*{Secuenciación de siguiente generación (NGS) aplicada en salud}
+\subsection{Secuenciación de siguiente generación (NGS) aplicada en salud}
 
 La secuenciación de siguiente generación ha sido adoptada en el ambito clínico, dado que se ha documentado su utilidad para el diagnostico de enfermedades  y para la toma de decisiones en cáncer o para la selección de dosis de medicamentos en un paciente, \cite{Lubin2017} algunos de estos ejemplos son:
 
@@ -145,7 +147,7 @@ Algunas de las tareas de minería de datos son \cite{Littlefield}:
 \begin{enumerate}[1.]
 	\item Clasificación: Donde se clasifican los datos a una clase predefinida.
 	\item Asociación: Ver elementos que están asociados mediante reglas
-	\item El clustering o agrupamiento: Como la definición de una población de datos dentro de un subgrupo o cluster .
+	\item El grupoing o agrupamiento: Como la definición de una población de datos dentro de un subgrupo o grupo .
 \end{enumerate}
 
 La utilización de las técnicas de secuenciación de alto rendimiento junto  la aplicación de técnicas de minería de datos pueden aportar al diagnóstico de enfermedades complejas  como las fallas cardiacas y el cáncer que presentan diversas causas \cite{Hannah-Shmouni2015} . Partiendo de lo anterior se hace necesario saber la relación entre las moléculas biológicas y las características de una enfermedad vistas desde la alteración de uno o varios genes y las posibles alteraciones que estos causan en una persona \cite{Li2014}.
@@ -156,11 +158,12 @@ En los procesos médicos, la relación entre los factores que pueden afectar la 
 
 Actualmente, mucha de la información clínica se encuentra contenida en textos libres de publicaciones científicas, historias clínicas o bases de datos especializadas como OMIN, por esta razón el procesamiento del lenguaje natural en los últimos años ha tenido un impacto en la investigación clínica,además no puede ser aplicado en políticas de salud publica o usarse con fines diagnósticos. \cite{Neveol2014}\\
 
-La minería texto  puede ser aplicada en la medicina, donde el agrupamiento ha sido considerado uno de los métodos más importantes, ya que se basa en aprendizaje de maquina no supervisado y que ha sido aplicado a diferentes problemas\cite{Kawashima2017}, teniendo en cuenta que uno de los objetivos del agrupamiento de datos, es la  identificación de grupos naturales en datos sin etiquetas. Las tareas de minería datos en textos clínicos son las clásicas que se utilizan en minería de datos, como el preprocesamiento, el agrupamiento y la clasificación, donde los documentos son la información clínica, ya sea de historias clínicas o literatura medica \cite{Jain2010,Renganathan2017}.
+La minería texto puede ser aplicada en la medicina, esto implica la utilización del procesamiento del lenguaje natural dentro del contexto clínico y que sea implementado en diferentes idiomas \cite{Neveol2014}, donde el agrupamiento ha sido considerado uno de los métodos más importantes, ya que se basa en aprendizaje de maquina no supervisado y que ha sido aplicado a diferentes problemas\cite{Kawashima2017}, teniendo en cuenta que uno de los objetivos del agrupamiento de datos, es la  identificación de grupos naturales en datos sin etiquetas. Las tareas de minería datos en textos clínicos son las clásicas que se utilizan en minería de datos, como el preprocesamiento, el agrupamiento y la clasificación, donde los documentos son la información clínica, ya sea de historias clínicas o literatura medica \cite{Jain2010,Renganathan2017}.
+
 
 \subsubsection{Preprocesamiento}
 
-El preprocesamiento de documentos envuelve dos pasos, que son la remoción de stop words y el stemming. Las stop words son palabras que tienen una alta frecuencia y  que detienen una oración, como por ejemplo de, y, más, por,como etc y que tienen una alta frecuencia en los documentos. El stemming  que permite realizar una representación de las palabras desde su raíz convirtiéndolas en un solo término, por ejemplo, analiza, analizo, análisis que serian representadas por el término análisis \cite{Renganathan2017}.\\
+El preprocesamiento de documentos generalmente presenta dos pasos que son la remoción de stop words y el stemming. Las stop words son palabras que tienen una alta frecuencia y  que detienen una oración, como por ejemplo de, y, más, por,como etc y que tienen una alta frecuencia en los documentos. El stemming  que permite realizar una representación de las palabras desde su raíz convirtiéndolas en un solo término, por ejemplo, analiza, analizo y análisis que serian representadas por el término análisis \cite{Renganathan2017}.\\
 
 Una vez realizado el preprocesamiento se preparan los datos se calcula la matrix de frecuencia de términos $tf$ y la frecuencia invertida de documentos $idf$; que son utilizadas para calcular la matriz $tfidf$ como uno de los métodos más populares para ponderar los términos, debido a que disminuye el peso de la ocurrencia de términos en la colección de los documentos, haciendo que la comparación entre los mismos no sea afectada por palabras distintivas que tienen bajas frecuencias en la colección\cite{Renganathan2017,Allahyari2017}. \\
 
@@ -180,13 +183,13 @@ En comparación con los algoritmos de agrupación jerárquica, los algoritmos de
 
 El k-means inicia con un número predefinido de grupos de documentos, por cada instancia, $k$ grupos, al utilizarlo con los documentos estos se ubicaran en diferentes grupos según  la cercania del centroide del grupo (media). En cada iteración, el centroide del grupo se vuelve a calcular recursivamente después de la reubicación de los documentos en función de la proximidad al centroide del grupo. Esto se repite hasta que no haya cambios en la reubicación de los documentos \cite{Renganathan2017}. \\
 
-Para la selección del número de $k$ existen varios metodologías como son: el método del codo, este es uno de los métodos más antiguos para determinar el número de grupos, se realizan varios experimentos iniciando por un $K$  y realizando un incremento de 1, para los cuáles se calcula el costo que conlleva cada una de las iteraciones; entre más se aumente el número de $K$ el costo disminuye y el número de $K$ alcanza una meseta, este valor es el que se desea obtener, visualmente se realiza la identificación mediente un gráfico de error cuadrático y número de clusters, la razón es que al continuar el aumento del número de $K$ los nuevos grupos son muy cercanos a otros \cite{Kodinariya2013}.\\ 
+Para la selección del número de $k$ existen varios metodologías como son: el método del codo, este es uno de los métodos más antiguos para determinar el número de grupos, se realizan varios experimentos iniciando por un $K$  y realizando un incremento de 1, para los cuáles se calcula el costo que conlleva cada una de las iteraciones; entre más se aumente el número de $K$ el costo disminuye y el número de $K$ alcanza una meseta, este valor es el que se desea obtener, visualmente se realiza la identificación mediente un gráfico de error cuadrático y número de grupos, la razón es que al continuar el aumento del número de $K$ los nuevos grupos son muy cercanos a otros \cite{Kodinariya2013}.\\ 
 
-Otra forma de seleccionar el número de $K$ es con el coeficiente de Silhouette que es una evaluación de los clusters, donde los valores altos son relacionados a modelos que tienen clusteres bien definidos .El coefiente está definido por cada muestra y está compuesta por dos valores que son \cite{scikit-learn,Rousseeuw1987}:
+Otra forma de seleccionar el número de $K$ es con el coeficiente de Silhouette que es una evaluación de los grupos, donde los valores altos son relacionados a modelos que tienen grupos es bien definidos. El coefiente está definido por cada muestra y está compuesta por dos valores que son \cite{scikit-learn,Rousseeuw1987}:
 
 \begin{itemize}
 	\item \textbf{a:} La distancia media entre una muestra y todos los puntos de la misma clase.
-	\item \textbf{b:} La distancia media entre una muestra y todos los otros puntos en el próximo cluster más cercano.
+	\item \textbf{b:} La distancia media entre una muestra y todos los otros puntos en el próximo grupo más cercano.
 \end{itemize}
 
 El coeficiente Silhouette $s$ para una sola muestra se da como:
@@ -210,19 +213,19 @@ $$h=1- \frac{H(C|K)}{H(C)} $$
 
 $$c=1- \frac{H(K|C)}{H(K)}$$
 
-donde $H(C|K)$ es la entropía condicional de las clases en cada asignación de cluster y que son calculadas por:
+donde $H(C|K)$ es la entropía condicional de las clases en cada asignación de grupo y que son calculadas por:
 
 $$H(C|K)= - \sum_{c=1}^{|C|} \sum_{k=1}^{|K|} \frac{n_c,_k}{n} . \log \frac{n_c,_k}{n_k}$$ 
 
 y $H(C)$ es la entropia de clases y es calculada:
 $$H(C)=  - \sum_{c=1}^{|C|} \frac{n_c}{n} . \log \frac{n_c}{n}$$ 
-con $n$ que es el número total de muestras $n_c$ y $n_k$ son el número de muestras asignadas respectivamente a la clase $c$ y al cluster $k$, y finalmente $n_c,_k$ son el número de muestras de las clases $c$ asignadas al cluster $k$.\\
+con $n$ que es el número total de muestras $n_c$ y $n_k$ son el número de muestras asignadas respectivamente a la clase $c$ y al grupo $k$, y finalmente $n_c,_k$ son el número de muestras de las clases $c$ asignadas al grupo $k$.\\
 
 Finalmente el V-measure está definido de la siguiente manera \cite{Rosenberg2007}:
 
 $$v= 2.\frac{h.c}{h+c}$$
 
-Donde $h$ es la homogeneidad del cluster  y $c$ la integridad del cluster. 
+Donde $h$ es la homogeneidad del grupo  y $c$ la integridad del grupo. 
 
 \subsection{Reglas de asociación para el análisis de variantes}
 
@@ -236,8 +239,28 @@ Las reglas de asociación se basan en un set de items(elementos) $I = \{i_1,i_2,
 	\item Dados un set de datos $X \Rightarrow Y$ tiene una \textit{regla de asociación} tiene un soporte $s$ si $s\%$ de las transacciones en nuestra base de datos de transacciones que contienen $X\cup Y$ \cite{Agrawal1994}. 
 	
 	\item Los algoritmos de asociación tratan de encontrar todas las reglas que tengan un mínimo de soporte y un mínimo de confianza\cite{Agrawal1994}. 
-	
 \end{itemize}
+
+\subsection*{Trabajos previos}
+
+Algunas de las publicaciones que se han realizado en donde se aplican modelos de minería de texto utilizando agrupamiento y/o reglas de asociación son:
+
+\begin{itemize}
+	\item ``
+	Clustering Similar Clinical Documents in Electronic Health Records" de Tang, C. y colaboradores presentado en International Conference on Data Science en el 2018. Que realiza la identificación de documentos similares mediante la recoleccion de historias clinicas electronicas y con la utilización del algoritmo K-Means. 
+	
+	\item ``A system for exploring big data: An iterative k-means searchlight for outlier detection on open health data" de Rao, A. y colaboradores presentado en Proceedings of the International Joint Conference on Neural Networks en el 2018 donde utilizan información clínica para identificar diagnósticos diferenciales.  
+	
+	\item ``Lung Cancer Concept Annotation from Spanish Clinical Narratives" de Koike, T. y colaboradores presentado en  Data Integration in the Life Sciences. DILS 2018. y muestra una aplicación de procesamiento de lenguaje natural aplicado en pacientes con cáncer de pulmón en historias clínicas en español.
+	
+	\item ``Aiding Remote Diagnosis with Text Mining" de Karlsson,R. y colaboradores presentado en Artificial Intelligence Research Society Conference en el 2018. Es un trabajo que plantea la propuesta de realizar identificación de diagnósticos basado en los síntomas del paciente, para este trabajo también se utiliza el K-means.
+	
+	\item ``Discovering blood donor arrival patterns using data mining: a method to investigate service quality at blood centers."  de Testik,M. públicado en 2012 en la revista  Journal of medical systems y colaboradores en el cual desarrollan un modelo de minería para la identificación de donantes de sangre utilizado agrupación y clasificación.
+	
+	\item ``Detecting significant genotype–phenotype association rules in bipolar disorder: market research meets complex genetics" de Breuer, R y colaboradores que se público  en International Journal of Bipolar Disorders en el 2018, donde realizan una asociación de variantes en pacientes con trastorno bipolar.
+
+\end{itemize}
+
 
 \section*{Resumen}
 

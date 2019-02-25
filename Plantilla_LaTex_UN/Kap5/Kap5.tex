@@ -5,7 +5,7 @@
 \begin{itemize}
 	\item La identificación de variantes es uno de los procesos más costosos de implementar a nivel comunicacional, ya que se requiere de la disponibilidad de datos si no también de conocimiento y manejo de computación de alto desempeño.
 	
-	\item La cantidad de herramientas para identificar variantes y la falta de concesos estándar dificultan la decisión de cuáles son las mejores herramientas y criterios para validar la identificación de variantes.
+	\item La cantidad de herramientas para identificar variantes y la falta de consensos estándar dificultan la decisión de cuáles son las mejores herramientas y criterios para validar la identificación de variantes.
 	
 	\item Es necesario desarrollar herramientas que permitan hacer las ejecuciones más rápidas y validas para identificar variantes. 
 	
@@ -17,9 +17,19 @@
 	
 	\item La aplicación al gen CFTR muestra que los pacientes que tienen una sospecha de variantes patógenicas no se encuentran en regiones codificantes y son variantes distintas a las sinónimas y no sinónimas.
 	
+	\item Para detectar adecuadamente las variantes del gen CFTR se recomienda hacer secuenciación de gen completo ya que las variantes intronicas también generan un efecto patogénico en este gen.
+	
 	\item La visualización de los resultados de clustering y reglas de asociación, permite generar nuevas preguntas con respecto a los datos obtenidos y generar nuevas validaciones experimentales.
 	
 	\item Se presentó una de las primeras base de datos con información de variantes en la población colombiana a nivel de regiones codificantes.
+	
+	\item Los grupos obtenidos a pesar de compartir palabras de diagnóstico frecuentes en común como seno y cáncer entre sí a nivel de caracterización de variantes son distintos.
+	
+	\item En el agrupamiento por pacientes se evidencian dos grandes grupos los cuales son los pacientes que tienen algún tipo de cáncer y los pacientes que sufren algún tipo de síndrome. 
+	
+	\item Los pacientes que tienen un rango de edad de 0 a 10 años son los que más variantes presentan, pero son los pacientes que menos están representado en las reglas de asociación esto se debe a que hay una alta probabilidad de que sus variantes sean de baja frecuencia. 
+	
+	
 	 
 \end{itemize}
 
@@ -28,14 +38,16 @@
 Propuestas de futuras investigaciones:
 
 \begin{itemize}
-	\item[$\Rightarrow$] Aumentar el número de pacientes secuenciados, con el fin de aumentar la búsqueda de patrones de variantes en la población colombiana.
+	\item Aumentar el número de pacientes secuenciados, con el fin de aumentar la búsqueda de patrones de variantes en la población colombiana.
 	
-	\item[$\Rightarrow$] Aplicar el mismo modelo de minería utilizando variantes de exomas  y genomas completos para aumentar la cantidad de variantes y su tipo, además de relacionar las variantes intrónicas e intergenicas como posibles variantes causales de enfermedades teniendo en cuenta también el fenotipo de los pacientes.
+	\item Aplicar el mismo modelo de minería utilizando variantes de exomas  y genomas completos para aumentar la cantidad de variantes y su tipo, además de relacionar las variantes intrónicas e intergenicas como posibles variantes causales de enfermedades teniendo en cuenta también el fenotipo de los pacientes.
 	
-	\item[$\Rightarrow$] Integrar información de origen regional de los pacientes, para observar la distribución de variantes  y las enfermedades por regiones en Colombia.
+	\item Integrar información de origen regional de los pacientes, para observar la distribución de variantes  y las enfermedades por regiones en Colombia.
 	
-	\item[$\Rightarrow$] Desarrollar una base de datos NoSQL para integrar la información de variantes proveniente de diversos anotadores, con frecuencias poblacionales y con predicotres de patogenicidad de la variantes y la información clínica, además de dejar abierta la posibilidad de agregar más columnas con nueva información de interés haciéndola la base de datos mas permeable a los cambios que hagan las herramientas de anotación. 
+	\item Desarrollar una base de datos NoSQL para integrar la información de variantes proveniente de diversos anotadores, con frecuencias poblacionales y con predicotres de patogenicidad de la variantes y la información clínica, además de dejar abierta la posibilidad de agregar más columnas con nueva información de interés haciéndola la base de datos mas permeable a los cambios que hagan las herramientas de anotación. 
 	
-	\item[$\Rightarrow$] Desarrollar un sistema de asignación de variantes, que permita evaluar la frecuencia de cada variante dentro de la población sin necesidad de depender las asignaciones dadas por los anotadores.
+	\item Desarrollar un sistema de asignación de variantes, que permita evaluar la frecuencia de cada variante dentro de la población sin necesidad de depender las asignaciones dadas por los anotadores.
+	
+	\item Modificar el cálculo de frecuencias del algorimo Apriori que permita, seleccionar items frecuentes, poco frecuentes e intermedios sin necesidad de que se calcule las asociaciones para todos los ítems. 
 
 \end{itemize}

@@ -125,7 +125,7 @@ La figura \ref{fig:jerarquico} muestra un resumen de como quedan agrupadas las h
 
 Para el presente trabajo esté agrupamiento de los diagnósticos no es optimo, pero muestra dos grandes grupos de diagnósticos. 
 
-\subsubsection{k means}
+\subsubsection{kmeans}
 
 El cálculo del error cuadrático vs el número de grupos se realizo utilizando la libreria de python scikit learn, donde se computa el valor de la inercia que es calculada como la suma de cuadrados por cada punto cercano al centroide y es asignado al grupo. Así que  $I = \sum_{i}(d(i,cr))$ donde $cr$ es el centroide que fue asignado al grupo y $d$ es la distancia cuadrada \cite{scikit-learn}. 
 
@@ -187,21 +187,23 @@ La tabla \ref{tabla:items} muestra los items utilizados para ser asociados, y la
 
 La confianza y el soporte para este trabajo se ajusto a partir de los resultados experimentales, donde se observo que el soporte es inversamente proporcional a la confianza, esto se debe a la cantidad de variantes que se encuentran dentro de la base de datos. Al correr un experimento con un soporte mínimo de 0.2 y una confianza mínima de 0.9 no se obtuvo ningún tipo de regla, por lo tanto, estos valores se fueron ajustando disminuyendo en 0.1 el valor de la confianza y el soporte.\\
 
-Finalmente se ajusto un soporte de 0.05 y una confianza de 0.5, dado que con un soporte de 0.1 solo se generaban 5 reglas, utilizando toda los datos disponibles. Una vez realizado este ajuste se dejaron los valores de soporte y confianza igual para todos los experimentos, también se realizo la remoción de reglas redundantes.\\
+Finalmente se ajusto un soporte de 0.05 y una confianza de 0.6, dado que con un soporte de 0.1 solo se generaban 5 reglas, utilizando toda los datos disponibles. Una vez realizado este ajuste se dejaron los valores de soporte y confianza igual para todos los experimentos, también se realizo la remoción de reglas redundantes.\\
 
 Una vez se ajustaron los valores de soporte y confianza se realizaron 12 experimentos, los primeros 5 experimentos con todas las variante dentro del set de datos junto a su grupos, otro a todo el conjunto de datos aplicado con los datos y filtrado por el gen CFTR. Se volvieron a repetir los mismos experimentos pero removiendo las variantes sinónimas que son las más frecuentes dentro del conjunto de datos.
 
 
 \subsection{Resultados} 
 
-Teniendo en cuenta las medidas de validación encontramos  5 grupos con las siguientes estructuras:
+Teniendo en cuenta las medidas de validación encontramos  5 grupos a los cuales se les realizo su caracterización teniendo en cuenta la frecuencia de palabras de las información clinica  de cada grupo, la información demográfica de los pacientes que fueron agrupados y las reglas de asociación obtenidas por cada grupo, con  variantes sinónimas y sin variantes sinónimas  representado: 
+
+\subsubsection*{Grupo 1}
 
 \begin{figure}[h!]
 	\centering
 	\subfigure[Nube de palabras]{\label{f:nube1}
-		\includegraphics[width=60mm]{Kap4/cluster1}}
+		\includegraphics[width=80mm]{Kap4/cluster1}}
 	\subfigure[Distribucón demográfica de los pacientes]{\label{fig:grupo1}
-		\includegraphics[width=60mm]{Kap4/edadc1}}
+		\includegraphics[width=80mm]{Kap4/edadc1}}
 	\caption{Grupo 1}
 	\label{f:grupo11}
 \end{figure} 
@@ -209,37 +211,37 @@ Teniendo en cuenta las medidas de validación encontramos  5 grupos con las sigu
 
 La figura \ref{f:grupo11} representa el grupo 1 con la frecuencia de palabras que se agrupadas y la figura \ref{f:nube1}  se muestra la frecuencia de palabras, siendo seno,síndrome y cáncer son las palabras más frecuentes, junto con ovario,familiar sospecha y epilepsia. La figura \ref{fig:grupo1} representa la distribución de pacientes por edad y genero dentro del grupo por rango de edad en un intervalo de 10 años.\\
 
-\begin{figure}[H]
+\begin{figure}[h!]
 	\centering
-	\subfigure[Reglas de asociacióncon variantes sinónimas.]{\label{fig:re1}
-		\includegraphics[width=70mm]{Kap4/reglas1_1}}
+	\subfigure[Reglas de asociación con variantes sinónimas.]{\label{fig:re1}
+		\includegraphics[width=80mm]{Kap4/reglas1_1}}
 	\subfigure[Reglas de asociación sin variantes sinónimas]{\label{fig:r1}
-		\includegraphics[width=70mm]{Kap4/reglas1_2}}
+		\includegraphics[width=80mm]{Kap4/reglas1_2}}
 	\caption{Reglas de asociación del grupo 1.}
 	\label{fig:reglas1}
 \end{figure}
 
-La figura \ref{fig:reglas1} que muestra la asociación de variantes con información clínica del grupo 1.En la figura \label{fig:re1} se presentan los resultados reglas de asociación sin remover las variantes sinónimas. Para el presente grupo se obtuvo dos tipos de variantes  distribuidas por género, donde el masculino presenta variantes  sinónimas y que son pacientes con un rango de edad entre 10 y 20 años, con un estado alélico homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros, donde las pacientes de género femenino tienen variantes sinónimas con estado heterocigotas y con mayor diferencia de rango  de edad, pero las pacientes con la edad de 10 a 20 años no presentan variantes homocigotas a diferencia de los pacientes de genero masculino. \\
+La figura \ref{fig:reglas1} que muestra la asociación de variantes con información clínica del grupo 1.En la figura \label{fig:re1} se presentan los resultados reglas de asociación sin remover las variantes sinónimas. Para el presente grupo se obtuvo dos tipos de variantes  distribuidas por género, donde el masculino presenta variantes  sinónimas y que son pacientes con un rango de edad entre 10 y 20 años, con un estado alélico homocigoto, para este grupo se observa una alta diferencia en las reglas ambos géneros, donde las pacientes de género femenino tienen variantes sinónimas con estado heterocigotas y con mayor diferencia de rango  de edad, pero las pacientes con la edad de 10 a 20 años no presentan variantes homocigotas a diferencia de los pacientes de genero masculino.\\
 
-En cuanto a las reglas removiendo las variantes sinónimas que se muestran en la figura  \ref{fig:r1}, se observa que  nuevamente la distribución que los pacientes masculinos son pacientes entre 10 y 20 años, con variantes heterocigotas , mientras que para el genero femenino se tienen rangos de edad más amplios desde la edad  de 0 a 50 años, en este caso las variantes homocigotas están como una regla independiente.
+En cuanto a las reglas removiendo las variantes sinónimas que se muestran en la figura  \ref{fig:r1}, se observa que  nuevamente la distribución que los pacientes masculinos son pacientes entre 10 y 20 años, con variantes heterocigotas , mientras que para el genero femenino se tienen rangos de edad más amplios desde la edad  de 0 a 50 años, en este caso las variantes homocigotas están como una regla independiente.\\
 
 \subsubsection*{Grupo 2}
 
 \begin{figure}[H]
 	\centering
-	\subfigure[Nube de palabras]{\label{fig:nube2}\includegraphics[width=60mm]{Kap4/cluster2}}
-	\subfigure[Rango de edad en décadas.]{\label{fig:demo2}\includegraphics[width=60mm]{Kap4/edadc2}}
+	\subfigure[Nube de palabras]{\label{fig:nube2}\includegraphics[width=80mm]{Kap4/cluster2}}
+	\subfigure[Rango de edad en décadas.]{\label{fig:demo2}\includegraphics[width=80mm]{Kap4/edadc2}}
 	\caption{Grupo 2} \label{fig:c2}
 \end{figure}
 
 En la figura \ref{fig:nube2} se observa que al igual que el grupo 1 las palabras más frecuentes son cáncer,seno y síndrome, pero aparecen palabras como antecedente tiroides y hermana,según la \ref{fig:demo2} se observa rangos de edad entre 20 y 30 años y para el rango entre 30 y 40 años y para mayores de 60 no hay pacientes masculinos, siendo este un grupo representado principalmente por pacientes femeninas.  
 
-\begin{figure}[H]
+\begin{figure}[h!]
 	\centering
 	\subfigure[Reglas de asociación con variantes sinonimas]{\label{fig:reglas2.1}
-		\includegraphics[width=70mm]{Kap4/reglas2_1}}
+		\includegraphics[width=80mm]{Kap4/reglas2_1}}
 	\subfigure[Reglas de asociación sin variantes sinonimas]{\label{fig:reglas2_2}
-		\includegraphics[width=70mm]{Kap4/reglas2_2}}
+		\includegraphics[width=80mm]{Kap4/reglas2_2}}
 	\caption{Reglas de asociación del grupo 2}\label{fig:reglas2}
 \end{figure}
 
@@ -247,21 +249,21 @@ La figura \ref{fig:reglas2.1} nos muestran asociación de variantes al género f
 
 \subsubsection*{Grupo 3}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
-	\subfigure[Nube de palabras.]{\includegraphics[width=50mm]{Kap4/cluster3}}
-	\subfigure[Rango de edad en décadas.]{\includegraphics[width=50mm]{Kap4/edadc3}}
+	\subfigure[Nube de palabras.]{\includegraphics[width=80mm]{Kap4/cluster3}}
+	\subfigure[Rango de edad en décadas.]{\includegraphics[width=80mm]{Kap4/edadc3}}
 	\caption{Grupo 3} \label{fig:c3}
 \end{figure}
 
 La figura \ref{fig:c3}(a)  muestra las palabras donde seno, cáncer y síndrome son las más frecuentes dentro del grupo, adicionalmente se tiene las palabras pam, tumor, maligno y epilepsia. La figura \ref{fig:c3}(b) muestra la distribución donde no hay pacientes de genero masculino para mayores de 60 años.  
 
-\begin{figure}[H]
+\begin{figure}[h!]
 	\centering
 	\subfigure[Reglas de asociación con variantes sinonimas]{\label{fig:r3}
-		\includegraphics[width=70mm]{Kap4/reglas3_1}}
+		\includegraphics[width=80mm]{Kap4/reglas3_1}}
 	\subfigure[Reglas de asociación sin variantes sinonimas]{\label{fig:re3}
-		\includegraphics[width=70mm]{Kap4/reglas3_2}}
+		\includegraphics[width=80mm]{Kap4/reglas3_2}}
 	\caption{Reglas de asociación del grupo 3}\label{fig:reglas3}
 \end{figure}
 
@@ -269,97 +271,91 @@ La figura \ref{fig:r3} muestra las asociaciones entre las variantes sinónimas a
 
 La figura \ref{fig:re3} muestra la asociación de rangos de edades con las variantes no sinónimas donde las variantes del género masculino solo presenta una regla indicando que las variantes son no sinónimas, mientras que las pacientes femeninas están asociadas a un rango de edad de 10-20 años, mientras los demás rangos no está asociados a un género en especifico,la regla principal del estado alélico para este tipo de variantes es heterocigoto. \\
 
-\textbf{Grupo 4}
+%\textbf{Grupo 4}
 
-%\subsubsection*{Grupo 4}
+\subsubsection*{Grupo 4}
 
-\begin{figure}[H]
+\begin{figure}[h!]
 	\centering
-	\subfigure[Nube de palabras]{\includegraphics[width=50mm]{Kap4/cluster4}}
-	\subfigure[Rango de edad en decadas]{\includegraphics[width=50mm]{Kap4/edadc4}}
+	\subfigure[Nube de palabras]{\includegraphics[width=80mm]{Kap4/cluster4}}
+	\subfigure[Rango de edad en decadas]{\includegraphics[width=80mm]{Kap4/edadc4}}
 	\caption{Grupo 4} \label{fig:c4}
 \end{figure}
 
 La figura \ref{fig:c4}(a) muestra las frecuencias de palabras que son síndrome y cáncer, pero la palabra seno no es tan predominante como los grupos anteriores, se tienen otras palabras como sospecha, antecedente, historia y trastorno. La figura \ref{fig:c4}(b) muestra que la para este grupo los rangos de edad de 40 a 45 años, de 50 a 55 años y mayores de 60 no cuentan con representación de pacientes de género femenino.
 
 
-\begin{figure}[H]
+\begin{figure}[h!]
 	\centering
 	\subfigure[Reglas de asociación con variantes sinonimas]{\label{fig:r4}
-		\includegraphics[width=70mm]{Kap4/reglas4_1}}
+		\includegraphics[width=80mm]{Kap4/reglas4_1}}
 	\subfigure[Reglas de asociación sin variantes sinonimas]{\label{fig:re4}
-		\includegraphics[width=70mm]{Kap4/reglas4_2}}
+		\includegraphics[width=80mm]{Kap4/reglas4_2}}
 	\caption{Reglas de asociación del grupo 4}\label{fig:reglas4}
 \end{figure}
-
 
 La figura \ref{fig:r4} muestra la asociación de las variante heterocigotas a pacientes masculinos de tipo no sinónimas con un rango de edad de 0 a 10 años, mientras que las variantes sinónimas se asocian a pacientes con un rango de edad de 40 a 50 años y son pacientes femeninas. La figura \ref{fig:re4} muestra reglas  donde las reglas del grupo nuevamente se discrimina que las variantes no sinónimas son femeninas y están en un rango de edad de (40-50), mientras que las variantes heterocigotas se encuentran en un rango de edad de 0 a 10 años. 
 
 \subsubsection*{Grupo 5}
 
-\begin{figure}[H]
+\begin{figure}[h!]
 	\centering
-	\subfigure[Nube de palabras]{\includegraphics[width=60mm]{Kap4/cluster5}}
-	\subfigure[Rango de edad en décadas]{\includegraphics[width=60mm]{Kap4/edadc5}}
+	\subfigure[Nube de palabras]{\includegraphics[width=80mm]{Kap4/cluster5}}
+	\subfigure[Rango de edad en décadas]{\includegraphics[width=80mm]{Kap4/edadc5}}
 	\caption{Grupo 5} \label{fig:c5}
 \end{figure}
 
-La figura \ref{fig:c5}(a) presenta la frecuencia de palabras y este grupo a diferencia de todos los anteriores no presenta la palabras cáncer y seno, como las más frecuentes pero si presenta con más alta frecuencia son síndrome, diagnóstico, estudio, distrofia, requiere y miembro. La figura \ref{fig:c5}(b) muestra la distribución de pacientes por edad y género donde los rangos de 20 a 30 y 40 a 60 no se encuentran pacientes de género masculino, aunque tiene 10 pacientes masculinos en el rango de edad de 0 a 10 años.
-
-
-\begin{figure}[H]
+\begin{figure}[h!]
 	\centering
 	\subfigure[Reglas de asociación con variantes sinonimas]{\label{fig:r5}
-		\includegraphics[width=70mm]{Kap4/reglas5_1}}
+		\includegraphics[width=90mm]{Kap4/reglas5_1}}
 	\subfigure[Reglas de asociación sin variantes sinonimas]{\label{fig:re5}
-		\includegraphics[width=70mm]{Kap4/reglas5_2}}
+		\includegraphics[width=60mm]{Kap4/reglas5_2}}
 	\caption{Reglas de asociación del grupo 5}\label{fig:reglas5}
 \end{figure}
 
-La figura \ref{fig:r5} muestra la asociación de las variantes al genero femenino con un rango de edad de 40 a 50 años y de tipo sinónimas, mientras que las de género masculino  a un rango de edad de 0 a 10 años con variantes no sinónimas.
 
-La figura \ref{fig:re5} presenta que las variante no sinónimas son más frecuentes en los pacientes con un rango de edad de 40 a 50 años donde las variantes no sinónimas una asociación al genero femenino mientras que las variantes para el género masculino las variantes no se encuentran asociadas a un rango de edad. 
+La figura \ref{fig:c5}(a) presenta la frecuencia de palabras y este grupo a diferencia de todos los anteriores no presenta la palabras cáncer y seno, como las más frecuentes pero si presenta con más alta frecuencia son síndrome, diagnóstico, estudio, distrofia, requiere y miembro. La figura \ref{fig:c5}(b) muestra la distribución de pacientes por edad y género donde los rangos de 20 a 30 y 40 a 60 no se encuentran pacientes de género masculino, aunque tiene 10 pacientes masculinos en el rango de edad de 0 a 10 años. \\
 
 
-\subsubsection*{CFTR}
+La figura \ref{fig:r5} muestra la asociación de las variantes al genero femenino con un rango de edad de 40 a 50 años y de tipo sinónimas, mientras que las de género masculino  a un rango de edad de 0 a 10 años con variantes no sinónimas. La figura \ref{fig:re5} presenta que las variante no sinónimas son más frecuentes en los pacientes con un rango de edad de 40 a 50 años donde las variantes no sinónimas una asociación al genero femenino mientras que las variantes para el género masculino las variantes no se encuentran asociadas a un rango de edad. 
 
-Visualización de reglas de asociación para toda la base de datos utilizando el gen CFTR como filtro. 
 
-\begin{figure}[H]
+\section{Aplicación a genes específicos CFTR y RB1}
+
+Se seleccionaron dos genes para aplicar el modelo de minería a toda la base de datos teniendo como filtro dos genes el primer  seleccionado fue el  CFTR que es un gen que tiene una alta tasa de variabilidad a nivel de cambios de un solo núcleotido y que muchas de sus variantes se encuentran como causales de fibrosis quistica \cite{Rowntree2003,Terlizzi2017b,Farrell2016}, y el otro gen es el RB1 que es un gen regulador del ciclo celular y sus variantes pueden estar asociadas a retinoblastoma  infantil, cáncer de vejiga y a osteosarcoma \cite{Liu2016}. \\
+
+\subsection*{CFTR}
+
+\begin{figure}[]
 	\centering
-	\includegraphics[width=0.87\textwidth]{Kap4/CFTR1}
-	\caption{Reglas de asociación con variantes sinónimas} \label{fig:r6}
+	\subfigure[Reglas de asociación con variantes sinónimas]{\label{fig:r6}
+		\includegraphics[width=100mm]{Kap4/CFTR1}}
+	\subfigure[Reglas de asociación sin variantes sinónimas]{\label{fig:re6}
+\includegraphics[width=100mm]{Kap4/CFTR2}}
+	\caption{Reglas para el gen CFTR} 
 \end{figure}
+
 
 La figura \ref{fig:r6} muestra las reglas 30 primeras reglas filtradas por el soporte con para toda la base de datos utilizando parámetro el gen CFTR, donde se observa que las variantes homocigotas son de tipo sinónimas y están más representadas en pacientes de ambos géneros, también se denota una frecuencia en pacientes que tienen entre 0 y 10 años de edad con variantes en este gen son de género masculino. \\
 
-Las pacientes femeninas se tiene el caso de que las variantes son no sinonimas y no hay un  rango de edad directamente asociado a las pacientes femeninas. Los rangos de edad de 10 a 20 y de 30 a 40 tienen una frecuencia de variantes para el gen CFTR igual o mayor al 60\%, lo mismo se presenta con grupo 1,2 y 4. Para grupo 5 si se presenta una alta frecuencia de variantes sinónimas, mientras que para el grupo 3 no aparecen reglas con alta frecuencia con variantes en el gen CFTR. 
+Las pacientes femeninas presentan variantes no sinonimas y no hay un  rango de edad directamente asociado a las pacientes femeninas. Los rangos de edad de 10 a 20 y de 30 a 40 tienen una frecuencia de variantes para el gen CFTR igual o mayor al 60\%, lo mismo se presenta con grupo 1,2 y 4. Mientras que para grupo 5 si se presenta una alta frecuencia de variantes sinónimas,y en el grupo 3 no aparecen reglas con alta frecuencia con variantes en el gen CFTR. \\
 
-\begin{figure}[H]
+La figura \ref{fig:re6} muestra las variantes después de remover las  reglas únicas para todos los grupos, es decir hay variantes de este gen en todos los pacientes de la base de datos que son un total de 227, en este caso se observan dos rangos de edad que son de 30 a 40 años y de 40 a 50 años, este ultimo con una regla única asociada a pacientes femeninas   \label{fig:r6} solo se observa una alta frecuencia de las variantes no sinónimas al gen CFTR en grupo 4.  
+
+\subsection*{RB1}
+
+Para el gen RB1 se presentan las 10 primeras reglas en la figura \label{fig:re7} con variantes tipo Stop gain, y no se encuentran reglas para variantes sinónimas o no sinónimas. Las reglas presentan variantes asociadas al género femenino distribuidas en dos grupos de pacientes uno en el grupo 3 y otro en el grupo 5, las pacientes también se diferencian en dos rangos de edad los cuales son 0 a 10 años y de 30 a 40 años. 
+
+\begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Kap4/CFTR2}
-	\caption{Reglas de asociación sin variantes sinónimas} \label{fig:re6}
+	\includegraphics[width=0.3\textwidth]{Kap4/RB1}
+	\caption{Reglas de asociación para el gen RB1} \label{fig:re7}
 \end{figure}
-
-La figura \ref{fig:re6} muestra que el estado alélico de las variantes que no son sinónimas, y el estado alélico es heterocigoto para ambos generos, pero el rango de edad entre 0 y 10 años es frecuente para este tipo de variantes,a diferencia de la figura \label{fig:r6} solo se observa una alta frecuencia de las variantes no sinónimas al gen CFTR en grupo 4.  
-
-\subsection{RB1}
-
-Visualización de reglas de asociación para toda la base de datos utilizando el gen RB1 como filtro. 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.6\textwidth]{Kap4/RB1}
-	\caption{Reglas de asociación sin variantes sinónimas} \label{fig:re7}
-\end{figure}
-
-
-Otro filtro que fue aplicado en el gen RB1 se presentan las 10 primeras reglas en la figura \label{fig:re7} con variantes tipo Stop gain, y no se encuentran reglas para variantes sinónimas o no sinónimas. Las reglas presentan variantes asociadas al género femenino, a dos grupos y a dos rangos de edad distintos unicamente. 
-
 
 \section{Prototipo de visualización}
 
-Finalmente se desarrollo un dashboard utilizando la herramienta R, para mostrar todos los resultados obtenidas en el presente trabajo, para que las variantes que fueron encontradas puedan ser consultadas por la comunidad académica y científica. Este aplicativo presenta una pestaña general que muestra, la distribución demográfica de la población, la distribución del tipo de variantes encontradas y la distribución de las variantes encontradas por rangos de edad. Posteriormente se muestra una pestaña con cada grupo, donde se muestran las reglas de asociación obtenidas, la frecuencia de palabras del grupo y los rangos de edad por genero del grupo. Finalmente se muestra las reglas de asociación para el gen CFTR  sin las variantes y para el RB1 sinónimas y una tabla final con las variantes anotadas se obtuvieron. La figura \ref{fig:dash} muestra un screenshot  del aplicativo de visualización desarrollado, en la que se muestra los análisis exploratorios de las variantes.
+Finalmente se desarrollo un dashboard utilizando la herramienta R, para mostrar todos los resultados obtenidas en el presente trabajo. Este aplicativo presenta una pestaña general que muestra la distribución demográfica de la población de todos los pacientes incluidos en este trabajo, la distribución del tipo de variantes encontradas según el rango de edad de los pacientes, y una descripción del aplicativo y del origen de los datos utilizados en esta investigación. Posteriormente se muestra una pestaña con cada grupo, donde se muestran las reglas de asociación obtenidas de las variantes sin las variantes sinónimas, la frecuencia de palabras del grupo y los rangos de edad por genero del grupo. Finalmente se muestra las reglas de asociación para el gen CFTR  sin las variantes sinónimas y para las variantes del gen RB1. La figura \ref{fig:dash} muestra un screenshot  del aplicativo de visualización desarrollado, en la que se muestra los parte de los análisis exploratorios de las variantes y que corresponden a la primer pestaña.
 
 \begin{figure}[H]
 	\centering
@@ -405,21 +401,24 @@ Aunque existen pacientes con sospechas y/o diagnósticos de pacientes con fibros
 
 \subsection*{RB1}
 
-Las variantes del el gen retinoblastoma están asociadas a cáncer ocular en la infancia, por lo tanto la identificación de variantes en este gen son esenciales para la evaluación del riesgo de desarrollar este tipo de cáncer \cite{Parma2017}. Al revisar las variantes de este gen se encontró una unica variante presente   y es NM\_000321.2(RB1):c.763C$>$T,het(p.Arg255Ter) reportada como patogénica en las bases de datos clinvar. Es una variante que causa un códon de parada prematuro en la posición 255 y que puede ser causal de retinoblastoma.
+Las variantes del el gen retinoblastoma están asociadas a cáncer ocular en la infancia, por lo tanto la identificación de variantes en este gen son esenciales para la evaluación del riesgo de desarrollar este tipo de cáncer \cite{Parma2017}. Al revisar las variantes de este gen se encontró una unica variante presente   y es NM\_000321.2(RB1):c.763C$>$T,het(p.Arg255Ter) reportada como patogénica en las bases de datos clinvar. Es una variante que causa un códon de parada prematuro en la posición 255 y que puede ser causal de retinoblastoma. \\  
 
+La diferencia  las pacientes que presentan una misma variación pero se encuentran en grupos de pacientes distintos y con rangos de edad diferente, evidencia que las pacientes del grupo 5 presentan son adultas lo que las convierte en portadoras de la variación, mientras que las pacientes del grupo 3 tienen una mayor probabilidad de estar afectadas con retinoblastoma, teniendo en cuenta el rango de edad de las pacientes, según el estudio de Parma, D. y colaboradores encontraron la misma variación en un paciente con retinnoblastoma bilateral y que la variante es recurrente en esta enfermedad y puede ser heredada \cite{Parma2017}. Al revisar la base de datos se evidencio que en el grupo 3 solo hay una paciente que tiene 2 años de edad y que tiene retinoblastma como diagnóstico y es la que presenta la variante identificada con las reglas de asociación. \\
 
+Las otras variantes para el gen de retinoblastoma que se encuentran en otro grupo de pacientes  que se encuentran en el cluster 5 y son adultas, al verificarlas en la base de datos directamente se observo que los diagnósticos no están asociados a retinoblastoma si no que a otras patologías. Para este caso las pacientes del grupo 5 son portadoras de la variante según el diagnóstico.\\ 
 
+El comportamiento de la patogénicidad de la variante se debe a que se considera que las variantes que son heredadas no son causales del desarrollo de retinoblastoma, pero si son un factor de riesgo, esto explicaría el motivo de por qué  las pacientes que están en la edad adulta del grupo 5, mientras que en la paciente del grupo 3 que tiene dos años tienen una alta probabilidad de que la variante se de novo, esto se confirmaría con la secuenciación de los padres en el mismo gen \cite{Parma2017}. \\
 
 \subsection{Conclusión}
 
-La utilización de técnicas de minería de datos en el campo de la bioinformática aplicada al apoyo diagnostico y  la agrupación de pacientes según sus características diagnosticas a nivel masivo junto con las variantes obtenidas a partir de técnicas se secuenciación, permiten hacer una inferencia del estado de la población y seguimiento de datos epidemiológicos de las variantes y sus posibles efectos en fenotipos de los pacientes.
+La utilización de técnicas de minería de datos en el campo de la bioinformática aplicada al apoyo diagnostico y  la agrupación de pacientes según sus características diagnosticas a nivel masivo junto con las variantes obtenidas a partir de técnicas se secuenciación, permiten hacer una inferencia del estado de la población y seguimiento de datos epidemiológicos de las variantes y sus posibles efectos en fenotipos de los pacientes, además de hacer una caracterización de la población estudiada a nivel de variantes.
 
 
 \subsection*{Resumen}
 
 Se presentó la aplicación de un modelo de minería para analizar datos clínicos y genómicos, donde se utilizaron las técnicas clásicas de  agrupamiento para identificar características clínicas de pacientes para diferenciar patrones de diagnóstico junto con la utilización de reglas de asociación para identificar variantes y su distribución dentro de la población que fue estudiada.\\
 
-Se desarrollo de herramientas de visualización para los resultados del proceso de minería,lo que permitió generar análisis diversos y posibles preguntas que aportaron a la investigación en genética humana. Se muestro la distribución de las variantes por estado alélico, edad y genero de los pacientes según el grupo al que pertenecen, también un caso de estudio para los genes CFTR y RB1 donde CFTR no muestra asociaciones patogénicas en los pacientes estudiados pero el gen RB1 si presenta variantes asociadas.
+Se desarrollo de herramientas de visualización para los resultados del proceso de minería,lo que permitió generar análisis diversos y posibles preguntas que aportaron a la investigación en genética humana. Se mostró la distribución de las variantes dependiendo de si eran variantes sinónimas o no sinónimas,la edad y genero de los pacientes y según el grupo al que pertenecen, también se realizo un caso de estudio para los genes CFTR y RB1 donde CFTR no muestra asociaciones patogénicas en los pacientes estudiados pero el gen RB1 si presenta variantes asociadas.
 
 
 
