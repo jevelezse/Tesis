@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  24 FEB 2019 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  24 FEB 2019 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1821,102 +1821,92 @@ Underfull \vbox (badness 1859) has occurred while \output is active []
 
 
 ]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 26.
-
-
-Overfull \hbox (9.74236pt too wide) in paragraph at lines 27--37
-[][] 
- []
-
-
 Underfull \vbox (badness 1308) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
  [44 <./Kap3/EER.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-<Kap3/admin_django.png, id=246, 454.69875pt x 337.26pt>
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+[45]
+<Kap3/admin_django.png, id=251, 454.69875pt x 337.26pt>
 File: Kap3/admin_django.png Graphic file (type png)
 <use Kap3/admin_django.png>
-Package pdftex.def Info: Kap3/admin_django.png  used on input line 58. on input
- line 58.
+Package pdftex.def Info: Kap3/admin_django.png  used on input line 71. on input
+ line 71.
 Package pdftex.def Info: Requested size: 187.78531pt x 139.28613pt on input lin
-e 58.
+e 71.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
-[45 <./Kap3/admin_django.png>]
-<Kap3/django_admin.png, id=253, 1371.1225pt x 325.215pt>
+<Kap3/django_admin.png, id=252, 1371.1225pt x 325.215pt>
 File: Kap3/django_admin.png Graphic file (type png)
 <use Kap3/django_admin.png>
-Package pdftex.def Info: Kap3/django_admin.png  used on input line 66. on input
- line 66.
+Package pdftex.def Info: Kap3/django_admin.png  used on input line 79. on input
+ line 79.
 Package pdftex.def Info: Requested size: 469.47046pt x 111.35072pt on input lin
-e 66.
+e 79.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-<Kap3/ingresar_paciente.png, id=254, 1360.08125pt x 603.25375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+<Kap3/ingresar_paciente.png, id=253, 1360.08125pt x 603.25375pt>
 File: Kap3/ingresar_paciente.png Graphic file (type png)
 <use Kap3/ingresar_paciente.png>
-Package pdftex.def Info: Kap3/ingresar_paciente.png  used on input line 76. on 
-input line 76.
+Package pdftex.def Info: Kap3/ingresar_paciente.png  used on input line 89. on 
+input line 89.
 Package pdftex.def Info: Requested size: 469.47046pt x 208.22401pt on input lin
-e 76.
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-<Kap3/consulta.png, id=255, 1371.1225pt x 600.2425pt>
-File: Kap3/consulta.png Graphic file (type png)
-<use Kap3/consulta.png>
-Package pdftex.def Info: Kap3/consulta.png  used on input line 84. on input lin
-e 84.
-Package pdftex.def Info: Requested size: 469.47046pt x 205.5177pt on input line
- 84.
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
-[46 <./Kap3/django_admin.png> <./Kap3/ingresar_paciente.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-
+e 89.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+[46 <./Kap3/admin_django.png> <./Kap3/django_admin.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
+<Kap3/consulta.png, id=259, 1371.1225pt x 600.2425pt>
+File: Kap3/consulta.png Graphic file (type png)
+<use Kap3/consulta.png>
+Package pdftex.def Info: Kap3/consulta.png  used on input line 97. on input lin
+e 97.
+Package pdftex.def Info: Requested size: 469.47046pt x 205.5177pt on input line
+ 97.
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \vbox (badness 1824) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
-LaTeX Info: Redefining \. on input line 100.
-LaTeX Info: Redefining \% on input line 100.
- [47 <./Kap3/consulta.png>])
+ []
+
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+[47 <./Kap3/ingresar_paciente.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+)
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
- [48]
+ [48 <./Kap3/consulta.png>]
 \openout2 = `Kap4/Kap4.aux'.
 
  (./Kap4/Kap4.tex
@@ -2523,10 +2513,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7675 strings out of 492995
- 117560 string characters out of 6135074
- 285309 words of memory out of 5000000
- 10938 multiletter control sequences out of 15000+600000
+ 7677 strings out of 492995
+ 117587 string characters out of 6135074
+ 285337 words of memory out of 5000000
+ 10940 multiletter control sequences out of 15000+600000
  16817 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,13n,66p,8828b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2546,7 +2536,7 @@ m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PlantillaTesisMSc.pdf (93 pages, 7049646 bytes).
+Output written on PlantillaTesisMSc.pdf (93 pages, 7051048 bytes).
 PDF statistics:
  630 PDF objects out of 1000 (max. 8388607)
  315 compressed objects within 4 object streams

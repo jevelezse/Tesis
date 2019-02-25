@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {4.1}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del modelo de datos}{43}
 \contentsline {subsubsection}{\nonumberline Datos}{43}
 \contentsline {subsubsection}{\nonumberline Base de datos}{43}
-\contentsline {section}{\numberline {4.2}Gesti\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{45}
+\contentsline {section}{\numberline {4.2}Gesti\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{46}
 \contentsline {section}{\numberline {4.3}Conclusi\IeC {\'o}n}{48}
 \contentsline {chapter}{\numberline {5}Modelo de miner\IeC {\'\i }a de datos cl\IeC {\'\i }nicos y gen\IeC {\'o}micos}{49}
 \contentsline {section}{\numberline {5.1}Dise\IeC {\~n}o del modelo de miner\IeC {\'\i }a de datos}{49}

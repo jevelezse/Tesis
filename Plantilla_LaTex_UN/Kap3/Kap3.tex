@@ -21,33 +21,46 @@ Se propone el desarrollo de una base de datos relacional con información clíni
 	\caption{Modelo entidad relación} \label{fig:t}
 \end{figure}
 
-Las tablas diseñadas para gestionar las variantes y las historias clínicas son las de color verde la primera es gene\_variants\_paciente con el siguiente diccionario de datos:
+Las tablas diseñadas para gestionar las variantes y las historias clínicas son las de color verde la primera es gene\_variants\_paciente con el siguiente diccionario de datos que se muestra en la tabla \ref{tabla:datos}. Para la edad se manejo un rango de 0-99 donde los recién nacidos  o menores de un año tienen una edad de 0 y el sexo es F o M según corresponda. La otra tabla es gene\_variants\_variantes y que se describe en la tabla \ref{tabla:datos1}.
 
-\begin{table}[]
-	\begin{tabular}{|l|l|l|l|}
+\begin{table}[h!]
+	\begin{tabular}{|l|l|l|p{6cm}|}
 		\hline
-		\textit{\textbf{Campo}} & \textit{\textbf{Tamaño}} & \textit{\textbf{Tipo de dato}} & \textit{\textbf{Descripción}}             \\ \hline
-		Código                  & 100                      & Caracter                       & Es el código del paciente                 \\ \hline
-		Sexo                    & 4                        & Cáracter                       & Indica el sexo del paciente               \\ \hline
-		Madre                   & 11                       & Númerico                       & Código de madre de un paciente            \\ \hline
+		\textit{\textbf{Campo}} & \textit{\textbf{Tamaño}} & \textit{\textbf{Tipo de datos}} & \textit{\textbf{Descripción}}             \\ \hline
+		Código                  & 100                      & Carácter                       & Es el código del paciente                 \\ \hline
+		Sexo                    & 4                        & Carácter                       & Indica el sexo del paciente               \\ \hline
+		Madre                   & 11                       & Numérico                       & Código de madre de un paciente            \\ \hline
 		Padre                   & 11                       & Númerico                       & Código de padre de un paciente            \\ \hline
-		Edad                    & 11                       & Númerico                       & Edad del paciente                         \\ \hline
-		Historia Clínica        & 4,294,967,295            & Cáracter                       & Contiene la historia clínica del paciente \\ \hline
+		Edad                    & 11                       & Numérico                       & Edad del paciente                         \\ \hline
+		Historia Clínica        & 4,294,967,295            & Carácter                       & Contiene la historia clínica del paciente \\ \hline
 	\end{tabular}
+\caption{Diccionario de datos tabla de gene\_variants\_paciente}
+\label{tabla:datos}
 \end{table}
 
-\begin{itemize}
-	\item Edad: 0-99. Los recién nacidos  o menores de un año tienen una edad de 0.
-	\item Sexo: F o M según corresponda.
-	\item Descripción: Que corresponde a la información clínica disponible.
-\end{itemize} 
 
-La otra tabla es gene\_variants\_variantes que es la tabla que contiene las variantes de cada uno de los pacientes y tiene las siguientes columnas:
+\begin{table}[h!]
+	\begin{tabular}{|l|l|l|p{7cm}|}
+		\hline
+		\textit{\textbf{Campo}} & \textit{\textbf{Tamaño}} & \textit{\textbf{Tipo de datos}} & \textit{\textbf{Descripción}}                                         \\ \hline
+		Cromosoma               & 7                        & Caracter                        & Cromosoma de la variante                                              \\ \hline
+		gen                     & 40                       & Caracter                        & Nombre de los genes de las variantes                                  \\ \hline
+		Pos Inicio              & 11                       & Número                          & Posicion de inicio de la variante en el genoma                        \\ \hline
+		Pos Fin                 & 11                       & Número                          & Posicion de fin de la variante en el genoma                           \\ \hline
+		Ref                     & 100                      & Caracter                        & Nucleótido o secuencia de referencia.                                 \\ \hline
+		Alt                     & 100                      & Caracter                        & Nuecleótido o secuencia que vario.                                    \\ \hline
+		Referencia              &                          & Caracter                        & Anotaciones de la variante.                                           \\ \hline
+		Homocigoto              & 1                        & Binario                         & Estado alelico de la variante                                         \\ \hline
+		Paciente                & 11                       & Número                          & Codigo del paciente.                                                  \\ \hline
+		Funcion gen ref         & 50                       & Caracter                        & Funcion del gen                                                       \\ \hline
+		Tipo de variante        & 50                       & Caracter                        & Contiene los diferentes tipos de variantes                            \\ \hline
+		Clinvar sig             & 100                      & Caracter                        & Muestra el significado de la variante según la base de datos clinvar. \\ \hline
+	\end{tabular}
+\caption{Diccionario de datos tabla de gene\_variants\_variantes}
+\label{tabla:datos1}
+\end{table}
 
-
-
-
-Las variantes con su historia clínica fueron cargadas mediante un script en bash disponible en https://github.com/jevelezse/variantesBD/blob/master/carga.bash, donde se toman los archivos .csv de annovar junto con los archivos de texto que tienen la información clínica del paciente distribuida de la siguiente forma:
+Las variantes con su historia clínica fueron transcritas y cargadas mediante un script en bash disponible en https://github.com/jevelezse/variantesBD/blob/master/carga.bash, donde se toman los archivos .csv de annovar junto con los archivos de texto que tienen la información clínica del paciente en un archivo de texto plano sin formato.
 
 \section{Gestión de datos genómicos y clínicos}
 
