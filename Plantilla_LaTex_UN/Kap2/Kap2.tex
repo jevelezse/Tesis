@@ -1,6 +1,6 @@
 \chapter{Validación de un pipeline para la identificación de variantes}
 
-Los pipelines son un componente integral de la secuenciación de siguiente generación (NGS), para el procesamiento de los datos en bruto y detectar las alteraciones genómicas que tienen un impacto en la salud de un paciente, por lo tanto se hace necesario desarrollo, validación y monitoreo de los pipelines son necesarios para disminuir los errores de la identificación de variantes ya que pueden tener una consecuencia negativa en la salud de los pacientes \cite{Roy2018}.
+Los pipelines son un componente integral de la secuenciación de siguiente generación (NGS), para el procesamiento de los datos en bruto y detectar las alteraciones genómicas que tienen un impacto en la salud de un paciente, por lo tanto se hace necesario desarrollo, validación y monitoreo de los pipelines son necesarios para disminuir los errores de la identificación de variantes ya que pueden tener una consecuencia negativa en la salud de los pacientes \cite{Roy2018}.\\
 
 En este capítulo se presenta el proceso para validar un pipeline que permitió la  identificación de variantes a partir de datos de secuenciación de siguientes generación (NGS), donde se utiliza datos públicos para validar la calidad  de las variantes y se encuentra organizado en identificación de variantes, datos, estrategias del pipeline, resultados y validación, discusión,conclusiones y  resumen. 
 
@@ -17,7 +17,6 @@ Los pipelines bioinformaticos para NGS son comúnmente desarrollados en una plat
 	\item Priorización de variantes. 
 \end{enumerate}
  
-
 La eficiencia de la identificación de variantes depende de la exactitud del llamado de las bases (la identificación correcta de cada nucleótido dentro de la secuencia), esto se realizo debido a que durante el proceso de secuenciación que es de alta velocidad, y en ocasione se identifican los nucleótidos de manera incorrecta, se considera que al momento la exactitud de ese llamado esta alrededor del 99.5\% \cite{Tetreault2015}.Teniendo en cuenta lo anterior es recomendable  priorizar la sensibilidad (Buscar tantas variantes como sea posible para evitar perder cualquier variante) sobre la especificidad (Limita la proporción de falsos positivos en un conjunto de variantes) \cite{Auwera2014}.  \\
 
 Para el presente trabajo se realizaron mediciones de la calidad de las secuencias y el mapeo, post-alineamiento y el llamado de variantes, siguiendo las buenas practicas para el llamado de variantes \cite{Fisch2015}.Teniendo en cuenta que existen múltiples herramientas para realizar el llamado de variantes tanto de uso privado como open source que permite  seguir las buenas practicas de identificación de variantes se hace necesario integrar las diversas herramientas para poder obtener las datos de buena calidad. Y surge la pregunta de ¿cuáles de todos los métodos y las herramientas son la más apropiada para hacer el llamado de variantes en exones \cite{Bao2014}\cite{Cornish2015}.\\
@@ -30,7 +29,9 @@ Para poder llevar acabo la adecuada implementación se hace necesario la utiliza
 
 Los datos que fueron procesados en el presente trabajo son secuencias de 4813 exones humanos se obtuvieron de kit de Illumina TruSight One en muestras de sangre periférica. Estos datos  fueron donados por el Centro de Investigaciones en Genética Humana y Reproductiva GENETIX S.A.S dirigido por la Dra Claudia Serrano Médico Genetista. \\
 
-Para la validación del pipilene se corrio un exoma público de  NA12878-NGv3-LAB1360 que pertenece a una mujer que tiene una variación en el gen CYP2C19 donde tiene una transición de una Guanina por una Adenina en la posición 681 del exón 5, que causa un cambio en el marco de lectura del ARNm a partir del aminoácido 215 y produce un códon de parada prematuro en 20 aminoácidos corriente abajo produciendo una proteína no funcional (\textit{Información obtenida de Coriell Institute for medical reseach}). Se descargo el archivo bed para filtrar las variantes que se encuentran dentro del genoma completo de la muestra para obtener solo exones del NCBI para el genoma hg19.También se realizo una obtención de variantes a partir de un exoma completo público de la muestra NA12878,los datos fueron obtenidos via ftp en la siguiente direcciones:\\
+Para la validación del pipilene se corrio un exoma público de  NA12878-NGv3-LAB1360 que pertenece a una mujer que tiene una variación en el gen CYP2C19 donde tiene una transición de una Guanina por una Adenina en la posición 681 del exón 5, que causa un cambio en el marco de lectura del ARNm a partir del aminoácido 215 y produce un códon de parada prematuro en 20 aminoácidos corriente abajo produciendo una proteína no funcional (\textit{Información obtenida de Coriell Institute for medical reseach}).\\
+
+Se descargo el archivo bed para filtrar las variantes que se encuentran dentro del genoma completo de la muestra para obtener solo exones del NCBI para el genoma hg19.También se realizo una obtención de variantes a partir de un exoma completo público de la muestra NA12878,los datos fueron obtenidos via ftp en la siguiente direcciones:\\
 \\
 {\texttt{ https://s3.amazonaws.com/bcbio\_nextgen/NA12878-NGv3-LAB1360-A\_1.fastq.gz}\\
 \\
@@ -46,23 +47,17 @@ Y el archivo bed para filtrar las variantes que se encuentran dentro del genoma 
 
 Existen una serie de pasos para la obtención de variantes la obtención de la calidad de las secuencias y preprocesamiento como la remoción de adaptadores y de nucleótidos con baja calidad (que son erroneamente identificados por el secuenciador),posteriormente sigue el mapeo, post-alineamiento, llamado de variantes, anotación y priorización \cite{Bao2014}.\\
 
-Se utilizo como base modulo de omics-pipe propuesto por Fish y colaboradores \cite{Fisch2015} que presenta el pipeline que es acorde con las buenas practicas para el llamado de variantes en la figura \ref{fig:pipeline}
-	
-\begin{figure}[] 
-	\centering
-	\includegraphics[width=0.2\textwidth]{Kap2/pipe}
-	\caption{Pipeline basado en las buenas practicas para el llamado de variantes.} \label{fig:pipeline}
-\end{figure}
-
-Para el presente trabajo se adiciono el filtrado especifico de variantes según GATK y la parte de anotación de variantes con wAnnovar de la siguiente manera como muestra la siguiente figura \ref{fig:pipeline2}:
+Se utilizo como base modulo de omics-pipe propuesto por Fish y colaboradores \cite{Fisch2015} que presenta el pipeline que es acorde con las buenas practicas para el llamado de variantes, para el presente trabajo se adiciono el filtrado específico de variantes según GATK y la parte de anotación de variantes con wAnnovar de la siguiente manera como muestra la siguiente figura \ref{fig:pipeline2}:
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[width=0.6\textwidth]{Kap2/pipeline1}
+	\includegraphics[width=0.5\textwidth]{Kap2/pipeline1}
 	\caption{Pipeline basado en las buenas practicas para el llamado de variantes.} \label{fig:pipeline2}
 \end{figure}
-	
-	\subsection*{Herramientas computacionales}
+
+
+
+\subsection*{Herramientas computacionales}
 	
 	Las herramientas bioinformáticas seleccionadas se implementaron en un clúster \footnote{El clúster utilizado fue prestado por la Universidad de los Andes} que cuenta con las siguientes características:
 	
@@ -93,7 +88,7 @@ Este reporte no presenta fallas dentro del análisis. A continuación se muestra
 
 Para el caso de esta muestra la calidad es óptima en todos los datos obtenidos y no requieren de ningún tipo de trimming ya que la mayoría de las posiciones dentro de la secuencia se encuentran por encima del un valor por encima de 34 y el cual el valor mínimo es 20 (este valor representa el ($Q_{PHARED}$) que implementa el secuenciador \cite{Babraham2016}. \\ 
 
-\subsection*{Variantes de illumina vs variantes de omics}
+\subsection*{Variantes de illumina vs variantes de Omics}
 
 Inicialmente se obtuvieron 63515 variantes una vez que se ejecuto el pipeline de omics para la obtención de variantes, siguiendo los protocolos de buenas practicas y los protocolos de GATK quienes recomiendan generar variantes altamente sensibles y poco precisas, esto con el fin de no perder variantes que se encuentren dentro de las secuencias obtenidas, por ello se muestra una gran cantidad de variantes que no corresponden con las variantes verdaderas \cite{Auwera2014}.Dentro del pipeline solo se encuentra el proceso de llamado de variantes y no el proceso de filtrado de las mismas y que debío ser implementado de manera manual.\\
 
@@ -122,8 +117,8 @@ De las variantes sin hard filtering se obtuvieron 54538 SNP, Indels 8855 y 122 v
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Kap2/variantesomics}
-	\caption{Variantes obtenidas por Omics pipe} \label{fig:omics}
+	\includegraphics[width=0.8\textwidth]{Kap2/variantesomics}
+	\caption{Variantes obtenidas por pipeline} \label{fig:omics}
 \end{figure}
 
 Una vez realizado el hard filtering se obtuvo los siguientes resultados: 10425 SNP, 828 Indels y 44 desconocidos, también se tiene las variantes reportadas para el mismo individuo desde la plataforma de illumina con los siguientes resultados: 9601 variantes, 436 indels y 28 desconocidas  y respresentado por la figura \ref{f:histogramas}:
@@ -160,7 +155,7 @@ Al realizar la comparación entre los dos archivos vcf se obtuvieron los siguien
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{Kap2/validacion2}
-	\caption{Diagrama de relación entre variantes comunes de Omics y de Illumina} \label{fig:diagrama}
+	\caption{Diagrama de relación entre variantes comunes de pipeline y de Illumina} \label{fig:diagrama}
 \end{figure}
 
 \subsection*{Variantes de exoma vs variantes de omics}
@@ -196,12 +191,12 @@ La distribución de las variantes a lo largo de los cromosomas se presenta en la
 
 \begin{figure}[H]
 	\centering
-	\subfigure[Variantes obtenidas por Omics]{
+	\subfigure[Variantes obtenidas por pipeline]{
 		\label{f:variantesexo1}
-		\includegraphics[width=0.3\textwidth]{Kap2/variantesexo1}}
+		\includegraphics[width=0.5\textwidth]{Kap2/variantesexo1}}
 	\subfigure[Variantes públicas]{
 		\label{f:variantesexo2}
-		\includegraphics[width=0.25\textwidth]{Kap2/variantesexo2}}
+		\includegraphics[width=0.35\textwidth]{Kap2/variantesexo2}}
 	\caption{Variaciones de la muestras dentro del exoma}
 	\label{f:histogramas2}
 \end{figure}
@@ -265,11 +260,11 @@ La tabla \label{tabla:tabla4} muestra la sensibilidad de 96.88\%, una especifici
 
 \texttt{NM\_000769:exon5:c.G681A:p.P227P} \\
 
-La representación escrita informa el cromosoma, la posición dentro del genoma y el cambio de posición en el genoma, las siguiente es el cambio Guanina por Citocina (representado por sus letras) tipo de variación que en este caso es sinónima, el nombre del gen, su identificador, vubicación exonica y cambio en la posición del exón, finalmente se tiene el cambio en la proteína (No sigue exactamente la nomenclatura de HGVS), esta variación se confirmo también realizando la visualización por medio de la herramienta IGV conectado al clúster.
+La representación escrita informa el cromosoma, la posición dentro del genoma y el cambio de posición en el genoma, las siguiente es el cambio Guanina por citocina (representado por sus letras) que es un tipo de variación sinónima, el nombre del gen, su identificador, ubicación exonica y cambio en la posición del exón, finalmente se tiene el cambio en la proteína, la confirmación de que la variante fue encontrada y que es de buena calidad se realizo  con la visualización por medio de la herramienta IGV conectado al clúster como muestra la figura \ref{fig:igv} que muestra el cambio de una G por una A en estado heterocigota.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{Kap2/IGV}
+	\includegraphics[width=1\textwidth]{Kap2/IGV}
 	\caption{Imagen de la variante presente en el exoma público} \label{fig:igv}
 \end{figure}
 
@@ -324,7 +319,7 @@ La cantidad de herramientas y parámetros para aplicar son diversos y dependen d
 
 El llamado de variantes es bueno para el presente estudio, pero hay la posibilidad de mejorar la implementación de los parámetros de filtrado y el proceso de anotación (implicación del cambio de las variantes), además generar un pipeline alternativo para la verificación de las variantes que están siendo identificadas y poder aumentar la sensibilidad. \\
 
-Es necesario crear o generar la manera de optimizar los tiempos de ejecución de las tareas, de una manera más eficiente a la dada por el omics pipe.
+Es necesario crear o generar la manera de optimizar los tiempos de ejecución de las tareas de una manera más eficiente a la dada por el omics-pipe.
 
 \section*{Resumen}
 
