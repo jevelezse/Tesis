@@ -3,7 +3,7 @@
 El mayor de los retos aplicado al análisis de variantes, es desarrollar herramientas que permitan al investigador acceder a la información fácilmente y que pueda tener una base de datos,donde pueda consultar, analizar y actualizar la información de sus experimentos \cite{Li2014}.En el campo clínico esto representa un reto aun mayor dado que se hace necesario recolectar los datos genéticos junto con los datos clínicos para poder hacer análisis más acertados y a gran escala \cite{Paila2013}.\\
 
 
-Este capítulo presenta el desarrollo de un sistema de información para la gestión de información clínica y genómica, desde el diseño e implementación de la base de datos. Este capítulo esta  organizado en 3.1. Diseño e implementación de datos. 3.2. Gestión de datos clínicos y genómicos. 3.3. Conclusiones y  Resumen.
+Este capítulo presenta el desarrollo de un sistema de información para la gestión de información clínica y genómica, desde el diseño e implementación de la base de datos. Este capítulo esta  organizado en Diseño e implementación de datos, Gestión de datos clínicos y genómicos, Conclusiones y  Resumen.
 
 \section{Diseño e implementación del modelo de datos}
 
@@ -21,7 +21,7 @@ Se propone el desarrollo de una base de datos relacional con información clíni
 	\caption{Modelo entidad relación} \label{fig:t}
 \end{figure}
 
-Las tablas diseñadas para gestionar las variantes y las historias clínicas son las de color verde la primera es gene\_variants\_paciente con el siguiente diccionario de datos que se muestra en la tabla \ref{tabla:datos}. Para la edad se manejo un rango de 0-99 donde los recién nacidos  o menores de un año tienen una edad de 0 y el sexo es F o M según corresponda. La otra tabla es gene\_variants\_variantes y que se describe en la tabla \ref{tabla:datos1}.
+Las tablas diseñadas para gestionar las variantes y las historias clínicas y son de color verde la primera es gene\_variants\_paciente donde el cuadro \ref{tabla:datos} describe a detalle los datos que contiene dicha tabla.  La otra tabla es gene\_variants\_variantes y que se describe en la tabla \ref{tabla:datos1}.
 
 \begin{table}[h!]
 	\begin{tabular}{|l|l|l|p{6cm}|}
@@ -34,10 +34,11 @@ Las tablas diseñadas para gestionar las variantes y las historias clínicas son
 		Edad                    & 11                       & Numérico                       & Edad del paciente                         \\ \hline
 		Historia Clínica        & 4,294,967,295            & Carácter                       & Contiene la historia clínica del paciente \\ \hline
 	\end{tabular}
-\caption{Diccionario de datos tabla de gene\_variants\_paciente}
+\caption{Diccionario de datos de la tabla gene\_variants\_paciente}
 \label{tabla:datos}
 \end{table}
 
+Para la tabla \ref{tabla:datos} La edad se manejo un rango de 0-99 donde los recién nacidos o menores de un año tienen una edad de 0 y el sexo es F o M según corresponda.
 
 \begin{table}[h!]
 	\begin{tabular}{|l|l|l|p{7cm}|}
@@ -56,7 +57,7 @@ Las tablas diseñadas para gestionar las variantes y las historias clínicas son
 		Tipo de variante        & 50                       & Caracter                        & Contiene los diferentes tipos de variantes                            \\ \hline
 		Clinvar sig             & 100                      & Caracter                        & Muestra el significado de la variante según la base de datos clinvar. \\ \hline
 	\end{tabular}
-\caption{Diccionario de datos tabla de gene\_variants\_variantes}
+\caption{Diccionario de datos de la tabla gene\_variants\_variantes}
 \label{tabla:datos1}
 \end{table}
 
@@ -101,7 +102,7 @@ En la figura \ref{fig:pacientes} se muestra el formulario para ingresar una nuev
 
 La figura \ref{fig:consulta} muestra una consulta de las variantes que se tienen cargadas en la base de datos para el gen BRCA1, donde nos muestra una consulta de las variantes con su anotación  filtrada mediante un script de python antes de cargar las anotaciones de la tabla obtenida por annovar para cada paciente. Desde esta misma interfaz se puede hacer consultas de pacientes que se deben eliminar, en la parte inferior se encuentra la opción.\\
 
-Si se desea hacer modificaciones a los datos del paciente también es posible hacerlo desde esta misma interfaz seleccionando el código del paciente, que lleva a la tabla de genes\_varante\_paciente que contiene el formulario de la historia clínica con los datos cargados para ser modificados. 
+Si se desea hacer modificaciones a los datos del paciente también es posible hacerlo desde esta misma interfaz seleccionando el código del paciente, que lleva a la tabla de genes\_varante\_paciente que contiene el formulario de la historia clínica con los datos cargados para ser modificados. \\
 
 La importancia de gestión aplicada al manejo de datos clínicos y de información genética es de vital importancia dado que existen miles de anotaciones que requieren de scripts para cargarlos las anotaciones y como es este caso el historial clínico del paciente \cite{Paila2013}. \\
 
