@@ -20,9 +20,9 @@
 \contentsline {section}{\numberline {3.1}Identificaci\IeC {\'o}n de variantes}{27}
 \contentsline {section}{\numberline {3.2}Datos}{28}
 \contentsline {section}{\numberline {3.3}Estrategias del pipeline}{29}
-\contentsline {section}{\numberline {3.4}Resultados y validaci\IeC {\'o}n}{31}
-\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{39}
-\contentsline {section}{\numberline {3.6}Conclusiones}{42}
+\contentsline {section}{\numberline {3.4}Resultados y validaci\IeC {\'o}n}{30}
+\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{38}
+\contentsline {section}{\numberline {3.6}Conclusiones}{41}
 \contentsline {chapter}{\numberline {4}Modelo de integraci\IeC {\'o}n de datos}{43}
 \contentsline {section}{\numberline {4.1}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del modelo de datos}{43}
 \contentsline {subsubsection}{\nonumberline Datos}{43}
@@ -38,7 +38,7 @@
 \contentsline {subsection}{\numberline {5.3.3}Caracterizaci\IeC {\'o}n de las historias cl\IeC {\'\i }nicas usando diagn\IeC {\'o}stico}{54}
 \contentsline {subsection}{\numberline {5.3.4}Experimentaci\IeC {\'o}n y validaci\IeC {\'o}n del modelo de agrupamiento}{54}
 \contentsline {subsubsection}{\nonumberline Jer\IeC {\'a}rquico}{54}
-\contentsline {subsubsection}{\nonumberline kmeans}{55}
+\contentsline {subsubsection}{\nonumberline k-means}{55}
 \contentsline {section}{\numberline {5.4}Asociaci\IeC {\'o}n de grupos de historias cl\IeC {\'\i }nicas con variantes}{56}
 \contentsline {subsection}{\numberline {5.4.1}Variantes vistas como transacciones}{56}
 \contentsline {subsection}{\numberline {5.4.2}Experimentos}{57}

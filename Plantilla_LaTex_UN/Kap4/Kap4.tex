@@ -2,11 +2,11 @@
 
 La importancia de la minería de datos clínicos y genómicos radica en el diseño e implementación de modelos que permitan la extracción de información relevante de datos clínicos y genómicos, para transformarlos en conocimiento, y que sean aplicables a las investigaciones y procesos diagnósticos \cite{Farid2016}. \\  
 
-Este capítulo presenta el diseño y la implementación de un modelo de minería aplicado que permita la asociación entre las variantes identificadas en regiones codificantes de genes con datos clínicos en pacientes colombianos.El capítulo presenta un análisis descriptivo de datos clínicos y variantes de los datos,un análisis textual de información clínica,una asociación de grupos con variantes y aplicación al filtro en dos genes RB1 y CFTR, una propuesta de visualización,discusión, conclusiones y resumen. 
+Este capítulo presenta el diseño y la implementación de un modelo de minería aplicado que permita la asociación entre las variantes identificadas en regiones codificantes de genes con datos clínicos en pacientes colombianos. El capítulo presenta un análisis descriptivo de datos clínicos y variantes de los datos,un análisis textual de información clínica,una asociación de grupos con variantes y aplicación al filtro en dos genes RB1 y CFTR, una propuesta de visualización,discusión, conclusiones y resumen. 
 
 \section{Diseño del modelo de minería de datos}
 
-La selección de las tareas de minería a realizar se dio por la necesidad de caracterizar los fenotipos de los individuos a partir de la información clínica y para poder realizar esta tarea fue necesario realizar procesamiento de lenguaje natural de dicha información para poder generar grupos de pacientes. En cuanto las variantes se utilizo reglas de asociación para poder aprovechar las frecuencias de las variantes y a que otras características pueden estar asociadas.El modelo de minería de datos esta representado por la figura  \ref{fig:kdd}:\\
+La selección de las tareas de minería a realizar se dio por la necesidad de caracterizar los fenotipos de los individuos a partir de la información clínica y para poder realizar esta tarea fue necesario realizar procesamiento de lenguaje natural de la información clínica  para poder generar grupos de pacientes. En cuanto las variantes se utilizo reglas de asociación para poder aprovechar las frecuencias de las variantes y a que otras características pueden estar asociadas.El modelo de minería de datos esta representado por la figura  \ref{fig:kdd}:\\
 
 \begin{figure}[]
 	\centering
@@ -125,7 +125,7 @@ La figura \ref{fig:jerarquico} muestra un resumen de como quedan agrupadas las h
 
 Para el presente trabajo esté agrupamiento de los diagnósticos no es optimo, pero muestra dos grandes grupos de diagnósticos. 
 
-\subsubsection{kmeans}
+\subsubsection{k-means}
 
 El cálculo del error cuadrático vs el número de grupos se realizo utilizando la libreria de python scikit learn, donde se computa el valor de la inercia que es calculada como la suma de cuadrados por cada punto cercano al centroide y es asignado al grupo. Así que  $I = \sum_{i}(d(i,cr))$ donde $cr$ es el centroide que fue asignado al grupo y $d$ es la distancia cuadrada \cite{scikit-learn}. 
 
@@ -401,7 +401,7 @@ Aunque existen pacientes con sospechas y/o diagnósticos de pacientes con fibros
 
 \subsection*{RB1}
 
-Las variantes del el gen retinoblastoma están asociadas a cáncer ocular en la infancia, por lo tanto la identificación de variantes en este gen son esenciales para la evaluación del riesgo de desarrollar este tipo de cáncer \cite{Parma2017}. Al revisar las variantes de este gen se encontró una unica variante presente   y es NM\_000321.2(RB1):c.763C$>$T,het(p.Arg255Ter) reportada como patogénica en las bases de datos clinvar. Es una variante que causa un códon de parada prematuro en la posición 255 y que puede ser causal de retinoblastoma. \\  
+Las variantes del gen retinoblastoma están asociadas a cáncer ocular en la infancia, por lo tanto la identificación de variantes en este gen son esenciales para la evaluación del riesgo de desarrollar este tipo de cáncer \cite{Parma2017}. Al revisar las variantes de este gen se encontró una unica variante presente   y es NM\_000321.2(RB1):c.763C$>$T,het(p.Arg255Ter) reportada como patogénica en las bases de datos clinvar. Es una variante que causa un códon de parada prematuro en la posición 255 y que puede ser causal de retinoblastoma. \\  
 
 La diferencia  las pacientes que presentan una misma variación pero se encuentran en grupos de pacientes distintos y con rangos de edad diferente, evidencia que las pacientes del grupo 5 presentan son adultas lo que las convierte en portadoras de la variación, mientras que las pacientes del grupo 3 tienen una mayor probabilidad de estar afectadas con retinoblastoma, teniendo en cuenta el rango de edad de las pacientes, según el estudio de Parma, D. y colaboradores encontraron la misma variación en un paciente con retinnoblastoma bilateral y que la variante es recurrente en esta enfermedad y puede ser heredada \cite{Parma2017}. Al revisar la base de datos se evidencio que en el grupo 3 solo hay una paciente que tiene 2 años de edad y que tiene retinoblastma como diagnóstico y es la que presenta la variante identificada con las reglas de asociación. \\
 
@@ -418,7 +418,7 @@ La utilización de técnicas de minería de datos en el campo de la bioinformát
 
 Se presentó la aplicación de un modelo de minería para analizar datos clínicos y genómicos, donde se utilizaron las técnicas clásicas de  agrupamiento para identificar características clínicas de pacientes para diferenciar patrones de diagnóstico junto con la utilización de reglas de asociación para identificar variantes y su distribución dentro de la población que fue estudiada.\\
 
-Se desarrollo de herramientas de visualización para los resultados del proceso de minería,lo que permitió generar análisis diversos y posibles preguntas que aportaron a la investigación en genética humana. Se mostró la distribución de las variantes dependiendo de si eran variantes sinónimas o no sinónimas,la edad y genero de los pacientes y según el grupo al que pertenecen, también se realizo un caso de estudio para los genes CFTR y RB1 donde CFTR no muestra asociaciones patogénicas en los pacientes estudiados pero el gen RB1 si presenta variantes asociadas.
+Se desarrolló de herramientas de visualización para los resultados del proceso de minería,lo que permitió generar análisis diversos y posibles preguntas que aportaron a la investigación en genética humana. Se mostró la distribución de las variantes dependiendo de si eran variantes sinónimas o no sinónimas,la edad y genero de los pacientes y según el grupo al que pertenecen, también se realizo un caso de estudio para los genes CFTR y RB1 donde CFTR no muestra asociaciones patogénicas en los pacientes estudiados pero el gen RB1 si presenta variantes asociadas.
 
 
 
