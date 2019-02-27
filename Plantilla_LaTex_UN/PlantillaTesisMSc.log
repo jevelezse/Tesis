@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  26 FEB 2019 14:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.8.5)  26 FEB 2019 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1074,15 +1074,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
 [6
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
@@ -1107,16 +1107,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
 [7]
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
  [8]
-Overfull \hbox (7.90045pt too wide) in paragraph at lines 72--73
+Overfull \hbox (7.90045pt too wide) in paragraph at lines 70--71
 []\OT1/cmr/m/n/12 Propuesta del mo-de-lo de mi-ner^^S^^Pa en da-tos cl^^S^^Pni-
 cos. Con-fe-ren-cia Py-con Co-lom-bia.Medell^^S^^Pn
  []
@@ -1190,30 +1185,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
- []
-
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
 [13 <./Estado/snp.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 
-Underfull \vbox (badness 2237) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
@@ -1227,14 +1219,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
-[15]
+
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
@@ -1250,30 +1242,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
 [16]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 86.
+               Default added (so using `tbp') on input line 84.
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 97--97
+Underfull \hbox (badness 3271) in paragraph at lines 95--95
 []|\OT1/cmr/m/n/12 iCOD In-te-gra-ted Cli-ni-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 []|\OT1/cmr/m/n/12 iDASH In-te-gra-ting da-ta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
  []
 
 
@@ -1281,17 +1273,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
-
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
+[17]
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
+ [18]
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
-[17]
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
- [18]
+
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
@@ -1306,14 +1298,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+LaTeX Info: Redefining \. on input line 134.
+LaTeX Info: Redefining \% on input line 134.
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
-[19]
+
 Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
@@ -1323,32 +1315,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
-[20]
+
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
-
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
-LaTeX Info: Redefining \. on input line 167.
-LaTeX Info: Redefining \% on input line 167.
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
@@ -1362,8 +1354,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
-LaTeX Info: Redefining \. on input line 180.
-LaTeX Info: Redefining \% on input line 180.
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
 [22]
 Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
@@ -1380,32 +1372,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-LaTeX Info: Redefining \. on input line 193.
-LaTeX Info: Redefining \% on input line 193.
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--223
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
-LaTeX Info: Redefining \. on input line 230.
-LaTeX Info: Redefining \% on input line 230.
+LaTeX Info: Redefining \. on input line 231.
+LaTeX Info: Redefining \% on input line 231.
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-
- []
-
-LaTeX Info: Redefining \. on input line 254.
-LaTeX Info: Redefining \% on input line 254.
-[25])
+LaTeX Info: Redefining \. on input line 255.
+LaTeX Info: Redefining \% on input line 255.
+ [25])
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
  [26]
@@ -1498,10 +1486,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
  []
 
 Package epstopdf Info: Source file: <Kap2/fastq2.eps>
-(epstopdf)                    date: 2016-04-25 21:44:59
+(epstopdf)                    date: 2019-02-26 14:49:48
 (epstopdf)                    size: 3262620 bytes
 (epstopdf)             Output file: <Kap2/fastq2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-05-09 14:59:51
+(epstopdf)                    date: 2019-02-26 14:49:48
 (epstopdf)                    size: 21031 bytes
 (epstopdf)             Command: <repstopdf --outfile=Kap2/fastq2-eps-converted-
 to.pdf Kap2/fastq2.eps>
@@ -1538,11 +1526,11 @@ LaTeX Info: Redefining \. on input line 123.
 LaTeX Info: Redefining \% on input line 123.
 [31 <./Kap2/fastq2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Kap2/variantescalibradas.eps>
-(epstopdf)                    date: 2016-05-20 13:02:10
+(epstopdf)                    date: 2019-02-26 14:49:48
 (epstopdf)                    size: 2095044 bytes
 (epstopdf)             Output file: <Kap2/variantescalibradas-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2016-05-20 13:13:16
+(epstopdf)                    date: 2019-02-26 14:49:48
 (epstopdf)                    size: 11175 bytes
 (epstopdf)             Command: <repstopdf --outfile=Kap2/variantescalibradas-e
 ps-converted-to.pdf Kap2/variantescalibradas.eps>
@@ -1557,11 +1545,11 @@ Package pdftex.def Info: Kap2/variantescalibradas-eps-converted-to.pdf  used on
 Package pdftex.def Info: Requested size: 234.73523pt x 101.19829pt on input lin
 e 129.
 Package epstopdf Info: Source file: <Kap2/variantesillumina.eps>
-(epstopdf)                    date: 2016-05-20 13:22:19
+(epstopdf)                    date: 2019-02-26 14:49:48
 (epstopdf)                    size: 2047612 bytes
 (epstopdf)             Output file: <Kap2/variantesillumina-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2016-05-20 15:31:34
+(epstopdf)                    date: 2019-02-26 14:49:48
 (epstopdf)                    size: 12587 bytes
 (epstopdf)             Command: <repstopdf --outfile=Kap2/variantesillumina-eps
 -converted-to.pdf Kap2/variantesillumina.eps>
@@ -2015,6 +2003,12 @@ LaTeX Info: Redefining \% on input line 98.
 pdfTeX warning: /usr/bin/pdflatex (file ./Kap4/tfidf.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
+! Too many }'s.
+l.115 ... average, la figura \ref{fig:jerarquico}}
+                                                   muestra el resultado:
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
 <Kap4/averagercortado.png, id=388, 722.7pt x 361.35pt>
 File: Kap4/averagercortado.png Graphic file (type png)
 <use Kap4/averagercortado.png>
@@ -2478,8 +2472,8 @@ LaTeX Info: Redefining \% on input line 492.
 LaTeX Info: Redefining \. on input line 563.
 LaTeX Info: Redefining \% on input line 563.
  [81]
-LaTeX Info: Redefining \. on input line 625.
-LaTeX Info: Redefining \% on input line 625.
+LaTeX Info: Redefining \. on input line 624.
+LaTeX Info: Redefining \% on input line 624.
 
 [82])
 LaTeX Info: Redefining \. on input line 106.
@@ -2503,11 +2497,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  7671 strings out of 492995
  117446 string characters out of 6135074
- 285322 words of memory out of 5000000
+ 284322 words of memory out of 5000000
  10935 multiletter control sequences out of 15000+600000
  16817 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,13n,66p,8828b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,13n,66p,8828b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -2524,7 +2518,7 @@ m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PlantillaTesisMSc.pdf (93 pages, 7034192 bytes).
+Output written on PlantillaTesisMSc.pdf (93 pages, 7034386 bytes).
 PDF statistics:
  619 PDF objects out of 1000 (max. 8388607)
  304 compressed objects within 4 object streams

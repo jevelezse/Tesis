@@ -8,12 +8,12 @@
 \contentsline {section}{\numberline {2.1}Biolog\IeC {\'\i }a molecular y secuenciaci\IeC {\'o}n masiva}{11}
 \contentsline {subsection}{\numberline {2.1.1}Identificaci\IeC {\'o}n de variantes}{12}
 \contentsline {subsection}{\numberline {2.1.2}Secuenciaci\IeC {\'o}n de siguiente generaci\IeC {\'o}n (NGS) aplicada en salud}{14}
-\contentsline {section}{\numberline {2.2}Bioinform\IeC {\'a}tica}{15}
+\contentsline {section}{\numberline {2.2}Bioinform\IeC {\'a}tica}{14}
 \contentsline {subsection}{\numberline {2.2.1}Integraci\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{15}
 \contentsline {subsection}{\numberline {2.2.2}An\IeC {\'a}lisis de datos gen\IeC {\'o}micos con aplicaciones cl\IeC {\'\i }nicas}{17}
 \contentsline {section}{\numberline {2.3}Miner\IeC {\'\i }a de datos gen\IeC {\'o}micos}{20}
 \contentsline {subsection}{\numberline {2.3.1}Miner\IeC {\'\i }a de texto en el campo cl\IeC {\'\i }nico}{21}
-\contentsline {subsubsection}{\nonumberline Preprocesamiento}{22}
+\contentsline {subsubsection}{\nonumberline Preprocesamiento}{21}
 \contentsline {subsubsection}{\nonumberline Agrupamiento}{22}
 \contentsline {subsection}{\numberline {2.3.2}Reglas de asociaci\IeC {\'o}n para el an\IeC {\'a}lisis de variantes}{25}
 \contentsline {chapter}{\numberline {3}Validaci\IeC {\'o}n de un pipeline para la identificaci\IeC {\'o}n de variantes}{27}
