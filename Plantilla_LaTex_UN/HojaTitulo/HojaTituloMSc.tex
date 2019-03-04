@@ -3,7 +3,7 @@
 \begin{center}
 \begin{figure}
 \centering%
-\epsfig{file=HojaTitulo/escudo,scale=0.6}
+\epsfig{file=HojaTitulo/escudo,scale=0.65}
 \end{figure}
 \thispagestyle{empty} \vspace*{0cm} \textbf{\huge
 Asociación de variantes en regiones codificantes de genes con datos clínicos en
@@ -25,7 +25,7 @@ pacientes colombianos usando minería de datos}\\[2.0cm]
 \Large\textbf{Jennifer Vélez Segura}\\[2.0cm]
 \small Tesis presentada como requisito parcial para optar al
 t\'{\i}tulo de:\\
-\textbf{Magister en Bioinformática}\\[2.5cm]
+\textbf{Magíster en Bioinformática}\\[2.5cm]
 Director(a):\\
 Ph.D. Elizabeth León Guzmán\\[2.0cm]
 L\'{\i}nea de Investigaci\'{o}n:\\
@@ -66,11 +66,13 @@ A mis amigos Sergio Solano y Julián Cruz quienes me apoyaron, durante todo el p
 \newpage
 \textbf{\LARGE Resumen}
 \addcontentsline{toc}{chapter}{\numberline{}Resumen}\\\\
-Se realizo una implementación y validación de un pipeline para la idententifiación de variantes a partir de 4813 secuenciados. Se diseño e implemento un modelo de datos para la gestión de la información de las variantes obtenidas y se le adiciono la información clínica disponible para 227 pacientes. Se diseño un modelo de minería de datos basados en procesamiento de lenguaje natural de las historias clínicas y las cuales se les realizo un agrupamiento, una vez obtnidos los grupos se aplicaron reglas de asociación por cada uno de los grupos obtenidos y por dos genes que fueron el CFTR y RB1. Los resultados obtenidos fueron variantes prefiltradas por calidad, una base de datos implementada con la información clínica y las variantes y finalmente se obtuvieron 5 grupos de pacientes con sus reglas de asociación y una caracterización de variantes en CFTR y RB1 en toda la base de datos. Se implemento un modelo de minería que permite caracterizar y asociar la frecuencia de variantes en genes a las características clínicas de los pacientes. \\
+En esta tesis de maestría se propone un modelo para el análisis de variantes en regiones codificantes de genes con datos de pacientes colombianos usando técnicas de minería de datos. Para ello se implementó y valido un pipeline para la identificación de variantes Se realizó una implementación y validación de un pipeline para la identificación de variantes a partir de 4813 secuenciados de 227 pacientes colombianos, las variantes fueron prefiltradas según su calidad y almacenadas en una base de datos. Esta base de datos fue . Se diseño e implemento un modelo de datos para la gestión de la información de las variantes obtenidas y se le adiciono la información clínica disponible para 227 pacientes. Se diseño un modelo de minería de datos basados en procesamiento de lenguaje natural de las historias clínicas y las cuales se les realizo un agrupamiento, una vez obtenidas. \\
 
-\textbf{\small Palabras clave: Secuenciación, variantes, región codificante, minería de datos, clustering, reglas de asociación, sistemas de información, características clíncias}.\\
+Se propuso un modelo para análisis textual de historias clínicas, y reglas de asociación para describir cada uno de los grupos encontrados y sus variantes. Adicionalmente se realizo un análisis puntual de asociación de variantes a los genes CFTR que es un gen con alta variabilidad y asociado a fibrosis quística  y el RB1 que es un gen de baja variabilidad que esta asociado a retinoblastoma infantil y a cáncer de hueso y de vejiga. Se obtuvieron 5 grupos de pacientes con diferentes variantes asociadas, mientras que para el gen CFTR se obtuvieron las variantes frecuentes de toda la población sin una asociación a la fibrosis quística, pero para RB1 si se obtuvieron variantes para retinoblastoma y como factores de riesgo en dos grupos distintos. El modelo permitió hacer una caracterización de la frecuencia de variantes en 227 pacientes y por cada uno de los grupos obtenidos.  \\
+
+\textbf{\small Palabras clave: Secuenciación, variantes, región codificante, minería de datos, agrupamiento, reglas de asociación, modelo de datos, características clínicas}.\\
 
 
 \textbf{\LARGE Abstract}\\\\
-Es el mismo resumen pero traducido al ingl\'{e}s. Se debe usar una extensi\'{o}n m\'{a}xima de 12 renglones. Al final del Abstract se deben traducir las anteriores palabras claves tomadas del texto (m\'{\i}nimo 3 y m\'{a}ximo 7 palabras), llamadas keywords. Es posible incluir el resumen en otro idioma diferente al espa\~{n}ol o al ingl\'{e}s, si se considera como importante dentro del tema tratado en la investigaci\'{o}n, por ejemplo: un trabajo dedicado a problemas ling\"{u}\'{\i}sticos del mandar\'{\i}n seguramente estar\'{\i}a mejor con un resumen en mandar\'{\i}n.\\[2.0cm]
-\textbf{\small Keywords: palabras clave en ingl\'{e}s(m\'{a}ximo 10 palabras, preferiblemente seleccionadas de las listas internacionales que permitan el indizado cruzado)}\\
+An implementation and validation of a pipeline was carried out to identify variants from 4813 sequenced. A data model for information management was designed and implemented. It is a data mining model in natural language processing of clinical histories and those that are grouped, once you get the groups apply the rules of association for each of the groups and the two genes that were  CFTR and RB1. The results were classified in the database, in the database and in the database. A mining model is implemented that allows to characterize and associate the frequency of the variants in the genes to the clinical characteristics of the patients.\\[2.0cm]
+\textbf{\small Keywords: Sequencing, variants, coding region, data mining, clustering, association rules, information systems, clinical characteristics.}\\
