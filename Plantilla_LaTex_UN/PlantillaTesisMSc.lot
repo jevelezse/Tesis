@@ -4,13 +4,13 @@
 \contentsline {table}{\numberline {\textbf {2-1}}{\ignorespaces Software de integraci\IeC {\'o}n de datos gen\IeC {\'o}micos con fines diagn\IeC {\'o}sticos}}{17}
 \contentsline {table}{\numberline {\textbf {2-2}}{\ignorespaces Software de integraci\IeC {\'o}n de variantes con enfermedades}}{18}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\textbf {3-1}}{\ignorespaces Variantes obtenidas al aplicar pipeline. }}{31}
-\contentsline {table}{\numberline {\textbf {3-2}}{\ignorespaces Tabla de Variantes obtenidas a partir de un exoma. }}{34}
-\contentsline {table}{\numberline {\textbf {3-3}}{\ignorespaces Tabla de validaci\IeC {\'o}n 1. }}{37}
-\contentsline {table}{\numberline {\textbf {3-4}}{\ignorespaces Tabla de validaci\IeC {\'o}n 2. }}{37}
+\contentsline {table}{\numberline {\textbf {3-1}}{\ignorespaces Variantes obtenidas al aplicar pipeline.}}{31}
+\contentsline {table}{\numberline {\textbf {3-2}}{\ignorespaces Variantes obtenidas a partir de un exoma.}}{34}
+\contentsline {table}{\numberline {\textbf {3-3}}{\ignorespaces Validaci\IeC {\'o}n 1. }}{37}
+\contentsline {table}{\numberline {\textbf {3-4}}{\ignorespaces Validaci\IeC {\'o}n 2.}}{37}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {\textbf {4-1}}{\ignorespaces Diccionario de datos de la tabla gene\_variants\_paciente}}{45}
 \contentsline {table}{\numberline {\textbf {4-2}}{\ignorespaces Diccionario de datos de la tabla gene\_variants\_variantes}}{45}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\textbf {5-1}}{\ignorespaces Tabla de items y transacciones}}{57}
+\contentsline {table}{\numberline {\textbf {5-1}}{\ignorespaces Cuadro de items y transacciones}}{57}
 \addvspace {10\p@ }
