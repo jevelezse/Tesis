@@ -1,0 +1,48 @@
+\BOOKMARK [0][-]{Doc-Start}{Agradecimientos}{}% 1
+\BOOKMARK [0][-]{Doc-Start}{Resumen}{}% 2
+\BOOKMARK [0][-]{chapter*.1}{Lista de figuras}{}% 3
+\BOOKMARK [0][-]{chapter*.2}{Lista de tablas}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 5
+\BOOKMARK [0][-]{chapter.2}{Estado del Arte}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Biolog\355a molecular y secuenciaci\363n masiva}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Identificaci\363n de variantes}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{Secuenciaci\363n de siguiente generaci\363n \(NGS\) aplicada en salud}{section.2.1}% 9
+\BOOKMARK [1][-]{section.2.2}{Bioinform\341tica}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{Integraci\363n de datos gen\363micos y cl\355nicos}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.2}{An\341lisis de datos gen\363micos con aplicaciones cl\355nicas}{section.2.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Miner\355a de datos gen\363micos}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.3.1}{Miner\355a de texto en el campo cl\355nico}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.2}{Reglas de asociaci\363n para el an\341lisis de variantes}{section.2.3}% 15
+\BOOKMARK [0][-]{chapter.3}{Validaci\363n de un pipeline para la identificaci\363n de variantes}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Identificaci\363n de variantes}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{Datos}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.3}{Estrategias del pipeline}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Resultados y validaci\363n}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.5}{Discusi\363n}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.6}{Conclusiones}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{Modelo de integraci\363n de datos}{}% 23
+\BOOKMARK [1][-]{section.4.1}{Dise\361o e implementaci\363n del modelo de datos}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{Gesti\363n de datos gen\363micos y cl\355nicos}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.3}{Conclusi\363n}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{Modelo de miner\355a de datos cl\355nicos y gen\363micos}{}% 27
+\BOOKMARK [1][-]{section.5.1}{Dise\361o del modelo de miner\355a de datos}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{An\341lisis exploratorio de datos cl\355nicos y variantes}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.3}{An\341lisis textual de informaci\363n cl\355nica}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.3.1}{Preprocesamiento.}{section.5.3}% 31
+\BOOKMARK [2][-]{subsection.5.3.2}{An\341lisis de frecuencia de pal\341bras}{section.5.3}% 32
+\BOOKMARK [2][-]{subsection.5.3.3}{Caracterizaci\363n de las historias cl\355nicas usando diagn\363stico}{section.5.3}% 33
+\BOOKMARK [2][-]{subsection.5.3.4}{Experimentaci\363n y validaci\363n del modelo de agrupamiento}{section.5.3}% 34
+\BOOKMARK [1][-]{section.5.4}{Asociaci\363n de grupos de historias cl\355nicas con variantes}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.4.1}{Variantes vistas como transacciones}{section.5.4}% 36
+\BOOKMARK [2][-]{subsection.5.4.2}{Experimentos}{section.5.4}% 37
+\BOOKMARK [2][-]{subsection.5.4.3}{Resultados}{section.5.4}% 38
+\BOOKMARK [1][-]{section.5.5}{Aplicaci\363n a genes espec\355ficos CFTR y RB1}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.6}{Prototipo de visualizaci\363n}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.7}{Discusi\363n}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.7.1}{Asociaci\363n de variantes con sus grupos de caracter\355sticas cl\355nicas.}{section.5.7}% 42
+\BOOKMARK [2][-]{subsection.5.7.2}{Variantes con el gen CFTR y RB1}{section.5.7}% 43
+\BOOKMARK [2][-]{subsection.5.7.3}{Conclusi\363n}{section.5.7}% 44
+\BOOKMARK [0][-]{chapter.6}{Conclusiones y trabajo futuro}{}% 45
+\BOOKMARK [1][-]{section.6.1}{Conclusiones}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.2}{Trabajo futuro}{chapter.6}% 47
+\BOOKMARK [0][-]{section.6.2}{Bibliograf\355a}{}% 48
