@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Mohammed2014}
 Emad~A. Mohammed, Behrouz~H. Far, and Christopher Naugler.
@@ -370,12 +370,9 @@ Trupti~M Kodinariya and Prashant~R Makwana.
   and Management Studies}, 1(6):2321--7782, 2013.
 
 \bibitem{scikit-learn}
-Fabian Pedregosa, Ga{\"{e}}l Varoquaux, Alexandre Gramfort, Vincent Michel,
-  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
-  Weiss, Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau,
-  Matthieu Brucher, Matthieu Perrot, and {\'{E}}douard Duchesnay.
-\newblock {Scikit-learn: Machine Learning in Python}.
-\newblock {\em Journal of Machine Learning}, 12:2825--2830, 2011.
+F~Pedregosa, G~Varoquax, A~Gramfort, V~Michel, B~Thirion, and O~Grisel.
+\newblock {Scikit-learn: machine learning in Python}.
+\newblock {\em J Mach Learn Res}, 12:2825--2830, 2011.
 
 \bibitem{Rousseeuw1987}
 Peter~J. Rousseeuw.
@@ -586,6 +583,14 @@ Philip~M. Farrell, Terry~B. White, Michelle~S. Howenstine, Anne Munck,
 \newblock {Diagnosis of Cystic Fibrosis in Screened Populations}.
 \newblock {\em Journal of Pediatrics}, 181:S33--S44, 2017.
 
+\bibitem{Yousef2018}
+Yacoub~A. Yousef, Abdelghani Tbakhi, Maysa Al-Hussaini, Ibrahim AlNawaiseh, Ala
+  Saab, Amal Afifi, Maysa Naji, Mona Mohammad, Rasha Deebajah, Imad Jaradat,
+  Iyad Sultan, and Mustafa Mehyar.
+\newblock {Mutational analysis of the RB1 gene and the inheritance patterns of
+  retinoblastoma in Jordan}.
+\newblock {\em Familial Cancer}, 17(2):261--268, 2018.
+
 \bibitem{GabrielBedoya}
 Maria V.~Parra {Gabriel Bedoya} and {Andr{\'{e}}s Ruiz-Linares}.
 \newblock {NHGRI Collection - 1000 Genomes - Colombian in Medell{\'{i}}n,
@@ -607,7 +612,7 @@ Ignacio Brice{\~{n}}o-Balc{\'{a}}zar, Alberto G{\'{o}}mez-Guti{\'{e}}rrez,
   Natalia~Andrea D{\'{i}}az-Duss{\'{a}}n, Mar{\'{i}}a~Claudia
   Noguera-Santamar{\'{i}}a, Diego D{\'{i}}az-Rinc{\'{o}}n, and
   Mar{\'{i}}a~Consuelo Casas-G{\'{o}}mez.
-\\newblock {Colombia m\'edica.}
+\newblock {Colombia m\'edica.}
 \newblock {\em Colombia M{\'{e}}dica}, 48(2):58--63, jun 2017.
 
 \bibitem{Kamphans2013}

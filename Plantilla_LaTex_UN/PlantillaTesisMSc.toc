@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {2.1.2}Secuenciaci\IeC {\'o}n de siguiente generaci\IeC {\'o}n (NGS) aplicada en salud}{14}
 \contentsline {section}{\numberline {2.2}Bioinform\IeC {\'a}tica}{14}
 \contentsline {subsection}{\numberline {2.2.1}Integraci\IeC {\'o}n de datos gen\IeC {\'o}micos y cl\IeC {\'\i }nicos}{15}
-\contentsline {subsection}{\numberline {2.2.2}An\IeC {\'a}lisis de datos gen\IeC {\'o}micos con aplicaciones cl\IeC {\'\i }nicas}{17}
+\contentsline {subsection}{\numberline {2.2.2}An\IeC {\'a}lisis de datos gen\IeC {\'o}micos con aplicaciones cl\IeC {\'\i }nicas}{18}
 \contentsline {section}{\numberline {2.3}Miner\IeC {\'\i }a de datos gen\IeC {\'o}micos}{20}
 \contentsline {subsection}{\numberline {2.3.1}Miner\IeC {\'\i }a de texto en el campo cl\IeC {\'\i }nico}{21}
 \contentsline {subsubsection}{\nonumberline Preprocesamiento}{21}
@@ -46,10 +46,10 @@
 \contentsline {section}{\numberline {5.5}Aplicaci\IeC {\'o}n a genes espec\IeC {\'\i }ficos CFTR y RB1}{64}
 \contentsline {section}{\numberline {5.6}Prototipo de visualizaci\IeC {\'o}n}{66}
 \contentsline {section}{\numberline {5.7}Discusi\IeC {\'o}n}{67}
-\contentsline {subsection}{\numberline {5.7.1}Asociaci\IeC {\'o}n de variantes con sus grupos de caracter\IeC {\'\i }sticas cl\IeC {\'\i }nicas.}{67}
+\contentsline {subsection}{\numberline {5.7.1}Asociaci\IeC {\'o}n de variantes con sus grupos de caracter\IeC {\'\i }sticas cl\IeC {\'\i }nicas.}{68}
 \contentsline {subsection}{\numberline {5.7.2}Variantes con el gen CFTR y RB1}{69}
 \contentsline {subsection}{\numberline {5.7.3}Conclusi\IeC {\'o}n}{71}
-\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{72}
-\contentsline {section}{\numberline {6.1}Conclusiones}{72}
-\contentsline {section}{\numberline {6.2}Trabajo futuro}{73}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{74}
+\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{73}
+\contentsline {section}{\numberline {6.1}Conclusiones}{73}
+\contentsline {section}{\numberline {6.2}Trabajo futuro}{74}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{76}
