@@ -20,9 +20,9 @@
 \contentsline {section}{\numberline {3.1}Identificaci\IeC {\'o}n de variantes}{27}
 \contentsline {section}{\numberline {3.2}Datos}{28}
 \contentsline {section}{\numberline {3.3}Estrategias del pipeline}{29}
-\contentsline {section}{\numberline {3.4}Resultados y validaci\IeC {\'o}n}{30}
-\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{38}
-\contentsline {section}{\numberline {3.6}Conclusiones}{41}
+\contentsline {section}{\numberline {3.4}Resultados y validaci\IeC {\'o}n}{31}
+\contentsline {section}{\numberline {3.5}Discusi\IeC {\'o}n}{39}
+\contentsline {section}{\numberline {3.6}Conclusiones}{42}
 \contentsline {chapter}{\numberline {4}Modelo de integraci\IeC {\'o}n de datos}{43}
 \contentsline {section}{\numberline {4.1}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del modelo de datos}{43}
 \contentsline {subsubsection}{\nonumberline Datos}{43}
